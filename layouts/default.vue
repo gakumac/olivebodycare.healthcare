@@ -1,0 +1,18 @@
+<template>
+  <v-app>
+    <navbar />
+    <nuxt />
+    <footer1 />
+  </v-app>
+</template>
+
+<script>
+import Navbar from '~/components/Navbar.vue'
+import Footer1 from '~/components/Footer1.vue'
+export default {
+  components: {
+    Navbar,
+    Footer1
+  }
+}
+</script>
