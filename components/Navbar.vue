@@ -5,19 +5,14 @@
         <v-icon>menu</v-icon>
         <span class="text-capitalize">Menu</span>
       </v-btn>
-      <v-toolbar-title>
+      <v-toolbar-title class="mt-2">
         <nuxt-link to="/">
-          <img src="@/assets/images/logo-01.png" width="70" />
-        </nuxt-link>
-      </v-toolbar-title>
-      <v-toolbar-title>
-        <nuxt-link to="/">
-          <img src="@/assets/images/logo-04.png" width="180" />
+          <img src="@/assets/images/logo_nav.png" width="180" />
         </nuxt-link>
       </v-toolbar-title>
       <v-spacer />
 
-      <v-menu offset-y>
+      <!-- <v-menu offset-y>
         <v-btn slot="activator" flat color="grey">
           <v-icon>expand_more</v-icon>
           <span>Menu</span>
@@ -32,9 +27,9 @@
             <v-list-tile-title>{{ item.title }}</v-list-tile-title>
           </v-list-tile>
         </v-list>
-      </v-menu>
+      </v-menu> -->
     </v-toolbar>
-    <v-navigation-drawer v-model="Drawer" temporary fixed app>
+    <v-navigation-drawer v-model="Drawer" class="secondary" temporary fixed app>
       <v-layout column align-center>
         <v-flex class="mt-5">
           <img src="@/assets/images/logo-01.png" width="100" />
@@ -125,3 +120,4 @@ export default {
   }
 }
 </script>
+<style></style>

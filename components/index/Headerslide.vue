@@ -14,10 +14,10 @@ export default {
     return {
       items: [
         {
-          src: require('@/assets/images/mv_02.jpg')
+          src: require('@/assets/images/hed_1.jpg')
         },
         {
-          src: require('@/assets/images/mv_01.jpg')
+          src: require('@/assets/images/hed_2.jpg')
         }
       ]
     }

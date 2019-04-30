@@ -1,21 +1,33 @@
 <template>
   <div>
-    <headerslider />
-    <Noticeslide />
-    <Reason />
+    <headerslide />
+    <noticeslide />
+    <hometitle />
+    <reason />
+    <media />
+    <target />
+    <problem />
   </div>
 </template>
 
 <script>
-import Headerslider from '~/components/Headerslider.vue'
+import Headerslide from '~/components/index/Headerslide.vue'
 import Noticeslide from '~/components/Noticeslide.vue'
+import Hometitle from '~/components/index/Hometitle.vue'
 import Reason from '~/components/index/Reason.vue'
+import Media from '~/components/index/Media.vue'
+import Target from '~/components/index/Target.vue'
+import Problem from '~/components/index/Problem.vue'
 export default {
   layout: 'toppage',
   components: {
-    Headerslider,
+    Headerslide,
     Noticeslide,
-    Reason
+    Hometitle,
+    Reason,
+    Media,
+    Target,
+    Problem
   }
 }
 </script>
