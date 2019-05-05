@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-toolbar color="yellow lighten-5">
+    <v-toolbar fixed color="yellow lighten-5">
       <v-btn flat color="light-green darken-2" @click.stop="Drawer = !Drawer">
         <v-icon>menu</v-icon>
         <span class="text-capitalize">Menu</span>
@@ -29,18 +29,24 @@
         </v-list>
       </v-menu> -->
     </v-toolbar>
-    <v-navigation-drawer v-model="Drawer" class="secondary" temporary fixed app>
+    <v-navigation-drawer
+      v-model="Drawer"
+      class="yellow lighten-5"
+      temporary
+      fixed
+      app
+    >
       <v-layout column align-center>
         <v-flex class="mt-5">
           <img src="@/assets/images/logo-01.png" width="100" />
         </v-flex>
       </v-layout>
-      <v-text-field
+      <!-- <v-text-field
         class="ma-3"
         label="Search"
         prepend-inner-icon="search"
-      ></v-text-field>
-      <v-list>
+      ></v-text-field> -->
+      <v-list class="brown--text">
         <v-list-tile v-for="(item, i) in items" :key="i" :to="item.to">
           <v-list-tile-action>
             <v-icon>{{ item.icon }}</v-icon>
@@ -50,7 +56,7 @@
           </v-list-tile-content>
         </v-list-tile>
       </v-list>
-      <v-list>
+      <v-list class="brown--text">
         <v-list-group prepend-icon="account_circle" value="true">
           <div slot="activator">
             <v-list-tile>

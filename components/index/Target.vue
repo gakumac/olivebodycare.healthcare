@@ -10,94 +10,18 @@
         </h2>
       </v-flex>
     </v-layout>
-    <v-container grid-list-lg>
+    <v-container>
       <v-layout row wrap justify-center>
         <v-flex xs12 md8>
-          <v-card color="red lighten-4" class="brown--text">
+          <v-card
+            v-for="(item, i) in items"
+            :key="i"
+            color="red lighten-4"
+            class="brown--text mb-3"
+          >
             <v-card-title>
               <div class="title font-weight-bold">
-                首の痛み、腰痛、肩こりを治したい。
-              </div>
-            </v-card-title>
-          </v-card>
-        </v-flex>
-        <v-flex xs12 md8>
-          <v-card color="red lighten-4" class="brown--text">
-            <v-card-title>
-              <div class="title font-weight-bold">
-                最近むくみやすい、太りやすい。
-              </div>
-            </v-card-title>
-          </v-card>
-        </v-flex>
-        <v-flex xs12 md8>
-          <v-card color="red lighten-4" class="brown--text">
-            <v-card-title>
-              <div class="title font-weight-bold">
-                整体に通いたいけど男性の先生だと緊張する。
-              </div>
-            </v-card-title>
-          </v-card>
-        </v-flex>
-        <v-flex xs12 md8>
-          <v-card color="red lighten-4" class="brown--text">
-            <v-card-title>
-              <div class="title font-weight-bold">
-                痩せやすい体を手に入れたい。
-              </div>
-            </v-card-title>
-          </v-card>
-        </v-flex>
-        <v-flex xs12 md8>
-          <v-card color="red lighten-4" class="brown--text">
-            <v-card-title>
-              <div class="title font-weight-bold">
-                産後の骨盤が気になる。
-              </div>
-            </v-card-title>
-          </v-card>
-        </v-flex>
-        <v-flex xs12 md8>
-          <v-card color="red lighten-4" class="brown--text">
-            <v-card-title>
-              <div class="title font-weight-bold">
-                身体が辛くて整体に通いたいが子供が預けられない。
-              </div>
-            </v-card-title>
-          </v-card>
-        </v-flex>
-        <v-flex xs12 md8>
-          <v-card color="red lighten-4" class="brown--text">
-            <v-card-title>
-              <div class="title font-weight-bold">
-                女性の先生にデリケートな悩みを相談したい。
-              </div>
-            </v-card-title>
-          </v-card>
-        </v-flex>
-        <v-flex xs12 md8>
-          <v-card color="red lighten-4" class="brown--text">
-            <v-card-title>
-              <div class="title font-weight-bold">
-                心身ともリラックスして痛みを解消したい。
-              </div>
-            </v-card-title>
-          </v-card>
-        </v-flex>
-        <v-flex xs12 md8>
-          <v-card color="red lighten-4" class="brown--text">
-            <v-card-title>
-              <div class="title font-weight-bold">
-                子供（赤ちゃん）も連れて骨盤矯正に通いたい。
-              </div>
-            </v-card-title>
-          </v-card>
-        </v-flex>
-        <v-flex xs12 md8>
-          <v-card color="red lighten-4" class="brown--text">
-            <v-card-title>
-              <div class="title font-weight-bold">
-                駅から近くの整体を探している。
+                {{ item.comment }}
               </div>
             </v-card-title>
           </v-card>
@@ -116,3 +40,44 @@
     </v-container>
   </div>
 </template>
+
+<script>
+export default {
+  data: function() {
+    return {
+      items: [
+        {
+          comment: '首の痛み、腰痛、肩こりを治したい。'
+        },
+        {
+          comment: '最近むくみやすい、太りやすい。'
+        },
+        {
+          comment: '整体に通いたいけど男性の先生だと緊張する。'
+        },
+        {
+          comment: '痩せやすい体を手に入れたい。'
+        },
+        {
+          comment: '産後の骨盤が気になる。'
+        },
+        {
+          comment: '身体が辛くて整体に通いたいが子供が預けられない。'
+        },
+        {
+          comment: '女性の先生にデリケートな悩みを相談したい。'
+        },
+        {
+          comment: '心身ともリラックスして痛みを解消したい。'
+        },
+        {
+          comment: '子供（赤ちゃん）も連れて骨盤矯正に通いたい。'
+        },
+        {
+          comment: '駅から近くの整体を探している。'
+        }
+      ]
+    }
+  }
+}
+</script>

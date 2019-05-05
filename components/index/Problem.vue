@@ -1,37 +1,70 @@
 <template>
-  <div class="info">
+  <div class="grey lighten-5">
     <v-layout>
       <v-flex>
         <div class="mt-4 text-xs-center">
-          <v-icon x-large class="accent--text">beenhere</v-icon>
+          <v-icon x-large class="brown--text">sentiment_dissatisfied</v-icon>
         </div>
-        <h2 class="mt-2 accent--text text-xs-center">
-          こんな方は是非おこしください！
+        <h2 class="mt-2 brown--text text-xs-center">
+          当院の患者様にはこんなお悩みが・・・
         </h2>
       </v-flex>
     </v-layout>
-    <v-container grid-list-lg>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md8>
-          <v-card color="red lighten-4" class="brown--text">
-            <v-card-title>
-              <div class="title font-weight-bold">
-                首の痛み、腰痛、肩こりを治したい。
-              </div>
-            </v-card-title>
-          </v-card>
-        </v-flex>
-      </v-layout>
+    <v-container>
+      <div v-for="(item, i) in items" :key="i">
+        <v-layout row wrap justify-center>
+          <v-flex xs12 md6>
+            <v-card color="grey lighten-3 ma-2">
+              <v-card-title>
+                <v-icon left>chat_bubble</v-icon>
+                <span>{{ item.comment }}</span>
+              </v-card-title>
+            </v-card>
+          </v-flex>
+          <v-flex xs12 md6>
+            <v-card color="grey lighten-3 ma-2">
+              <v-card-title>
+                <v-icon left>chat_bubble</v-icon>
+                <span>{{ item.comment2 }}</span>
+              </v-card-title>
+            </v-card>
+          </v-flex>
+        </v-layout>
+      </div>
     </v-container>
-    <v-container grid-list-md>
+    <v-container>
       <v-layout justify-center>
-        <v-flex xs6 md5>
-          <v-img :src="require('@/assets/images/home/home16.jpg')"></v-img>
-        </v-flex>
-        <v-flex xs6 md5>
-          <v-img :src="require('@/assets/images/home/home17.jpg')"></v-img>
+        <v-flex xs12 md10>
+          <v-img :src="require('@/assets/images/home/home18.jpg')"></v-img>
         </v-flex>
       </v-layout>
     </v-container>
   </div>
 </template>
+
+<script>
+export default {
+  data: function() {
+    return {
+      items: [
+        {
+          comment: '『首の痛み、腰痛、肩こり』',
+          comment2: '『肩がはっていて頭痛になりやすい』'
+        },
+        {
+          comment: '『骨盤のゆがみ、出産後の骨盤の調整』',
+          comment2: '『子育てに追われ自分のことは後まわしで、、』'
+        },
+        {
+          comment: '産後２ヶ月ですが、身体中がぎしぎしです、、』',
+          comment2: '『背中が辛いです・・』'
+        },
+        {
+          comment: '『足の痛み』',
+          comment2: '『妊娠願望がありましたがなかなか叶わず、』'
+        }
+      ]
+    }
+  }
+}
+</script>
