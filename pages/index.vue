@@ -2,6 +2,7 @@
   <div>
     <headerslide />
     <noticeslide />
+    <making />
     <hometitle />
     <reason />
     <media />
@@ -13,13 +14,14 @@
     <symptoms />
     <qatop />
     <postscript />
-    <Accesstop />
+    <accesstop />
   </div>
 </template>
 
 <script>
 import Headerslide from '~/components/index/Headerslide.vue'
 import Noticeslide from '~/components/Noticeslide.vue'
+import Making from '~/components/Making.vue'
 import Hometitle from '~/components/index/Hometitle.vue'
 import Reason from '~/components/index/Reason.vue'
 import Media from '~/components/index/Media.vue'
@@ -33,10 +35,17 @@ import Qatop from '~/components/index/Qatop.vue'
 import Postscript from '~/components/index/Postscript.vue'
 import Accesstop from '~/components/index/Accesstop.vue'
 export default {
+  head() {
+    return {
+      titleTemplate: null,
+      title: '女性専門の治療院オリーヴボディケア'
+    }
+  },
   layout: 'toppage',
   components: {
     Headerslide,
     Noticeslide,
+    Making,
     Hometitle,
     Reason,
     Media,

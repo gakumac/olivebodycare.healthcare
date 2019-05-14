@@ -38,6 +38,13 @@
         </v-layout>
         <hr />
       </div>
+      <div class="py-3">
+        <nuxt-link to="/menu">
+          <v-btn class="right" small color="primary" dark
+            >メニュー・料金詳しくはこちら</v-btn
+          >
+        </nuxt-link>
+      </div>
     </v-container>
   </div>
 </template>

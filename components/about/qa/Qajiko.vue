@@ -6,7 +6,7 @@
           <v-icon x-large class="brown--text">chat</v-icon>
         </div>
         <h2 class="mt-2 brown--text text-xs-center">
-          Q&A-よくある質問-
+          {{ title }}
         </h2>
       </v-flex>
     </v-layout>
@@ -33,8 +33,9 @@
 
 <script>
 export default {
-  data: function() {
+  data() {
     return {
+      title: '交通事故治療についての質問',
       items: [
         {
           q: '施術時間はどれくらいですか？',

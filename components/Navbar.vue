@@ -11,23 +11,6 @@
         </nuxt-link>
       </v-toolbar-title>
       <v-spacer />
-
-      <!-- <v-menu offset-y>
-        <v-btn slot="activator" flat color="grey">
-          <v-icon>expand_more</v-icon>
-          <span>Menu</span>
-        </v-btn>
-        <v-list>
-          <v-list-tile
-            v-for="item in items"
-            :key="item.title"
-            router
-            :to="item.to"
-          >
-            <v-list-tile-title>{{ item.title }}</v-list-tile-title>
-          </v-list-tile>
-        </v-list>
-      </v-menu> -->
     </v-toolbar>
     <v-navigation-drawer
       v-model="Drawer"
@@ -36,47 +19,60 @@
       fixed
       app
     >
-      <v-layout column align-center>
-        <v-flex class="mt-5">
-          <img src="@/assets/images/logo-01.png" width="100" />
-        </v-flex>
-      </v-layout>
-      <!-- <v-text-field
-        class="ma-3"
-        label="Search"
-        prepend-inner-icon="search"
-      ></v-text-field> -->
       <v-list class="brown--text">
-        <v-list-tile v-for="(item, i) in items" :key="i" :to="item.to">
+        <v-list-tile v-for="(item, i) in itemsHome" :key="i" :to="item.to">
           <v-list-tile-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <v-icon>{{ item.action }}</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title v-text="item.title" />
+            <v-list-tile-title class="font-weight-bold" v-text="item.title" />
           </v-list-tile-content>
         </v-list-tile>
-      </v-list>
-      <v-list class="brown--text">
-        <v-list-group prepend-icon="account_circle" value="true">
-          <div slot="activator">
+        <v-list-group
+          v-for="(item, i) in items"
+          :key="i"
+          v-model="item.active"
+          :prepend-icon="item.action"
+          no-action
+        >
+          <template slot="activator">
             <v-list-tile>
-              <v-list-tile-title>Users</v-list-tile-title>
+              <v-list-tile-content>
+                <v-list-tile-title>{{ item.title }}</v-list-tile-title>
+              </v-list-tile-content>
             </v-list-tile>
-          </div>
+          </template>
           <v-list-tile
-            v-for="(admin, i) in admins"
+            v-for="(subItem, i) in item.items"
             :key="i"
-            :to="admin.to"
-            exact
+            :to="subItem.to"
           >
             <v-list-tile-content>
-              <v-list-tile-title
-                class="text-xs-center"
-                v-text="admin.title"
-              ></v-list-tile-title>
+              <v-list-tile-title class="font-weight-bold">
+                {{ subItem.title }}
+              </v-list-tile-title>
             </v-list-tile-content>
+            <v-list-tile-action>
+              <v-icon>{{ subItem.action }}</v-icon>
+            </v-list-tile-action>
           </v-list-tile>
         </v-list-group>
+        <v-list-tile v-for="(item, i) in itemsVoice" :key="i" :to="item.to">
+          <v-list-tile-action>
+            <v-icon>{{ item.action }}</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title class="font-weight-bold" v-text="item.title" />
+          </v-list-tile-content>
+        </v-list-tile>
+        <v-list-tile v-for="(item, i) in itemsSalon" :key="i" :to="item.to">
+          <v-list-tile-action>
+            <v-icon>{{ item.action }}</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title class="font-weight-bold" v-text="item.title" />
+          </v-list-tile-content>
+        </v-list-tile>
       </v-list>
     </v-navigation-drawer>
   </div>
@@ -86,42 +82,94 @@
 export default {
   data() {
     return {
-      items: [
+      itemsHome: [
         {
-          icon: 'home',
+          action: 'home',
           title: 'Home',
           to: '/'
-        },
-        {
-          icon: 'bubble_chart',
-          title: 'Inspire',
-          to: '/inspire'
-        },
-        {
-          icon: 'home',
-          title: 'Dashbord',
-          to: '/inspire'
         }
       ],
-      admins: [
+      items: [
         {
-          icon: 'home',
-          title: 'Home',
-          to: '/inspire'
+          action: 'import_contacts',
+          title: 'メニュー・料金',
+          active: true,
+          items: [
+            {
+              title: '施術メニュー・料金',
+              to: '/menu',
+              action: ''
+            },
+            {
+              title: '整体',
+              to: '/menu/seitai',
+              action: ''
+            },
+            {
+              title: '骨盤矯正',
+              to: '/menu/pelvis-correction',
+              action: ''
+            },
+            {
+              title: '鍼灸',
+              to: '/menu/shinkyu',
+              action: ''
+            },
+            {
+              title: '不妊治療',
+              to: '/menu/fertility-treatment',
+              action: ''
+            },
+            {
+              title: '交通事故治療',
+              to: '/menu/traffic-accident',
+              action: ''
+            }
+          ]
         },
         {
-          icon: 'home',
-          title: '整体について',
-          to: '/inspire'
-        },
-        {
-          icon: 'home',
-          title: '鍼灸について',
-          to: '/inspire'
+          action: 'business',
+          title: '当院について',
+          active: true,
+          items: [
+            {
+              title: '当院について',
+              to: '/about',
+              action: ''
+            },
+            {
+              title: 'スタッフについて',
+              to: '/about/staff',
+              action: ''
+            },
+            {
+              title: 'Q&A-良くある質問-',
+              to: '/about/qa',
+              action: ''
+            },
+            {
+              title: '入店から施術までの流れ',
+              to: '/about/beginner',
+              action: ''
+            }
+          ]
         }
       ],
-      Drawer: false,
-      title: 'Vuetify.js'
+      itemsVoice: [
+        {
+          action: 'face',
+          title: '患者様の声',
+          to: '/voice'
+        }
+      ],
+      itemsSalon: [
+        {
+          action: 'place',
+          title: '治療院一覧',
+          to: '/salon'
+        }
+      ],
+      Drawer: false
     }
   }
 }
