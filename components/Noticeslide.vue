@@ -3,18 +3,18 @@
     <v-container>
       <v-layout row wrap justify-center>
         <v-flex xs6 md4 pr-1>
-          <v-carousel height="auto">
+          <v-carousel hide-delimiters height="auto">
             <v-carousel-item
-              v-for="(item, i) in items"
+              v-for="(item, i) in itemsl"
               :key="i"
               :src="item.src"
             ></v-carousel-item>
           </v-carousel>
         </v-flex>
         <v-flex xs6 md4 pl-1>
-          <v-carousel height="auto">
+          <v-carousel hide-delimiters height="auto">
             <v-carousel-item
-              v-for="(item, i) in items"
+              v-for="(item, i) in itemsr"
               :key="i"
               :src="item.src"
             ></v-carousel-item>
@@ -29,22 +29,23 @@
 export default {
   data() {
     return {
-      items: [
+      itemsl: [
         {
           src: require('@/assets/images/hed_1.jpg')
         },
         {
           src: require('@/assets/images/hed_2.jpg')
         }
+      ],
+      itemsr: [
+        {
+          src: require('@/assets/images/hed_2.jpg')
+        },
+        {
+          src: require('@/assets/images/hed_1.jpg')
+        }
       ]
     }
   }
 }
 </script>
-
-<style>
-.v-carousel__controls {
-  background: rgba(0, 0, 0, 0);
-  height: 40px;
-}
-</style>

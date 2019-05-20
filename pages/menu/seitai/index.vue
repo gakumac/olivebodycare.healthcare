@@ -2,7 +2,7 @@
   <div>
     <pagetitle title="整体" />
     <div class="ml-2">
-      <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
+      <v-breadcrumbs :items="items" divider=">"></v-breadcrumbs>
     </div>
     <making />
   </div>
@@ -27,7 +27,7 @@ export default {
         url: 'https://olivebodycare.healthscare/menu/seitai',
         image: 'https://olivebodycare.healthscare/assets/images/hed_1.jpg'
       },
-      itemsB: [
+      items: [
         {
           text: 'Home',
           disabled: false,

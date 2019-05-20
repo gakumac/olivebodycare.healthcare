@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-carousel height="auto" class="mt-5">
+    <v-carousel hide-delimiters height="auto" class="mt-5">
       <v-carousel-item
         v-for="(item, i) in items"
         :key="i"
@@ -27,9 +27,4 @@ export default {
 }
 </script>
 
-<style>
-.v-carousel__controls {
-  background: rgba(0, 0, 0, 0.1);
-  height: 40px;
-}
-</style>
+<style></style>

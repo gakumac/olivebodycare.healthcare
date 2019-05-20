@@ -15,7 +15,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: '共通ディスクリプション'
+        content: '女性専門の治療院オリーヴボディケア'
       },
       {
         hid: 'og:site_name',
@@ -36,7 +36,7 @@ export default {
       {
         hid: 'og:description',
         property: 'og:description',
-        content: '共通ディスクリプション'
+        content: '女性専門の治療院オリーヴボディケア'
       },
       {
         hid: 'og:image',
