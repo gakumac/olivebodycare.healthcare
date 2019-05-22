@@ -1,6 +1,6 @@
 <template>
   <div>
-    <pagetitle title="たまプラーザ本店" />
+    <pagetitle title="札幌円山町店" />
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>
@@ -18,12 +18,10 @@
       <v-layout row wrap justify-center>
         <v-flex xs12 md10>
           <h3 class="my-3 accent--text text-xs-center">
-            たまプラーザ駅南口より徒歩2分
+            地下鉄円山公園４番出口から徒歩または地下鉄西18丁目１番出口から徒歩
           </h3>
           <p>
-            当院はメディカルモールたまプラーザの3階にございます。
-            ビルの裏手には専用の駐車場もございます。
-            女性の方に安心してご利用いただくようオートロックになっております。
+            地下鉄円山公園４番出口から徒歩または地下鉄西18丁目１番出口から徒歩
           </p>
         </v-flex>
         <v-flex xs6 md5>
@@ -51,7 +49,7 @@
         </v-container>
         <v-flex xs12 md10>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1495.6946074700454!2d139.55859857898!3d35.57573905724052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f71ab6b44f25%3A0xd8617b3b315c81fc!2z5aWz5oCn5bCC6ZaA44Gu5rK755mC6Zmi44Kq44Oq44O844O044Oc44OH44Kj44Kx44Ki!5e0!3m2!1sja!2sjp!4v1557065211029!5m2!1sja!2sjp"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d728.831016383603!2d141.32343458814435!3d43.055651398690266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b29eae308ffff%3A0x39bb65ed75d8075c!2z77yw772B772M772B772a772a772P6KOP5Y-C6YGT!5e0!3m2!1sja!2sjp!4v1558325458777!5m2!1sja!2sjp"
             width="100%"
             height="300px"
             frameborder="0"
@@ -61,30 +59,30 @@
         </v-flex>
       </v-layout>
     </v-container>
-    <Tamavisit />
-    <Tamamessage />
+    <Maruyamavisit />
+    <Maruyamamessage />
   </div>
 </template>
 
 <script>
 import Pagetitle from '~/components/Pagetitle.vue'
-import Tamavisit from '~/components/salon/Tamavisit.vue'
-import Tamamessage from '~/components/salon/Tamamessage.vue'
+import Maruyamavisit from '~/components/salon/Maruyamavisit.vue'
+import Maruyamamessage from '~/components/salon/Maruyamamessage.vue'
 import Meta from '~/assets/mixins/meta'
 export default {
   components: {
     Pagetitle,
-    Tamavisit,
-    Tamamessage
+    Maruyamavisit,
+    Maruyamamessage
   },
   mixins: [Meta],
   data() {
     return {
       meta: {
-        title: 'たまプラーザ本店',
+        title: '札幌円山町店',
         description: '女性専門の治療院オリーヴボディケア',
         type: 'website',
-        url: 'https://olivebodycare.healthscare/salon/tamaplaza',
+        url: 'https://olivebodycare.healthscare/salon/maruyamacho',
         image: 'https://olivebodycare.healthscare/assets/images/hed_1.jpg'
       },
       itemsB: [
@@ -99,7 +97,7 @@ export default {
           href: '/salon'
         },
         {
-          text: 'たまプラーザ本店',
+          text: '札幌円山町店',
           disabled: true,
           href: ''
         }
@@ -107,12 +105,12 @@ export default {
       items: [
         {
           title: '住所',
-          contents:
-            '〒225-0003　横浜市青葉区新石川3-15-16メディカルモールたまプラーザ301'
+          contents: '〒064-0811　札幌市中央区'
         },
         {
           title: 'アクセス',
-          contents: '東急田園都市線たまプラーザ駅より徒歩2分'
+          contents:
+            '地下鉄円山公園４番出口から徒歩または地下鉄西18丁目１番出口から徒歩'
         },
         {
           title: '営業時間',
@@ -120,7 +118,7 @@ export default {
         },
         {
           title: '電話',
-          contents: '045-530-1688　完全予約制'
+          contents: '完全予約制'
         }
       ]
     }
