@@ -79,8 +79,9 @@ export default {
   data() {
     return {
       meta: {
-        title: '札幌円山町店',
-        description: '女性専門の治療院オリーヴボディケア',
+        title: '札幌円山町店（札幌市中央区）',
+        description:
+          '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。国家資格取得の女性スタッフによる本格施術が受けれます。お子様連れ歓迎。マッサージ、不妊、鍼もお任せ下さい！',
         type: 'website',
         url: 'https://olivebodycare.healthscare/salon/maruyamacho',
         image: 'https://olivebodycare.healthscare/assets/images/hed_1.jpg'
@@ -99,7 +100,7 @@ export default {
         {
           text: '札幌円山町店',
           disabled: true,
-          href: ''
+          href: '/salon/maruyamacho'
         }
       ],
       items: [

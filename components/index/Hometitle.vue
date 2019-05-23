@@ -17,8 +17,8 @@ export default {
     items: [
       {
         text: 'Home',
-        disabled: false,
-        href: '/'
+        disabled: true,
+        href: ''
       }
     ]
   })

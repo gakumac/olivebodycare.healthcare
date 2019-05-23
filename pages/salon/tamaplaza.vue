@@ -81,8 +81,9 @@ export default {
   data() {
     return {
       meta: {
-        title: 'たまプラーザ本店',
-        description: '女性専門の治療院オリーヴボディケア',
+        title: 'たまプラーザ本店（たまプラーザ駅徒歩2分）',
+        description:
+          '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。田園都市線たまプラーザ駅南口を降り、住宅展示場を左手に進むと見える５階建ての白いビルに当院がございます。',
         type: 'website',
         url: 'https://olivebodycare.healthscare/salon/tamaplaza',
         image: 'https://olivebodycare.healthscare/assets/images/hed_1.jpg'
@@ -101,7 +102,7 @@ export default {
         {
           text: 'たまプラーザ本店',
           disabled: true,
-          href: ''
+          href: '/salon/tamaplaza'
         }
       ],
       items: [

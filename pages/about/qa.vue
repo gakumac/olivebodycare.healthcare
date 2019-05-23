@@ -34,7 +34,8 @@ export default {
     return {
       meta: {
         title: 'Q&A-よくある質問-',
-        description: '女性専門の治療院オリーヴボディケア',
+        description:
+          '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。よくある質問をご紹介します。国家資格取得の女性スタッフが全力で、女性特有の様々なお悩みを解決致します！',
         type: 'website',
         url: 'https://olivebodycare.healthscare/about/qa',
         image: 'https://olivebodycare.healthscare/assets/images/hed_1.jpg'
@@ -53,7 +54,7 @@ export default {
         {
           text: 'Q&A-よくある質問-',
           disabled: true,
-          href: ''
+          href: '/about/qa'
         }
       ]
     }

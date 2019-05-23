@@ -38,7 +38,7 @@ export default {
   head() {
     return {
       titleTemplate: null,
-      title: '女性専門の治療院オリーヴボディケア'
+      title: '整体・骨盤矯正の女性専門の治療院オリーヴボディケア'
     }
   },
   layout: 'toppage',

@@ -79,8 +79,9 @@ export default {
   data() {
     return {
       meta: {
-        title: '横浜青葉台店',
-        description: '女性専門の治療院オリーヴボディケア',
+        title: '横浜青葉台店（青葉台駅徒歩3分）',
+        description:
+          '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。田園都市線青葉台駅を降り、左手に進みジョナサンを過ぎた最初のT字路を渡ったすぐの建物に当院がございます。',
         type: 'website',
         url: 'https://olivebodycare.healthscare/salon/aobadai',
         image: 'https://olivebodycare.healthscare/assets/images/hed_1.jpg'
@@ -99,7 +100,7 @@ export default {
         {
           text: '横浜青葉台店',
           disabled: true,
-          href: ''
+          href: '/salon/aobadai'
         }
       ],
       items: [

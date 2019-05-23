@@ -101,17 +101,22 @@ export default {
               action: ''
             },
             {
-              title: '整体',
+              title: '整体について',
               to: '/menu/seitai',
               action: ''
             },
             {
-              title: '骨盤矯正',
+              title: '骨盤矯正について',
               to: '/menu/pelvis-correction',
               action: ''
             },
             {
-              title: '鍼灸',
+              title: 'マッサージについて',
+              to: '/menu/massage',
+              action: ''
+            },
+            {
+              title: '鍼灸について',
               to: '/menu/shinkyu',
               action: ''
             },

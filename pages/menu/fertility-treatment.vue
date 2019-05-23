@@ -1,6 +1,6 @@
 <template>
   <div>
-    <pagetitle title="不妊治療" />
+    <pagetitle title="不妊治療について" />
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>
@@ -21,8 +21,9 @@ export default {
   data() {
     return {
       meta: {
-        title: '不妊治療',
-        description: '女性専門の治療院オリーヴボディケア',
+        title: '不妊治療について',
+        description:
+          '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。不妊治療についてご紹介。自律神経に乱れ・ホルモンバランスを整え、妊娠する準備が整う身体を手に入れましょう！',
         type: 'website',
         url: 'https://olivebodycare.healthscare/menu/fertility-treatment',
         image: 'https://olivebodycare.healthscare/assets/images/hed_1.jpg'
@@ -41,7 +42,7 @@ export default {
         {
           text: '不妊治療',
           disabled: true,
-          href: ''
+          href: '/menu/fertility-treatment'
         }
       ]
     }

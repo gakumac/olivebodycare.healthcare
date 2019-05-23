@@ -130,7 +130,8 @@ export default {
     return {
       meta: {
         title: '治療院一覧',
-        description: '女性専門の治療院オリーヴボディケア',
+        description:
+          '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。各治療院のご紹介です。国家資格取得の女性スタッフによる本格施術で、女性本来の健康な身体を取り戻しましょう！',
         type: 'website',
         url: 'https://olivebodycare.healthscare/salon',
         image: 'https://olivebodycare.healthscare/assets/images/hed_1.jpg'
@@ -144,7 +145,7 @@ export default {
         {
           text: '治療院一覧',
           disabled: true,
-          href: ''
+          href: '/salon'
         }
       ]
     }

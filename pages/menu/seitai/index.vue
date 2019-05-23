@@ -1,6 +1,6 @@
 <template>
   <div>
-    <pagetitle title="整体" />
+    <pagetitle title="整体について" />
     <div class="ml-2">
       <v-breadcrumbs :items="items" divider=">"></v-breadcrumbs>
     </div>
@@ -27,8 +27,9 @@ export default {
   data() {
     return {
       meta: {
-        title: '整体',
-        description: '女性専門の治療院オリーヴボディケア',
+        title: '整体について',
+        description:
+          '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。当院の整体ついてご紹介。本来の正常な動きを妨げている原因を見つけ出し多くの女性が抱える悩みを解決します！',
         type: 'website',
         url: 'https://olivebodycare.healthscare/menu/seitai',
         image: 'https://olivebodycare.healthscare/assets/images/hed_1.jpg'
@@ -45,9 +46,9 @@ export default {
           href: '/menu'
         },
         {
-          text: '整体',
+          text: '整体について',
           disabled: true,
-          href: ''
+          href: '/menu/seitai'
         }
       ]
     }
