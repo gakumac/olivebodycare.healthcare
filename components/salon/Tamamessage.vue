@@ -21,10 +21,10 @@
           </p>
         </v-flex>
         <v-flex xs6 md4>
-          <v-img :src="require('@/assets/images/salon/salon6.jpg')"></v-img>
+          <v-img :src="img1"></v-img>
         </v-flex>
         <v-flex xs6 md4>
-          <v-img :src="require('@/assets/images/salon/salon7.jpg')"></v-img>
+          <v-img :src="img2"></v-img>
         </v-flex>
       </v-layout>
       <v-layout row wrap justify-center>
@@ -50,7 +50,9 @@ export default {
       name: 'たまプラーザ本店院長 赤川 優衣（あかがわ ゆい）',
       qualification: '鍼灸師',
       title: '私たちにお任せください！',
-      message: '院長の赤川優衣です。'
+      message: '院長の赤川優衣です。',
+      img1: require('@/assets/images/salon/salon6.jpg'),
+      img2: require('@/assets/images/salon/salon7.jpg')
     }
   }
 }

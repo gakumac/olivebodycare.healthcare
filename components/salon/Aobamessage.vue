@@ -21,10 +21,10 @@
           </p>
         </v-flex>
         <v-flex xs6 md4>
-          <v-img :src="require('@/assets/images/salon/salon8.jpg')"></v-img>
+          <v-img :src="img1"></v-img>
         </v-flex>
         <v-flex xs6 md4>
-          <v-img :src="require('@/assets/images/home/home2.jpg')"></v-img>
+          <v-img :src="img2"></v-img>
         </v-flex>
       </v-layout>
       <v-layout row wrap justify-center>
@@ -50,7 +50,9 @@ export default {
       name: '青葉台店院長 田坂 百香合（たさか ゆかり）',
       qualification: '鍼灸師',
       title: '私たちにお任せください！',
-      message: '院長の田坂百香合です。'
+      message: '院長の田坂百香合です。',
+      img1: require('@/assets/images/salon/salon8.jpg'),
+      img2: require('@/assets/images/home/home2.jpg')
     }
   }
 }

@@ -106,7 +106,7 @@ export default {
       items: [
         {
           title: '住所',
-          contents: '〒064-0811　札幌市中央区'
+          contents: '札幌市中央区'
         },
         {
           title: 'アクセス',

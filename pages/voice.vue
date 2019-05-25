@@ -1,21 +1,21 @@
 <template>
-  <div>
+  <div class="yellow lighten-5">
     <pagetitle title="患者様の声" />
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>
-    <making />
+    <Voice1 />
   </div>
 </template>
 
 <script>
 import Pagetitle from '~/components/Pagetitle.vue'
-import Making from '~/components/Making.vue'
+import Voice1 from '~/components/voice/Voice1.vue'
 import Meta from '~/assets/mixins/meta'
 export default {
   components: {
     Pagetitle,
-    Making
+    Voice1
   },
   mixins: [Meta],
   data() {

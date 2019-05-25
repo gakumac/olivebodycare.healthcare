@@ -21,10 +21,10 @@
           </p>
         </v-flex>
         <v-flex xs6 md4>
-          <v-img :src="require('@/assets/images/salon/salon9.jpg')"></v-img>
+          <v-img :src="img1"></v-img>
         </v-flex>
         <v-flex xs6 md4>
-          <v-img :src="require('@/assets/images/salon/salon10.jpg')"></v-img>
+          <v-img :src="img2"></v-img>
         </v-flex>
       </v-layout>
       <v-layout row wrap justify-center>
@@ -50,7 +50,9 @@ export default {
       name: '札幌円山町店店院長 國分 麻美（こくぶん あさみ）',
       qualification: '柔道整復師',
       title: '私たちにお任せください！',
-      message: '院長の國分麻美です。'
+      message: '院長の國分麻美です。',
+      img1: require('@/assets/images/salon/salon9.jpg'),
+      img2: require('@/assets/images/salon/salon10.jpg')
     }
   }
 }
