@@ -27,6 +27,13 @@
           </v-flex>
         </v-layout>
       </div>
+      <div class="py-3">
+        <nuxt-link to="/about/qa">
+          <v-btn class="right" small color="primary" dark
+            >よくある質問詳しくはこちら</v-btn
+          >
+        </nuxt-link>
+      </div>
     </v-container>
   </div>
 </template>

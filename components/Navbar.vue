@@ -143,6 +143,11 @@ export default {
               action: ''
             },
             {
+              title: '総院長からの挨拶',
+              to: '/about/greeting',
+              action: ''
+            },
+            {
               title: 'スタッフについて',
               to: '/about/staff',
               action: ''

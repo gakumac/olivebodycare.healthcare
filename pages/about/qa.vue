@@ -4,7 +4,6 @@
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>
-    <making />
     <qasalon />
     <qatreat />
     <qareserv />
@@ -14,7 +13,6 @@
 
 <script>
 import Pagetitle from '~/components/Pagetitle.vue'
-import Making from '~/components/Making.vue'
 import Qasalon from '~/components/about/qa/Qasalon.vue'
 import Qatreat from '~/components/about/qa/Qatreat.vue'
 import Qareserv from '~/components/about/qa/Qareserv.vue'
@@ -23,7 +21,6 @@ import Meta from '~/assets/mixins/meta'
 export default {
   components: {
     Pagetitle,
-    Making,
     Qasalon,
     Qatreat,
     Qareserv,

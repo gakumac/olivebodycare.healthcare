@@ -1,21 +1,21 @@
 <template>
   <div>
     <pagetitle title="当院について" />
-    <div class="ml-2">
+    <div class="ml-2 yellow lighten-5">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>
-    <making />
+    <Aboutobc />
   </div>
 </template>
 
 <script>
 import Pagetitle from '~/components/Pagetitle.vue'
-import Making from '~/components/Making.vue'
+import Aboutobc from '~/components/about/Aboutobc.vue'
 import Meta from '~/assets/mixins/meta'
 export default {
   components: {
     Pagetitle,
-    Making
+    Aboutobc
   },
   mixins: [Meta],
   data() {
