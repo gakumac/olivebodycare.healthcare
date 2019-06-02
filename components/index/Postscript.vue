@@ -1,13 +1,13 @@
 <template>
   <div class="info">
-    <v-layout>
-      <v-flex>
-        <h2 class="mt-4 accent--text text-xs-center">
-          追伸
-        </h2>
-      </v-flex>
-    </v-layout>
     <v-container>
+      <v-layout>
+        <v-flex>
+          <h2 class="my-2 accent--text text-xs-center">
+            追伸
+          </h2>
+        </v-flex>
+      </v-layout>
       <v-layout row wrap justify-center class="text-xs-center">
         <v-flex xs12 md8>
           <p class="mt-2">

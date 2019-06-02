@@ -1,16 +1,16 @@
 <template>
   <div class="info">
-    <v-layout>
-      <v-flex>
-        <div class="mt-4 text-xs-center">
-          <v-icon x-large class="accent--text">mood</v-icon>
-        </div>
-        <h2 class="mt-2 accent--text text-xs-center">
-          当院の施術を受けるとどうなる？
-        </h2>
-      </v-flex>
-    </v-layout>
     <v-container>
+      <v-layout>
+        <v-flex>
+          <div class="mt-2 text-xs-center">
+            <v-icon x-large class="accent--text">mood</v-icon>
+          </div>
+          <h2 class="my-2 accent--text text-xs-center">
+            当院の施術を受けるとどうなる？
+          </h2>
+        </v-flex>
+      </v-layout>
       <div v-for="(item, i) in items" :key="i">
         <v-layout row wrap justify-center>
           <v-flex xs12 md6>

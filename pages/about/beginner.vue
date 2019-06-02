@@ -4,18 +4,18 @@
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>
-    <making />
+    <Beginner />
   </div>
 </template>
 
 <script>
 import Pagetitle from '~/components/Pagetitle.vue'
-import Making from '~/components/Making.vue'
+import Beginner from '~/components/about/Beginner.vue'
 import Meta from '~/assets/mixins/meta'
 export default {
   components: {
     Pagetitle,
-    Making
+    Beginner
   },
   mixins: [Meta],
   data() {
