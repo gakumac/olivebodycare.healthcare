@@ -151,7 +151,7 @@ export default {
           image: require('@/assets/images/about/mizutani.jpg'),
           image2: require('@/assets/images/about/mizutani2.jpg'),
           qualification: '柔道整復師、鍼灸師、あん摩マッサージ・指圧師',
-          hobby: ''
+          hobby: 'テニス'
         },
         {
           name: '鎌田 可奈 ',

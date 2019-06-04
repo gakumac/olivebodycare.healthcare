@@ -49,6 +49,12 @@
                 <h2 class="brown--text">
                   整体
                 </h2>
+                <v-spacer></v-spacer>
+                <nuxt-link to="/menu/seitai">
+                  <v-btn class="right" small color="primary" dark
+                    >整体詳しくはこちら</v-btn
+                  >
+                </nuxt-link>
               </v-card-title>
             </v-card>
           </v-flex>

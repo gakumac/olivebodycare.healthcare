@@ -4,24 +4,24 @@
     <div class="ml-2">
       <v-breadcrumbs :items="items" divider=">"></v-breadcrumbs>
     </div>
-    <making />
-    <Seitai1 />
-    <Seitai2 />
+    <Seitai />
+    <Seitaisango />
+    <After />
   </div>
 </template>
 
 <script>
 import Pagetitle from '~/components/Pagetitle.vue'
-import Making from '~/components/Making.vue'
-import Seitai1 from '~/components/menu/Seitai1.vue'
-import Seitai2 from '~/components/menu/Seitai2.vue'
+import Seitai from '~/components/menu/Seitai.vue'
+import Seitaisango from '~/components/menu/Seitaisango.vue'
+import After from '~/components/index/After.vue'
 import Meta from '~/assets/mixins/meta'
 export default {
   components: {
     Pagetitle,
-    Making,
-    Seitai1,
-    Seitai2
+    Seitai,
+    Seitaisango,
+    After
   },
   mixins: [Meta],
   data() {
