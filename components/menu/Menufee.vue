@@ -51,9 +51,7 @@
                 </h2>
                 <v-spacer></v-spacer>
                 <nuxt-link to="/menu/seitai">
-                  <v-btn class="right" small color="primary" dark
-                    >整体詳しくはこちら</v-btn
-                  >
+                  <v-btn small color="primary" dark>整体詳しくはこちら</v-btn>
                 </nuxt-link>
               </v-card-title>
             </v-card>
@@ -108,6 +106,12 @@
                 <h2 class="brown--text">
                   骨盤矯正
                 </h2>
+                <v-spacer></v-spacer>
+                <nuxt-link to="/menu/pelvis-correction">
+                  <v-btn small color="primary" dark
+                    >骨盤矯正詳しくはこちら</v-btn
+                  >
+                </nuxt-link>
               </v-card-title>
             </v-card>
           </v-flex>
@@ -161,6 +165,12 @@
                 <h2 class="brown--text">
                   マッサージ
                 </h2>
+                <v-spacer></v-spacer>
+                <nuxt-link to="/menu/massage">
+                  <v-btn small color="primary" dark
+                    >マッサージ詳しくはこちら</v-btn
+                  >
+                </nuxt-link>
               </v-card-title>
             </v-card>
           </v-flex>
@@ -214,6 +224,10 @@
                 <h2 class="brown--text">
                   鍼灸
                 </h2>
+                <v-spacer></v-spacer>
+                <nuxt-link to="/menu/shinkyu">
+                  <v-btn small color="primary" dark>鍼灸詳しくはこちら</v-btn>
+                </nuxt-link>
               </v-card-title>
             </v-card>
           </v-flex>
@@ -267,6 +281,12 @@
                 <h2 class="brown--text">
                   不妊治療
                 </h2>
+                <v-spacer></v-spacer>
+                <nuxt-link to="/menu/fertility-treatment">
+                  <v-btn small color="primary" dark
+                    >不妊治療詳しくはこちら</v-btn
+                  >
+                </nuxt-link>
               </v-card-title>
             </v-card>
           </v-flex>
@@ -295,6 +315,12 @@
                 <h2 class="brown--text">
                   交通事故治療
                 </h2>
+                <v-spacer></v-spacer>
+                <nuxt-link to="/menu/traffic-accident">
+                  <v-btn small color="primary" dark
+                    >交通事故詳しくはこちら</v-btn
+                  >
+                </nuxt-link>
               </v-card-title>
             </v-card>
           </v-flex>
