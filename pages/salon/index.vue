@@ -1,6 +1,6 @@
 <template>
   <div>
-    <pagetitle title="治療院一覧" />
+    <pagetitle h1="治療院一覧" />
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>

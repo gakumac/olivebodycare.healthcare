@@ -1,6 +1,6 @@
 <template>
   <div>
-    <pagetitle title="総院長からの挨拶" />
+    <pagetitle h1="総院長からの挨拶" />
     <div class="ml-2 info">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>

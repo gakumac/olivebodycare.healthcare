@@ -1,6 +1,6 @@
 <template>
   <div>
-    <pagetitle title="当院について" />
+    <pagetitle h1="当院について" />
     <div class="ml-2 yellow lighten-5">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <pagetitle title="不妊治療について" />
+    <pagetitle h1="不妊治療について" />
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>

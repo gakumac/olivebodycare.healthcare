@@ -3,7 +3,7 @@
     <v-layout>
       <v-flex>
         <h1 class="mt-3 py-1 pl-3 white--text">
-          {{ title }}
+          {{ h1 }}
         </h1>
       </v-flex>
     </v-layout>
@@ -13,9 +13,9 @@
 <script>
 export default {
   props: {
-    title: {
+    h1: {
       type: String,
-      default: 'Default title'
+      default: 'OliveBodyCare'
     }
   }
 }

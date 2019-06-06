@@ -1,6 +1,6 @@
 <template>
   <div>
-    <pagetitle title="横浜青葉台店" />
+    <pagetitle h1="横浜青葉台店" />
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>

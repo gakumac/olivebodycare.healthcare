@@ -1,6 +1,6 @@
 <template>
   <div>
-    <pagetitle title="交通事故治療" />
+    <pagetitle h1="交通事故治療" />
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>

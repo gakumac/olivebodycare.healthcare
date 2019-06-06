@@ -1,6 +1,6 @@
 <template>
   <div>
-    <pagetitle title="入店から施術までの流れ" />
+    <pagetitle h1="入店から施術までの流れ" />
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>

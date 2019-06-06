@@ -3,7 +3,7 @@
     <v-container grid-list-lg>
       <v-layout row wrap justify-center>
         <h2 class="text-xs-center brown--text mb-4">
-          当院の整体について
+          当院の整体についてご紹介です。
         </h2>
       </v-layout>
       <v-layout row wrap justify-center>

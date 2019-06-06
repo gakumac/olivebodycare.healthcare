@@ -1,6 +1,6 @@
 <template>
   <div>
-    <pagetitle title="札幌円山町店" />
+    <pagetitle h1="札幌円山町店" />
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <pagetitle title="Q&A-よくある質問-" />
+    <pagetitle h1="Q&A-よくある質問-" />
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>

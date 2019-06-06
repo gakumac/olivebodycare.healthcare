@@ -13,30 +13,48 @@
               １.正面入り口よりお入りください。階段の右横にポストがございます。
             </h4>
           </v-flex>
-          <v-flex xs7 md5>
-            <v-img :src="require('@/assets/images/home/home11.jpg')"></v-img>
+          <v-flex xs6 md5>
+            <v-img :src="require('@/assets/images/salon/salon11.jpg')"></v-img>
+          </v-flex>
+          <v-flex xs6 md5>
+            <v-img :src="require('@/assets/images/salon/salon12.jpg')"></v-img>
           </v-flex>
           <v-flex xs12 md8>
-            <h4 class="title mt-2">
+            <h4 class="title mt-4">
               ２.ポストの奥にオートロックのボタンがございます。
             </h4>
           </v-flex>
+          <v-flex xs6 md5>
+            <v-img :src="require('@/assets/images/salon/salon13.jpg')"></v-img>
+          </v-flex>
           <v-flex xs12 md8>
-            <h4 class="title mt-2">
+            <h4 class="title mt-4">
               ３.『301』を押して『呼出』ボタンを押してください。当院に直通します。
             </h4>
             <p>当院スタッフが応答いたしますので奥にお進みください。</p>
           </v-flex>
+          <v-flex xs6 md5>
+            <v-img :src="require('@/assets/images/salon/salon14.jpg')"></v-img>
+          </v-flex>
           <v-flex xs12 md8>
-            <h4 class="title mt-2">
+            <h4 class="title mt-4">
               ４.奥に進むと突き当たり左にエレベーターがございます。中に入り3階のボタンを押してください。
             </h4>
             <p>※当院スタッフが解除しないと3階ボタンは押せません。</p>
+          </v-flex>
+          <v-flex xs6 md5>
+            <v-img :src="require('@/assets/images/salon/salon15.jpg')"></v-img>
+          </v-flex>
+          <v-flex xs6 md5>
+            <v-img :src="require('@/assets/images/salon/salon17.jpg')"></v-img>
           </v-flex>
           <v-flex xs12 md8>
             <h4 class="title mt-2">
               ５.３階で降りて目の前の左側が３０１（当院）となります。
             </h4>
+          </v-flex>
+          <v-flex xs6 md5>
+            <v-img :src="require('@/assets/images/salon/salon18.jpg')"></v-img>
           </v-flex>
         </v-layout>
       </v-container>

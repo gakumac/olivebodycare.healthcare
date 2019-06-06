@@ -1,6 +1,6 @@
 <template>
   <div>
-    <pagetitle title="施術メニュー・料金" />
+    <pagetitle h1="施術メニュー・料金" />
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <pagetitle title="骨盤矯正について" />
+    <pagetitle h1="骨盤矯正について" />
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>
