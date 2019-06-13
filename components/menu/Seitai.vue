@@ -17,7 +17,7 @@
             何もしなくてもだるい、疲れがとれない、やる気が起こらないなどの倦怠症状が現れることがあります。<br />
           </p>
         </v-flex>
-        <v-flex xs12 md6>
+        <v-flex xs12 md10>
           <v-img :src="require('@/assets/images/home/home4.jpg')"></v-img>
         </v-flex>
         <v-flex xs12 md8>
@@ -28,7 +28,7 @@
             また、多くの女性が抱える悩みでもある、冷えやむくみなどの解消にも効果があります。<br />
           </p>
         </v-flex>
-        <v-flex xs12 md6>
+        <v-flex xs12 md10>
           <v-img :src="require('@/assets/images/menu/seitai1.jpg')"></v-img>
         </v-flex>
         <v-flex xs12 md8>

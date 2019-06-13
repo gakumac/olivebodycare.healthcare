@@ -14,7 +14,7 @@
             出産をきっかけに体質を改善し、妊娠前より健康的な体を手に入れるチャンスでもあるのです。<br />
           </p>
         </v-flex>
-        <v-flex xs12 md7>
+        <v-flex xs12 md10>
           <v-img :src="require('@/assets/images/menu/seitai2.jpg')"></v-img>
         </v-flex>
         <v-flex xs12 md8>

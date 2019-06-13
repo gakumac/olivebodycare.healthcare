@@ -27,8 +27,8 @@ export default {
   data() {
     return {
       seitai: '/menu/seitai',
-      sango: '/menu/seitai/sangoseitai',
-      option: '/menu/seitai/seitaioption'
+      sango: '/menu/seitai/sango',
+      option: '/menu/seitai/option'
     }
   }
 }
