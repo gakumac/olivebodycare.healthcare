@@ -35,7 +35,7 @@
       </v-layout>
       <v-layout justify-center>
         <v-flex xs12 md10>
-          <img src="@/assets/images/home/home20.jpg" width="100%" />
+          <img src="@/assets/images/home/postscript1.jpg" width="100%" />
         </v-flex>
       </v-layout>
     </v-container>

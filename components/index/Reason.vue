@@ -5,10 +5,10 @@
         <v-layout row wrap justify-center>
           <v-flex xs12 md9>
             <h2 class="text-xs-center brown--text">
-              当院が整体・骨盤矯正で選ばれる理由
+              当院が整体・骨盤矯正で選ばれる８つの理由
             </h2>
             <h3 class="mt-4 accent--text text-xs-center">
-              国家資格取得の女性スタッフによる<br />
+              １.国家資格取得の女性スタッフによる<br />
               女性専門の整体・骨盤矯正を受ける事ができます。
             </h3>
             <p class="mt-4">
@@ -19,7 +19,7 @@
             </p>
           </v-flex>
           <v-flex xs12 md8>
-            <v-img :src="require('@/assets/images/home/home1.jpg')"></v-img>
+            <v-img :src="require('@/assets/images/home/reason1.jpg')"></v-img>
           </v-flex>
         </v-layout>
       </v-container>
@@ -29,7 +29,7 @@
         <v-layout row wrap justify-center>
           <v-flex xs12 md9>
             <h3 class="mt-3 accent--text text-xs-center">
-              痛みの原因を知り、解消する根本治療を行います。
+              ２.痛みの原因を知り、解消する根本治療を行います。
             </h3>
             <p class="mt-4">
               当院では癒しと共に、根本治療を行います。<br />
@@ -51,7 +51,7 @@
         <v-layout row wrap justify-center>
           <v-flex xs12 md9>
             <h3 class="mt-3 accent--text text-xs-center">
-              痩せやすい身体を作る施術を取り入れています。
+              ３.痩せやすい身体を作る施術を取り入れています。
             </h3>
             <p class="mt-4">
               当院では内臓からのヘルプサインに耳をかたむけ、身体の表面だけではなく身体の内側へもアプローチして整える内臓整体も取り入れております。<br />
@@ -68,7 +68,7 @@
         <v-layout row wrap justify-center>
           <v-flex xs12 md9>
             <h3 class="my-3 accent--text text-xs-center">
-              初回リピート率85％以上の高い満足度の整体治療を受ける事が出来ます。
+              ４.初回リピート率85％以上の高い満足度の整体治療を受ける事が出来ます。
             </h3>
             <p class="mt-4">
               治療院業界の平均リピート率50～60％と言われるなか、当院の初回リピート率85％以上とお客様満足度が高く、多くの方に支持されています。<br />
@@ -89,7 +89,7 @@
         <v-layout row wrap justify-center>
           <v-flex xs12 md9>
             <h3 class="mt-3 accent--text text-xs-center">
-              お子様（赤ちゃん）と一緒に整体を受ける事ができます。
+              ５.お子様（赤ちゃん）と一緒に整体を受ける事ができます。
             </h3>
             <p class="mt-4">
               ごく少人数でのアットホームな空間なのでお子様が泣いてしまっても安心です。<br />
@@ -111,7 +111,7 @@
         <v-layout row wrap justify-center>
           <v-flex xs12 md9>
             <h3 class="mt-3 accent--text text-xs-center">
-              待ち時間なしで整体を受ける事ができます。
+              ６.待ち時間なしで整体を受ける事ができます。
             </h3>
             <p class="mt-4">
               お仕事、家事、育児、などなど日頃ご多忙の女性の患者様。<br />
@@ -132,11 +132,12 @@
         <v-layout row wrap justify-center>
           <v-flex xs12 md9>
             <h3 class="mt-3 accent--text text-xs-center">
-              たまプラーザ駅徒歩2分で通うのに便利。
+              ７.駅から近く、徒歩圏内で通うのに便利。
             </h3>
             <p class="mt-4">
-              東急田園都市線たまプラーザ駅より徒歩２分、メディカルモール内の治療院です。<br />
-              駐車場も建物併設のもの、近隣に多数ございます。
+              本院は東急田園都市線たまプラーザ駅より徒歩２分、メディカルモール内の治療院です。<br />
+              駐車場も建物併設のもの、近隣に多数ございます。<br />
+              青葉台店は東急田園都市線青葉台駅より徒歩3分です。
             </p>
           </v-flex>
           <v-flex xs7 md5 mt-2>
@@ -153,11 +154,11 @@
         <v-layout row wrap justify-center>
           <v-flex xs12 md9>
             <h3 class="mt-3 accent--text text-xs-center">
-              24時間WEB上で施術可能な日時を確認しそのまま予約をお取りする事が出来ます。
+              ８.24時間WEB上で施術可能な日時を確認しそのまま予約をお取りする事が出来ます。
             </h3>
             <p class="mt-4">
               当院では24時間WEB予約に対応しております。<br />
-              簡単なユーザー登録をしていただくと、残数カレンダーからご都合の良いお日にち・お時間のご予約が可能かどうか確認でき、整体・骨盤矯正・マッサージ・鍼灸などのお好みの施術予約をお取りする事が出来ます。<br />
+              残数カレンダーからご都合の良いお日にち・お時間のご予約が可能かどうか確認でき、整体・骨盤矯正・マッサージ・鍼灸などのお好みの施術予約をお取りする事が出来ます。<br />
               当日から1~2ヶ月先まで対応しております。 今すぐご利用下さい！
             </p>
           </v-flex>

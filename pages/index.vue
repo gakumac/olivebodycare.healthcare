@@ -1,8 +1,7 @@
 <template>
   <div>
     <headerslide />
-    <noticeslide />
-    <making />
+    <!-- <noticeslide /> -->
     <hometitle />
     <reason />
     <media />
@@ -20,8 +19,7 @@
 
 <script>
 import Headerslide from '~/components/index/Headerslide.vue'
-import Noticeslide from '~/components/Noticeslide.vue'
-import Making from '~/components/Making.vue'
+// import Noticeslide from '~/components/Noticeslide.vue'
 import Hometitle from '~/components/index/Hometitle.vue'
 import Reason from '~/components/index/Reason.vue'
 import Media from '~/components/index/Media.vue'
@@ -44,8 +42,7 @@ export default {
   layout: 'toppage',
   components: {
     Headerslide,
-    Noticeslide,
-    Making,
+    // Noticeslide,
     Hometitle,
     Reason,
     Media,

@@ -19,6 +19,25 @@
       fixed
       app
     >
+      <div class="mt-2 ml-2">
+        <v-btn
+          dark
+          color="light-green darken-2"
+          class="font-weight-bold"
+          a
+          href="https://reserve-stage.olivebodycare.healthcare/mypage/"
+        >
+          マイページ
+        </v-btn>
+        <v-btn
+          dark
+          color="light-green darken-2"
+          a
+          href="https://reserve-stage.olivebodycare.healthcare/"
+        >
+          24時間Web予約
+        </v-btn>
+      </div>
       <v-list class="brown--text">
         <v-list-tile v-for="(item, i) in itemsHome" :key="i" :to="item.to">
           <v-list-tile-action>
