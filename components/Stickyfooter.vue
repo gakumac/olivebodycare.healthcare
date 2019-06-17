@@ -6,7 +6,7 @@
           block
           class="light-green darken-2 white--text"
           a
-          href="https://reserve-stage.olivebodycare.healthcare/"
+          href="https://reserve.olivebodycare.healthcare/"
         >
           <v-icon left>date_range</v-icon>
           <span class="font-weight-bold">２４時間WEB予約は今すぐこちら！</span>

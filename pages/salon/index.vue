@@ -34,7 +34,7 @@
               <v-flex xs12 md6 class="mb-2 text-xs-center">
                 <v-btn
                   a
-                  href="https://olivebodycare.healthcare/"
+                  href="https://reserve.olivebodycare.healthcare/"
                   dark
                   color="light-green darken-2"
                 >
@@ -51,7 +51,7 @@
         <v-flex xs12 md10>
           <v-card class="my-2" color="info">
             <h3 class="py-2 accent--text text-xs-center">
-              横浜青葉台店
+              横浜青葉台店（7月オープン！）
             </h3>
             <v-layout row wrap>
               <v-flex xs12 md6 class="mb-2 text-xs-center">
@@ -67,7 +67,7 @@
                 <v-btn
                   a
                   href="https://olivebodycare.healthcare/"
-                  dark
+                  disabled
                   color="light-green darken-2"
                 >
                   <span class="font-weight-bold body-2"
@@ -83,7 +83,7 @@
         <v-flex xs12 md10>
           <v-card class="my-2" color="info">
             <h3 class="py-2 accent--text text-xs-center">
-              札幌円山町店
+              札幌円山町店（11月オープン！）
             </h3>
             <v-layout row wrap>
               <v-flex xs12 md6 class="mb-2 text-xs-center">
@@ -99,7 +99,7 @@
                 <v-btn
                   a
                   href="https://olivebodycare.healthcare/"
-                  dark
+                  disabled
                   color="light-green darken-2"
                 >
                   <span class="font-weight-bold body-2"

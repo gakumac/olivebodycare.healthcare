@@ -25,7 +25,7 @@
           color="light-green darken-2"
           class="font-weight-bold"
           a
-          href="https://reserve-stage.olivebodycare.healthcare/mypage/"
+          href="https://reserve.olivebodycare.healthcare/mypage/"
         >
           マイページ
         </v-btn>
@@ -33,7 +33,7 @@
           dark
           color="light-green darken-2"
           a
-          href="https://reserve-stage.olivebodycare.healthcare/"
+          href="https://reserve.olivebodycare.healthcare/"
         >
           24時間Web予約
         </v-btn>
