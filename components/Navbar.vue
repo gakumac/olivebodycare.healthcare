@@ -180,6 +180,11 @@ export default {
               title: '入店から施術までの流れ',
               to: '/about/beginner',
               action: ''
+            },
+            {
+              title: 'お問合せ・メール予約',
+              to: '/about/contact',
+              action: ''
             }
           ]
         }

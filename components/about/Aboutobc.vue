@@ -101,6 +101,12 @@ export default {
           message2:
             'ご来院頂いてからお帰りになられるまでの流れを説明させて頂きます。',
           to: '/about/beginner'
+        },
+        {
+          title2: 'お問い合わせはこちら',
+          image2: require('@/assets/images/about/contact1.jpg'),
+          message2: 'お問い合わせはこちらからお願い致します。',
+          to: '/about/contact'
         }
       ]
     }
