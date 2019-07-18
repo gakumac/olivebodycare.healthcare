@@ -70,13 +70,25 @@
             ></iframe>
           </v-flex>
         </v-layout>
-        <v-layout>
-          <v-flex class="ma-2">
+        <v-layout row wrap>
+          <v-flex xs12 md6 class="mb-2 text-xs-center">
             <nuxt-link to="/salon/tamaplaza">
-              <v-btn class="right" small color="primary" dark
-                >たまプラーザ本店詳しくはこちら</v-btn
-              >
+              <v-btn color="primary" dark small>
+                たまプラーザ店詳しくはこちら
+              </v-btn>
             </nuxt-link>
+          </v-flex>
+          <v-flex xs12 md6 class="mb-2 text-xs-center">
+            <v-btn
+              a
+              href="https://reserve.olivebodycare.healthcare/"
+              dark
+              color="light-green darken-2"
+            >
+              <span class="font-weight-bold body-2"
+                >たまプラーザ店予約は今すぐこちら！</span
+              >
+            </v-btn>
           </v-flex>
         </v-layout>
       </v-card>
@@ -116,13 +128,25 @@
               allowfullscreen
             ></iframe>
           </v-flex>
-          <v-layout>
-            <v-flex class="ma-2">
+          <v-layout row wrap>
+            <v-flex xs12 md6 class="mb-2 text-xs-center">
               <nuxt-link to="/salon/aobadai">
-                <v-btn class="right" small color="primary" dark
-                  >横浜青葉台店詳しくはこちら</v-btn
-                >
+                <v-btn color="primary" dark small>
+                  横浜青葉台店詳しくはこちら
+                </v-btn>
               </nuxt-link>
+            </v-flex>
+            <v-flex xs12 md6 class="mb-2 text-xs-center">
+              <v-btn
+                a
+                href="https://reserve.olivebodycare.healthcare/menus/?shopId=3&menuIndex=1"
+                dark
+                color="light-green darken-2"
+              >
+                <span class="font-weight-bold body-2"
+                  >横浜青葉台店予約は今すぐこちら！</span
+                >
+              </v-btn>
             </v-flex>
           </v-layout>
         </v-layout>
@@ -163,13 +187,25 @@
               allowfullscreen
             ></iframe>
           </v-flex>
-          <v-layout>
-            <v-flex class="ma-2">
+          <v-layout row wrap>
+            <v-flex xs12 md6 class="mb-2 text-xs-center">
               <nuxt-link to="/salon/maruyamacho">
-                <v-btn class="right" small color="primary" dark
-                  >札幌円山町店詳しくはこちら</v-btn
-                >
+                <v-btn color="primary" dark small>
+                  札幌円山町店詳しくはこちら
+                </v-btn>
               </nuxt-link>
+            </v-flex>
+            <v-flex xs12 md6 class="mb-2 text-xs-center">
+              <v-btn
+                a
+                href="https://reserve.olivebodycare.healthcare/menus/?shopId=3&menuIndex=1"
+                disabled
+                color="light-green darken-2"
+              >
+                <span class="font-weight-bold body-2"
+                  >札幌円山町店予約は今すぐこちら！</span
+                >
+              </v-btn>
             </v-flex>
           </v-layout>
         </v-layout>

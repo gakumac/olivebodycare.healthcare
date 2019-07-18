@@ -33,7 +33,7 @@
           dark
           color="light-green darken-2"
           a
-          href="https://reserve.olivebodycare.healthcare/"
+          href="https://olivebodycare.healthcare/reserve/"
         >
           24時間Web予約
         </v-btn>
