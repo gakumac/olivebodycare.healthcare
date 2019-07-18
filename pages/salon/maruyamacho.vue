@@ -18,10 +18,10 @@
       <v-layout row wrap justify-center>
         <v-flex xs12 md10>
           <h3 class="my-3 accent--text text-xs-center">
-            地下鉄円山公園４番出口から徒歩または地下鉄西18丁目１番出口から徒歩
+            地下鉄円山公園４番出口から徒歩５分or地下鉄西18丁目１番出口から徒歩７分
           </h3>
           <p>
-            地下鉄円山公園４番出口から徒歩または地下鉄西18丁目１番出口から徒歩
+            地下鉄円山公園４番出口から徒歩５分or地下鉄西18丁目１番出口から徒歩７分
           </p>
         </v-flex>
         <v-flex xs6 md5>
@@ -106,7 +106,8 @@ export default {
       items: [
         {
           title: '住所',
-          contents: '札幌市中央区'
+          contents:
+            '〒064-0811　札幌市中央区南1条西22丁目2-21パラッツォ裏参道302'
         },
         {
           title: 'アクセス',

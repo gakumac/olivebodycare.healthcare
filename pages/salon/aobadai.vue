@@ -118,7 +118,7 @@ export default {
         },
         {
           title: '電話',
-          contents: '完全予約制'
+          contents: '045-530-3903　完全予約制'
         }
       ]
     }

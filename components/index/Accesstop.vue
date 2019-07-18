@@ -86,7 +86,7 @@
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
             <h3 class="my-3 accent--text text-xs-center">
-              横浜青葉台店（7月オープン！）
+              横浜青葉台店
             </h3>
           </v-flex>
           <v-container grid-list-lg>
@@ -133,7 +133,7 @@
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
             <h3 class="my-3 accent--text text-xs-center">
-              札幌円山町店（11月オープン！）
+              札幌円山町店（9月6日オープン！）
             </h3>
           </v-flex>
           <v-container grid-list-lg>
@@ -216,18 +216,19 @@ export default {
         },
         {
           title: '電話',
-          contents: '完全予約制'
+          contents: '045-530-3903　完全予約制'
         }
       ],
       itemsSM: [
         {
           title: '住所',
-          contents: '〒064-0811　札幌市中央区'
+          contents:
+            '〒064-0811　札幌市中央区南1条西22丁目2-21パラッツォ裏参道302'
         },
         {
           title: 'アクセス',
           contents:
-            '地下鉄円山公園４番出口から徒歩または地下鉄西18丁目１番出口から徒歩'
+            '地下鉄円山公園４番出口から徒歩５分or地下鉄西18丁目１番出口から徒歩７分'
         },
         {
           title: '営業時間',
