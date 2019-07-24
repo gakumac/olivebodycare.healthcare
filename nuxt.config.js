@@ -8,7 +8,8 @@ export default {
    */
   head: {
     htmlAttrs: {
-      prefix: 'og: http://ogp.me/ns#'
+      prefix: 'og: http://ogp.me/ns#',
+      lang: 'ja'
     },
     titleTemplate: '%s｜整体・骨盤矯正の女性専門の治療院オリーヴボディケア',
     meta: [
