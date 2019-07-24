@@ -18,7 +18,6 @@
 </template>
 
 <script>
-// test
 import Headerslide from '~/components/index/Headerslide.vue'
 // import Noticeslide from '~/components/Noticeslide.vue'
 import Hometitle from '~/components/index/Hometitle.vue'
