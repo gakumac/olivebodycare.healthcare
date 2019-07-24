@@ -1,7 +1,7 @@
 import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 
 export default {
-  mode: 'universal',
+  mode: 'spa',
 
   /*
    ** Headers of the page
@@ -70,6 +70,8 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: ['@/plugins/vuetify'],
+
+  vuetify: {},
 
   /*
    ** Nuxt.js modules
