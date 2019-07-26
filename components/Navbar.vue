@@ -12,7 +12,7 @@
       </v-toolbar-title>
       <v-spacer />
     </v-toolbar>
-    <nav-menus v-if="drawed" :drawer="drawed" />
+    <nav-menus v-if="drawed" :drawed="drawed" @input="updateNavMenu" />
   </div>
 </template>
 
@@ -29,6 +29,9 @@ export default {
   methods: {
     drawNavMenus() {
       this.drawed = !this.drawed
+    },
+    updateNavMenu(drawed) {
+      this.drawed = drawed
     }
   }
 }

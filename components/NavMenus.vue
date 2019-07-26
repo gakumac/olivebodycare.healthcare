@@ -27,8 +27,8 @@
     </div>
     <v-list class="brown--text">
       <v-list-tile
-        v-for="(item, houseIndex) in itemsHome"
-        :key="houseIndex"
+        v-for="(item, homeIndex) in itemsHome"
+        :key="`home-item-${homeIndex}`"
         :to="item.to"
       >
         <v-list-tile-action>
@@ -40,7 +40,7 @@
       </v-list-tile>
       <v-list-group
         v-for="(item, index) in items"
-        :key="index"
+        :key="`item-${index}`"
         v-model="item.active"
         :prepend-icon="item.action"
         no-action
@@ -54,7 +54,7 @@
         </template>
         <v-list-tile
           v-for="(subItem, subIndex) in item.items"
-          :key="subIndex"
+          :key="`sub-item-${subIndex}`"
           :to="subItem.to"
         >
           <v-list-tile-content>
@@ -69,7 +69,7 @@
       </v-list-group>
       <v-list-tile
         v-for="(item, voiceIndex) in itemsVoice"
-        :key="voiceIndex"
+        :key="`voice-item-${voiceIndex}`"
         :to="item.to"
       >
         <v-list-tile-action>
@@ -81,7 +81,7 @@
       </v-list-tile>
       <v-list-tile
         v-for="(item, salonIndex) in itemsSalon"
-        :key="salonIndex"
+        :key="`salon-item-${salonIndex}`"
         :to="item.to"
       >
         <v-list-tile-action>
@@ -96,118 +96,29 @@
 </template>
 
 <script>
+import menuConfig from '@/assets/configs/menus.js'
+
 export default {
   props: {
-    drawer: {
+    drawed: {
       type: Boolean,
       required: true
     }
   },
   data() {
     return {
-      itemsHome: [
-        {
-          action: 'home',
-          title: 'Home',
-          to: '/'
-        }
-      ],
-      items: [
-        {
-          action: 'import_contacts',
-          title: 'メニュー・料金',
-          active: true,
-          items: [
-            {
-              title: '施術メニュー・料金',
-              to: '/menu',
-              action: ''
-            },
-            {
-              title: '整体について',
-              to: '/menu/seitai',
-              action: ''
-            },
-            {
-              title: '骨盤矯正について',
-              to: '/menu/pelvis-correction',
-              action: ''
-            },
-            {
-              title: 'マッサージについて',
-              to: '/menu/massage',
-              action: ''
-            },
-            {
-              title: '鍼灸について',
-              to: '/menu/shinkyu',
-              action: ''
-            },
-            {
-              title: '不妊治療',
-              to: '/menu/fertility-treatment',
-              action: ''
-            },
-            {
-              title: '交通事故治療',
-              to: '/menu/traffic-accident',
-              action: ''
-            }
-          ]
-        },
-        {
-          action: 'business',
-          title: '当院について',
-          active: true,
-          items: [
-            {
-              title: '当院について',
-              to: '/about',
-              action: ''
-            },
-            {
-              title: '総院長からの挨拶',
-              to: '/about/greeting',
-              action: ''
-            },
-            {
-              title: 'スタッフについて',
-              to: '/about/staff',
-              action: ''
-            },
-            {
-              title: 'Q&A-良くある質問-',
-              to: '/about/qa',
-              action: ''
-            },
-            {
-              title: '入店から施術までの流れ',
-              to: '/about/beginner',
-              action: ''
-            },
-            {
-              title: 'お問合せ・メール予約',
-              to: '/about/contact',
-              action: ''
-            }
-          ]
-        }
-      ],
-      itemsVoice: [
-        {
-          action: 'face',
-          title: '患者様の声',
-          to: '/voice'
-        }
-      ],
-      itemsSalon: [
-        {
-          action: 'place',
-          title: '治療院一覧',
-          to: '/salon'
-        }
-      ],
-      Drawer: false
+      // warningが出るため、直接returnしない
+      ...menuConfig
+    }
+  },
+  computed: {
+    drawer: {
+      get() {
+        return this.drawed
+      },
+      set(drawed) {
+        this.$emit('input', drawed)
+      }
     }
   }
 }
