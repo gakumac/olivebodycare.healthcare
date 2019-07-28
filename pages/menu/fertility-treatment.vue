@@ -25,8 +25,8 @@ export default {
         description:
           '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。不妊治療についてご紹介。自律神経に乱れ・ホルモンバランスを整え、妊娠する準備が整う身体を手に入れましょう！',
         type: 'website',
-        url: 'https://olivebodycare.healthscare/menu/fertility-treatment',
-        image: 'https://olivebodycare.healthscare/assets/images/hed_1.jpg'
+        url: 'https://olivebodycare.healthcare/menu/fertility-treatment',
+        image: 'https://olivebodycare.healthcare/assets/images/hed_1.jpg'
       },
       itemsB: [
         {

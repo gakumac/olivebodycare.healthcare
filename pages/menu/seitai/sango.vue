@@ -29,8 +29,8 @@ export default {
         description:
           '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。当院の整体ついてご紹介。本来の正常な動きを妨げている原因を見つけ出し多くの女性が抱える悩みを解決します！',
         type: 'website',
-        url: 'https://olivebodycare.healthscare/menu/seitai/sango',
-        image: 'https://olivebodycare.healthscare/assets/images/hed_1.jpg'
+        url: 'https://olivebodycare.healthcare/menu/seitai/sango',
+        image: 'https://olivebodycare.healthcare/assets/images/hed_1.jpg'
       },
       items: [
         {

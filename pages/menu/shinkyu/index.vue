@@ -28,8 +28,8 @@ export default {
         description:
           '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。当院の鍼灸についてご紹介。当院では生理不順、不妊症、更年期障害などの婦人科系疾患にも力を入れております。',
         type: 'website',
-        url: 'https://olivebodycare.healthscare/menu/shinkyu',
-        image: 'https://olivebodycare.healthscare/assets/images/hed_1.jpg'
+        url: 'https://olivebodycare.healthcare/menu/shinkyu',
+        image: 'https://olivebodycare.healthcare/assets/images/hed_1.jpg'
       },
       itemsB: [
         {
