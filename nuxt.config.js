@@ -44,7 +44,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://olivebodycare.healthscare/assets/images/hed_1.jpg'
+        content: 'https://olivebodycare.healthscare/images/hed_1.jpg'
       }
     ],
     link: [
