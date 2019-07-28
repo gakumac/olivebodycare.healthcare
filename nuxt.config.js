@@ -1,7 +1,7 @@
 import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 
 export default {
-  mode: 'spa',
+  mode: 'universal',
 
   /*
    ** Headers of the page
@@ -53,6 +53,13 @@ export default {
         rel: 'stylesheet',
         href:
           'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
+      },
+      // vuetifyのcssをCDNから取得
+      // 参考：https://V15.vuetifyjs.com/ja/getting-started/quick-start
+      {
+        rel: 'stylesheet',
+        href:
+          'https://cdn.jsdelivr.net/npm/vuetify@1.x/dist/vuetify.min.css'
       }
     ]
   },
@@ -61,11 +68,6 @@ export default {
    ** Customize the progress-bar color
    */
   loading: { color: '#fff' },
-
-  /*
-   ** Global CSS
-   */
-  css: ['~/assets/style/app.styl'],
 
   /*
    ** Plugins to load before mounting the App
