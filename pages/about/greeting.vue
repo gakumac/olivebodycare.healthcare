@@ -25,8 +25,8 @@ export default {
         description:
           '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。総院長からの挨拶。たくさん頑張ってこられた女性の皆様に心も身体も元気になってもらいたい！全力を尽くします。',
         type: 'website',
-        url: 'https://olivebodycare.healthscare/about/greeting.vue',
-        image: 'https://olivebodycare.healthscare/assets/images/hed_1.jpg'
+        url: 'https://olivebodycare.healthcare/about/greeting.vue',
+        image: 'https://olivebodycare.healthcare/assets/images/hed_1.jpg'
       },
       itemsB: [
         {

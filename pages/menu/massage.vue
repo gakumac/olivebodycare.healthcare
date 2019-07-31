@@ -25,8 +25,8 @@ export default {
         description:
           '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。マッサージついてご紹介。当院では身体本来に備わっている自然治癒力を高めるマッサージを行い悩みを解決します！',
         type: 'website',
-        url: 'https://olivebodycare.healthscare/menu/massage',
-        image: 'https://olivebodycare.healthscare/assets/images/hed_1.jpg'
+        url: 'https://olivebodycare.healthcare/menu/massage',
+        image: 'https://olivebodycare.healthcare/assets/images/hed_1.jpg'
       },
       itemsB: [
         {

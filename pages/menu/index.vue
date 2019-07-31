@@ -25,8 +25,8 @@ export default {
         description:
           '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。各種コース・料金のご紹介。本来の正常な動きを妨げている原因を見つけ出し多くの女性が抱える悩みを解決します！',
         type: 'website',
-        url: 'https://olivebodycare.healthscare/menu',
-        image: 'https://olivebodycare.healthscare/assets/images/hed_1.jpg'
+        url: 'https://olivebodycare.healthcare/menu',
+        image: 'https://olivebodycare.healthcare/assets/images/hed_1.jpg'
       },
       itemsB: [
         {

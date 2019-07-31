@@ -25,8 +25,8 @@ export default {
         description:
           '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。交通事故治療についてご紹介。早期の適切な治療が大事です。少しでも思い当たる症状がある場合お早めにご来院を！',
         type: 'website',
-        url: 'https://olivebodycare.healthscare/menu/traffic-accident',
-        image: 'https://olivebodycare.healthscare/assets/images/hed_1.jpg'
+        url: 'https://olivebodycare.healthcare/menu/traffic-accident',
+        image: 'https://olivebodycare.healthcare/assets/images/hed_1.jpg'
       },
       itemsB: [
         {
