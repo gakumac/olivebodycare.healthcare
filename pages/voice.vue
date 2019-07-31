@@ -1,6 +1,6 @@
 <template>
   <div class="yellow lighten-5">
-    <pagetitle title="患者様の声" />
+    <pagetitle h1="患者様の声" />
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>
