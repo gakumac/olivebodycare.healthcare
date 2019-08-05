@@ -65,7 +65,7 @@
         <v-flex xs12 md10>
           <v-card class="my-2" color="info">
             <h3 class="py-2 accent--text text-xs-center">
-              札幌円山町店（9月6日オープン！）
+              札幌円山店（9月6日オープン！）
             </h3>
             <v-layout row wrap justify-center>
               <v-flex xs12 md6 class="mb-2 text-xs-center">
@@ -76,7 +76,7 @@
                   color="light-green darken-2"
                 >
                   <span class="font-weight-bold body-2"
-                    >札幌円山町店予約は今すぐこちら！</span
+                    >札幌円山店予約は今すぐこちら！</span
                   >
                 </v-btn>
               </v-flex>
