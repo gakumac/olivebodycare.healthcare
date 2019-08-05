@@ -58,8 +58,7 @@ export default {
       // 参考：https://V15.vuetifyjs.com/ja/getting-started/quick-start
       {
         rel: 'stylesheet',
-        href:
-          'https://cdn.jsdelivr.net/npm/vuetify@1.x/dist/vuetify.min.css'
+        href: 'https://cdn.jsdelivr.net/npm/vuetify@1.x/dist/vuetify.min.css'
       }
     ]
   },
