@@ -1,6 +1,6 @@
 <template>
   <div>
-    <pagetitle h1="札幌円山町店" />
+    <pagetitle h1="札幌円山店" />
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>
@@ -79,11 +79,11 @@ export default {
   data() {
     return {
       meta: {
-        title: '札幌円山町店（札幌市中央区）',
+        title: '札幌円山店（札幌市中央区）',
         description:
           '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。国家資格取得の女性スタッフによる本格施術が受けれます。お子様連れ歓迎。マッサージ、不妊、鍼もお任せ下さい！',
         type: 'website',
-        url: 'https://olivebodycare.healthcare/salon/maruyamacho',
+        url: 'https://olivebodycare.healthcare/salon/maruyama',
         image: 'https://olivebodycare.healthcare/assets/images/hed_1.jpg'
       },
       itemsB: [
@@ -98,9 +98,9 @@ export default {
           href: '/salon'
         },
         {
-          text: '札幌円山町店',
+          text: '札幌円山店',
           disabled: true,
-          href: '/salon/maruyamacho'
+          href: '/salon/maruyama'
         }
       ],
       items: [

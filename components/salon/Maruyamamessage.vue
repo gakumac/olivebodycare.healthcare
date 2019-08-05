@@ -47,7 +47,7 @@
 export default {
   data() {
     return {
-      name: '札幌円山町店店院長 國分 麻美（こくぶん あさみ）',
+      name: '札幌円山店院長 國分 麻美（こくぶん あさみ）',
       qualification: '柔道整復師',
       title: '私たちにお任せください！',
       message: '院長の國分麻美です。',
