@@ -25,10 +25,14 @@
           </p>
         </v-flex>
         <v-flex xs6 md5>
-          <v-img :src="require('@/assets/images/home/home8.jpg')"></v-img>
+          <v-img
+            :src="require('@/assets/images/salon/salonaoba17.jpg')"
+          ></v-img>
         </v-flex>
         <v-flex xs6 md5>
-          <v-img :src="require('@/assets/images/home/home9.jpg')"></v-img>
+          <v-img
+            :src="require('@/assets/images/salon/salonaoba18.jpg')"
+          ></v-img>
         </v-flex>
         <v-container>
           <div v-for="(item, i) in items" :key="i" class="mt-2">
@@ -49,7 +53,7 @@
         </v-container>
         <v-flex xs12 md10>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d811.6313277315405!2d139.51569893814946!3d35.54072649875815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f83041fe7081%3A0xf5f6c6b0919d47db!2z44OT44Oz44K744OX44OI!5e0!3m2!1sja!2sjp!4v1558324702061!5m2!1sja!2sjp"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.524672126769!2d139.51405901574515!3d35.540742280227214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f95ba673c72d%3A0x548a6d2a4178fc56!2z5aWz5oCn5bCC6ZaA44Gu5rK755mC6Zmi44Kq44Oq44O844O044Oc44OH44Kj44Kx44Ki6Z2S6JGJ5Y-w5bqX!5e0!3m2!1sja!2sjp!4v1564983221640!5m2!1sja!2sjp"
             width="100%"
             height="300px"
             frameborder="0"
