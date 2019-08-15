@@ -49,7 +49,7 @@
         </v-container>
         <v-flex xs12 md10>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d728.831016383603!2d141.32343458814435!3d43.055651398690266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b29eae308ffff%3A0x39bb65ed75d8075c!2z77yw772B772M772B772a772a772P6KOP5Y-C6YGT!5e0!3m2!1sja!2sjp!4v1558325458777!5m2!1sja!2sjp"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182.2079902533404!2d141.32396282148622!3d43.05557191899343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa9b3fd242a4c92d1!2z5aWz5oCn5bCC6ZaA44Gu5rK755mC6Zmi44Kq44Oq44O844O044Oc44OH44Kj44Kx44Ki5pyt5bmM5YaG5bGx5bqX!5e0!3m2!1sja!2sjp!4v1565835828826!5m2!1sja!2sjp"
             width="100%"
             height="300px"
             frameborder="0"
@@ -112,7 +112,7 @@ export default {
         {
           title: 'アクセス',
           contents:
-            '地下鉄円山公園４番出口から徒歩または地下鉄西18丁目１番出口から徒歩'
+            '地下鉄円山公園４番出口から徒歩5分または地下鉄西18丁目１番出口から徒歩7分'
         },
         {
           title: '営業時間',
