@@ -120,7 +120,7 @@ export default {
         },
         {
           title: '電話',
-          contents: '完全予約制'
+          contents: '011-676-8970　完全予約制'
         }
       ]
     }

@@ -98,8 +98,8 @@
               <v-flex xs12 md6 class="mb-2 text-xs-center">
                 <v-btn
                   a
-                  href="https://olivebodycare.healthcare/"
-                  disabled
+                  href="https://reserve.olivebodycare.healthcare/menus/?shopId=4&menuIndex=1"
+                  dark
                   color="light-green darken-2"
                 >
                   <span class="font-weight-bold body-2"
