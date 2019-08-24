@@ -120,7 +120,7 @@
           </v-container>
           <v-flex xs12 md10>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d811.6313277315405!2d139.51569893814946!3d35.54072649875815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f83041fe7081%3A0xf5f6c6b0919d47db!2z44OT44Oz44K744OX44OI!5e0!3m2!1sja!2sjp!4v1558324702061!5m2!1sja!2sjp"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2105.1154045213502!2d139.51484803214495!3d35.54057200726833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x548a6d2a4178fc56!2z5aWz5oCn5bCC6ZaA44Gu5rK755mC6Zmi44Kq44Oq44O844O044Oc44OH44Kj44Kx44Ki6Z2S6JGJ5Y-w5bqX!5e0!3m2!1sja!2sjp!4v1566443617945!5m2!1sja!2sjp"
               width="100%"
               height="300px"
               frameborder="0"
@@ -157,7 +157,7 @@
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
             <h3 class="my-3 accent--text text-xs-center">
-              札幌円山店（9月6日オープン！）
+              札幌円山店
             </h3>
           </v-flex>
           <v-container grid-list-lg>
@@ -198,8 +198,8 @@
             <v-flex xs12 md6 class="mb-2 text-xs-center">
               <v-btn
                 a
-                href="https://reserve.olivebodycare.healthcare/menus/?shopId=3&menuIndex=1"
-                disabled
+                href="https://reserve.olivebodycare.healthcare/menus/?shopId=4&menuIndex=1"
+                dark
                 color="light-green darken-2"
               >
                 <span class="font-weight-bold body-2"
@@ -272,7 +272,7 @@ export default {
         },
         {
           title: '電話',
-          contents: '完全予約制'
+          contents: '011-676-8970　完全予約制'
         }
       ]
     }
