@@ -80,14 +80,19 @@ export default {
    */
   modules: [
     '@nuxtjs/pwa',
-    '@nuxtjs/sitemap',
     [
       '@nuxtjs/google-analytics',
       {
         id: 'UA-146789861-1'
       }
-    ]
+    ],
+    '@nuxtjs/sitemap' // 一番後ろにする必要あり
   ],
+
+  sitemap: {
+    hostname: 'https://olivebodycare.healthcare/',
+    gzip: true
+  },
 
   /*
    ** Build configuration
