@@ -80,6 +80,7 @@ export default {
    */
   modules: [
     '@nuxtjs/pwa',
+    '@nuxtjs/sitemap',
     [
       '@nuxtjs/google-analytics',
       {
