@@ -8,110 +8,136 @@
               ご来院について
             </h3>
           </v-flex>
-          <v-flex xs12 md8>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-2">
               １.円山公園駅を下車後6番出口の方面に向かいます。
             </h4>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama1.jpg')"
             ></v-img>
           </v-flex>
-          <v-flex xs6 md5>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama2.jpg')"
             ></v-img>
           </v-flex>
-          <v-flex xs12 md8>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-4">
               ２.6番出口からマルヤマクラスに入ります。
             </h4>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama3.jpg')"
             ></v-img>
           </v-flex>
-          <v-flex xs6 md5>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama4.jpg')"
             ></v-img>
           </v-flex>
-          <v-flex xs12 md8>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-4">
               ３.エスカレーターかエレベーターを使い地上1階まで上がります。
             </h4>
             <p>改札は地下2階となります。</p>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama5.jpg')"
             ></v-img>
           </v-flex>
-          <v-flex xs6 md5>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama6.jpg')"
             ></v-img>
           </v-flex>
-          <v-flex xs12 md8>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-4">
               ４.マルヤマクラスを通過しスターバックス側の出口を出て南1条通を左に進みます。
             </h4>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama7.jpg')"
             ></v-img>
           </v-flex>
-          <v-flex xs6 md5>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama8.jpg')"
             ></v-img>
           </v-flex>
-          <v-flex xs12 md8>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-4">
               ５.3ブロックほど進み、南１西２３の十字交差点（信号4つ目）を左に曲がります。
             </h4>
             <p>サリーズ（ケーキ屋さん）がある交差点です。</p>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama9.jpg')"
             ></v-img>
           </v-flex>
-          <v-flex xs6 md5>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama10.jpg')"
             ></v-img>
           </v-flex>
-          <v-flex xs12 md8>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-4">
               ６.左折してすぐのヘアカラー専門店さんを右に曲がり少し進みますと、右手に当院建物がございます。
             </h4>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama11.jpg')"
             ></v-img>
           </v-flex>
-          <v-flex xs6 md5>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama12.jpg')"
             ></v-img>
           </v-flex>
-          <v-flex xs12 md8>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-4">
               ７.建物入り口付近にインターフォンがございます。302→呼出ボタンを押してください。当院スタッフが対応しますのでそのまま中に入りエレベーターでお上がりください。
             </h4>
             <p>302のインターフォンで呼出しお入りください。</p>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama13.jpg')"
             ></v-img>
           </v-flex>
-          <v-flex xs6 md5>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama14.jpg')"
             ></v-img>
@@ -127,7 +153,7 @@
               近隣の駐車場について
             </h3>
           </v-flex>
-          <v-flex xs12 md8>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-2">
               エイチ&エス南２西２３コインパーキング（6台）
             </h4>
@@ -135,12 +161,14 @@
               円山公園駅方面より南１条通を通過しますと南２西２３交差点、左手に見えてきます。
             </p>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama15.jpg')"
             ></v-img>
           </v-flex>
-          <v-flex xs6 md5>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama19.jpg')"
             ></v-img>
@@ -156,7 +184,7 @@
               近隣の駐車場について２
             </h3>
           </v-flex>
-          <v-flex xs12 md8>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-2">
               南１西２２コインパーキング（8台）
             </h4>
@@ -164,7 +192,9 @@
               大通を円山方面に向かい直進し南１条西２２丁目交差点を左折するとすぐに左手にパーキングが見えます。
             </p>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama16.jpg')"
             ></v-img>
@@ -180,7 +210,7 @@
               近隣の駐車場について３
             </h3>
           </v-flex>
-          <v-flex xs12 md8>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-2">
               タイムズ南２西２２丁目第２パーキング
             </h4>
@@ -188,12 +218,14 @@
               ①円山公園駅方面から南１条通りを直進。②南１条西２２交差点を右折
             </p>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama18.jpg')"
             ></v-img>
           </v-flex>
-          <v-flex xs6 md5>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama20.jpg')"
             ></v-img>
