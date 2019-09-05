@@ -4,7 +4,7 @@
       <v-flex xs10 md6>
         <v-btn
           block
-          class="light-green darken-2 white--text"
+          class="light-green darken-2 white--text mb-3"
           a
           href="https://olivebodycare.healthcare/reserve/"
         >

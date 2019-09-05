@@ -11,41 +11,45 @@
             <v-icon x-large class="brown--text">place</v-icon>
           </div>
           <h2 class="my-2 brown--text text-xs-center">
-            ご来院にあたって
+            札幌円山店ご来院にあたって
           </h2>
         </v-flex>
       </v-layout>
       <v-layout row wrap justify-center>
         <v-flex xs12 md10>
           <h3 class="my-3 accent--text text-xs-center">
-            地下鉄円山公園４番出口から徒歩５分or地下鉄西18丁目１番出口から徒歩７分
+            地下鉄円山公園４番出口から徒歩５分または地下鉄西18丁目１番出口から徒歩７分
           </h3>
-          <p>
-            地下鉄円山公園４番出口から徒歩５分or地下鉄西18丁目１番出口から徒歩７分
+          <p class="text-xs-center">
+            地下鉄円山公園４番出口から近くデザイナーズマンション内の女性だけのプライベート空間です。
           </p>
         </v-flex>
-        <v-flex xs6 md5>
+        <v-flex xs6 sm5 md5 lg4 xl3>
           <v-img :src="require('@/assets/images/home/home8.jpg')"></v-img>
         </v-flex>
-        <v-flex xs6 md5>
+        <v-flex xs6 sm5 md5 lg4 xl3>
           <v-img :src="require('@/assets/images/home/home9.jpg')"></v-img>
         </v-flex>
         <v-container>
-          <div v-for="(item, i) in items" :key="i" class="mt-2">
-            <v-layout row wrap>
-              <v-flex xs3 md3>
-                <div class="subheading red--text font-weight-bold">
-                  {{ item.title }}
-                </div>
-              </v-flex>
-              <v-flex xs9 md9>
-                <div>
-                  <span class="subheading">{{ item.contents }}</span>
-                </div>
-              </v-flex>
-            </v-layout>
-            <hr />
-          </div>
+          <v-layout justify-center>
+            <v-flex xl8>
+              <div v-for="(item, i) in items" :key="i" class="mt-2">
+                <v-layout row wrap>
+                  <v-flex xs3 md3>
+                    <div class="subheading red--text font-weight-bold">
+                      {{ item.title }}
+                    </div>
+                  </v-flex>
+                  <v-flex xs9 md9>
+                    <div>
+                      <span class="subheading">{{ item.contents }}</span>
+                    </div>
+                  </v-flex>
+                </v-layout>
+                <hr />
+              </div>
+            </v-flex>
+          </v-layout>
         </v-container>
         <v-flex xs12 md10>
           <iframe
@@ -59,8 +63,8 @@
         </v-flex>
       </v-layout>
     </v-container>
-    <Maruyamavisit />
     <Maruyamamessage />
+    <Maruyamavisit />
   </div>
 </template>
 
