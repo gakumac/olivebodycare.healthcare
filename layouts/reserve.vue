@@ -13,6 +13,16 @@ export default {
   components: {
     Navbar,
     Footer1
+  },
+  head() {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://olivebodycare.healthcare' + this.$route.path,
+        },
+      ],
+    }
   }
 }
 </script>
