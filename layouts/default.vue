@@ -22,9 +22,9 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: 'https://olivebodycare.healthcare' + this.$route.path,
-        },
-      ],
+          href: 'https://olivebodycare.healthcare' + this.$route.path
+        }
+      ]
     }
   }
 }
