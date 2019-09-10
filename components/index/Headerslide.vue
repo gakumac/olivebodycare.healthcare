@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-carousel hide-delimiters height="auto" class="mt-5">
+    <v-carousel hide-delimiters height="auto" width="auto" class="mt-5">
       <v-carousel-item
         v-for="(item, i) in items"
         :key="i"
@@ -16,10 +16,10 @@ export default {
     return {
       items: [
         {
-          src: require('@/assets/images/hed_1.jpg')
+          src: require('@/assets/images/hed_1000.jpg')
         },
         {
-          src: require('@/assets/images/hed_2.jpg')
+          src: require('@/assets/images/hed2_1000.jpg')
         }
       ]
     }
