@@ -16,6 +16,16 @@ export default {
     Navbar,
     Footer1,
     Stickyfooter
+  },
+  head() {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://olivebodycare.healthcare' + this.$route.path,
+        },
+      ],
+    }
   }
 }
 </script>
