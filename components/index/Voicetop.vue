@@ -19,13 +19,13 @@
                 {{ item.name }}
               </h3>
             </v-flex>
-            <v-flex xs12 md6>
+            <v-flex xs12 sm10 md6 lg5 xl4>
               <v-img :src="item.sheet"></v-img>
               <div class="caption brown--text">
                 ※個人の感想であり、効果を保証するわけではありません。
               </div>
             </v-flex>
-            <v-flex xs12 md6>
+            <v-flex xs12 sm10 md6 lg5 xl4>
               <div>
                 <div class="accent--text caption">
                   ①来院時の症状はどんな症状でいらっしゃいましたか？
@@ -53,7 +53,9 @@
                 </div>
               </div>
             </v-flex>
-            <v-flex xs12 md6>
+          </v-layout>
+          <v-layout row wrap justify-center>
+            <v-flex xs12 sm10 md6 lg5 xl4>
               <v-img :src="item.image"></v-img>
             </v-flex>
           </v-layout>
@@ -85,6 +87,19 @@ export default {
             '痛みがひどく眠れない日が続いていましたが、よく眠れるようになりました。末端冷え性でしたが、冷えも解消し、手足もポカポカしています。',
           message4:
             'いつもゆったりと施術していただけるので、痛みが解消するだけでなく、精神的にもリラックスできます。子供を連れての来院ですが、ビデオやおもちゃもあるので、子供たちも家のようにくつろいでいます（笑）。先日、初めて”はり”をやっていただきましたが、痛みもなく、体がとても楽になりました。'
+        },
+        {
+          name: '札幌市中央区在住　今野葉月様',
+          sheet: require('@/assets/images/voice/qm_h.k.jpg'),
+          image: require('@/assets/images/voice/pm_h.k.jpg'),
+          message1:
+            '産後の骨盤のゆがみが気になったのと、腰痛が辛くなったので整体に通いたいと思いました。',
+          message2:
+            'webで近くの整体を探していたところ、知人に紹介していただきました。',
+          message3:
+            '背中から腰にかけて、とても軽くなりました。首や頭もほぐしてもらいリラックスできました。',
+          message4:
+            '産後は心身共に無理をしてしまうと思うので、無理にでも時間を見つけて身体も心もほぐしてもらってほしいです。'
         },
         {
           name: '東京都三鷹市在住　溝井 香織 様',
@@ -121,15 +136,14 @@ export default {
             '整体も鍼も、先生にお任せして大丈夫、安心して受けられます。診て頂いた直後はもちろんですが、だんだん体調がキープできるようになるのを実感できます。引っこしして遠くなってしまいましたが、こんなにぴったりのクリニックをみつけられず、ずっとお世話になっています。'
         },
         {
-          name: '東京都港区在住　S.O様',
-          sheet: require('@/assets/images/voice/q_s.o.jpg'),
-          image: require('@/assets/images/voice/p_s.o.jpg'),
-          message1: '腰の痛みと生理痛',
-          message2: '友人から教えてもらい伺いました',
-          message3:
-            '腰の痛みは１週間程ですっかり良くなり、本当に嬉しいです。生理痛は、バファリンが手放せませんでしたが、今ではバファリンを飲まずに過ごせています！！',
+          name: '札幌市豊平区在住　近藤紫野様',
+          sheet: require('@/assets/images/voice/qm_s.k.jpg'),
+          image: require('@/assets/images/voice/pm_s.k.jpg'),
+          message1: '肩こり',
+          message2: 'ご紹介',
+          message3: '骨盤の歪みがとれた！！顔がはっきりとした。',
           message4:
-            'ゆがみを整えると、こんなにも体の不調が良くなるなんてびっくりです。一度体験してみて下さい。'
+            '自分では自覚症状のない肩こり・歪みを治療するのとあわせまたお顔の調整がとても良かったです。とてもお顔のスッキリ感に感動しました！！'
         }
       ]
     }

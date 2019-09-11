@@ -1,6 +1,6 @@
 <template>
   <div class="info">
-    <v-container>
+    <v-container grid-list-md>
       <v-layout>
         <v-flex>
           <div class="mt-2 text-xs-center">
@@ -13,8 +13,8 @@
       </v-layout>
       <div v-for="(item, i) in items" :key="i">
         <v-layout row wrap justify-center>
-          <v-flex xs12 md6>
-            <v-card color="info" class="brown--text ma-2">
+          <v-flex xs12 sm10 md6 lg5 xl4>
+            <v-card color="info" class="brown--text">
               <v-card-title>
                 <v-icon left>chat_bubble_outline</v-icon>
                 <span class="title">{{ item.guest }}</span>
@@ -24,8 +24,8 @@
               </v-card-text>
             </v-card>
           </v-flex>
-          <v-flex xs12 md6>
-            <v-card color="info" class="brown--text ma-2">
+          <v-flex xs12 sm10 md6 lg5 xl4>
+            <v-card color="info" class="brown--text">
               <v-card-title>
                 <v-icon left>chat_bubble_outline</v-icon>
                 <span class="title">{{ item.guest2 }}</span>
@@ -37,6 +37,14 @@
           </v-flex>
         </v-layout>
       </div>
+      <v-layout row wrap justify-center>
+        <v-flex xs6 sm5 md6 lg5 xl4>
+          <v-img :src="require('@/assets/images/voice/pm_s.i.jpg')"></v-img>
+        </v-flex>
+        <v-flex xs6 sm5 md6 lg5 xl4>
+          <v-img :src="require('@/assets/images/voice/pm_s.k-r.k.jpg')"></v-img>
+        </v-flex>
+      </v-layout>
     </v-container>
   </div>
 </template>
@@ -51,15 +59,16 @@ export default {
           comment:
             '『痛みがひどく眠れない日が続いていましたが、よく眠れるようになりました。』『冷えも解消し、手足もポカポカしています。』',
           guest2: '東京都中野区 M.Tさん',
-          comment2: '『肩がはっていて頭痛になりやすい』'
+          comment2:
+            '『もともと疲れをためやすい方だと思うのですが、通うようになって定期的にメンテナンスをして頂き寝込むことはなくなってきました。鍼も受けるようになってからは風邪をひきにくく、また生理周期も整ってきています。』'
         },
         {
           guest: '横浜市青葉区 K.Sさん',
           comment:
             '『速こう性？があって施術してもらった後はすぐにスッキリして、しばらく楽です。』',
-          guest2: '東京都港区 S.Oさん',
+          guest2: '札幌市中央区 今野葉月さん',
           comment2:
-            '『腰の痛みは１週間程ですっかりよくなり、本当に嬉しいです。』『生理痛はバファリンが手放せませんでしたが、今ではバファリンを飲まずに過ごせています！！』'
+            '『背中から腰にかけて、とても軽くなりました。首や頭もほぐしてもらいリラックスできました。』'
         },
         {
           guest: '横浜市青葉区 N.Kさん',
@@ -69,9 +78,8 @@ export default {
             '『非常に心地よく、リラックスできたので、身も心もスッキリしました。』『体全体がすごく軽くなり楽になりました。』'
         },
         {
-          guest: '横浜市青葉区 M.Oさん',
-          comment:
-            '『骨盤が整って、身体のバランスが良くなりました。』『肉体労働ですが、腰痛等、来院すると改善されます。』',
+          guest: '札幌市豊平区 近藤紫野さん',
+          comment: '『骨盤の歪みがとれた！！顔がはっきりとした。』',
           guest2: '川崎市高津区 E.Kさん',
           comment2:
             '『骨盤のゆがみ解消。』『痛み、むくみなど、その時々の症状の緩和、改善。』'
