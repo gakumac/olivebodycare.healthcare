@@ -10,19 +10,19 @@
         </h2>
       </v-flex>
     </v-layout>
-    <v-container>
+    <v-container grid-list-lg>
       <div v-for="(item, i) in items" :key="i">
         <v-layout row wrap justify-center>
-          <v-flex xs12 md6>
-            <v-card color="grey lighten-3 ma-2">
+          <v-flex xs12 sm10 md6 lg5 xl4>
+            <v-card color="grey lighten-3">
               <v-card-title>
                 <v-icon left>chat_bubble</v-icon>
                 <span>{{ item.comment }}</span>
               </v-card-title>
             </v-card>
           </v-flex>
-          <v-flex xs12 md6>
-            <v-card color="grey lighten-3 ma-2">
+          <v-flex xs12 sm10 md6 lg5 xl4>
+            <v-card color="grey lighten-3">
               <v-card-title>
                 <v-icon left>chat_bubble</v-icon>
                 <span>{{ item.comment2 }}</span>
@@ -34,7 +34,7 @@
     </v-container>
     <v-container>
       <v-layout justify-center>
-        <v-flex xs12 md10>
+        <v-flex xs12 sm8 md8 lg6 xl4>
           <v-img :src="require('@/assets/images/home/home18.jpg')"></v-img>
         </v-flex>
       </v-layout>

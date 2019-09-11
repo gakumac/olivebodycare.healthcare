@@ -46,7 +46,7 @@
         </v-flex>
       </v-layout>
       <v-layout justify-center>
-        <v-flex xs12 md10>
+        <v-flex xs12 sm8 md8 lg6 xl4>
           <img src="@/assets/images/home/home19.jpg" width="100%" />
         </v-flex>
       </v-layout>

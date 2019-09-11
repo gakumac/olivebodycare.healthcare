@@ -11,33 +11,39 @@
       </v-flex>
     </v-layout>
     <v-container grid-list-lg>
-      <v-layout row wrap class="brown--text">
-        <v-flex xs6 md6>
-          <div class="subheading font-weight-bold text-xs-center">施術内容</div>
-        </v-flex>
-        <v-flex xs6 md6>
-          <div class="subheading font-weight-bold text-xs-center">
-            料金(税抜)
+      <v-layout justify-center>
+        <v-flex xl8>
+          <v-layout row wrap class="brown--text">
+            <v-flex xs6 md6>
+              <div class="subheading font-weight-bold text-xs-center">
+                施術内容
+              </div>
+            </v-flex>
+            <v-flex xs6 md6>
+              <div class="subheading font-weight-bold text-xs-center">
+                料金(税抜)
+              </div>
+            </v-flex>
+          </v-layout>
+          <hr />
+          <div v-for="(item, i) in items" :key="i" class="mt-2">
+            <v-layout row wrap class="brown--text">
+              <v-flex xs6 md6>
+                <div class="subheading text-xs-center">{{ item.menu }}</div>
+              </v-flex>
+              <v-flex xs6 md6>
+                <div class="text-xs-center">
+                  <span class="headline accent--text font-weight-bold">{{
+                    item.price
+                  }}</span>
+                  <span>/{{ item.time }}</span>
+                </div>
+              </v-flex>
+            </v-layout>
+            <hr />
           </div>
         </v-flex>
       </v-layout>
-      <hr />
-      <div v-for="(item, i) in items" :key="i" class="mt-2">
-        <v-layout row wrap class="brown--text">
-          <v-flex xs6 md6>
-            <div class="subheading text-xs-center">{{ item.menu }}</div>
-          </v-flex>
-          <v-flex xs6 md6>
-            <div class="text-xs-center">
-              <span class="headline accent--text font-weight-bold">{{
-                item.price
-              }}</span>
-              <span>/{{ item.time }}</span>
-            </div>
-          </v-flex>
-        </v-layout>
-        <hr />
-      </div>
       <div class="py-3">
         <nuxt-link to="/menu">
           <v-btn class="right" small color="primary" dark

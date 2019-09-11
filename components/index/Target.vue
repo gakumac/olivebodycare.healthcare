@@ -12,7 +12,7 @@
     </v-layout>
     <v-container>
       <v-layout row wrap justify-center>
-        <v-flex xs12 md8>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <v-card
             v-for="(item, i) in items"
             :key="i"
@@ -30,10 +30,10 @@
     </v-container>
     <v-container grid-list-md>
       <v-layout justify-center>
-        <v-flex xs6 md5>
+        <v-flex xs6 sm5 md5 lg4 xl3>
           <v-img :src="require('@/assets/images/home/home16.jpg')"></v-img>
         </v-flex>
-        <v-flex xs6 md5>
+        <v-flex xs6 sm5 md5 lg4 xl3>
           <v-img :src="require('@/assets/images/home/home17.jpg')"></v-img>
         </v-flex>
       </v-layout>
