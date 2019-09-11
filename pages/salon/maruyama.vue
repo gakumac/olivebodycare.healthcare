@@ -25,10 +25,14 @@
           </p>
         </v-flex>
         <v-flex xs6 sm5 md5 lg4 xl3>
-          <v-img :src="require('@/assets/images/home/home8.jpg')"></v-img>
+          <v-img
+            :src="require('@/assets/images/salon/salonmaruyama23.jpg')"
+          ></v-img>
         </v-flex>
         <v-flex xs6 sm5 md5 lg4 xl3>
-          <v-img :src="require('@/assets/images/home/home9.jpg')"></v-img>
+          <v-img
+            :src="require('@/assets/images/salon/salonmaruyama24.jpg')"
+          ></v-img>
         </v-flex>
         <v-container>
           <v-layout justify-center>
@@ -64,20 +68,23 @@
       </v-layout>
     </v-container>
     <Maruyamamessage />
+    <Maruyamavoice />
     <Maruyamavisit />
   </div>
 </template>
 
 <script>
 import Pagetitle from '~/components/Pagetitle.vue'
-import Maruyamavisit from '~/components/salon/Maruyamavisit.vue'
 import Maruyamamessage from '~/components/salon/Maruyamamessage.vue'
+import Maruyamavoice from '~/components/salon/Maruyamavoice.vue'
+import Maruyamavisit from '~/components/salon/Maruyamavisit.vue'
 import Meta from '~/assets/mixins/meta'
 export default {
   components: {
     Pagetitle,
-    Maruyamavisit,
-    Maruyamamessage
+    Maruyamamessage,
+    Maruyamavoice,
+    Maruyamavisit
   },
   mixins: [Meta],
   data() {
