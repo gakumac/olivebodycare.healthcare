@@ -13,7 +13,7 @@
     <v-container>
       <div v-for="(item, i) in items" :key="i">
         <v-layout row wrap justify-center>
-          <v-flex xs12 md10>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <v-card flat color="yellow lighten-5" class="brown--text ma-2">
               <v-card-title>
                 <span class="title accent--text">Q&nbsp;</span>

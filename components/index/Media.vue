@@ -15,24 +15,24 @@
       </v-flex>
     </v-layout>
     <v-container grid-list-md>
-      <v-layout>
-        <v-flex xs6 md4>
+      <v-layout justify-center>
+        <v-flex xs6 sm5 md4 lg3 xl2>
           <v-img :src="require('@/assets/images/home/home12.jpg')"></v-img>
         </v-flex>
-        <v-flex xs6 md4>
+        <v-flex xs6 sm5 md4 lg3 xl2>
           <v-img :src="require('@/assets/images/home/home13.jpg')"></v-img>
         </v-flex>
-        <v-flex xs6 md4>
+        <v-flex xs6 sm5 md4 lg3 xl2>
           <v-img :src="require('@/assets/images/home/home14.jpg')"></v-img>
         </v-flex>
       </v-layout>
     </v-container>
     <v-container>
       <v-layout row wrap justify-center>
-        <v-flex xs6 md4>
+        <v-flex xs6 sm5 md4 lg3 xl2>
           <v-img :src="require('@/assets/images/home/home15.jpg')"></v-img>
         </v-flex>
-        <v-flex xs6 md3>
+        <v-flex xs6 sm5 md4 lg3 xl2>
           <p class="ml-2">
             メディアサイト『サロン開業支援-EGG-』に人気サロンインタビューコーナーにて取材を受けました！
           </p>
