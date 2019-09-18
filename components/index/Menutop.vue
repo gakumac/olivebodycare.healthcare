@@ -46,7 +46,7 @@
       </v-layout>
       <div class="py-3">
         <nuxt-link to="/menu">
-          <v-btn class="right" small color="primary" dark
+          <v-btn class="float-right" small color="primary" dark
             >メニュー・料金詳しくはこちら</v-btn
           >
         </nuxt-link>

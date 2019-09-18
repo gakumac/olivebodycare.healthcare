@@ -29,7 +29,7 @@
       </div>
       <div class="py-3">
         <nuxt-link to="/about/qa">
-          <v-btn class="right" small color="primary" dark
+          <v-btn class="float-right" small color="primary" dark
             >よくある質問詳しくはこちら</v-btn
           >
         </nuxt-link>
