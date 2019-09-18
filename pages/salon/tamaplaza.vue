@@ -7,17 +7,17 @@
     <v-container grid-list-md>
       <v-layout>
         <v-flex>
-          <div class="my-2 text-xs-center">
+          <div class="my-2 text-center">
             <v-icon x-large class="brown--text">place</v-icon>
           </div>
-          <h2 class="my-2 brown--text text-xs-center">
+          <h2 class="my-2 brown--text text-center">
             ご来院にあたって
           </h2>
         </v-flex>
       </v-layout>
       <v-layout row wrap justify-center>
         <v-flex xs12 md10>
-          <h3 class="my-3 accent--text text-xs-center">
+          <h3 class="my-3 accent--text text-center">
             たまプラーザ駅南口より徒歩2分
           </h3>
           <p>

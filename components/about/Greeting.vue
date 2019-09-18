@@ -2,7 +2,7 @@
   <div class="info">
     <v-layout>
       <v-flex>
-        <h2 class="mt-4 accent--text text-xs-center">
+        <h2 class="mt-4 accent--text text-center">
           総院長からの挨拶
         </h2>
       </v-flex>

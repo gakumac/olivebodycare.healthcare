@@ -3,10 +3,10 @@
     <v-container>
       <v-layout row wrap justify-center>
         <v-flex xs12 md12>
-          <div class="my-2  text-xs-center">
+          <div class="my-2  text-center">
             <v-icon x-large class="brown--text">business</v-icon>
           </div>
-          <h2 class="my-2 brown--text text-xs-center">
+          <h2 class="my-2 brown--text text-center">
             来院から治療までの流れをご紹介します。
           </h2>
         </v-flex>

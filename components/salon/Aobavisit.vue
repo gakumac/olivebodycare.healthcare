@@ -4,7 +4,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h3 class="my-2 accent--text text-xs-center">
+            <h3 class="my-2 accent--text text-center">
               ご来院について
             </h3>
           </v-flex>
@@ -88,7 +88,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h3 class="my-2 accent--text text-xs-center">
+            <h3 class="my-2 accent--text text-center">
               近隣の駐車場について
             </h3>
           </v-flex>
@@ -119,7 +119,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h3 class="my-2 accent--text text-xs-center">
+            <h3 class="my-2 accent--text text-center">
               近隣の駐車場について２
             </h3>
           </v-flex>
@@ -148,7 +148,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h3 class="my-2 accent--text text-xs-center">
+            <h3 class="my-2 accent--text text-center">
               近隣の駐車場について３
             </h3>
           </v-flex>

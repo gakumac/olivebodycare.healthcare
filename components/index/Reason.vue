@@ -4,10 +4,10 @@
       <v-container>
         <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <h2 class="text-xs-center brown--text">
+            <h2 class="text-center brown--text">
               当院が整体・骨盤矯正で選ばれる８つの理由
             </h2>
-            <h3 class="mt-4 accent--text text-xs-center">
+            <h3 class="mt-4 accent--text text-center">
               １.国家資格取得の女性スタッフによる<br />
               女性専門の整体・骨盤矯正を受ける事ができます。
             </h3>
@@ -30,7 +30,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <h3 class="mt-3 accent--text text-xs-center">
+            <h3 class="mt-3 accent--text text-center">
               ２.痛みの原因を知り、解消する根本治療を行います。
             </h3>
             <p class="mt-4">
@@ -54,7 +54,7 @@
       <v-container>
         <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <h3 class="mt-3 accent--text text-xs-center">
+            <h3 class="mt-3 accent--text text-center">
               ３.痩せやすい身体を作る施術を取り入れています。
             </h3>
             <p class="mt-4">
@@ -71,7 +71,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <h3 class="my-3 accent--text text-xs-center">
+            <h3 class="my-3 accent--text text-center">
               ４.初回リピート率85％以上の高い満足度の整体治療を受ける事が出来ます。
             </h3>
             <p class="mt-4">
@@ -94,7 +94,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <h3 class="mt-3 accent--text text-xs-center">
+            <h3 class="mt-3 accent--text text-center">
               ５.お子様（赤ちゃん）と一緒に整体を受ける事ができます。
             </h3>
             <p class="mt-4">
@@ -118,7 +118,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <h3 class="mt-3 accent--text text-xs-center">
+            <h3 class="mt-3 accent--text text-center">
               ６.待ち時間なしで整体を受ける事ができます。
             </h3>
             <p class="mt-4">
@@ -141,7 +141,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <h3 class="mt-3 accent--text text-xs-center">
+            <h3 class="mt-3 accent--text text-center">
               ７.駅から近く、徒歩圏内で通うのに便利。
             </h3>
             <p class="mt-4">
@@ -166,7 +166,7 @@
       <v-container>
         <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <h3 class="mt-3 accent--text text-xs-center">
+            <h3 class="mt-3 accent--text text-center">
               ８.24時間WEB上で施術可能な日時を確認しそのまま予約をお取りする事が出来ます。
             </h3>
             <p class="mt-4">

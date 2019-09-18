@@ -7,20 +7,20 @@
     <v-container grid-list-md>
       <v-layout>
         <v-flex>
-          <div class="my-2 text-xs-center">
+          <div class="my-2 text-center">
             <v-icon x-large class="brown--text">place</v-icon>
           </div>
-          <h2 class="my-2 brown--text text-xs-center">
+          <h2 class="my-2 brown--text text-center">
             札幌円山店ご来院にあたって
           </h2>
         </v-flex>
       </v-layout>
       <v-layout row wrap justify-center>
         <v-flex xs12 md10>
-          <h3 class="my-3 accent--text text-xs-center">
+          <h3 class="my-3 accent--text text-center">
             地下鉄円山公園６番出口から徒歩５分または地下鉄西18丁目１番出口から徒歩７分
           </h3>
-          <p class="text-xs-center">
+          <p class="text-center">
             地下鉄円山公園６番出口から近くデザイナーズマンション内の女性だけのプライベート空間です。
           </p>
         </v-flex>

@@ -2,7 +2,7 @@
   <div>
     <v-container grid-list-lg>
       <v-layout row wrap justify-center>
-        <h2 class="text-xs-center brown--text mb-2">
+        <h2 class="text-center brown--text mb-2">
           当院の骨盤矯正についてご紹介です。
         </h2>
       </v-layout>
@@ -38,7 +38,7 @@
           <v-img :src="require('@/assets/images/menu/kotsuban1.jpg')"></v-img>
         </v-flex>
         <v-flex xs12 md12>
-          <h2 class="text-xs-center brown--text mt-4 mb-2">
+          <h2 class="text-center brown--text mt-4 mb-2">
             骨盤の歪みについて
           </h2>
         </v-flex>

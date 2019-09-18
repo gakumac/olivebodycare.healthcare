@@ -4,7 +4,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h3 class="my-2 accent--text text-xs-center">
+            <h3 class="my-2 accent--text text-center">
               オートロックについて
             </h3>
           </v-flex>
@@ -63,7 +63,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h3 class="my-2 accent--text text-xs-center">
+            <h3 class="my-2 accent--text text-center">
               待合所について
             </h3>
           </v-flex>
@@ -88,7 +88,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h3 class="my-2 accent--text text-xs-center">
+            <h3 class="my-2 accent--text text-center">
               駐車場（院併設）のご利用方法
             </h3>
           </v-flex>
@@ -113,7 +113,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h3 class="my-2 accent--text text-xs-center">
+            <h3 class="my-2 accent--text text-center">
               駐輪場（院併設）のご案内
             </h3>
           </v-flex>

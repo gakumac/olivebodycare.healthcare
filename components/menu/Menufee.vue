@@ -15,12 +15,12 @@
         </v-layout>
         <v-layout row wrap class="brown--text">
           <v-flex xs6 md6>
-            <div class="subheading font-weight-bold text-xs-center">
+            <div class="subheading font-weight-bold text-center">
               施術内容
             </div>
           </v-flex>
           <v-flex xs6 md6>
-            <div class="subheading font-weight-bold text-xs-center">
+            <div class="subheading font-weight-bold text-center">
               料金(税抜)
             </div>
           </v-flex>
@@ -29,10 +29,10 @@
         <div v-for="(item, i) in itemsSho" :key="i" class="mt-2">
           <v-layout row wrap class="brown--text">
             <v-flex xs6 md6>
-              <div class="subheading text-xs-center">{{ item.menu }}</div>
+              <div class="subheading text-center">{{ item.menu }}</div>
             </v-flex>
             <v-flex xs6 md6>
-              <div class="text-xs-center">
+              <div class="text-center">
                 <span class="headline accent--text font-weight-bold">{{
                   item.price
                 }}</span>
@@ -61,10 +61,10 @@
         <div v-for="(item, i) in itemsSei" :key="i" class="mt-2">
           <v-layout row wrap class="brown--text">
             <v-flex xs6 md6>
-              <div class="subheading text-xs-center">{{ item.menu }}</div>
+              <div class="subheading text-center">{{ item.menu }}</div>
             </v-flex>
             <v-flex xs6 md6>
-              <div class="text-xs-center">
+              <div class="text-center">
                 <span class="headline accent--text font-weight-bold">{{
                   item.price
                 }}</span>
@@ -87,10 +87,10 @@
         <div v-for="(item, i) in options1" :key="i" class="mt-2">
           <v-layout row wrap class="brown--text">
             <v-flex xs6 md6>
-              <div class="subheading text-xs-center">{{ item.menu }}</div>
+              <div class="subheading text-center">{{ item.menu }}</div>
             </v-flex>
             <v-flex xs6 md6>
-              <div class="text-xs-center">
+              <div class="text-center">
                 <span class="title accent--text font-weight-bold">{{
                   item.price
                 }}</span>
@@ -120,10 +120,10 @@
         <div v-for="(item, i) in itemsKo" :key="i" class="mt-2">
           <v-layout row wrap class="brown--text">
             <v-flex xs6 md6>
-              <div class="subheading text-xs-center">{{ item.menu }}</div>
+              <div class="subheading text-center">{{ item.menu }}</div>
             </v-flex>
             <v-flex xs6 md6>
-              <div class="text-xs-center">
+              <div class="text-center">
                 <span class="headline accent--text font-weight-bold">{{
                   item.price
                 }}</span>
@@ -146,10 +146,10 @@
         <div v-for="(item, i) in options1" :key="i" class="mt-2">
           <v-layout row wrap class="brown--text">
             <v-flex xs6 md6>
-              <div class="subheading text-xs-center">{{ item.menu }}</div>
+              <div class="subheading text-center">{{ item.menu }}</div>
             </v-flex>
             <v-flex xs6 md6>
-              <div class="text-xs-center">
+              <div class="text-center">
                 <span class="title accent--text font-weight-bold">{{
                   item.price
                 }}</span>
@@ -179,10 +179,10 @@
         <div v-for="(item, i) in itemsMa" :key="i" class="mt-2">
           <v-layout row wrap class="brown--text">
             <v-flex xs6 md6>
-              <div class="subheading text-xs-center">{{ item.menu }}</div>
+              <div class="subheading text-center">{{ item.menu }}</div>
             </v-flex>
             <v-flex xs6 md6>
-              <div class="text-xs-center">
+              <div class="text-center">
                 <span class="headline accent--text font-weight-bold">{{
                   item.price
                 }}</span>
@@ -205,10 +205,10 @@
         <div v-for="(item, i) in options1" :key="i" class="mt-2">
           <v-layout row wrap class="brown--text">
             <v-flex xs6 md6>
-              <div class="subheading text-xs-center">{{ item.menu }}</div>
+              <div class="subheading text-center">{{ item.menu }}</div>
             </v-flex>
             <v-flex xs6 md6>
-              <div class="text-xs-center">
+              <div class="text-center">
                 <span class="title accent--text font-weight-bold">{{
                   item.price
                 }}</span>
@@ -236,10 +236,10 @@
         <div v-for="(item, i) in itemsShi" :key="i" class="mt-2">
           <v-layout row wrap class="brown--text">
             <v-flex xs6 md6>
-              <div class="subheading text-xs-center">{{ item.menu }}</div>
+              <div class="subheading text-center">{{ item.menu }}</div>
             </v-flex>
             <v-flex xs6 md6>
-              <div class="text-xs-center">
+              <div class="text-center">
                 <span class="headline accent--text font-weight-bold">{{
                   item.price
                 }}</span>
@@ -262,10 +262,10 @@
         <div v-for="(item, i) in options2" :key="i" class="mt-2">
           <v-layout row wrap class="brown--text">
             <v-flex xs6 md6>
-              <div class="subheading text-xs-center">{{ item.menu }}</div>
+              <div class="subheading text-center">{{ item.menu }}</div>
             </v-flex>
             <v-flex xs6 md6>
-              <div class="text-xs-center">
+              <div class="text-center">
                 <span class="title accent--text font-weight-bold">{{
                   item.price
                 }}</span>
@@ -295,10 +295,10 @@
         <div v-for="(item, i) in itemsHu" :key="i" class="mt-2">
           <v-layout row wrap class="brown--text">
             <v-flex xs6 md6>
-              <div class="subheading text-xs-center">{{ item.menu }}</div>
+              <div class="subheading text-center">{{ item.menu }}</div>
             </v-flex>
             <v-flex xs6 md6>
-              <div class="text-xs-center">
+              <div class="text-center">
                 <span class="headline accent--text font-weight-bold">{{
                   item.price
                 }}</span>
@@ -329,10 +329,10 @@
         <div v-for="(item, i) in itemsJi" :key="i" class="mt-2">
           <v-layout row wrap class="brown--text">
             <v-flex xs6 md6>
-              <div class="subheading text-xs-center">{{ item.menu }}</div>
+              <div class="subheading text-center">{{ item.menu }}</div>
             </v-flex>
             <v-flex xs6 md6>
-              <div class="text-xs-center">
+              <div class="text-center">
                 <span class="headline accent--text font-weight-bold">{{
                   item.price
                 }}</span>

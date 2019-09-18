@@ -2,7 +2,7 @@
   <div>
     <v-container grid-list-md>
       <v-layout row wrap justify-center>
-        <h2 class="text-xs-center brown--text mb-2">
+        <h2 class="text-center brown--text mb-2">
           当院の鍼灸についてご紹介です。
         </h2>
       </v-layout>
@@ -51,7 +51,7 @@
           <v-img :src="require('@/assets/images/menu/shinkyu3.jpg')"></v-img>
         </v-flex>
         <v-flex xs12 md12>
-          <h3 class="text-xs-center brown--text mt-4 mb-2">
+          <h3 class="text-center brown--text mt-4 mb-2">
             当院で使用している鍼について
           </h3>
         </v-flex>
@@ -69,7 +69,7 @@
           </p>
         </v-flex>
         <v-flex xs12 md12>
-          <h3 class="text-xs-center brown--text mt-4">
+          <h3 class="text-center brown--text mt-4">
             鍼灸治療の効果
           </h3>
         </v-flex>
@@ -83,7 +83,7 @@
         <v-flex xs12 md9>
           <v-card v-for="(item, i) in items" :key="i" class="mt-2 info">
             <v-flex xs12 md12>
-              <h4 class="brown--text text-xs-center">
+              <h4 class="brown--text text-center">
                 {{ item.h4 }}
               </h4>
               <p>

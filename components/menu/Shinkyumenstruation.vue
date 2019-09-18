@@ -2,7 +2,7 @@
   <div>
     <v-container grid-list-lg>
       <v-layout row wrap justify-center>
-        <h2 class="text-xs-center brown--text mb-2">
+        <h2 class="text-center brown--text mb-2">
           鍼灸治療と生理について
         </h2>
       </v-layout>

@@ -3,20 +3,20 @@
     <v-container grid-list-md>
       <v-layout>
         <v-flex>
-          <div class="my-2 text-xs-center">
+          <div class="my-2 text-center">
             <v-icon x-large class="brown--text">face</v-icon>
           </div>
-          <h2 class="my-2 brown--text text-xs-center">
+          <h2 class="my-2 brown--text text-center">
             店舗・スタッフより
           </h2>
         </v-flex>
       </v-layout>
       <v-layout row wrap justify-center>
         <v-flex xs12 md10>
-          <h3 class="my-3 accent--text text-xs-center">
+          <h3 class="my-3 accent--text text-center">
             {{ name }}
           </h3>
-          <p class="title brown--text text-xs-center">
+          <p class="title brown--text text-center">
             所有国家資格&nbsp;{{ qualification }}
           </p>
         </v-flex>

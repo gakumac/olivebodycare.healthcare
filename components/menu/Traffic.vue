@@ -2,7 +2,7 @@
   <div>
     <v-container grid-list-lg>
       <v-layout row wrap justify-center>
-        <h2 class="text-xs-center brown--text mb-2">
+        <h2 class="text-center brown--text mb-2">
           当院の交通事故治療についてご紹介です。
         </h2>
       </v-layout>
@@ -374,7 +374,7 @@
         <v-card color="yellow lighten-4" class="pa-2">
           <v-layout row wrap justify-center>
             <v-flex xs12 md12>
-              <p class="my-3 title brown--text text-xs-center">
+              <p class="my-3 title brown--text text-center">
                 {{ item.name }}
               </p>
             </v-flex>

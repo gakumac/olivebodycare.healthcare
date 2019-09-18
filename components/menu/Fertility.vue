@@ -2,7 +2,7 @@
   <div>
     <v-container grid-list-lg>
       <v-layout row wrap justify-center>
-        <h2 class="text-xs-center brown--text mb-2">
+        <h2 class="text-center brown--text mb-2">
           当院の不妊治療についてご紹介です。
         </h2>
       </v-layout>
@@ -36,7 +36,7 @@
           </div>
         </v-flex>
         <v-flex xs12 md12>
-          <h3 class="text-xs-center brown--text mt-4 mb-2">
+          <h3 class="text-center brown--text mt-4 mb-2">
             患者様の喜びの声が届きました！
           </h3>
         </v-flex>
@@ -44,7 +44,7 @@
           <v-card color="yellow lighten-4" class="pa-2">
             <v-layout>
               <v-flex>
-                <p class="text-xs-center title">
+                <p class="text-center title">
                   ３０代&nbsp;主婦&nbsp;M.Mさま
                 </p>
                 子供が欲しいと思ってから半年、すぐに授かるものだと思っていたので中々授からない事に不安になっていました。<br />
@@ -68,7 +68,7 @@
         <v-card color="yellow lighten-4" class="pa-2">
           <v-layout row wrap justify-center>
             <v-flex xs12 md12>
-              <p class="my-3 title brown--text text-xs-center">
+              <p class="my-3 title brown--text text-center">
                 {{ item.name }}
               </p>
             </v-flex>

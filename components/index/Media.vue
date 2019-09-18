@@ -2,13 +2,13 @@
   <div class="grey lighten-5">
     <v-layout>
       <v-flex>
-        <div class="mt-4 text-xs-center">
+        <div class="mt-4 text-center">
           <v-icon x-large class="brown--text">party_mode</v-icon>
         </div>
-        <h2 class="mt-2 brown--text text-xs-center">
+        <h2 class="mt-2 brown--text text-center">
           メディア掲載されました！
         </h2>
-        <div class="mt-2 text-xs-center title red--text font-weight-bold">
+        <div class="mt-2 text-center title red--text font-weight-bold">
           <v-icon large class="red--text">check</v-icon>
           <span>メディアも注目！</span>
         </div>

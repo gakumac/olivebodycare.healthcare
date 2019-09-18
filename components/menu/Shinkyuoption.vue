@@ -4,7 +4,7 @@
       <v-container grid-list-lg>
         <v-layout row wrap justify-center>
           <v-flex xs12 md8>
-            <h2 class="text-xs-center brown--text">
+            <h2 class="text-center brown--text">
               {{ item.h2 }}
             </h2>
           </v-flex>
@@ -59,7 +59,7 @@
             <v-img :src="item.image"></v-img>
           </v-flex>
           <v-flex xs6 md6>
-            <div class="subheading text-xs-center">技術料金</div>
+            <div class="subheading text-center">技術料金</div>
           </v-flex>
           <v-flex xs6 md6>
             <span class="headline accent--text font-weight-bold">

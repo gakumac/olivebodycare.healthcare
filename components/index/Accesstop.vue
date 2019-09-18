@@ -2,10 +2,10 @@
   <div class="grey lighten-5 mb-4">
     <v-layout>
       <v-flex>
-        <div class="mt-4 text-xs-center">
+        <div class="mt-4 text-center">
           <v-icon x-large class="brown--text">place</v-icon>
         </div>
-        <h2 class="mt-4 brown--text text-xs-center">
+        <h2 class="mt-4 brown--text text-center">
           店舗情報
         </h2>
       </v-flex>
@@ -14,7 +14,7 @@
       <v-card text color="info">
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h3 class="my-3 accent--text text-xs-center">
+            <h3 class="my-3 accent--text text-center">
               たまプラーザ本店
             </h3>
           </v-flex>
@@ -39,7 +39,7 @@
               </v-flex>
             </v-layout>
           </v-container>
-          <!-- <v-flex xs12 md6 class="text-xs-center">
+          <!-- <v-flex xs12 md6 class="text-center">
             <v-btn
               a
               href="tel:0455301688"
@@ -50,7 +50,7 @@
               <span class="font-weight-bold title">045-530-1688</span>
             </v-btn>
           </v-flex>
-          <v-flex xs12 md6 class="text-xs-center">
+          <v-flex xs12 md6 class="text-center">
             <v-btn
               a
               href="https://olivebodycare.healthcare/"
@@ -75,14 +75,14 @@
           </v-flex>
         </v-layout>
         <v-layout row wrap>
-          <v-flex xs12 md6 class="mb-2 text-xs-center">
+          <v-flex xs12 md6 class="mb-2 text-center">
             <nuxt-link to="/salon/tamaplaza">
               <v-btn color="primary" dark small>
                 たまプラーザ店詳しくはこちら
               </v-btn>
             </nuxt-link>
           </v-flex>
-          <v-flex xs12 md6 class="mb-2 text-xs-center">
+          <v-flex xs12 md6 class="mb-2 text-center">
             <v-btn
               a
               href="https://reserve.olivebodycare.healthcare/"
@@ -101,7 +101,7 @@
       <v-card text color="info">
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h3 class="my-3 accent--text text-xs-center">
+            <h3 class="my-3 accent--text text-center">
               横浜青葉台店
             </h3>
           </v-flex>
@@ -137,14 +137,14 @@
             ></iframe>
           </v-flex>
           <v-layout row wrap>
-            <v-flex xs12 md6 class="mb-2 text-xs-center">
+            <v-flex xs12 md6 class="mb-2 text-center">
               <nuxt-link to="/salon/aobadai">
                 <v-btn color="primary" dark small>
                   横浜青葉台店詳しくはこちら
                 </v-btn>
               </nuxt-link>
             </v-flex>
-            <v-flex xs12 md6 class="mb-2 text-xs-center">
+            <v-flex xs12 md6 class="mb-2 text-center">
               <v-btn
                 a
                 href="https://reserve.olivebodycare.healthcare/menus/?shopId=3&menuIndex=1"
@@ -164,7 +164,7 @@
       <v-card text color="info">
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h3 class="my-3 accent--text text-xs-center">
+            <h3 class="my-3 accent--text text-center">
               札幌円山店
             </h3>
           </v-flex>
@@ -200,14 +200,14 @@
             ></iframe>
           </v-flex>
           <v-layout row wrap>
-            <v-flex xs12 md6 class="mb-2 text-xs-center">
+            <v-flex xs12 md6 class="mb-2 text-center">
               <nuxt-link to="/salon/maruyama">
                 <v-btn color="primary" dark small>
                   札幌円山店詳しくはこちら
                 </v-btn>
               </nuxt-link>
             </v-flex>
-            <v-flex xs12 md6 class="mb-2 text-xs-center">
+            <v-flex xs12 md6 class="mb-2 text-center">
               <v-btn
                 a
                 href="https://reserve.olivebodycare.healthcare/menus/?shopId=4&menuIndex=1"

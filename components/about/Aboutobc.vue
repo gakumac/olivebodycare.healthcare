@@ -2,10 +2,10 @@
   <div class="yellow lighten-5">
     <v-layout>
       <v-flex>
-        <div class="mt-4 text-xs-center">
+        <div class="mt-4 text-center">
           <v-icon x-large class="brown--text">business</v-icon>
         </div>
-        <h2 class="mt-2 brown--text text-xs-center">
+        <h2 class="mt-2 brown--text text-center">
           初めての方へ。当院についてご紹介します。
         </h2>
       </v-flex>

@@ -2,7 +2,7 @@
   <div>
     <v-container grid-list-md>
       <v-layout row wrap justify-center>
-        <h2 class="text-xs-center brown--text mb-2">
+        <h2 class="text-center brown--text mb-2">
           当院のマッサージについてご紹介です。
         </h2>
       </v-layout>
@@ -36,7 +36,7 @@
           <v-img :src="require('@/assets/images/menu/massage2.jpg')"></v-img>
         </v-flex>
         <v-flex xs12 md12>
-          <h3 class="text-xs-center brown--text mt-4 mb-2">
+          <h3 class="text-center brown--text mt-4 mb-2">
             リンパの役割
           </h3>
         </v-flex>

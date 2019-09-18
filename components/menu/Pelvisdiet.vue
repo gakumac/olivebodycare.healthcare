@@ -2,7 +2,7 @@
   <div>
     <v-container grid-list-md>
       <v-layout row wrap justify-center>
-        <h2 class="text-xs-center brown--text mb-2">
+        <h2 class="text-center brown--text mb-2">
           骨盤矯正ダイエットについてご紹介です。
         </h2>
       </v-layout>
@@ -16,7 +16,7 @@
           </p>
         </v-flex>
         <v-flex xs12 md12>
-          <h2 class="text-xs-center brown--text mt-4">
+          <h2 class="text-center brown--text mt-4">
             当院の骨盤矯正ダイエット施術
           </h2>
         </v-flex>
@@ -41,7 +41,7 @@
           ></v-img>
         </v-flex>
         <v-flex xs12 md12>
-          <h2 class="text-xs-center brown--text mt-4">
+          <h2 class="text-center brown--text mt-4">
             身体からのSOSサイン
           </h2>
         </v-flex>

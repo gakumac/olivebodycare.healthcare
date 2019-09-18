@@ -2,10 +2,10 @@
   <div class="info">
     <v-layout>
       <v-flex>
-        <div class="mt-4 text-xs-center">
+        <div class="mt-4 text-center">
           <v-icon x-large class="accent--text">beenhere</v-icon>
         </div>
-        <h2 class="mt-2 accent--text text-xs-center">
+        <h2 class="mt-2 accent--text text-center">
           こんな方は是非おこしください！
         </h2>
       </v-flex>
