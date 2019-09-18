@@ -1,5 +1,3 @@
-import colors from 'vuetify/es5/util/colors'
-
 export default {
   mode: 'universal',
 
@@ -67,24 +65,11 @@ export default {
    */
   plugins: [],
 
-  vuetify: {
-    theme: {
-      primary: '#4169e1',
-      accent: '#ff5959',
-      secondary: '#ffc0cb',
-      info: '#fff0f5',
-      warning: colors.amber.base,
-      error: colors.deepOrange.accent4,
-      success: colors.green.accent3
-    }
-  },
-
   /*
    ** Nuxt.js modules
    */
   modules: [
     '@nuxtjs/pwa',
-    '@nuxtjs/vuetify',
     [
       '@nuxtjs/google-analytics',
       {
@@ -92,6 +77,14 @@ export default {
       }
     ],
     '@nuxtjs/sitemap' // 一番後ろにする必要あり
+  ],
+
+  vuetify: {
+    optionsPath: '~/vuetify.options.js'
+  },
+
+  buildModules: [
+    '@nuxtjs/vuetify', // 速度改善のため、buildModulesにする必要がある
   ],
 
   sitemap: {
