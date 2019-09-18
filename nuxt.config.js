@@ -1,4 +1,4 @@
-import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
+import colors from 'vuetify/es5/util/colors'
 
 export default {
   mode: 'universal',
@@ -53,12 +53,6 @@ export default {
         rel: 'stylesheet',
         href:
           'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
-      },
-      // vuetifyのcssをCDNから取得
-      // 参考：https://V15.vuetifyjs.com/ja/getting-started/quick-start
-      {
-        rel: 'stylesheet',
-        href: 'https://cdn.jsdelivr.net/npm/vuetify@1.x/dist/vuetify.min.css'
       }
     ]
   },
@@ -71,15 +65,26 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['@/plugins/vuetify'],
+  plugins: [],
 
-  vuetify: {},
+  vuetify: {
+    theme: {
+      primary: '#4169e1',
+      accent: '#ff5959',
+      secondary: '#ffc0cb',
+      info: '#fff0f5',
+      warning: colors.amber.base,
+      error: colors.deepOrange.accent4,
+      success: colors.green.accent3
+    }
+  },
 
   /*
    ** Nuxt.js modules
    */
   modules: [
     '@nuxtjs/pwa',
+    '@nuxtjs/vuetify',
     [
       '@nuxtjs/google-analytics',
       {
@@ -98,16 +103,6 @@ export default {
    ** Build configuration
    */
   build: {
-    transpile: ['vuetify/lib'],
-    plugins: [new VuetifyLoaderPlugin()],
-    loaders: {
-      stylus: {
-        import: ['~assets/style/variables.styl']
-      }
-    },
-    /*
-     ** You can extend webpack config here
-     */
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
