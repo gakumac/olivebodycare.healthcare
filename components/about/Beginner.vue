@@ -28,7 +28,7 @@
             :key="i"
             color="info"
             class="my-4"
-            flat
+            text
           >
             <v-layout row wrap justify-center>
               <v-flex xs12 md4>

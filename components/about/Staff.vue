@@ -22,7 +22,7 @@
       </v-layout>
       <v-layout row wrap justify-center>
         <v-flex xs12 md10>
-          <v-card color="info" class="my-4" flat>
+          <v-card color="info" class="my-4" text>
             <v-layout row wrap justify-center>
               <v-flex xs6 md3>
                 <v-img :src="image2"></v-img>
@@ -66,7 +66,7 @@
             :key="i"
             color="info"
             class="my-4"
-            flat
+            text
           >
             <v-layout row wrap justify-center>
               <v-flex xs6 md3>

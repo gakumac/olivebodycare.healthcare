@@ -11,7 +11,7 @@
       </v-flex>
     </v-layout>
     <v-container>
-      <v-card flat color="info">
+      <v-card text color="info">
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
             <h3 class="my-3 accent--text text-xs-center">
@@ -98,7 +98,7 @@
       </v-card>
     </v-container>
     <v-container>
-      <v-card flat color="info">
+      <v-card text color="info">
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
             <h3 class="my-3 accent--text text-xs-center">
@@ -161,7 +161,7 @@
       </v-card>
     </v-container>
     <v-container>
-      <v-card flat color="info">
+      <v-card text color="info">
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
             <h3 class="my-3 accent--text text-xs-center">

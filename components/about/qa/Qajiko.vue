@@ -14,7 +14,7 @@
       <div v-for="(item, i) in items" :key="i">
         <v-layout row wrap justify-center>
           <v-flex xs12 md10>
-            <v-card flat color="yellow lighten-5" class="brown--text ma-2">
+            <v-card text color="yellow lighten-5" class="brown--text ma-2">
               <v-card-title>
                 <span class="title accent--text">Q&nbsp;</span>
                 <h3 class="subheading font-weight-bold">{{ item.q }}</h3>

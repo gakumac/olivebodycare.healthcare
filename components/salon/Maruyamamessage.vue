@@ -28,7 +28,7 @@
       </v-layout>
       <v-layout row wrap justify-center>
         <v-flex xs12 sm9 md9 lg7 xl5>
-          <v-card class="my-4" flat>
+          <v-card class="my-4" text>
             <v-layout row wrap justify-center>
               <v-flex>
                 <v-card-title>

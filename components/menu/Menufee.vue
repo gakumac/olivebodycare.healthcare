@@ -4,7 +4,7 @@
       <v-container grid-list-lg>
         <v-layout>
           <v-flex>
-            <v-card flat color="info">
+            <v-card text color="info">
               <v-card-title>
                 <h2 class="brown--text">
                   初診・問診
@@ -44,7 +44,7 @@
         </div>
         <v-layout>
           <v-flex>
-            <v-card flat color="info">
+            <v-card text color="info">
               <v-card-title>
                 <h2 class="brown--text">
                   整体
@@ -76,7 +76,7 @@
         </div>
         <v-layout>
           <v-flex>
-            <v-card flat color="yellow lighten-5">
+            <v-card text color="yellow lighten-5">
               <h3 class="py-2 ml-4 brown--text">
                 ＋ご利用可能オプション
               </h3>
@@ -101,7 +101,7 @@
         </div>
         <v-layout>
           <v-flex>
-            <v-card flat color="info">
+            <v-card text color="info">
               <v-card-title>
                 <h2 class="brown--text">
                   骨盤矯正
@@ -135,7 +135,7 @@
         </div>
         <v-layout>
           <v-flex>
-            <v-card flat color="yellow lighten-5">
+            <v-card text color="yellow lighten-5">
               <h3 class="py-2 ml-4 brown--text">
                 ＋ご利用可能オプション
               </h3>
@@ -160,7 +160,7 @@
         </div>
         <v-layout>
           <v-flex>
-            <v-card flat color="info">
+            <v-card text color="info">
               <v-card-title>
                 <h2 class="brown--text">
                   マッサージ
@@ -194,7 +194,7 @@
         </div>
         <v-layout>
           <v-flex>
-            <v-card flat color="yellow lighten-5">
+            <v-card text color="yellow lighten-5">
               <h3 class="py-2 ml-4 brown--text">
                 ＋ご利用可能オプション
               </h3>
@@ -219,7 +219,7 @@
         </div>
         <v-layout>
           <v-flex>
-            <v-card flat color="info">
+            <v-card text color="info">
               <v-card-title>
                 <h2 class="brown--text">
                   鍼灸
@@ -251,7 +251,7 @@
         </div>
         <v-layout>
           <v-flex>
-            <v-card flat color="yellow lighten-5">
+            <v-card text color="yellow lighten-5">
               <h3 class="py-2 ml-4 brown--text">
                 ＋ご利用可能オプション
               </h3>
@@ -276,7 +276,7 @@
         </div>
         <v-layout>
           <v-flex>
-            <v-card flat color="info">
+            <v-card text color="info">
               <v-card-title>
                 <h2 class="brown--text">
                   不妊治療
@@ -310,7 +310,7 @@
         </div>
         <v-layout>
           <v-flex>
-            <v-card flat color="info">
+            <v-card text color="info">
               <v-card-title>
                 <h2 class="brown--text">
                   交通事故治療

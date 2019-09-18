@@ -12,7 +12,7 @@
     </v-layout>
     <v-container grid-list-md>
       <div v-for="(item, i) in items" :key="i">
-        <v-card flat color="yellow lighten-4" class="pa-2 my-2">
+        <v-card text color="yellow lighten-4" class="pa-2 my-2">
           <v-layout row wrap justify-center>
             <v-flex xs12 md12>
               <h3 class="my-3 brown--text text-xs-center">
