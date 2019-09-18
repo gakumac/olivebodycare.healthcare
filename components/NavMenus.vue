@@ -2,6 +2,7 @@
   <v-navigation-drawer
     v-model="drawer"
     class="yellow lighten-5"
+    width="300"
     temporary
     fixed
     app
@@ -25,19 +26,19 @@
         24時間Web予約
       </v-btn>
     </div>
-    <v-list class="brown--text">
-      <v-list-tile
+    <v-list>
+      <v-list-item
         v-for="(item, homeIndex) in itemsHome"
         :key="`home-item-${homeIndex}`"
         :to="item.to"
       >
-        <v-list-tile-action>
+        <v-list-item-action>
           <v-icon>{{ item.action }}</v-icon>
-        </v-list-tile-action>
-        <v-list-tile-content>
-          <v-list-tile-title class="font-weight-bold" v-text="item.title" />
-        </v-list-tile-content>
-      </v-list-tile>
+        </v-list-item-action>
+        <v-list-item-content>
+          <v-list-item-title class="font-weight-bold" v-text="item.title" />
+        </v-list-item-content>
+      </v-list-item>
       <v-list-group
         v-for="(item, index) in items"
         :key="`item-${index}`"
@@ -46,51 +47,49 @@
         no-action
       >
         <template slot="activator">
-          <v-list-tile>
-            <v-list-tile-content>
-              <v-list-tile-title>{{ item.title }}</v-list-tile-title>
-            </v-list-tile-content>
-          </v-list-tile>
+          <v-list-item-content>
+            <v-list-item-title>{{ item.title }}</v-list-item-title>
+          </v-list-item-content>
         </template>
-        <v-list-tile
+        <v-list-item
           v-for="(subItem, subIndex) in item.items"
           :key="`sub-item-${subIndex}`"
           :to="subItem.to"
         >
-          <v-list-tile-content>
-            <v-list-tile-title class="font-weight-bold">
+          <v-list-item-content>
+            <v-list-item-title class="font-weight-bold">
               {{ subItem.title }}
-            </v-list-tile-title>
-          </v-list-tile-content>
-          <v-list-tile-action>
+            </v-list-item-title>
+          </v-list-item-content>
+          <v-list-item-action>
             <v-icon>{{ subItem.action }}</v-icon>
-          </v-list-tile-action>
-        </v-list-tile>
+          </v-list-item-action>
+        </v-list-item>
       </v-list-group>
-      <v-list-tile
+      <v-list-item
         v-for="(item, voiceIndex) in itemsVoice"
         :key="`voice-item-${voiceIndex}`"
         :to="item.to"
       >
-        <v-list-tile-action>
+        <v-list-item-action>
           <v-icon>{{ item.action }}</v-icon>
-        </v-list-tile-action>
-        <v-list-tile-content>
-          <v-list-tile-title class="font-weight-bold" v-text="item.title" />
-        </v-list-tile-content>
-      </v-list-tile>
-      <v-list-tile
+        </v-list-item-action>
+        <v-list-item-content>
+          <v-list-item-title class="font-weight-bold" v-text="item.title" />
+        </v-list-item-content>
+      </v-list-item>
+      <v-list-item
         v-for="(item, salonIndex) in itemsSalon"
         :key="`salon-item-${salonIndex}`"
         :to="item.to"
       >
-        <v-list-tile-action>
+        <v-list-item-action>
           <v-icon>{{ item.action }}</v-icon>
-        </v-list-tile-action>
-        <v-list-tile-content>
-          <v-list-tile-title class="font-weight-bold" v-text="item.title" />
-        </v-list-tile-content>
-      </v-list-tile>
+        </v-list-item-action>
+        <v-list-item-content>
+          <v-list-item-title class="font-weight-bold" v-text="item.title" />
+        </v-list-item-content>
+      </v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>
