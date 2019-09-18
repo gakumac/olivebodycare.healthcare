@@ -74,12 +74,11 @@ export default {
    */
   modules: [
     '@nuxtjs/pwa',
-    [
-      '@nuxtjs/google-analytics',
-      {
-        id: 'UA-146789861-1'
-      }
-    ],
+    ['@nuxtjs/google-tag-manager', {
+      id: 'GTM-P4S32NS',
+      pageTracking: true,
+      dev: process.env.NODE_ENV !== 'production'
+    }],
     '@nuxtjs/sitemap' // 一番後ろにする必要あり
   ],
 
