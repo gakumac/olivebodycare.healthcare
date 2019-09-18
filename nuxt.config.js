@@ -55,6 +55,10 @@ export default {
     ]
   },
 
+  css: [
+    '@/assets/style/main.scss',
+  ],
+
   /*
    ** Customize the progress-bar color
    */
