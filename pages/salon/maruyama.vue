@@ -18,10 +18,10 @@
       <v-layout row wrap justify-center>
         <v-flex xs12 md10>
           <h3 class="my-3 accent--text text-xs-center">
-            地下鉄円山公園６番出口から徒歩５分または地下鉄西18丁目１番出口から徒歩７分
+            地下鉄円山公園駅６番出口から徒歩５分または地下鉄西18丁目１番出口から徒歩７分
           </h3>
           <p class="text-xs-center">
-            地下鉄円山公園６番出口から近くデザイナーズマンション内の女性だけのプライベート空間です。
+            地下鉄円山公園駅６番出口から近くデザイナーズマンション内の女性だけのプライベート空間です。
           </p>
         </v-flex>
         <v-flex xs6 sm5 md5 lg4 xl3>
@@ -92,7 +92,7 @@ export default {
       meta: {
         title: '札幌円山店（札幌市中央区）',
         description:
-          '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。国家資格取得の女性スタッフによる本格施術が受けれます。お子様連れ歓迎。マッサージ、不妊、鍼もお任せ下さい！',
+          '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。円山公園駅６番出口から徒歩5分。南1条西22丁目デザイナーズマンション内の女性だけのプライベート空間です。',
         type: 'website',
         url: 'https://olivebodycare.healthcare/salon/maruyama',
         image: 'https://olivebodycare.healthcare/assets/images/hed_1.jpg'
@@ -123,7 +123,7 @@ export default {
         {
           title: 'アクセス',
           contents:
-            '地下鉄円山公園６番出口から徒歩5分または地下鉄西18丁目１番出口から徒歩7分'
+            '地下鉄円山公園駅６番出口から徒歩5分または地下鉄西18丁目１番出口から徒歩7分'
         },
         {
           title: '営業時間',
