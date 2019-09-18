@@ -8,16 +8,16 @@ module.exports = {
     parser: 'babel-eslint'
   },
   extends: [
-    '@nuxtjs',
-    'plugin:nuxt/recommended',
-    'plugin:prettier/recommended',
-    'prettier',
-    'prettier/vue'
+    'plugin:vue/recommended',
+    'plugin:prettier/recommended'
   ],
+  // required to lint *.vue files
   plugins: [
+    'vue',
     'prettier'
   ],
   // add your custom rules here
   rules: {
+    'vue/max-attributes-per-line': 'off',
   }
 }
