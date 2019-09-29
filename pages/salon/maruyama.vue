@@ -68,6 +68,7 @@
       </v-layout>
     </v-container>
     <Maruyamamessage />
+    <Maruyamatarget />
     <Maruyamavoice />
     <Maruyamavisit />
   </div>
@@ -76,6 +77,7 @@
 <script>
 import Pagetitle from '~/components/Pagetitle.vue'
 import Maruyamamessage from '~/components/salon/Maruyamamessage.vue'
+import Maruyamatarget from '~/components/salon/Maruyamatarget.vue'
 import Maruyamavoice from '~/components/salon/Maruyamavoice.vue'
 import Maruyamavisit from '~/components/salon/Maruyamavisit.vue'
 import Meta from '~/assets/mixins/meta'
@@ -84,6 +86,7 @@ export default {
   components: {
     Pagetitle,
     Maruyamamessage,
+    Maruyamatarget,
     Maruyamavoice,
     Maruyamavisit
   },
