@@ -66,6 +66,36 @@
           ></iframe>
         </v-flex>
       </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 md10>
+          <v-card flat class="my-2" color="info">
+            <h3 class="py-2 accent--text text-xs-center">
+              札幌円山店ご予約は今すぐこちら！
+            </h3>
+            <v-layout row wrap justify-center>
+              <v-flex xs12 sm4 md5 lg4 xl3 class="text-xs-center">
+                <v-btn a href="tel:0116768970" color="primary" dark>
+                  <span class="font-weight-bold subtitle-1"
+                    >お電話：011-676-8970</span
+                  >
+                </v-btn>
+              </v-flex>
+              <v-flex xs12 sm4 md5 lg4 xl3 class="text-xs-center">
+                <v-btn
+                  a
+                  href="https://reserve.olivebodycare.healthcare/menus/?shopId=4&menuIndex=1"
+                  dark
+                  color="light-green darken-2"
+                >
+                  <span class="font-weight-bold subtitle-1"
+                    >24時間Web予約は今すぐこちら！</span
+                  >
+                </v-btn>
+              </v-flex>
+            </v-layout>
+          </v-card>
+        </v-flex>
+      </v-layout>
     </v-container>
     <Maruyamamessage />
     <Maruyamatarget />
