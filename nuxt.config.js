@@ -86,17 +86,18 @@ export default {
    */
   modules: [
     '@nuxtjs/pwa',
-    ['@nuxtjs/google-tag-manager', {
-      id: 'GTM-P4S32NS',
-      pageTracking: true,
-      dev: process.env.NODE_ENV !== 'production'
-    }],
+    [
+      '@nuxtjs/google-tag-manager',
+      {
+        id: 'GTM-P4S32NS',
+        pageTracking: true,
+        dev: process.env.NODE_ENV !== 'production'
+      }
+    ],
     '@nuxtjs/sitemap' // 一番後ろにする必要あり
   ],
 
-  buildModules: [
-    '@nuxtjs/vuetify'
-  ],
+  buildModules: ['@nuxtjs/vuetify'],
 
   sitemap: {
     hostname: 'https://olivebodycare.healthcare/',

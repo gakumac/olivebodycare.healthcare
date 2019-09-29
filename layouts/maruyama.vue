@@ -3,19 +3,19 @@
     <navbar />
     <nuxt />
     <footer1 />
-    <stickyfooter />
+    <Stickyfmaruyama />
   </v-app>
 </template>
 
 <script>
 import Navbar from '~/components/Navbar.vue'
 import Footer1 from '~/components/footer/Footer1.vue'
-import Stickyfooter from '~/components/footer/Stickyfooter.vue'
+import Stickyfmaruyama from '~/components/footer/Stickyfmaruyama.vue'
 export default {
   components: {
     Navbar,
     Footer1,
-    Stickyfooter
+    Stickyfmaruyama
   },
   head() {
     return {

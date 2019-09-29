@@ -89,7 +89,7 @@ export default {
             'いつもゆったりと施術していただけるので、痛みが解消するだけでなく、精神的にもリラックスできます。子供を連れての来院ですが、ビデオやおもちゃもあるので、子供たちも家のようにくつろいでいます（笑）。先日、初めて”はり”をやっていただきましたが、痛みもなく、体がとても楽になりました。'
         },
         {
-          name: '札幌市中央区在住　今野葉月様',
+          name: '札幌市中央区在住　今野菜月様',
           sheet: require('@/assets/images/voice/qm_h.k.jpg'),
           image: require('@/assets/images/voice/pm_h.k.jpg'),
           message1:
