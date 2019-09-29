@@ -80,6 +80,7 @@ import Maruyamavoice from '~/components/salon/Maruyamavoice.vue'
 import Maruyamavisit from '~/components/salon/Maruyamavisit.vue'
 import Meta from '~/assets/mixins/meta'
 export default {
+  layout: 'maruyama',
   components: {
     Pagetitle,
     Maruyamamessage,
