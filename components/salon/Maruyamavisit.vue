@@ -150,8 +150,40 @@
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
             <h3 class="my-2 accent--text text-xs-center">
+              待合所について
+            </h3>
+          </v-flex>
+          <v-flex xs12 md8>
+            <h4 class="title mt-2">
+              院内には待合スペースがございます。
+            </h4>
+            <p>
+              施術までお時間がある場合は、お待ちいただく場所としてご利用ください。
+            </p>
+          </v-flex>
+          <v-flex xs6 md5>
+            <v-img
+              :src="require('@/assets/images/salon/salonmaruyama24.jpg')"
+            ></v-img>
+          </v-flex>
+          <v-flex xs6 md5>
+            <v-img
+              :src="require('@/assets/images/salon/salonmaruyama25.jpg')"
+            ></v-img>
+          </v-flex>
+        </v-layout>
+      </v-container>
+    </div>
+    <div>
+      <v-container grid-list-md>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5>
+            <h3 class="my-2 accent--text text-xs-center">
               近隣の駐車場について
             </h3>
+            <p>
+              札幌丸山院では近隣の駐車場ご利用の患者様には１時間分の駐車料金をキャッシュバックしております。
+            </p>
           </v-flex>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-2">
@@ -179,10 +211,13 @@
     <div class="grey lighten-4">
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
-          <v-flex xs12 md12>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h3 class="my-2 accent--text text-xs-center">
               近隣の駐車場について２
             </h3>
+            <p>
+              札幌丸山院では近隣の駐車場ご利用の患者様には１時間分の駐車料金をキャッシュバックしております。
+            </p>
           </v-flex>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-2">
@@ -205,10 +240,13 @@
     <div>
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
-          <v-flex xs12 md12>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h3 class="my-2 accent--text text-xs-center">
               近隣の駐車場について３
             </h3>
+            <p>
+              札幌丸山院では近隣の駐車場ご利用の患者様には１時間分の駐車料金をキャッシュバックしております。
+            </p>
           </v-flex>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-2">
