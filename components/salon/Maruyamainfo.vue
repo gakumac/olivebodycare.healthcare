@@ -12,14 +12,18 @@
         </v-flex>
       </v-layout>
       <v-layout row wrap justify-center>
-        <v-flex xs12 md10>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <h3 class="my-3 accent--text text-xs-center">
             地下鉄円山公園駅６番出口から徒歩５分または地下鉄西18丁目１番出口から徒歩７分
           </h3>
-          <p class="text-xs-center">
-            円山公園駅から近くデザイナーズマンション内の女性だけのプライベート空間です。駐車場は近隣に多数ございます。近隣の駐車場ご利用の患者様には１時間分の駐車料金をキャッシュバックしております。院内には待合スペースがございますので施術までお時間がある場合は、お待ちいただく場所としてご利用ください。
+          <p>
+            円山公園駅から近くデザイナーズマンション内の女性だけのプライベート空間です。<br />
+            駐車場は近隣に多数ございます。丸山院では近隣の駐車場ご利用の患者様には１時間分の駐車料金をキャッシュバックしております。<br />
+            院内には待合スペースがございますので施術までお時間がある場合は、お待ちいただく場所としてご利用ください。
           </p>
         </v-flex>
+      </v-layout>
+      <v-layout row wrap justify-center>
         <v-flex xs6 sm5 md5 lg4 xl3>
           <v-img
             :src="require('@/assets/images/salon/salonmaruyama23.jpg')"
