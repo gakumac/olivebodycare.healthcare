@@ -153,7 +153,7 @@
               待合所について
             </h3>
           </v-flex>
-          <v-flex xs12 md8>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-2">
               院内には待合スペースがございます。
             </h4>
@@ -161,12 +161,14 @@
               施術までお時間がある場合は、お待ちいただく場所としてご利用ください。
             </p>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama24.jpg')"
             ></v-img>
           </v-flex>
-          <v-flex xs6 md5>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img
               :src="require('@/assets/images/salon/salonmaruyama25.jpg')"
             ></v-img>
