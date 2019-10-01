@@ -119,11 +119,11 @@ export default {
           hobby: 'バレー'
         },
         {
-          name: '札幌円山町院院長  國文 麻美',
+          name: '札幌円山院院長  國文 麻美',
           image: require('@/assets/images/salon/salon9.jpg'),
           image2: require('@/assets/images/salon/salon10.jpg'),
           qualification: '柔道整復師',
-          hobby: '柔道・ウォーキング・登山'
+          hobby: '柔道二段、書道４段、スポーツ観戦、読書、映画鑑賞'
         },
         {
           name: '木野村 美波',

@@ -4,6 +4,7 @@
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>
+    <MaruyamaCp />
     <Maruyamainfo />
     <Maruyamamessage />
     <Maruyamatarget />
@@ -14,6 +15,7 @@
 
 <script>
 import Pagetitle from '~/components/Pagetitle.vue'
+import MaruyamaCp from '~/components/campaign/MaruyamaCp.vue'
 import Maruyamainfo from '~/components/salon/Maruyamainfo.vue'
 import Maruyamamessage from '~/components/salon/Maruyamamessage.vue'
 import Maruyamatarget from '~/components/salon/Maruyamatarget.vue'
@@ -24,6 +26,7 @@ export default {
   layout: 'maruyama',
   components: {
     Pagetitle,
+    MaruyamaCp,
     Maruyamainfo,
     Maruyamamessage,
     Maruyamatarget,
