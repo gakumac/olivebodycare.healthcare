@@ -1,8 +1,8 @@
 <template>
-  <div class="yellow lighten-5">
+  <div class="info">
     <v-layout justify-center>
-      <v-flex xs12 sm12 md12 lg11 xl10>
-        <v-carousel hide-delimiters height="auto" width="auto" class="mt-5">
+      <v-flex xs12 sm11 md9 lg8 xl7>
+        <v-carousel hide-delimiters height="auto" width="auto">
           <v-carousel-item
             v-for="(item, i) in items"
             :key="i"
@@ -20,15 +20,13 @@ export default {
     return {
       items: [
         {
-          src: require('@/assets/images/hed_1000.jpg')
+          src: require('@/assets/images/campaign/maruyama-cp1.jpg')
         },
         {
-          src: require('@/assets/images/hed2_1000.jpg')
+          src: require('@/assets/images/campaign/maruyama-cp2.jpg')
         }
       ]
     }
   }
 }
 </script>
-
-<style></style>
