@@ -7,6 +7,7 @@
             v-for="(item, i) in items"
             :key="i"
             :src="item.src"
+            lazy
           ></v-carousel-item>
         </v-carousel>
       </v-flex>
