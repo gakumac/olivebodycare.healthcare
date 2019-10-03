@@ -4,99 +4,21 @@
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>
-    <v-container>
-      <v-layout>
-        <v-flex>
-          <div class="my-2 text-xs-center">
-            <v-icon x-large class="brown--text">place</v-icon>
-          </div>
-          <h2 class="my-2 brown--text text-xs-center">
-            治療院一覧
-          </h2>
-        </v-flex>
-      </v-layout>
-      <v-layout justify-center>
-        <v-flex xs12 md10>
-          <v-card class="my-2" color="info">
-            <h3 class="py-2 accent--text text-xs-center">
-              たまプラーザ本店
-            </h3>
-            <v-layout row wrap justify-center>
-              <v-flex xs12 md6 class="mb-2 text-xs-center">
-                <v-btn
-                  a
-                  href="https://reserve.olivebodycare.healthcare/"
-                  dark
-                  color="light-green darken-2"
-                >
-                  <span class="font-weight-bold body-2"
-                    >たまプラーザ店予約は今すぐこちら！</span
-                  >
-                </v-btn>
-              </v-flex>
-            </v-layout>
-          </v-card>
-        </v-flex>
-      </v-layout>
-      <v-layout justify-center>
-        <v-flex xs12 md10>
-          <v-card class="my-2" color="info">
-            <h3 class="py-2 accent--text text-xs-center">
-              横浜青葉台店
-            </h3>
-            <v-layout row wrap justify-center>
-              <v-flex xs12 md6 class="mb-2 text-xs-center">
-                <v-btn
-                  a
-                  href="https://reserve.olivebodycare.healthcare/menus/?shopId=3&menuIndex=1"
-                  dark
-                  color="light-green darken-2"
-                >
-                  <span class="font-weight-bold body-2"
-                    >横浜青葉台店予約は今すぐこちら！</span
-                  >
-                </v-btn>
-              </v-flex>
-            </v-layout>
-          </v-card>
-        </v-flex>
-      </v-layout>
-      <v-layout justify-center>
-        <v-flex xs12 md10>
-          <v-card class="my-2" color="info">
-            <h3 class="py-2 accent--text text-xs-center">
-              札幌円山店
-            </h3>
-            <v-layout row wrap justify-center>
-              <v-flex xs12 md6 class="mb-2 text-xs-center">
-                <v-btn
-                  a
-                  href="https://reserve.olivebodycare.healthcare/menus/?shopId=4&menuIndex=1"
-                  dark
-                  color="light-green darken-2"
-                >
-                  <span class="font-weight-bold body-2"
-                    >札幌円山店予約は今すぐこちら！</span
-                  >
-                </v-btn>
-              </v-flex>
-            </v-layout>
-          </v-card>
-        </v-flex>
-      </v-layout>
-    </v-container>
+    <ReserveSalon />
     <accesstop />
   </div>
 </template>
 
 <script>
 import Pagetitle from '~/components/Pagetitle.vue'
+import ReserveSalon from '~/components/reserve/ReserveSalon.vue'
 import Accesstop from '~/components/index/Accesstop.vue'
 import Meta from '~/assets/mixins/meta'
 export default {
   layout: 'reserve',
   components: {
     Pagetitle,
+    ReserveSalon,
     Accesstop
   },
   mixins: [Meta],

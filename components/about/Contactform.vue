@@ -4,7 +4,7 @@
       <v-layout justify-center>
         <v-flex xs12 md6>
           <div class="mt-4 text-xs-center">
-            <v-icon x-large class="brown--text">business</v-icon>
+            <v-icon x-large class="brown--text">mail_outline</v-icon>
           </div>
           <h2 class="my-2 brown--text text-xs-center">
             お問合せ・メール予約はこちらからお願い致します。

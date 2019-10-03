@@ -123,7 +123,8 @@
             </h3>
             <p class="mt-4">
               お仕事、家事、育児、などなど日頃ご多忙の女性の患者様。<br />
-              完全予約制なのでお待ちいただく事なく整体治療を受ける事が出来ます。
+              完全予約制なのでお待ちいただく事なく整体治療を受ける事が出来ます。<br />
+              ご予約は24時間Web予約、メール予約、お電話で受付しております。お気軽にお問い合わせ下さい。
             </p>
           </v-flex>
         </v-layout>
@@ -160,6 +161,15 @@
             <v-img :src="require('@/assets/images/home/home10.jpg')"></v-img>
           </v-flex>
         </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5>
+            <nuxt-link to="/salon">
+              <v-btn class="right" small color="primary" dark
+                >店舗一覧はこちら</v-btn
+              >
+            </nuxt-link>
+          </v-flex>
+        </v-layout>
       </v-container>
     </div>
     <div class="yellow lighten-5">
@@ -171,9 +181,26 @@
             </h3>
             <p class="mt-4">
               当院では24時間WEB予約に対応しております。<br />
-              残数カレンダーからご都合の良いお日にち・お時間のご予約が可能かどうか確認でき、整体・骨盤矯正・マッサージ・鍼灸などのお好みの施術予約をお取りする事が出来ます。<br />
+              残数カレンダーからご都合の良いお日にち・お時間のご予約が可能かどうか確認でき、整体・骨盤矯正・マッサージ・鍼灸などのお好みの施術予約をその場でお取りする事が出来ます。<br />
               当日から1~2ヶ月先まで対応しております。 今すぐご利用下さい！
+              その他メール予約、お電話でも受付しております。お気軽にお問い合わせ下さいませ。
             </p>
+          </v-flex>
+        </v-layout>
+        <v-layout justify-center>
+          <v-flex xs10 sm8 md6 lg5 xl4>
+            <v-btn
+              block
+              dark
+              color="light-green darken-2"
+              a
+              href="https://olivebodycare.healthcare/reserve/"
+            >
+              <v-icon left>date_range</v-icon>
+              <span class="font-weight-bold"
+                >２４時間WEB予約は今すぐこちら！</span
+              >
+            </v-btn>
           </v-flex>
         </v-layout>
       </v-container>

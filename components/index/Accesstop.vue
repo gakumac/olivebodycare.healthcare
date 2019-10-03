@@ -74,15 +74,15 @@
             ></iframe>
           </v-flex>
         </v-layout>
-        <v-layout row wrap>
-          <v-flex xs12 md6 class="mb-2 text-xs-center">
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
             <nuxt-link to="/salon/tamaplaza">
               <v-btn color="primary" dark small>
                 たまプラーザ店詳しくはこちら
               </v-btn>
             </nuxt-link>
           </v-flex>
-          <v-flex xs12 md6 class="mb-2 text-xs-center">
+          <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
             <v-btn
               a
               href="https://reserve.olivebodycare.healthcare/"
@@ -136,15 +136,15 @@
               allowfullscreen
             ></iframe>
           </v-flex>
-          <v-layout row wrap>
-            <v-flex xs12 md6 class="mb-2 text-xs-center">
+          <v-layout row wrap justify-center>
+            <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
               <nuxt-link to="/salon/aobadai">
                 <v-btn color="primary" dark small>
                   横浜青葉台店詳しくはこちら
                 </v-btn>
               </nuxt-link>
             </v-flex>
-            <v-flex xs12 md6 class="mb-2 text-xs-center">
+            <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
               <v-btn
                 a
                 href="https://reserve.olivebodycare.healthcare/menus/?shopId=3&menuIndex=1"
@@ -199,15 +199,15 @@
               allowfullscreen
             ></iframe>
           </v-flex>
-          <v-layout row wrap>
-            <v-flex xs12 md6 class="mb-2 text-xs-center">
+          <v-layout row wrap justify-center>
+            <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
               <nuxt-link to="/salon/maruyama">
                 <v-btn color="primary" dark small>
                   札幌円山店詳しくはこちら
                 </v-btn>
               </nuxt-link>
             </v-flex>
-            <v-flex xs12 md6 class="mb-2 text-xs-center">
+            <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
               <v-btn
                 a
                 href="https://reserve.olivebodycare.healthcare/menus/?shopId=4&menuIndex=1"
