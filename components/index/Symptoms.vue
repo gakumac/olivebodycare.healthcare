@@ -47,7 +47,7 @@
       </v-layout>
       <v-layout justify-center>
         <v-flex xs12 sm8 md8 lg6 xl4>
-          <img src="@/assets/images/home/home19.jpg" width="100%" />
+          <v-img :src="require('@/assets/images/home/home19.jpg')"></v-img>
         </v-flex>
       </v-layout>
     </v-container>

@@ -30,8 +30,10 @@
     </v-container>
     <v-container>
       <v-layout justify-center>
-        <v-flex xs10 sm8 md8 lg6 xl4>
-          <v-img :src="require('@/assets/images/voice/pm_m.i.jpg')"></v-img>
+        <v-flex xs10 sm8 md7 lg5 xl4>
+          <v-img
+            :src="require('@/assets/images/salon/salon_m_sejutsu1.jpg')"
+          ></v-img>
         </v-flex>
       </v-layout>
     </v-container>
