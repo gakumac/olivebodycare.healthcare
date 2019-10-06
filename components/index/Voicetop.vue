@@ -90,8 +90,8 @@ export default {
         },
         {
           name: '札幌市中央区在住　今野菜月様',
-          sheet: require('@/assets/images/voice/qm_h.k.jpg'),
-          image: require('@/assets/images/voice/pm_h.k.jpg'),
+          sheet: require('@/assets/images/voice/maruyama/qm_h.k.jpg'),
+          image: require('@/assets/images/voice/maruyama/pm_h.k.jpg'),
           message1:
             '産後の骨盤のゆがみが気になったのと、腰痛が辛くなったので整体に通いたいと思いました。',
           message2:
@@ -137,8 +137,8 @@ export default {
         },
         {
           name: '札幌市豊平区在住　近藤紫野様',
-          sheet: require('@/assets/images/voice/qm_s.k.jpg'),
-          image: require('@/assets/images/voice/pm_s.k.jpg'),
+          sheet: require('@/assets/images/voice/maruyama/qm_s.k.jpg'),
+          image: require('@/assets/images/voice/maruyama/pm_s.k.jpg'),
           message1: '肩こり',
           message2: 'ご紹介',
           message3: '骨盤の歪みがとれた！！顔がはっきりとした。',

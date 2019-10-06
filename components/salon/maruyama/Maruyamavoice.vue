@@ -102,8 +102,8 @@ export default {
       items: [
         {
           name: '札幌市中央区在住　今野菜月様',
-          sheet: require('@/assets/images/voice/qm_h.k.jpg'),
-          image: require('@/assets/images/voice/pm_h.k.jpg'),
+          sheet: require('@/assets/images/voice/maruyama/qm_h.k.jpg'),
+          image: require('@/assets/images/voice/maruyama/pm_h.k.jpg'),
           message1:
             '産後の骨盤のゆがみが気になったのと、腰痛が辛くなったので整体に通いたいと思いました。',
           message2:
@@ -115,8 +115,8 @@ export default {
         },
         {
           name: '札幌市豊平区在住　近藤紫野様',
-          sheet: require('@/assets/images/voice/qm_s.k.jpg'),
-          image: require('@/assets/images/voice/pm_s.k.jpg'),
+          sheet: require('@/assets/images/voice/maruyama/qm_s.k.jpg'),
+          image: require('@/assets/images/voice/maruyama/pm_s.k.jpg'),
           message1: '肩こり',
           message2: 'ご紹介',
           message3: '骨盤の歪みがとれた！！顔がはっきりとした。',
@@ -124,9 +124,31 @@ export default {
             '自分では自覚症状のない肩こり・歪みを治療するのとあわせまたお顔の調整がとても良かったです。とてもお顔のスッキリ感に感動しました！！'
         },
         {
+          name: '札幌市厚別区在住　石塚舞様',
+          sheet: require('@/assets/images/voice/maruyama/qm_ishizuka.jpg'),
+          image: require('@/assets/images/voice/maruyama/pm_ishizuka.jpg'),
+          message1:
+            '毎日の子どものだっこで肩と腰の痛みがあったのでゆがみを直してもらおうと思い来院しました。',
+          message2: '院長さんに紹介していただいたため。',
+          message3:
+            '一番痛みが強かった腰の痛みがびっくりする程なくなりました。あとは身体が軽くなり動きやすくなったので、絶対に通おうと思います！！',
+          message4:
+            '出産後のバタバタした毎日の中で1時間でもホッとできる時間を作ることのできる、ステキな場所であり、もちろん身体も動きやすくなるので声を大にしてオススメしたいです！ありがとうございました(^0^)'
+        },
+        {
+          name: '札幌市在住　丹後友里様',
+          sheet: require('@/assets/images/voice/maruyama/qm_tango.jpg'),
+          image: require('@/assets/images/voice/maruyama/pm_tango.jpg'),
+          message1: '疲れが溜まっている',
+          message2: 'インスタで知り合った',
+          message3: 'すごく軽いし、体の動きがすごく広がった。',
+          message4:
+            '説明もすごく丁寧で、施術も適確です！！女性らしい心配りもできているので、安心して通えます(^^)'
+        },
+        {
           name: '札幌市南区在住　一戸翔美様',
-          sheet: require('@/assets/images/voice/qm_s.i.jpg'),
-          image: require('@/assets/images/voice/pm_s.i.jpg'),
+          sheet: require('@/assets/images/voice/maruyama/qm_s.i.jpg'),
+          image: require('@/assets/images/voice/maruyama/pm_s.i.jpg'),
           message1: '肩こりMAX',
           message2: '院長つながりです。',
           message3: '身体が楽になった！！',
@@ -135,13 +157,32 @@ export default {
         },
         {
           name: '札幌市在住　近藤礼野様',
-          sheet: require('@/assets/images/voice/qm_r.k.jpg'),
-          image: require('@/assets/images/voice/pm_s.k-r.k.jpg'),
+          sheet: require('@/assets/images/voice/maruyama/qm_r.k.jpg'),
+          image: require('@/assets/images/voice/maruyama/pm_s.k-r.k.jpg'),
           message1: '疲労感、肩こり、むくみ',
           message2: '知人',
           message3: '背中が軽くなった',
           message4:
             'ゆがみから来たコリとは知らず、元の位置に整えることが必要なんだと初めて知った。もっとはやく通えば良かった！自分がどの位ゆがんでいるかを知ることも大切！'
+        },
+        {
+          name: '札幌市中央区在住　K.S様',
+          sheet: require('@/assets/images/voice/maruyama/qm_k.s.jpg'),
+          image: require('@/assets/images/voice/maruyama/pm_k.s.jpg'),
+          message1: '肩こり、腰痛、足のむくみ',
+          message2: '友人の紹介',
+          message3: '体がスッキリしとても軽くなった。体が動かしやすくなった',
+          message4:
+            '体の疲れがたまっている時に施術を受けるととても楽になるのでオススメです！'
+        },
+        {
+          name: '札幌市清田在住　柿坂亜沙美様',
+          sheet: require('@/assets/images/voice/maruyama/qm_kakizaka.jpg'),
+          image: require('@/assets/images/voice/maruyama/pm_kakizaka.jpg'),
+          message1: '肩こりで来ました。',
+          message2: '知人の紹介です。',
+          message3: '体がすっきり楽になりました！！',
+          message4: '肩こり等で体が辛い方はぜひ来てみてください！！'
         }
       ]
     }

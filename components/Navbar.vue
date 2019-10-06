@@ -7,7 +7,7 @@
       </v-btn>
       <v-toolbar-title class="mt-2">
         <nuxt-link to="/">
-          <img src="@/assets/images/logo_nav.png" width="180" />
+          <img src="@/assets/images/logo_nav.png" width="180" alt="logo" />
         </nuxt-link>
       </v-toolbar-title>
       <v-spacer />

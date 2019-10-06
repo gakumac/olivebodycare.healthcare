@@ -9,6 +9,7 @@
     <Maruyamamessage />
     <Maruyamatarget />
     <Maruyamavoice />
+    <MaruyamaPs />
     <Maruyamavisit />
   </div>
 </template>
@@ -16,11 +17,12 @@
 <script>
 import Pagetitle from '~/components/Pagetitle.vue'
 import MaruyamaCp from '~/components/campaign/MaruyamaCp.vue'
-import Maruyamainfo from '~/components/salon/Maruyamainfo.vue'
-import Maruyamamessage from '~/components/salon/Maruyamamessage.vue'
-import Maruyamatarget from '~/components/salon/Maruyamatarget.vue'
-import Maruyamavoice from '~/components/salon/Maruyamavoice.vue'
-import Maruyamavisit from '~/components/salon/Maruyamavisit.vue'
+import Maruyamainfo from '~/components/salon/maruyama/Maruyamainfo.vue'
+import Maruyamamessage from '~/components/salon/maruyama/Maruyamamessage.vue'
+import Maruyamatarget from '~/components/salon/maruyama/Maruyamatarget.vue'
+import Maruyamavoice from '~/components/salon/maruyama/Maruyamavoice.vue'
+import MaruyamaPs from '~/components/salon/maruyama/MaruyamaPs.vue'
+import Maruyamavisit from '~/components/salon/maruyama/Maruyamavisit.vue'
 import Meta from '~/assets/mixins/meta'
 export default {
   layout: 'maruyama',
@@ -31,6 +33,7 @@ export default {
     Maruyamamessage,
     Maruyamatarget,
     Maruyamavoice,
+    MaruyamaPs,
     Maruyamavisit
   },
   mixins: [Meta],

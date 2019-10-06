@@ -39,10 +39,14 @@
       </div>
       <v-layout row wrap justify-center>
         <v-flex xs6 sm5 md6 lg5 xl4>
-          <v-img :src="require('@/assets/images/voice/pm_s.i.jpg')"></v-img>
+          <v-img
+            :src="require('@/assets/images/voice/maruyama/pm_s.i.jpg')"
+          ></v-img>
         </v-flex>
         <v-flex xs6 sm5 md6 lg5 xl4>
-          <v-img :src="require('@/assets/images/voice/pm_s.k-r.k.jpg')"></v-img>
+          <v-img
+            :src="require('@/assets/images/voice/maruyama/pm_s.k-r.k.jpg')"
+          ></v-img>
         </v-flex>
       </v-layout>
       <v-layout justify-center>
