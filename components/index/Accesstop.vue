@@ -168,6 +168,15 @@
               札幌円山店
             </h3>
           </v-flex>
+          <v-btn
+            color="accent"
+            a
+            href="https://olivebodycare.healthcare/salon/maruyama"
+          >
+            <span class="font-weight-bold"
+              >オープニングキャンペーン実施中！</span
+            >
+          </v-btn>
           <v-container grid-list-lg>
             <v-layout justify-center>
               <v-flex xl8>
