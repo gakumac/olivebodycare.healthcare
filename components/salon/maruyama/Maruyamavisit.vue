@@ -282,7 +282,7 @@
                   <v-btn
                     large
                     a
-                    href="https://reserve.olivebodycare.healthcare/menus/?shopId=4&menuIndex=1"
+                    href="https://olivebodycare.healthcare/reserve/maruyama"
                     dark
                     color="light-green darken-2"
                   >

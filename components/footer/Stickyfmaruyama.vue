@@ -7,7 +7,7 @@
           large
           class="light-green darken-2 white--text mb-3"
           a
-          href="https://reserve.olivebodycare.healthcare/menus/?shopId=4&menuIndex=1"
+          href="https://olivebodycare.healthcare/reserve/maruyama"
         >
           <v-icon>date_range</v-icon>
           <span class="font-weight-bold"
