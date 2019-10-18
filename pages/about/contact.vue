@@ -13,6 +13,7 @@ import Pagetitle from '~/components/Pagetitle.vue'
 import Contactform from '~/components/about/Contactform.vue'
 import Meta from '~/assets/mixins/meta'
 export default {
+  layout: 'reserve',
   components: {
     Pagetitle,
     Contactform
