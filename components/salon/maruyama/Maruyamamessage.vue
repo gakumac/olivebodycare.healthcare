@@ -101,15 +101,9 @@
               札幌円山店ご予約は今すぐこちら！
             </h3>
             <v-layout row wrap justify-center>
-              <v-flex xs12 sm4 md5 lg4 xl3 class="text-xs-center">
-                <v-btn a href="tel:0116768970" color="primary" dark>
-                  <span class="font-weight-bold subtitle-1"
-                    >お電話：011-676-8970</span
-                  >
-                </v-btn>
-              </v-flex>
-              <v-flex xs12 sm4 md5 lg4 xl3 class="text-xs-center">
+              <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
                 <v-btn
+                  large
                   a
                   href="https://reserve.olivebodycare.healthcare/menus/?shopId=4&menuIndex=1"
                   dark
@@ -117,6 +111,14 @@
                 >
                   <span class="font-weight-bold subtitle-1"
                     >24時間Web予約は今すぐこちら！</span
+                  >
+                </v-btn>
+              </v-flex>
+              <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
+                <v-btn large a href="tel:0116768970" color="primary" dark>
+                  <v-icon>phone</v-icon>
+                  <span class="font-weight-bold subtitle-1"
+                    >：011-676-8970</span
                   >
                 </v-btn>
               </v-flex>

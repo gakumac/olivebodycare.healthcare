@@ -39,16 +39,17 @@
         </v-flex>
       </v-layout>
       <v-layout justify-center>
-        <v-flex xs10 sm8 md6 lg5 xl4>
+        <v-flex xs12 sm8 md6 lg5 xl4>
           <v-btn
             block
+            large
             dark
             class="mt-4"
             color="light-green darken-2"
             a
             href="https://olivebodycare.healthcare/reserve/"
           >
-            <v-icon left>date_range</v-icon>
+            <v-icon>date_range</v-icon>
             <span class="font-weight-bold"
               >２４時間WEB予約は今すぐこちら！</span
             >

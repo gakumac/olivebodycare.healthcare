@@ -25,6 +25,7 @@
             <v-layout row wrap justify-center>
               <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
                 <v-btn
+                  large
                   a
                   href="https://reserve.olivebodycare.healthcare/"
                   dark
@@ -37,8 +38,9 @@
               </v-flex>
               <v-flex xs12 sm5 md5 lg5 xl4 class="text-xs-center">
                 <v-btn a href="tel:0455301688" color="primary" dark>
+                  <v-icon>phone</v-icon>
                   <span class="font-weight-bold subtitle-1"
-                    >お電話：045-530-1688</span
+                    >：045-530-1688</span
                   >
                 </v-btn>
               </v-flex>
@@ -55,6 +57,7 @@
             <v-layout row wrap justify-center>
               <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
                 <v-btn
+                  large
                   a
                   href="https://reserve.olivebodycare.healthcare/menus/?shopId=3&menuIndex=1"
                   dark
@@ -67,8 +70,9 @@
               </v-flex>
               <v-flex xs12 sm5 md5 lg5 xl4 class="text-xs-center">
                 <v-btn a href="tel:0455303903" color="primary" dark>
+                  <v-icon>phone</v-icon>
                   <span class="font-weight-bold subtitle-1"
-                    >お電話：045-530-3903</span
+                    >：045-530-3903</span
                   >
                 </v-btn>
               </v-flex>
@@ -85,6 +89,7 @@
             <v-layout row wrap justify-center>
               <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
                 <v-btn
+                  large
                   a
                   href="https://reserve.olivebodycare.healthcare/menus/?shopId=4&menuIndex=1"
                   dark
@@ -97,8 +102,9 @@
               </v-flex>
               <v-flex xs12 sm5 md5 lg5 xl4 class="text-xs-center">
                 <v-btn a href="tel:0116768970" color="primary" dark>
+                  <v-icon>phone</v-icon>
                   <span class="font-weight-bold subtitle-1"
-                    >お電話：011-676-8970</span
+                    >：011-676-8970</span
                   >
                 </v-btn>
               </v-flex>
@@ -114,7 +120,7 @@
             <v-icon x-large class="brown--text">mail_outline</v-icon>
           </div>
           <h2 class="my-2 brown--text text-xs-center">
-            メールでのご予約はこちらから！
+            メールでのご予約・お問合せはこちらから！
           </h2>
           <p>
             折り返しの確認メールまたは電話を入れさせて頂きます。ご予約はその時点で確定とさせて頂きます。
@@ -130,6 +136,7 @@
             <v-layout row wrap justify-center>
               <v-flex xs12 md6 class="mb-2 text-xs-center">
                 <v-btn
+                  large
                   a
                   href="https://olivebodycare.healthcare/about/contact"
                   dark
