@@ -16,13 +16,13 @@
         </v-flex>
       </v-layout>
       <v-layout justify-center>
-        <v-flex xs12 md10>
+        <v-flex xs12 md10 xl8>
           <v-card class="my-2" color="info">
             <h3 class="py-2 accent--text text-xs-center">
               たまプラーザ本店
             </h3>
-            <v-layout row wrap>
-              <v-flex xs12 md6 class="mb-2 text-xs-center">
+            <v-layout row wrap justify-center>
+              <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
                 <nuxt-link to="/salon/tamaplaza">
                   <v-btn color="primary" dark>
                     <span class="font-weight-bold body-2"
@@ -31,7 +31,7 @@
                   </v-btn>
                 </nuxt-link>
               </v-flex>
-              <v-flex xs12 md6 class="mb-2 text-xs-center">
+              <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
                 <v-btn
                   a
                   href="https://reserve.olivebodycare.healthcare/"
@@ -48,13 +48,13 @@
         </v-flex>
       </v-layout>
       <v-layout justify-center>
-        <v-flex xs12 md10>
+        <v-flex xs12 md10 xl8>
           <v-card class="my-2" color="info">
             <h3 class="py-2 accent--text text-xs-center">
               横浜青葉台店
             </h3>
-            <v-layout row wrap>
-              <v-flex xs12 md6 class="mb-2 text-xs-center">
+            <v-layout row wrap justify-center>
+              <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
                 <nuxt-link to="/salon/aobadai">
                   <v-btn color="primary" dark>
                     <span class="font-weight-bold body-2"
@@ -63,7 +63,7 @@
                   </v-btn>
                 </nuxt-link>
               </v-flex>
-              <v-flex xs12 md6 class="mb-2 text-xs-center">
+              <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
                 <v-btn
                   a
                   href="https://reserve.olivebodycare.healthcare/menus/?shopId=3&menuIndex=1"
@@ -80,13 +80,13 @@
         </v-flex>
       </v-layout>
       <v-layout justify-center>
-        <v-flex xs12 md10>
+        <v-flex xs12 md10 xl8>
           <v-card class="my-2" color="info">
             <h3 class="py-2 accent--text text-xs-center">
-              札幌円山店（9月6日オープン！）
+              札幌円山店
             </h3>
-            <v-layout row wrap>
-              <v-flex xs12 md6 class="mb-2 text-xs-center">
+            <v-layout row wrap justify-center>
+              <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
                 <nuxt-link to="/salon/maruyama">
                   <v-btn color="primary" dark>
                     <span class="font-weight-bold body-2"
@@ -95,7 +95,7 @@
                   </v-btn>
                 </nuxt-link>
               </v-flex>
-              <v-flex xs12 md6 class="mb-2 text-xs-center">
+              <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
                 <v-btn
                   a
                   href="https://reserve.olivebodycare.healthcare/menus/?shopId=4&menuIndex=1"
