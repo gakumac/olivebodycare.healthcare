@@ -2,12 +2,12 @@
   <div class="yellow lighten-5">
     <v-container>
       <v-layout justify-center>
-        <v-flex xs12 md6>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <div class="mt-4 text-xs-center">
             <v-icon x-large class="brown--text">mail_outline</v-icon>
           </div>
           <h2 class="my-2 brown--text text-xs-center">
-            お問合せ・メール予約はこちらからお願い致します。
+            メール予約・お問合せはこちらからお願い致します。
           </h2>
           <div class="mt-2 accent--text font-weight-bold">
             ・折り返しの確認メールまたは電話を入れさせて頂きます。ご予約はその時点で確定とさせて頂きます。<br />
@@ -18,7 +18,7 @@
       </v-layout>
     </v-container>
     <v-container>
-      <v-layout>
+      <v-layout justify-center>
         <v-flex>
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSdCUL_V4qImzKlGuaYBppgZnfDslthx-0LrceCssvReBKOetg/viewform?embedded=true"
@@ -32,7 +32,7 @@
         </v-flex>
       </v-layout>
       <v-layout justify-center>
-        <v-flex xs12 md6>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <p class="font-weight-bold">
             ※当サイトでは、お客さまの個人情報など保護が必要なデータを安全にやりとりするため、
             SSL（Secure Socket Layer）を利用した暗号化通信を使用しています。<br />
