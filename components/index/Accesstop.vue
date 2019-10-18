@@ -219,7 +219,7 @@
             <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
               <v-btn
                 a
-                href="https://reserve.olivebodycare.healthcare/menus/?shopId=4&menuIndex=1"
+                href="https://olivebodycare.healthcare/reserve/maruyama"
                 dark
                 color="light-green darken-2"
               >
