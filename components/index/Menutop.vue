@@ -13,7 +13,7 @@
     <v-container grid-list-lg>
       <v-layout justify-center>
         <v-flex xl8>
-          <v-layout row wrap class="brown--text">
+          <v-layout row wrap>
             <v-flex xs6 md6>
               <div class="subheading font-weight-bold text-xs-center">
                 施術内容
@@ -27,7 +27,7 @@
           </v-layout>
           <hr />
           <div v-for="(item, i) in items" :key="i" class="mt-2">
-            <v-layout row wrap class="brown--text">
+            <v-layout row wrap>
               <v-flex xs6 md6>
                 <div class="subheading text-xs-center">{{ item.menu }}</div>
               </v-flex>
