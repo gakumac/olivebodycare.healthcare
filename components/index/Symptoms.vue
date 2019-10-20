@@ -5,7 +5,7 @@
         <div class="mt-4 text-xs-center">
           <v-icon x-large class="brown--text">healing</v-icon>
         </div>
-        <h2 class="mt-2 brown--text text-xs-center">
+        <h2 class="mt-2 text-xs-center">
           当院を利用する事で、期待できる効果的症状
         </h2>
       </v-flex>

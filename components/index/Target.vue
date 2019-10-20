@@ -1,26 +1,21 @@
 <template>
   <div class="info">
-    <v-layout>
-      <v-flex>
-        <div class="mt-4 text-xs-center">
-          <v-icon x-large class="accent--text">beenhere</v-icon>
-        </div>
-        <h2 class="mt-2 accent--text text-xs-center">
-          こんな方は是非おこしください！
+    <v-layout row wrap justify-center>
+      <v-flex xs12 sm9 md9 lg7 xl5>
+        <h2 class="mt-4 accent--text text-xs-center">
+          どれか１つでも当てはまる方は<br />
+          今すぐ当院におこしください！
         </h2>
+        <hr color="#ffcccc" />
       </v-flex>
     </v-layout>
     <v-container>
       <v-layout row wrap justify-center>
         <v-flex xs12 sm9 md9 lg7 xl5>
-          <v-card
-            v-for="(item, i) in items"
-            :key="i"
-            color="red lighten-4"
-            class="brown--text mb-3"
-          >
+          <v-card v-for="(item, i) in items" :key="i" color="info" class="mb-3">
             <v-card-title>
               <div class="title font-weight-bold">
+                <v-icon class="accent--text">beenhere</v-icon>
                 {{ item.comment }}
               </div>
             </v-card-title>

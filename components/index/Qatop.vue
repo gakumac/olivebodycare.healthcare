@@ -1,33 +1,34 @@
 <template>
-  <div class="grey lighten-5">
+  <div>
     <v-layout>
       <v-flex>
         <div class="mt-4 text-xs-center">
           <v-icon x-large class="brown--text">chat</v-icon>
         </div>
-        <h2 class="mt-2 brown--text text-xs-center">
+        <h2 class="mt-2 text-xs-center">
           Q&A-よくある質問-
         </h2>
       </v-flex>
     </v-layout>
-    <v-container>
+    <v-container grid-list-lg>
       <div v-for="(item, i) in items" :key="i">
         <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <v-card flat color="yellow lighten-5" class="brown--text ma-2">
-              <v-card-title>
+            <v-card color="yellow lighten-5" class="pa-2">
+              <h3>
                 <span class="title accent--text">Q&nbsp;</span>
-                <h3 class="subheading font-weight-bold">{{ item.q }}</h3>
-              </v-card-title>
-              <v-card-text>
+                {{ item.q }}
+              </h3>
+              <hr color="#ffcccc" />
+              <div class="mt-3">
                 <span class="title accent--text">A&nbsp;</span>
-                <span> {{ item.answer }}</span>
-              </v-card-text>
+                <span>{{ item.answer }}</span>
+              </div>
             </v-card>
           </v-flex>
         </v-layout>
       </div>
-      <div class="py-3">
+      <div class="mb-3 py-3">
         <nuxt-link to="/about/qa">
           <v-btn class="right" small color="primary" dark
             >よくある質問詳しくはこちら</v-btn

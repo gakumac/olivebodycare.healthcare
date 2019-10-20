@@ -14,18 +14,22 @@
       <div v-for="(item, i) in items" :key="i">
         <v-layout row wrap justify-center>
           <v-flex xs12 sm10 md6 lg5 xl4>
-            <v-card color="grey lighten-3">
+            <v-card color="grey lighten-5">
               <v-card-title>
-                <v-icon left>chat_bubble</v-icon>
-                <span>{{ item.comment }}</span>
+                <div class="title">
+                  <v-icon>chat_bubble</v-icon>
+                  <span>{{ item.comment }}</span>
+                </div>
               </v-card-title>
             </v-card>
           </v-flex>
           <v-flex xs12 sm10 md6 lg5 xl4>
-            <v-card color="grey lighten-3">
+            <v-card color="grey lighten-5">
               <v-card-title>
-                <v-icon left>chat_bubble</v-icon>
-                <span>{{ item.comment2 }}</span>
+                <div class="title">
+                  <v-icon>chat_bubble</v-icon>
+                  <span>{{ item.comment2 }}</span>
+                </div>
               </v-card-title>
             </v-card>
           </v-flex>
@@ -74,7 +78,7 @@ export default {
           comment2: '『子育てに追われ自分のことは後まわしで、、』'
         },
         {
-          comment: '産後２ヶ月ですが、身体中がぎしぎしです、、』',
+          comment: '『産後２ヶ月ですが、身体中がぎしぎしです、、』',
           comment2: '『背中が辛いです・・』'
         },
         {

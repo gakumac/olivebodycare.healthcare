@@ -72,7 +72,7 @@ export default {
     treeShake: true,
     theme: {
       primary: '#4169e1',
-      accent: '#ff5959',
+      accent: '#e50000',
       secondary: '#ffc0cb',
       info: '#fff0f5',
       warning: colors.amber.base,
@@ -103,6 +103,11 @@ export default {
     hostname: 'https://olivebodycare.healthcare/',
     gzip: true
   },
+
+  css: [
+    // プロジェクト内の SCSS ファイル
+    '@/assets/style/main.scss'
+  ],
 
   /*
    ** Build configuration

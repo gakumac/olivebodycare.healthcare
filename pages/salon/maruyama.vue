@@ -7,7 +7,7 @@
     <MaruyamaCp />
     <Maruyamainfo />
     <Maruyamamessage />
-    <Maruyamatarget />
+    <Target />
     <Maruyamavoice />
     <MaruyamaPs />
     <Maruyamavisit />
@@ -19,7 +19,7 @@ import Pagetitle from '~/components/Pagetitle.vue'
 import MaruyamaCp from '~/components/campaign/MaruyamaCp.vue'
 import Maruyamainfo from '~/components/salon/maruyama/Maruyamainfo.vue'
 import Maruyamamessage from '~/components/salon/maruyama/Maruyamamessage.vue'
-import Maruyamatarget from '~/components/salon/maruyama/Maruyamatarget.vue'
+import Target from '~/components/index//Target.vue'
 import Maruyamavoice from '~/components/salon/maruyama/Maruyamavoice.vue'
 import MaruyamaPs from '~/components/salon/maruyama/MaruyamaPs.vue'
 import Maruyamavisit from '~/components/salon/maruyama/Maruyamavisit.vue'
@@ -31,7 +31,7 @@ export default {
     MaruyamaCp,
     Maruyamainfo,
     Maruyamamessage,
-    Maruyamatarget,
+    Target,
     Maruyamavoice,
     MaruyamaPs,
     Maruyamavisit
