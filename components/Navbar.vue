@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-toolbar fixed color="yellow lighten-5">
-      <v-btn flat color="light-green darken-2" @click.stop="drawNavMenus">
+      <v-btn flat color="green darken-3" @click.stop="drawNavMenus">
         <v-icon>menu</v-icon>
         <span class="text-capitalize">Menu</span>
       </v-btn>

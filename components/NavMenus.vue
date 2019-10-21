@@ -9,7 +9,7 @@
     <div class="mt-2 ml-2">
       <v-btn
         dark
-        color="light-green darken-2"
+        color="green darken-3"
         class="font-weight-bold"
         a
         href="https://reserve.olivebodycare.healthcare/mypage/"
@@ -18,7 +18,7 @@
       </v-btn>
       <v-btn
         dark
-        color="light-green darken-2"
+        color="green darken-3"
         a
         href="https://olivebodycare.healthcare/reserve/"
       >

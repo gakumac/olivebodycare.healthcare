@@ -36,7 +36,7 @@
                   a
                   href="https://reserve.olivebodycare.healthcare/"
                   dark
-                  color="light-green darken-2"
+                  color="green darken-3"
                 >
                   <span class="font-weight-bold body-2"
                     >たまプラーザ店予約は今すぐこちら！</span
@@ -68,7 +68,7 @@
                   a
                   href="https://reserve.olivebodycare.healthcare/menus/?shopId=3&menuIndex=1"
                   dark
-                  color="light-green darken-2"
+                  color="green darken-3"
                 >
                   <span class="font-weight-bold body-2"
                     >横浜青葉台店予約は今すぐこちら！</span
@@ -100,7 +100,7 @@
                   a
                   href="https://olivebodycare.healthcare/reserve/maruyama"
                   dark
-                  color="light-green darken-2"
+                  color="green darken-3"
                 >
                   <span class="font-weight-bold body-2"
                     >札幌円山店予約は今すぐこちら！</span

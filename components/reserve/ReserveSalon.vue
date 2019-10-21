@@ -6,7 +6,7 @@
           <div class="my-2 text-xs-center">
             <v-icon x-large class="brown--text">date_range</v-icon>
           </div>
-          <h2 class="my-2 brown--text text-xs-center">
+          <h2 class="my-2 text-xs-center">
             24時間Web予約はこちらから！
           </h2>
           <p>
@@ -20,7 +20,7 @@
         <v-flex xs12 md10 xl8>
           <v-card class="my-2" color="info">
             <h3 class="py-2 accent--text text-xs-center">
-              たまプラーザ本店ご予約は今すぐこちら
+              たまプラーザ本店ご予約は今すぐこちら！
             </h3>
             <v-layout row wrap justify-center>
               <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
@@ -29,7 +29,7 @@
                   a
                   href="https://reserve.olivebodycare.healthcare/"
                   dark
-                  color="light-green darken-2"
+                  color="green darken-3"
                 >
                   <span class="font-weight-bold body-2"
                     >24時間Web予約は今すぐこちら！</span
@@ -52,7 +52,7 @@
         <v-flex xs12 md10 xl8>
           <v-card class="my-2" color="info">
             <h3 class="py-2 accent--text text-xs-center">
-              横浜青葉台店ご予約は今すぐこちら
+              横浜青葉台店ご予約は今すぐこちら！
             </h3>
             <v-layout row wrap justify-center>
               <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
@@ -61,7 +61,7 @@
                   a
                   href="https://reserve.olivebodycare.healthcare/menus/?shopId=3&menuIndex=1"
                   dark
-                  color="light-green darken-2"
+                  color="green darken-3"
                 >
                   <span class="font-weight-bold body-2"
                     >24時間Web予約は今すぐこちら！</span
@@ -84,7 +84,7 @@
         <v-flex xs12 md10 xl8>
           <v-card class="my-2" color="info">
             <h3 class="py-2 accent--text text-xs-center">
-              札幌円山店ご予約は今すぐこちら
+              札幌円山店ご予約は今すぐこちら！
             </h3>
             <v-layout row wrap justify-center>
               <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
@@ -93,7 +93,7 @@
                   a
                   href="https://olivebodycare.healthcare/reserve/maruyama"
                   dark
-                  color="light-green darken-2"
+                  color="green darken-3"
                 >
                   <span class="font-weight-bold body-2"
                     >24時間Web予約は今すぐこちら！</span
@@ -119,7 +119,7 @@
           <div class="my-2 text-xs-center">
             <v-icon x-large class="brown--text">mail_outline</v-icon>
           </div>
-          <h2 class="my-2 brown--text text-xs-center">
+          <h2 class="my-2 text-xs-center">
             メールでのご予約・お問合せはこちらから！
           </h2>
           <p>
@@ -140,7 +140,7 @@
                   a
                   href="https://olivebodycare.healthcare/about/contact"
                   dark
-                  color="light-green darken-2"
+                  color="green darken-3"
                 >
                   <span class="font-weight-bold body-2"
                     >メールでのご予約は今すぐこちら！</span

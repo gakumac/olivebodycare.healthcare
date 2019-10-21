@@ -24,7 +24,7 @@
                 <div v-for="(item, i) in items" :key="i" class="mt-2">
                   <v-layout row wrap>
                     <v-flex xs3 md3>
-                      <div class="subheading red--text font-weight-bold">
+                      <div class="subheading accent--text font-weight-bold">
                         {{ item.title }}
                       </div>
                     </v-flex>
@@ -39,32 +39,9 @@
               </v-flex>
             </v-layout>
           </v-container>
-          <!-- <v-flex xs12 md6 class="text-xs-center">
-            <v-btn
-              a
-              href="tel:0455301688"
-              class="white--text"
-              color="light-green darken-2"
-            >
-              <v-icon left>local_phone</v-icon>
-              <span class="font-weight-bold title">045-530-1688</span>
-            </v-btn>
-          </v-flex>
-          <v-flex xs12 md6 class="text-xs-center">
-            <v-btn
-              a
-              href="https://olivebodycare.healthcare/"
-              class="white--text"
-              color="light-green darken-2"
-            >
-              <v-icon>date_range</v-icon>
-              <span class="font-weight-bold body-2"
-                >２４時間WEB予約は今すぐこちら！</span
-              >
-            </v-btn>
-          </v-flex> -->
           <v-flex xs12 md10>
             <iframe
+              title="TamaPlaza Store map information"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1495.6946074700454!2d139.55859857898!3d35.57573905724052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f71ab6b44f25%3A0xd8617b3b315c81fc!2z5aWz5oCn5bCC6ZaA44Gu5rK755mC6Zmi44Kq44Oq44O844O044Oc44OH44Kj44Kx44Ki!5e0!3m2!1sja!2sjp!4v1557065211029!5m2!1sja!2sjp"
               width="100%"
               height="300px"
@@ -87,7 +64,7 @@
               a
               href="https://reserve.olivebodycare.healthcare/"
               dark
-              color="light-green darken-2"
+              color="green darken-3"
             >
               <span class="font-weight-bold body-2"
                 >たまプラーザ店予約は今すぐこちら！</span
@@ -111,7 +88,7 @@
                 <div v-for="(item, i) in itemsYA" :key="i" class="mt-2">
                   <v-layout row wrap>
                     <v-flex xs3 md3>
-                      <div class="subheading red--text font-weight-bold">
+                      <div class="subheading accent--text font-weight-bold">
                         {{ item.title }}
                       </div>
                     </v-flex>
@@ -128,6 +105,7 @@
           </v-container>
           <v-flex xs12 md10>
             <iframe
+              title="Aobadai Store map information"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2105.1154045213502!2d139.51484803214495!3d35.54057200726833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x548a6d2a4178fc56!2z5aWz5oCn5bCC6ZaA44Gu5rK755mC6Zmi44Kq44Oq44O844O044Oc44OH44Kj44Kx44Ki6Z2S6JGJ5Y-w5bqX!5e0!3m2!1sja!2sjp!4v1566443617945!5m2!1sja!2sjp"
               width="100%"
               height="300px"
@@ -149,7 +127,7 @@
                 a
                 href="https://reserve.olivebodycare.healthcare/menus/?shopId=3&menuIndex=1"
                 dark
-                color="light-green darken-2"
+                color="green darken-3"
               >
                 <span class="font-weight-bold body-2"
                   >横浜青葉台店予約は今すぐこちら！</span
@@ -183,7 +161,7 @@
                 <div v-for="(item, i) in itemsSM" :key="i" class="mt-2">
                   <v-layout row wrap>
                     <v-flex xs3 md3>
-                      <div class="subheading red--text font-weight-bold">
+                      <div class="subheading accent--text font-weight-bold">
                         {{ item.title }}
                       </div>
                     </v-flex>
@@ -200,6 +178,7 @@
           </v-container>
           <v-flex xs12 md10>
             <iframe
+              title="Maruyama Store map information"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182.2079902533404!2d141.32396282148622!3d43.05557191899343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa9b3fd242a4c92d1!2z5aWz5oCn5bCC6ZaA44Gu5rK755mC6Zmi44Kq44Oq44O844O044Oc44OH44Kj44Kx44Ki5pyt5bmM5YaG5bGx5bqX!5e0!3m2!1sja!2sjp!4v1565835828826!5m2!1sja!2sjp"
               width="100%"
               height="300px"
@@ -221,7 +200,7 @@
                 a
                 href="https://olivebodycare.healthcare/reserve/maruyama"
                 dark
-                color="light-green darken-2"
+                color="green darken-3"
               >
                 <span class="font-weight-bold body-2"
                   >札幌円山店予約は今すぐこちら！</span

@@ -84,11 +84,14 @@
       </v-layout>
       <v-layout row wrap justify-center>
         <v-flex xs12 sm9 md9 lg7 xl5>
-          <v-card class="mt-2" color="yellow lighten-5">
+          <v-card flat class="mt-2" color="yellow lighten-5">
             <v-card-title primary-title>
               <div>
-                <div class="brown--text headline">{{ title }}</div>
-                <div class="brown--text">{{ message }}</div>
+                <h3 class="accent--text">{{ title }}</h3>
+                <p>{{ message1 }}</p>
+                <p>{{ message2 }}</p>
+                <p>{{ message3 }}</p>
+                <p>{{ message4 }}</p>
               </div>
             </v-card-title>
           </v-card>
@@ -107,7 +110,7 @@
                   a
                   href="https://olivebodycare.healthcare/reserve/maruyama"
                   dark
-                  color="light-green darken-2"
+                  color="green darken-3"
                 >
                   <span class="font-weight-bold subtitle-1"
                     >24時間Web予約は今すぐこちら！</span
@@ -137,8 +140,14 @@ export default {
       name: '札幌円山店院長 國分 麻美（こくぶん あさみ）',
       qualification: '柔道整復師',
       title: 'お身体の事、私にお任せください！',
-      message:
-        'みなさんこんにちは。札幌円山店　院長　國分麻美です。女性専門の治療院オリーヴボディケア のホームページをご覧いただきありがとうございます。この度ご縁あって、私の地元・札幌にて開業することとなりました。昨今の女性は社会進出や出産・家事・育児などで自分の体に目を向ける時間が取りづらく、身体の不調や痛みを我慢しながら生活されている方も多くいらっしゃると思います。また整体院も溢れており、自分にあっている整体院はどこなのか？お探しの方も多いと思います。そのような皆様のお悩みの相談に乗り、オーダーメイドの治療を提供させたいただきます。「女性を元気に！家庭を元気に！」をモットーに、みなさまからのありがとうを糧に治療に専念させていただきます。当院では小さなお子様もご一緒に来院できる空間づくりをしております。ぜひ、オリーヴボディケア札幌円山店にお任せください。',
+      message1:
+        'みなさんこんにちは。札幌円山店院長國分麻美です。女性専門の治療院オリーヴボディケアのホームページをご覧いただきありがとうございます。',
+      message2:
+        'この度ご縁あって、私の地元・札幌にて開業することとなりました。昨今の女性は社会進出や出産・家事・育児などで自分の体に目を向ける時間が取りづらく、身体の不調や痛みを我慢しながら生活されている方も多くいらっしゃると思います。',
+      message3:
+        'また整体院も溢れており、自分にあっている整体院はどこなのか？お探しの方も多いと思います。そのような皆様のお悩みの相談に乗り、オーダーメイドの治療を提供させたいただきます。',
+      message4:
+        '「女性を元気に！家庭を元気に！日本そして世界を元気に！！」をモットーに、みなさまからのありがとうを糧に治療に専念させていただきます。当院では小さなお子様もご一緒に来院できる空間づくりをしております。ぜひ、オリーヴボディケア札幌円山店にお任せください。',
       img1: require('@/assets/images/salon/salonmaruyama21.jpg'),
       img2: require('@/assets/images/salon/salonmaruyama22.jpg'),
       img3: require('@/assets/images/salon/salon10.jpg')

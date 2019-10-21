@@ -5,7 +5,7 @@
         <v-btn
           block
           large
-          class="light-green darken-2 white--text mb-3"
+          class="green darken-3 white--text mb-3"
           a
           href="https://olivebodycare.healthcare/reserve/maruyama"
         >

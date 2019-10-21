@@ -3,7 +3,7 @@
     <v-container>
       <v-layout justify-center>
         <v-flex xs12 sm10 md8 lg7 xl6>
-          <h2 class="mt-4 brown--text text-xs-center">
+          <h2 class="mt-4 text-xs-center">
             <v-icon large>date_range</v-icon>
             札幌円山店24時間Web予約
           </h2>
@@ -17,7 +17,7 @@
         <v-flex xs12 sm11 md10 xl8>
           <v-card color="info">
             <h3 class="accent--text text-xs-center">
-              ご予約は今すぐこちらから！！
+              Web予約は今すぐこちらから！！
             </h3>
             <v-layout row wrap justify-center>
               <v-flex class="text-xs-center">
@@ -26,7 +26,7 @@
                   a
                   href="https://reserve.olivebodycare.healthcare/menus/?shopId=4&menuIndex=1"
                   dark
-                  color="light-green darken-2"
+                  color="green darken-3"
                 >
                   <span class="font-weight-bold body-2"
                     >24時間Web予約は今すぐこちら！</span
@@ -39,7 +39,7 @@
       </v-layout>
       <v-layout justify-center>
         <v-flex xs12 sm10 md8 lg7 xl6>
-          <h2 class="mt-4 brown--text text-xs-center">
+          <h2 class="mt-4 text-xs-center">
             <v-icon large>mail_outline</v-icon>
             メールでのご予約・お問合せはこちらから！
           </h2>
@@ -52,7 +52,7 @@
         <v-flex xs12 sm11 md10 xl8>
           <v-card color="info">
             <h3 class="accent--text text-xs-center">
-              メールフォーム
+              メール予約・問合せはこちら！
             </h3>
             <v-layout row wrap justify-center>
               <v-flex class="text-xs-center">
@@ -61,7 +61,7 @@
                   a
                   href="https://olivebodycare.healthcare/about/contact"
                   dark
-                  color="light-green darken-2"
+                  color="green darken-3"
                 >
                   <span class="font-weight-bold body-2"
                     >メールでのご予約は今すぐこちら！</span
@@ -74,7 +74,7 @@
       </v-layout>
       <v-layout justify-center>
         <v-flex xs12 sm10 md8 lg7 xl6>
-          <h2 class="mt-4 brown--text text-xs-center">
+          <h2 class="mt-4 text-xs-center">
             <v-icon large>phone</v-icon>
             お電話でのご予約・お問合せはこちらから！
           </h2>
@@ -87,7 +87,7 @@
         <v-flex xs12 sm11 md10 xl8>
           <v-card color="info">
             <h3 class="accent--text text-xs-center">
-              お電話
+              電話での予約・問合せはこちら！
             </h3>
             <v-layout row wrap justify-center>
               <v-flex class="text-xs-center">

@@ -2,9 +2,12 @@
   <div class="info">
     <v-layout row wrap justify-center>
       <v-flex xs12 sm9 md9 lg7 xl5>
-        <h2 class="mt-4 accent--text text-xs-center">
+        <div class="mt-4 text-xs-center">
+          <v-icon x-large color="accent">done_outline</v-icon>
+        </div>
+        <h2 class="accent--text text-xs-center">
           どれか１つでも当てはまる方は<br />
-          今すぐ当院におこしください！
+          今すぐ当院にお越しください！
         </h2>
         <hr color="#ffcccc" />
       </v-flex>
@@ -12,10 +15,10 @@
     <v-container>
       <v-layout row wrap justify-center>
         <v-flex xs12 sm9 md9 lg7 xl5>
-          <v-card v-for="(item, i) in items" :key="i" color="info" class="mb-3">
+          <v-card v-for="(item, i) in items" :key="i" class="mb-3">
             <v-card-title>
               <div class="title font-weight-bold">
-                <v-icon class="accent--text">beenhere</v-icon>
+                <v-icon class="accent--text">check_box</v-icon>
                 {{ item.comment }}
               </div>
             </v-card-title>

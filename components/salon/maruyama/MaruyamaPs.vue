@@ -53,7 +53,7 @@
                   a
                   href="https://olivebodycare.healthcare/reserve/maruyama"
                   dark
-                  color="light-green darken-2"
+                  color="green darken-3"
                 >
                   <span class="font-weight-bold subtitle-1"
                     >24時間Web予約は今すぐこちら！</span

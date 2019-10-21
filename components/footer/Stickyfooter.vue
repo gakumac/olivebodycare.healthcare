@@ -6,7 +6,7 @@
           block
           large
           dark
-          color="light-green darken-2"
+          color="green darken-3"
           class="mb-3"
           a
           href="https://olivebodycare.healthcare/reserve/"
