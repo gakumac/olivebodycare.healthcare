@@ -15,7 +15,7 @@
         <v-card color="yellow lighten-5" class="pa-2 my-2">
           <v-layout row wrap justify-center>
             <v-flex xs12 md12>
-              <h3 class="my-3 text-xs-center">
+              <h3 class="my-3 text-xs-center brown--text">
                 {{ item.name }}
               </h3>
             </v-flex>

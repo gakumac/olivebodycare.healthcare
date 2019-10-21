@@ -12,7 +12,7 @@
     </v-layout>
     <v-container grid-list-md>
       <div v-for="(item, i) in items" :key="i">
-        <v-card flat color="yellow lighten-4" class="pa-2 my-2">
+        <v-card color="yellow lighten-5" class="pa-2 my-2">
           <v-layout row wrap justify-center>
             <v-flex xs12 md12>
               <h3 class="my-3 brown--text text-xs-center">
@@ -30,27 +30,27 @@
                 <div class="accent--text caption">
                   ①来院時の症状はどんな症状でいらっしゃいましたか？
                 </div>
-                <div>
+                <p>
                   {{ item.message1 }}
-                </div>
+                </p>
                 <div class="accent--text mt-3 caption">
                   ②どんな経緯で来院しましたか？
                 </div>
-                <div>
+                <p>
                   {{ item.message2 }}
-                </div>
+                </p>
                 <div class="accent--text mt-3 caption">
                   ③当院の治療を受けて、どんな変化がありましたか？
                 </div>
-                <div>
+                <p>
                   {{ item.message3 }}
-                </div>
+                </p>
                 <div class="accent--text mt-3 caption">
                   ④同じようなお悩みをお持ちの女性へのメッセージ
                 </div>
-                <div>
+                <p>
                   {{ item.message4 }}
-                </div>
+                </p>
               </div>
             </v-flex>
           </v-layout>
@@ -74,7 +74,7 @@
                   a
                   href="https://olivebodycare.healthcare/reserve/maruyama"
                   dark
-                  color="light-green darken-2"
+                  color="green darken-3"
                 >
                   <span class="font-weight-bold subtitle-1"
                     >24時間Web予約は今すぐこちら！</span
