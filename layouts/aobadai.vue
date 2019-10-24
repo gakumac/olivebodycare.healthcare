@@ -1,0 +1,31 @@
+<template>
+  <v-app>
+    <navbar />
+    <nuxt />
+    <footer1 />
+    <StickyfAobadai />
+  </v-app>
+</template>
+
+<script>
+import Navbar from '~/components/Navbar.vue'
+import Footer1 from '~/components/footer/Footer1.vue'
+import StickyfAobadai from '~/components/footer/StickyfAobadai.vue'
+export default {
+  components: {
+    Navbar,
+    Footer1,
+    StickyfAobadai
+  },
+  head() {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://olivebodycare.healthcare' + this.$route.path
+        }
+      ]
+    }
+  }
+}
+</script>

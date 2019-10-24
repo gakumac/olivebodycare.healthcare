@@ -24,7 +24,7 @@
                 <div v-for="(item, i) in items" :key="i" class="mt-2">
                   <v-layout row wrap>
                     <v-flex xs3 md3>
-                      <div class="subheading accent--text font-weight-bold">
+                      <div class="subheading brown--text font-weight-bold">
                         {{ item.title }}
                       </div>
                     </v-flex>
@@ -88,7 +88,7 @@
                 <div v-for="(item, i) in itemsYA" :key="i" class="mt-2">
                   <v-layout row wrap>
                     <v-flex xs3 md3>
-                      <div class="subheading accent--text font-weight-bold">
+                      <div class="subheading brown--text font-weight-bold">
                         {{ item.title }}
                       </div>
                     </v-flex>
@@ -125,7 +125,7 @@
             <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
               <v-btn
                 a
-                href="https://reserve.olivebodycare.healthcare/menus/?shopId=3&menuIndex=1"
+                href="https://olivebodycare.healthcare/reserve/aobadai"
                 dark
                 color="green darken-3"
               >
@@ -161,7 +161,7 @@
                 <div v-for="(item, i) in itemsSM" :key="i" class="mt-2">
                   <v-layout row wrap>
                     <v-flex xs3 md3>
-                      <div class="subheading accent--text font-weight-bold">
+                      <div class="subheading brown--text font-weight-bold">
                         {{ item.title }}
                       </div>
                     </v-flex>
@@ -179,7 +179,7 @@
           <v-flex xs12 md10>
             <iframe
               title="Maruyama Store map information"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182.2079902533404!2d141.32396282148622!3d43.05557191899343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa9b3fd242a4c92d1!2z5aWz5oCn5bCC6ZaA44Gu5rK755mC6Zmi44Kq44Oq44O844O044Oc44OH44Kj44Kx44Ki5pyt5bmM5YaG5bGx5bqX!5e0!3m2!1sja!2sjp!4v1565835828826!5m2!1sja!2sjp"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4282.647724735018!2d141.32217169199225!3d43.057155598500536!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa9b3fd242a4c92d1!2z5aWz5oCn5bCC6ZaA44Gu5rK755mC6Zmi44Kq44Oq44O844O044Oc44OH44Kj44Kx44Ki5pyt5bmM5YaG5bGx5bqX!5e0!3m2!1sja!2sjp!4v1571796215054!5m2!1sja!2sjp"
               width="100%"
               height="300px"
               frameborder="0"
