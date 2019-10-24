@@ -59,7 +59,7 @@
                 <v-btn
                   large
                   a
-                  href="https://reserve.olivebodycare.healthcare/menus/?shopId=3&menuIndex=1"
+                  href="https://olivebodycare.healthcare/reserve/aobadai"
                   dark
                   color="green darken-3"
                 >

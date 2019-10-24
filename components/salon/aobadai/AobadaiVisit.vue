@@ -171,6 +171,38 @@
             ></v-img>
           </v-flex>
         </v-layout>
+        <v-layout justify-center>
+          <v-flex xs12 md10>
+            <v-card flat class="my-2" color="yellow lighten-5">
+              <h3 class="py-2 accent--text text-xs-center">
+                横浜青葉台店ご予約は今すぐこちら！
+              </h3>
+              <v-layout row wrap justify-center>
+                <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
+                  <v-btn
+                    large
+                    a
+                    href="https://olivebodycare.healthcare/reserve/aobadai"
+                    dark
+                    color="green darken-3"
+                  >
+                    <span class="font-weight-bold subtitle-1"
+                      >24時間Web予約は今すぐこちら！</span
+                    >
+                  </v-btn>
+                </v-flex>
+                <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
+                  <v-btn large a href="tel:0455303903" color="primary" dark>
+                    <v-icon>phone</v-icon>
+                    <span class="font-weight-bold subtitle-1"
+                      >：045-530-3903</span
+                    >
+                  </v-btn>
+                </v-flex>
+              </v-layout>
+            </v-card>
+          </v-flex>
+        </v-layout>
       </v-container>
     </div>
   </div>
