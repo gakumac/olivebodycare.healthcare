@@ -32,7 +32,9 @@
           <v-img :src="require('@/assets/images/home/home16.jpg')"></v-img>
         </v-flex>
         <v-flex xs6 sm5 md5 lg4 xl3>
-          <v-img :src="require('@/assets/images/home/home17.jpg')"></v-img>
+          <v-img
+            :src="require('@/assets/images/salon/salonaobadai_tasaka2.jpg')"
+          ></v-img>
         </v-flex>
       </v-layout>
     </v-container>

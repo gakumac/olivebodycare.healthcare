@@ -148,11 +148,13 @@
     <div>
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
-          <v-flex xs12 md12>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h3 class="my-2 accent--text text-xs-center">
               待合所について
             </h3>
           </v-flex>
+        </v-layout>
+        <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-2">
               院内には待合スペースがございます。
@@ -187,6 +189,8 @@
               札幌円山院では近隣の駐車場ご利用の患者様には１時間分の駐車料金をキャッシュバックしております（駐車券をお持ち下さい）。
             </p>
           </v-flex>
+        </v-layout>
+        <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-2">
               エイチ&エス南２西２３コインパーキング（6台）
@@ -221,6 +225,8 @@
               札幌円山院では近隣の駐車場ご利用の患者様には１時間分の駐車料金をキャッシュバックしております（駐車券をお持ち下さい）。
             </p>
           </v-flex>
+        </v-layout>
+        <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-2">
               南１西２２コインパーキング（8台）
@@ -250,6 +256,8 @@
               札幌円山院では近隣の駐車場ご利用の患者様には１時間分の駐車料金をキャッシュバックしております（駐車券をお持ち下さい）。
             </p>
           </v-flex>
+        </v-layout>
+        <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-2">
               タイムズ南２西２２丁目第２パーキング

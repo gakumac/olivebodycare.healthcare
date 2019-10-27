@@ -12,7 +12,7 @@
         </v-flex>
       </v-layout>
       <v-layout row wrap justify-center>
-        <v-flex xs12 md10>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <h3 class="my-3 accent--text text-xs-center">
             東急田園都市線青葉台駅より徒歩3分
           </h3>
@@ -20,32 +20,38 @@
             東急田園都市線青葉台駅より徒歩3分、女性だけのプライベート空間です。
           </p>
         </v-flex>
-        <v-flex xs6 md5>
+      </v-layout>
+      <v-layout row wrap justify-center>
+        <v-flex xs6 sm5 md5 lg4 xl3>
           <v-img
             :src="require('@/assets/images/salon/salonaoba17.jpg')"
           ></v-img>
         </v-flex>
-        <v-flex xs6 md5>
+        <v-flex xs6 sm5 md5 lg4 xl3>
           <v-img
             :src="require('@/assets/images/salon/salonaoba18.jpg')"
           ></v-img>
         </v-flex>
         <v-container>
-          <div v-for="(item, i) in items" :key="i" class="mt-2">
-            <v-layout row wrap>
-              <v-flex xs3 md3>
-                <div class="subheading brown--text font-weight-bold">
-                  {{ item.title }}
-                </div>
-              </v-flex>
-              <v-flex xs9 md9>
-                <div>
-                  <span class="subheading">{{ item.contents }}</span>
-                </div>
-              </v-flex>
-            </v-layout>
-            <hr />
-          </div>
+          <v-layout justify-center>
+            <v-flex xl8>
+              <div v-for="(item, i) in items" :key="i" class="mt-2">
+                <v-layout row wrap>
+                  <v-flex xs3 md3>
+                    <div class="subheading brown--text font-weight-bold">
+                      {{ item.title }}
+                    </div>
+                  </v-flex>
+                  <v-flex xs9 md9>
+                    <div>
+                      <span class="subheading">{{ item.contents }}</span>
+                    </div>
+                  </v-flex>
+                </v-layout>
+                <hr />
+              </div>
+            </v-flex>
+          </v-layout>
         </v-container>
         <v-flex xs12 md10>
           <iframe
@@ -70,7 +76,7 @@
                 <v-btn
                   large
                   a
-                  href="https://olivebodycare.healthcare/reserve/aobadai"
+                  to="../reserve/aobadai"
                   dark
                   color="green darken-3"
                 >
