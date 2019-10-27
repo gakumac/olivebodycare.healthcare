@@ -20,15 +20,15 @@
             所有国家資格&nbsp;{{ qualification }}
           </p>
         </v-flex>
-        <v-flex xs6 md4>
+        <v-flex xs6 sm5 md5 lg4 xl3>
           <v-img :src="img1"></v-img>
         </v-flex>
-        <v-flex xs6 md4>
+        <v-flex xs6 sm5 md5 lg4 xl3>
           <v-img :src="img2"></v-img>
         </v-flex>
       </v-layout>
       <v-layout row wrap justify-center>
-        <v-flex xs12 md10>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <v-card class="mt-2" color="yellow lighten-5">
             <v-card-title primary-title>
               <div>
