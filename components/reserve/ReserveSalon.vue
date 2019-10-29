@@ -56,7 +56,13 @@
             </h3>
             <v-layout row wrap justify-center>
               <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
-                <v-btn large to="reserve/aobadai" dark color="green darken-3">
+                <v-btn
+                  large
+                  a
+                  href="https://olivebodycare.healthcare/reserve/aobadai"
+                  dark
+                  color="green darken-3"
+                >
                   <span class="font-weight-bold body-2"
                     >24時間Web予約は今すぐこちら！</span
                   >
@@ -82,7 +88,13 @@
             </h3>
             <v-layout row wrap justify-center>
               <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
-                <v-btn large to="reserve/maruyama" dark color="green darken-3">
+                <v-btn
+                  large
+                  a
+                  href="https://olivebodycare.healthcare/reserve/maruyama"
+                  dark
+                  color="green darken-3"
+                >
                   <span class="font-weight-bold body-2"
                     >24時間Web予約は今すぐこちら！</span
                   >
@@ -123,7 +135,13 @@
             </h3>
             <v-layout row wrap justify-center>
               <v-flex xs12 md6 class="mb-2 text-xs-center">
-                <v-btn large to="about/contact" dark color="green darken-3">
+                <v-btn
+                  large
+                  a
+                  href="https://olivebodycare.healthcare/about/contact"
+                  dark
+                  color="green darken-3"
+                >
                   <span class="font-weight-bold body-2"
                     >メールでのご予約は今すぐこちら！</span
                   >

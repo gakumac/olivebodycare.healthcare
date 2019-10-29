@@ -56,7 +56,13 @@
             </h3>
             <v-layout row wrap justify-center>
               <v-flex class="text-xs-center">
-                <v-btn large to="../about/contact" dark color="green darken-3">
+                <v-btn
+                  large
+                  a
+                  href="https://olivebodycare.healthcare/about/contact"
+                  dark
+                  color="green darken-3"
+                >
                   <span class="font-weight-bold body-2"
                     >メールでのご予約は今すぐこちら！</span
                   >

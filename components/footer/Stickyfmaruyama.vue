@@ -6,7 +6,8 @@
           block
           large
           class="green darken-3 white--text mb-3"
-          to="../reserve/maruyama"
+          a
+          href="https://olivebodycare.healthcare/reserve/maruyama"
         >
           <v-icon>date_range</v-icon>
           <span class="font-weight-bold"
