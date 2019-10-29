@@ -6,8 +6,7 @@
           block
           large
           class="green darken-3 white--text mb-3"
-          a
-          href="https://olivebodycare.healthcare/reserve/aobadai"
+          to="../reserve/aobadai"
         >
           <v-icon>date_range</v-icon>
           <span class="font-weight-bold"

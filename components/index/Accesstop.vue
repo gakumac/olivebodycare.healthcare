@@ -53,11 +53,9 @@
         </v-layout>
         <v-layout row wrap justify-center>
           <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
-            <nuxt-link to="/salon/tamaplaza">
-              <v-btn color="primary" dark small>
-                たまプラーザ店詳しくはこちら
-              </v-btn>
-            </nuxt-link>
+            <v-btn to="salon/tamaplaza" color="primary" dark small>
+              たまプラーザ店詳しくはこちら
+            </v-btn>
           </v-flex>
           <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
             <v-btn
@@ -116,19 +114,12 @@
           </v-flex>
           <v-layout row wrap justify-center>
             <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
-              <nuxt-link to="/salon/aobadai">
-                <v-btn color="primary" dark small>
-                  横浜青葉台店詳しくはこちら
-                </v-btn>
-              </nuxt-link>
+              <v-btn to="salon/aobadai" color="primary" dark small>
+                横浜青葉台店詳しくはこちら
+              </v-btn>
             </v-flex>
             <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
-              <v-btn
-                a
-                href="https://olivebodycare.healthcare/reserve/aobadai"
-                dark
-                color="green darken-3"
-              >
+              <v-btn to="reserve/aobadai" dark color="green darken-3">
                 <span class="font-weight-bold body-2"
                   >横浜青葉台店予約は今すぐこちら！</span
                 >
@@ -146,11 +137,7 @@
               札幌円山店
             </h3>
           </v-flex>
-          <v-btn
-            color="accent"
-            a
-            href="https://olivebodycare.healthcare/salon/maruyama"
-          >
+          <v-btn color="accent" to="salon/maruyama">
             <span class="font-weight-bold"
               >オープニングキャンペーン実施中！</span
             >
@@ -189,19 +176,12 @@
           </v-flex>
           <v-layout row wrap justify-center>
             <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
-              <nuxt-link to="/salon/maruyama">
-                <v-btn color="primary" dark small>
-                  札幌円山店詳しくはこちら
-                </v-btn>
-              </nuxt-link>
+              <v-btn to="salon/maruyama" color="primary" dark small>
+                札幌円山店詳しくはこちら
+              </v-btn>
             </v-flex>
             <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
-              <v-btn
-                a
-                href="https://olivebodycare.healthcare/reserve/maruyama"
-                dark
-                color="green darken-3"
-              >
+              <v-btn to="reserve/maruyama" dark color="green darken-3">
                 <span class="font-weight-bold body-2"
                   >札幌円山店予約は今すぐこちら！</span
                 >
