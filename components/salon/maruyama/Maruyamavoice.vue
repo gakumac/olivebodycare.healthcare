@@ -80,8 +80,7 @@
               <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
                 <v-btn
                   large
-                  a
-                  href="https://olivebodycare.healthcare/reserve/maruyama"
+                  to="../reserve/maruyama"
                   dark
                   color="green darken-3"
                 >
