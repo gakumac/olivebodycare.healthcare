@@ -11,7 +11,7 @@
         >
           <v-icon>date_range</v-icon>
           <span class="font-weight-bold"
-            >札幌丸山店WEB予約は今すぐこちら！</span
+            >札幌円山店WEB予約は今すぐこちら！</span
           >
         </v-btn>
       </v-flex>
