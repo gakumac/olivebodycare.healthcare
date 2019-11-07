@@ -76,13 +76,6 @@
           </v-layout>
         </v-card>
       </div>
-      <v-layout row wrap justify-center>
-        <v-flex xs8 sm6 md5 lg4 xl3>
-          <v-img
-            :src="require('@/assets/images/voice/aobadai/pa_nosaki.jpg')"
-          ></v-img>
-        </v-flex>
-      </v-layout>
       <v-layout justify-center>
         <v-flex xs12 md10>
           <v-card flat class="my-2" color="yellow lighten-5">

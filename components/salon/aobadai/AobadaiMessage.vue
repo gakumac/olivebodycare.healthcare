@@ -29,6 +29,40 @@
       </v-layout>
       <v-layout row wrap justify-center>
         <v-flex xs12 sm9 md9 lg7 xl5>
+          <v-card class="my-4" flat>
+            <v-layout row wrap justify-center>
+              <v-flex>
+                <v-card-title>
+                  <h3 class="brown--text">
+                    {{ name }}
+                  </h3>
+                </v-card-title>
+                <div class="mx-2">
+                  <p>＜国家資格＞&nbsp;{{ qualification }}</p>
+                  <p>
+                    ＜趣味・特技＞&nbsp;バレーボール、スノーボード、ギター、弾丸旅行、ドライブ
+                  </p>
+                  <h3 class="brown--text">
+                    経歴
+                  </h3>
+                  <p>東京都立&nbsp;府中西高等学校卒業</p>
+                  <p>アルファ医療福祉専門学校卒業</p>
+                  <p>東京都町田市&nbsp;共立総合整骨院勤務</p>
+                  <p>神奈川県川崎市&nbsp;やすらぎ整骨院勤務</p>
+                  <p>
+                    神奈川県横浜市&nbsp;女性専門の治療院オリーヴボディケアたまプラーザ店&nbsp;主任勤務
+                  </p>
+                  <p>
+                    神奈川県横浜市&nbsp;女性専門の治療院オリーヴボディケア青葉台店&nbsp;院長勤務
+                  </p>
+                </div>
+              </v-flex>
+            </v-layout>
+          </v-card>
+        </v-flex>
+      </v-layout>
+      <v-layout row wrap justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <v-card class="mt-2" color="yellow lighten-5">
             <v-card-title primary-title>
               <div>

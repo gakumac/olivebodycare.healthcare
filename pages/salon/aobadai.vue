@@ -8,6 +8,7 @@
     <AobadaiMessage />
     <Target />
     <AobadaiVoice />
+    <AobadaiAfter />
     <AobadaiPs />
     <AobadaiVisit />
   </div>
@@ -18,6 +19,7 @@ import Pagetitle from '~/components/Pagetitle.vue'
 import AobadaiInfo from '~/components/salon/aobadai/AobadaiInfo.vue'
 import AobadaiMessage from '~/components/salon/aobadai/AobadaiMessage.vue'
 import AobadaiVoice from '~/components/salon/aobadai/AobadaiVoice.vue'
+import AobadaiAfter from '~/components/salon/aobadai/AobadaiAfter.vue'
 import AobadaiPs from '~/components/salon/aobadai/AobadaiPs.vue'
 import Target from '~/components/index//Target.vue'
 import AobadaiVisit from '~/components/salon/aobadai/AobadaiVisit.vue'
@@ -29,6 +31,7 @@ export default {
     AobadaiInfo,
     AobadaiMessage,
     AobadaiVoice,
+    AobadaiAfter,
     AobadaiPs,
     Target,
     AobadaiVisit
