@@ -20,10 +20,10 @@
                 <span>{{ item.guest }}</span>
               </h3>
               <hr color="#ffcccc" />
-              <p class="mt-3">
+              <p class="mt-3 font-weight-bold">
                 {{ item.comment1a }}
               </p>
-              <p>
+              <p class="font-weight-bold">
                 {{ item.comment1b }}
               </p>
             </v-card>
@@ -35,10 +35,10 @@
                 <span>{{ item.guest2 }}</span>
               </h3>
               <hr color="#ffcccc" />
-              <p class="mt-3">
+              <p class="mt-3 font-weight-bold">
                 {{ item.comment2a }}
               </p>
-              <p>
+              <p class="font-weight-bold">
                 {{ item.comment2b }}
               </p>
             </v-card>
