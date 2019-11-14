@@ -43,7 +43,10 @@
                   ③当院の治療を受けて、どんな変化がありましたか？
                 </div>
                 <p>
-                  {{ item.message3 }}
+                  {{ item.message3a }}
+                </p>
+                <p>
+                  {{ item.message3b }}
                 </p>
                 <div class="accent--text mt-3 caption">
                   ④同じようなお悩みをお持ちの女性へのメッセージ
@@ -119,8 +122,8 @@ export default {
             '産後の骨盤のゆがみが気になったのと、腰痛が辛くなったので整体に通いたいと思いました。',
           message2:
             'webで近くの整体を探していたところ、知人に紹介していただきました。',
-          message3:
-            '背中から腰にかけて、とても軽くなりました。首や頭もほぐしてもらいリラックスできました。',
+          message3a: '背中から腰にかけて、とても軽くなりました。',
+          message3b: '首や頭もほぐしてもらいリラックスできました。',
           message4a:
             '産後は心身共に無理をしてしまうと思うので、無理にでも時間を見つけて身体も心もほぐしてもらってほしいです。'
         },
@@ -130,7 +133,8 @@ export default {
           image: require('@/assets/images/voice/maruyama/pm_s.k.jpg'),
           message1: '肩こり',
           message2: 'ご紹介',
-          message3: '骨盤の歪みがとれた！！顔がはっきりとした。',
+          message3a: '骨盤の歪みがとれた！！',
+          message3b: '顔がはっきりとした。',
           message4a:
             '自分では自覚症状のない肩こり・歪みを治療するのとあわせまたお顔の調整がとても良かったです。',
           message4b: 'とてもお顔のスッキリ感に感動しました！！'
@@ -142,8 +146,10 @@ export default {
           message1:
             '毎日の子どものだっこで肩と腰の痛みがあったのでゆがみを直してもらおうと思い来院しました。',
           message2: '院長さんに紹介していただいたため。',
-          message3:
-            '一番痛みが強かった腰の痛みがびっくりする程なくなりました。あとは身体が軽くなり動きやすくなったので、絶対に通おうと思います！！',
+          message3a:
+            '一番痛みが強かった腰の痛みがびっくりする程なくなりました。',
+          message3b:
+            'あとは身体が軽くなり動きやすくなったので、絶対に通おうと思います！！',
           message4a:
             '出産後のバタバタした毎日の中で1時間でもホッとできる時間を作ることのできる、ステキな場所であり、もちろん身体も動きやすくなるので声を大にしてオススメしたいです！ありがとうございました(^0^)'
         },
@@ -153,7 +159,7 @@ export default {
           image: require('@/assets/images/voice/maruyama/pm_tango.jpg'),
           message1: '疲れが溜まっている',
           message2: 'インスタで知り合った',
-          message3: 'すごく軽いし、体の動きがすごく広がった。',
+          message3a: 'すごく軽いし、体の動きがすごく広がった。',
           message4a: '説明もすごく丁寧で、施術も適確です！！',
           message4b: '女性らしい心配りもできているので、安心して通えます(^^)'
         },
@@ -163,7 +169,7 @@ export default {
           image: require('@/assets/images/voice/maruyama/pm_s.i.jpg'),
           message1: '肩こりMAX',
           message2: '院長つながりです。',
-          message3: '身体が楽になった！！',
+          message3a: '身体が楽になった！！',
           message4a:
             '女性ならではの悩み相談も気軽にでき、すぐに施術とアドバイスをして頂きとても良かったです！！'
         },
@@ -173,7 +179,7 @@ export default {
           image: require('@/assets/images/voice/maruyama/pm_s.k-r.k.jpg'),
           message1: '疲労感、肩こり、むくみ',
           message2: '知人',
-          message3: '背中が軽くなった',
+          message3a: '背中が軽くなった',
           message4a:
             'ゆがみから来たコリとは知らず、元の位置に整えることが必要なんだと初めて知った。',
           message4b:
@@ -185,7 +191,8 @@ export default {
           image: require('@/assets/images/voice/maruyama/pm_k.s.jpg'),
           message1: '肩こり、腰痛、足のむくみ',
           message2: '友人の紹介',
-          message3: '体がスッキリしとても軽くなった。体が動かしやすくなった',
+          message3a: '体がスッキリしとても軽くなった。',
+          message3b: '体が動かしやすくなった',
           message4a:
             '体の疲れがたまっている時に施術を受けるととても楽になるのでオススメです！'
         },
@@ -195,7 +202,7 @@ export default {
           image: require('@/assets/images/voice/maruyama/pm_kakizaka.jpg'),
           message1: '肩こりで来ました。',
           message2: '知人の紹介です。',
-          message3: '体がすっきり楽になりました！！',
+          message3a: '体がすっきり楽になりました！！',
           message4a: '肩こり等で体が辛い方はぜひ来てみてください！！'
         }
       ]

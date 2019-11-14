@@ -9,6 +9,7 @@
     <Maruyamamessage />
     <Target />
     <Maruyamavoice />
+    <MaruyamaAfter />
     <MaruyamaPs />
     <Maruyamavisit />
   </div>
@@ -21,6 +22,7 @@ import Maruyamainfo from '~/components/salon/maruyama/Maruyamainfo.vue'
 import Maruyamamessage from '~/components/salon/maruyama/Maruyamamessage.vue'
 import Target from '~/components/index//Target.vue'
 import Maruyamavoice from '~/components/salon/maruyama/Maruyamavoice.vue'
+import MaruyamaAfter from '~/components/salon/maruyama/MaruyamaAfter.vue'
 import MaruyamaPs from '~/components/salon/maruyama/MaruyamaPs.vue'
 import Maruyamavisit from '~/components/salon/maruyama/Maruyamavisit.vue'
 import Meta from '~/assets/mixins/meta'
@@ -33,6 +35,7 @@ export default {
     Maruyamamessage,
     Target,
     Maruyamavoice,
+    MaruyamaAfter,
     MaruyamaPs,
     Maruyamavisit
   },
