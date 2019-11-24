@@ -41,7 +41,7 @@ export default {
           href: '/reserve'
         },
         {
-          text: '横浜青葉台店24時間Web予約',
+          text: 'たまプラーザ本店24時間Web予約',
           disabled: true,
           href: '/reserve/tamaplaza'
         }
