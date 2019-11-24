@@ -27,7 +27,7 @@
                 <v-btn
                   large
                   a
-                  href="https://reserve.olivebodycare.healthcare/"
+                  href="https://olivebodycare.healthcare/reserve/tamaplaza"
                   dark
                   color="green darken-3"
                 >

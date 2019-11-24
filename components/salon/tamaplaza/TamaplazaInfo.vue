@@ -7,30 +7,28 @@
             <v-icon x-large class="brown--text">place</v-icon>
           </div>
           <h2 class="my-2 brown--text text-xs-center">
-            横浜青葉台店ご来院にあたって
+            たまプラーザ店ご来院にあたって
           </h2>
         </v-flex>
       </v-layout>
       <v-layout row wrap justify-center>
         <v-flex xs12 sm9 md9 lg7 xl5>
           <h3 class="my-3 accent--text text-xs-center">
-            東急田園都市線青葉台駅より徒歩3分
+            たまプラーザ駅南口より徒歩2分
           </h3>
           <p>
-            東急田園都市線青葉台駅より徒歩3分、女性だけのプライベート空間です。
+            当院はメディカルモールたまプラーザの3階にございます。
+            ビルの裏手には専用の駐車場もございます。
+            女性の方に安心してご利用いただくようオートロックになっております。
           </p>
         </v-flex>
       </v-layout>
       <v-layout row wrap justify-center>
         <v-flex xs6 sm5 md5 lg4 xl3>
-          <v-img
-            :src="require('@/assets/images/salon/salonaoba17.jpg')"
-          ></v-img>
+          <v-img :src="require('@/assets/images/home/home8.jpg')"></v-img>
         </v-flex>
         <v-flex xs6 sm5 md5 lg4 xl3>
-          <v-img
-            :src="require('@/assets/images/salon/salonaoba18.jpg')"
-          ></v-img>
+          <v-img :src="require('@/assets/images/home/home9.jpg')"></v-img>
         </v-flex>
         <v-container>
           <v-layout justify-center>
@@ -55,8 +53,7 @@
         </v-container>
         <v-flex xs12 md10>
           <iframe
-            title="Aobadai Store map information"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.524672126769!2d139.51405901574515!3d35.540742280227214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f95ba673c72d%3A0x548a6d2a4178fc56!2z5aWz5oCn5bCC6ZaA44Gu5rK755mC6Zmi44Kq44Oq44O844O044Oc44OH44Kj44Kx44Ki6Z2S6JGJ5Y-w5bqX!5e0!3m2!1sja!2sjp!4v1564983221640!5m2!1sja!2sjp"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1495.6946074700454!2d139.55859857898!3d35.57573905724052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f71ab6b44f25%3A0xd8617b3b315c81fc!2z5aWz5oCn5bCC6ZaA44Gu5rK755mC6Zmi44Kq44Oq44O844O044Oc44OH44Kj44Kx44Ki!5e0!3m2!1sja!2sjp!4v1557065211029!5m2!1sja!2sjp"
             width="100%"
             height="300px"
             frameborder="0"
@@ -69,14 +66,14 @@
         <v-flex xs12 md10>
           <v-card flat class="my-2" color="info">
             <h3 class="py-2 accent--text text-xs-center">
-              横浜青葉台店ご予約は今すぐこちら！
+              たまプラーザ本店ご予約は今すぐこちら！
             </h3>
             <v-layout row wrap justify-center>
               <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
                 <v-btn
                   large
                   a
-                  to="https://olivebodycare.healthcare/reserve/aobadai"
+                  href="https://olivebodycare.healthcare/reserve/tamaplaza"
                   dark
                   color="green darken-3"
                 >
@@ -86,10 +83,10 @@
                 </v-btn>
               </v-flex>
               <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
-                <v-btn large a href="tel:0455303903" color="primary" dark>
+                <v-btn large a href="tel:0455301688" color="primary" dark>
                   <v-icon>phone</v-icon>
                   <span class="font-weight-bold subtitle-1"
-                    >：045-530-3903</span
+                    >：045-530-1688</span
                   >
                 </v-btn>
               </v-flex>
@@ -108,11 +105,12 @@ export default {
       items: [
         {
           title: '住所',
-          contents: '〒227-0063　横浜市青葉区榎が丘2-1ビンセプト502'
+          contents:
+            '〒225-0003　横浜市青葉区新石川3-15-16メディカルモールたまプラーザ301'
         },
         {
           title: 'アクセス',
-          contents: '東急田園都市線青葉台駅より徒歩3分'
+          contents: '東急田園都市線たまプラーザ駅より徒歩2分'
         },
         {
           title: '営業時間',
@@ -120,7 +118,7 @@ export default {
         },
         {
           title: '電話',
-          contents: '045-530-3903　完全予約制'
+          contents: '045-530-1688　完全予約制'
         }
       ]
     }
