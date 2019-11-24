@@ -8,52 +8,70 @@
               オートロックについて
             </h3>
           </v-flex>
-          <v-flex xs12 md8>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-2">
               １.正面入り口よりお入りください。階段の右横にポストがございます。
             </h4>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img :src="require('@/assets/images/salon/salon11.jpg')"></v-img>
           </v-flex>
-          <v-flex xs6 md5>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img :src="require('@/assets/images/salon/salon12.jpg')"></v-img>
           </v-flex>
-          <v-flex xs12 md8>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-4">
               ２.ポストの奥にオートロックのボタンがございます。
             </h4>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img :src="require('@/assets/images/salon/salon13.jpg')"></v-img>
           </v-flex>
-          <v-flex xs12 md8>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-4">
               ３.『301』を押して『呼出』ボタンを押してください。当院に直通します。
             </h4>
             <p>当院スタッフが応答いたしますので奥にお進みください。</p>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img :src="require('@/assets/images/salon/salon14.jpg')"></v-img>
           </v-flex>
-          <v-flex xs12 md8>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-4">
               ４.奥に進むと突き当たり左にエレベーターがございます。中に入り3階のボタンを押してください。
             </h4>
             <p>※当院スタッフが解除しないと3階ボタンは押せません。</p>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img :src="require('@/assets/images/salon/salon15.jpg')"></v-img>
           </v-flex>
-          <v-flex xs6 md5>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img :src="require('@/assets/images/salon/salon17.jpg')"></v-img>
           </v-flex>
-          <v-flex xs12 md8>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-2">
               ５.３階で降りて目の前の左側が３０１（当院）となります。
             </h4>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img :src="require('@/assets/images/salon/salon18.jpg')"></v-img>
           </v-flex>
         </v-layout>
@@ -67,7 +85,7 @@
               待合所について
             </h3>
           </v-flex>
-          <v-flex xs12 md8>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-2">
               共用の待合所が3階304号院の前にございます。
             </h4>
@@ -75,10 +93,12 @@
               施術までお時間がある場合は、お待ちいただく場所としてご利用ください。
             </p>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img :src="require('@/assets/images/salon/salon1.jpg')"></v-img>
           </v-flex>
-          <v-flex xs6 md5>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img :src="require('@/assets/images/salon/salon2.jpg')"></v-img>
           </v-flex>
         </v-layout>
@@ -92,7 +112,7 @@
               駐車場（院併設）のご利用方法
             </h3>
           </v-flex>
-          <v-flex xs12 md8>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-2">
               建物の向かって左側の奥が駐車場となります。
             </h4>
@@ -100,10 +120,12 @@
               ※反対車線から入れないようになっておりますので、たまプラーザ駅方面からお越し下さい。
             </p>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img :src="require('@/assets/images/salon/salon3.jpg')"></v-img>
           </v-flex>
-          <v-flex xs6 md5>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img :src="require('@/assets/images/salon/salon4.jpg')"></v-img>
           </v-flex>
         </v-layout>
@@ -117,7 +139,7 @@
               駐輪場（院併設）のご案内
             </h3>
           </v-flex>
-          <v-flex xs12 md8>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-2">
               建物の向かって左側の奥が駐輪場となります。
             </h4>
@@ -125,11 +147,45 @@
               入り口を入るとすぐに清算機がございます。奥に入り右側手前が駐輪場となります。
             </p>
           </v-flex>
-          <v-flex xs6 md5>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img :src="require('@/assets/images/salon/salon3.jpg')"></v-img>
           </v-flex>
-          <v-flex xs6 md5>
+          <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img :src="require('@/assets/images/salon/salon5.jpg')"></v-img>
+          </v-flex>
+        </v-layout>
+        <v-layout justify-center>
+          <v-flex xs12 md10>
+            <v-card flat class="my-2" color="yellow lighten-5">
+              <h3 class="py-2 accent--text text-xs-center">
+                たまプラーザ本店ご予約は今すぐこちら！
+              </h3>
+              <v-layout row wrap justify-center>
+                <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
+                  <v-btn
+                    large
+                    a
+                    href="https://olivebodycare.healthcare/reserve/tamaplaza"
+                    dark
+                    color="green darken-3"
+                  >
+                    <span class="font-weight-bold subtitle-1"
+                      >24時間Web予約は今すぐこちら！</span
+                    >
+                  </v-btn>
+                </v-flex>
+                <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
+                  <v-btn large a href="tel:0455301688" color="primary" dark>
+                    <v-icon>phone</v-icon>
+                    <span class="font-weight-bold subtitle-1"
+                      >：045-530-1688</span
+                    >
+                  </v-btn>
+                </v-flex>
+              </v-layout>
+            </v-card>
           </v-flex>
         </v-layout>
       </v-container>
