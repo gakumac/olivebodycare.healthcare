@@ -1,6 +1,7 @@
 <template>
   <div>
-    <headerslide />
+    <header1 />
+    <mission />
     <!-- <noticeslide /> -->
     <hometitle />
     <reason />
@@ -18,7 +19,8 @@
 </template>
 
 <script>
-import Headerslide from '~/components/index/Headerslide.vue'
+import Header1 from '~/components/index/Header1.vue'
+import Mission from '~/components/index/Mission.vue'
 // import Noticeslide from '~/components/Noticeslide.vue'
 import Hometitle from '~/components/index/Hometitle.vue'
 import Reason from '~/components/index/Reason.vue'
@@ -41,7 +43,8 @@ export default {
   },
   layout: 'toppage',
   components: {
-    Headerslide,
+    Header1,
+    Mission,
     // Noticeslide,
     Hometitle,
     Reason,
