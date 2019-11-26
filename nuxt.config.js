@@ -71,13 +71,17 @@ export default {
     // vuetify-loaderやstylus-loaderを使用するための設定
     treeShake: true,
     theme: {
-      primary: '#4169e1',
-      accent: '#e50000',
-      secondary: '#ffc0cb',
-      info: '#fff0f5',
-      warning: colors.amber.base,
-      error: colors.deepOrange.accent4,
-      success: colors.green.accent3
+      themes: {
+        light: {
+          primary: '#4169e1',
+          accent: '#e50000',
+          secondary: '#ffc0cb',
+          info: '#fff0f5',
+          warning: colors.amber.base,
+          error: colors.deepOrange.accent4,
+          success: colors.green.accent3
+        }
+      }
     }
   },
 
