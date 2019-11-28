@@ -3,10 +3,10 @@
     <v-container grid-list-md>
       <v-layout>
         <v-flex>
-          <div class="mt-2 text-xs-center">
+          <div class="mt-2 text-center">
             <v-icon x-large class="accent--text">mood</v-icon>
           </div>
-          <h2 class="my-2 accent--text text-xs-center">
+          <h2 class="my-2 accent--text text-center">
             当院の施術を受けるとどうなる？
           </h2>
         </v-flex>
@@ -45,7 +45,7 @@
           </v-flex>
         </v-layout>
       </div>
-      <v-layout row wrap justify-center>
+      <v-layout justify-center>
         <v-flex xs6 sm5 md6 lg5 xl4>
           <v-img
             :src="require('@/assets/images/voice/maruyama/pm_s.i.jpg')"

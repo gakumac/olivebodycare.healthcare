@@ -1,11 +1,11 @@
 <template>
   <div class="info">
-    <v-layout row wrap justify-center>
+    <v-layout justify-center>
       <v-flex xs12 sm9 md9 lg7 xl5>
-        <div class="mt-4 text-xs-center">
+        <div class="mt-4 text-center">
           <v-icon x-large color="accent">done_outline</v-icon>
         </div>
-        <h2 class="accent--text text-xs-center">
+        <h2 class="accent--text text-center">
           どれか１つでも当てはまる方は<br />
           今すぐ当院にお越しください！
         </h2>
@@ -13,7 +13,7 @@
       </v-flex>
     </v-layout>
     <v-container>
-      <v-layout row wrap justify-center>
+      <v-layout justify-center>
         <v-flex xs12 sm9 md9 lg7 xl5>
           <v-card v-for="(item, i) in items" :key="i" class="mb-3">
             <v-card-title>

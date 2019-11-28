@@ -3,12 +3,12 @@
     <v-container>
       <v-layout>
         <v-flex>
-          <h2 class="my-2 accent--text text-xs-center">
+          <h2 class="my-2 accent--text text-center">
             追伸
           </h2>
         </v-flex>
       </v-layout>
-      <v-layout row wrap justify-center class="text-xs-center">
+      <v-layout justify-center class="text-center">
         <v-flex xs12 md8>
           <p class="mt-2">
             当治療院は女性専門、女性スタッフによる女性のための整体院です。

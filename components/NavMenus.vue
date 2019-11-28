@@ -37,10 +37,7 @@
         <v-list-item-icon>
           <v-icon>{{ item.action }}</v-icon>
         </v-list-item-icon>
-        <v-list-item-title
-          class="body-2 font-weight-bold"
-          v-text="item.title"
-        />
+        <v-list-item-title class="body-2" v-text="item.title" />
       </v-list-item>
       <v-list-group
         v-for="(item, index) in items"
@@ -51,7 +48,7 @@
       >
         <template slot="activator">
           <v-list-item-content>
-            <v-list-item-title class="body-2 font-weight-bold">{{
+            <v-list-item-title class="body-2">{{
               item.title
             }}</v-list-item-title>
           </v-list-item-content>
@@ -62,7 +59,7 @@
           :to="subItem.to"
         >
           <v-list-item-content>
-            <v-list-item-title class="body-2 font-weight-bold">
+            <v-list-item-title class="body-2">
               {{ subItem.title }}
             </v-list-item-title>
           </v-list-item-content>
