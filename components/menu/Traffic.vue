@@ -1,12 +1,12 @@
 <template>
   <div>
     <v-container grid-list-lg>
-      <v-layout row wrap justify-center>
-        <h2 class="text-xs-center brown--text mb-2">
+      <v-layout justify-center>
+        <h2 class="text-center brown--text mb-2">
           当院の交通事故治療についてご紹介です。
         </h2>
       </v-layout>
-      <v-layout row wrap justify-center>
+      <v-layout justify-center>
         <div class="my-3 title red--text font-weight-bold">
           <h3>
             <v-icon large class="red--text">check</v-icon>
@@ -15,8 +15,10 @@
             </span>
           </h3>
         </div>
-        <v-flex xs12 md8>
-          <div class="subheading brown--text font-weight-bold">
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
+          <div class="brown--text font-weight-bold">
             <p>女性専門の交通事故治療が受けたい！</p>
             <p>交通事故にあったけどどこで治療したらいい？</p>
             <p>治療に通いたいけど男性の先生だと緊張する。</p>
@@ -26,23 +28,29 @@
             <p>駅から近くで治療を受けたい！</p>
           </div>
         </v-flex>
-        <v-flex xs12 md10>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm8 md8 lg6 xl4>
           <v-img :src="require('@/assets/images/menu/jiko1.jpg')"></v-img>
         </v-flex>
-        <v-flex xs12 md8>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <p>
             交通事故での後遺症などはすぐに症状が出ないものも多くあります。<br />
             早期の適切な治療が大事になりますので、気分が悪いなど、何か少しでも思い当たる症状がある場合はお早めにご来院ください。<br />
             痛みや不快感のない女性本来の健康な身体を取り戻しましょう！
           </p>
         </v-flex>
-        <v-flex xs12 md8>
-          <h3 class="mt-3 title red--text font-weight-bold">
-            当院が選ばれる理由
-          </h3>
-        </v-flex>
-        <v-flex xs12 md8>
-          <div class="subheading brown--text font-weight-bold">
+      </v-layout>
+      <v-layout justify-center>
+        <h3 class="mt-3 red--text">
+          当院が選ばれる理由
+        </h3>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
+          <div class="brown--text font-weight-bold">
             <p>
               １.女性スタッフによる女性専門の交通事故治療を受けることができる
             </p>
@@ -52,16 +60,18 @@
             <p>５.無料体験の治療を受けることができる</p>
           </div>
         </v-flex>
-        <v-flex xs12 md8>
-          <h3 class="mt-3 title red--text font-weight-bold">
-            交通事故に遭ってしまった場合の対処
-          </h3>
-        </v-flex>
-        <v-flex xs12 md8>
-          <h4 class="mb-2 subheading font-weight-bold">
+      </v-layout>
+      <v-layout justify-center>
+        <h3 class="text-center mt-3 red--text">
+          交通事故に遭ってしまった場合の対処
+        </h3>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
+          <h4 class="mb-2">
             まず行う現場での対処
           </h4>
-          <p class="subheading font-weight-bold">
+          <p class="font-weight-bold">
             1.緊急措置義務
           </p>
           <p>
@@ -71,14 +81,14 @@
             ③危険防止の措置をとる<br />
             ※後続車の誘導など、二重事故を防ぐための危険防止措置をとる必要がある。
           </p>
-          <p class="subheading font-weight-bold">
+          <p class="font-weight-bold">
             2.警察への報告義務
           </p>
           <p>
             ④交通事故の状況などを最寄りの警察署、派出所などへ通報する<br />
             注意：警察への報告義務を怠った場合、自動車保険の請求に必要な『事故証明書』も入手できなくなります。
           </p>
-          <p class="subheading font-weight-bold">
+          <p class="font-weight-bold">
             3.加害者の素性を確認する
           </p>
           <p>
@@ -98,7 +108,7 @@
             ・相手車両の車検証、自賠責保険の証明番号と保険会社名、加入年月日<br />
             ドライバーと車の所有者が違う場合でも安心
           </p>
-          <p class="subheading font-weight-bold">
+          <p class="font-weight-bold">
             4.事故現場の状況を記録
           </p>
           <p>
@@ -122,7 +132,7 @@
             ・目撃者の住所・氏名、目撃内容<br />
             事故時の信号表示など)利害関係のない目撃者の証言は信頼度が高い。
           </p>
-          <p class="subheading font-weight-bold">
+          <p class="font-weight-bold">
             5.自分の加入している保険会社に報告
           </p>
           <p>
@@ -145,7 +155,7 @@
             名称：女性専門の治療院オリーヴボディケア<br />
             TEL：045-530-1688（たまプラーザ本院）
           </p>
-          <p class="subheading font-weight-bold">
+          <p class="font-weight-bold">
             6.病院に行く
           </p>
           <p>
@@ -153,44 +163,48 @@
             注意：病院へ行かなかった場合、治療費の請求に必要な『人身事故』への切り替えができなくなります。
           </p>
         </v-flex>
-        <v-flex xs12 md8>
-          <h3 class="mt-3 title red--text font-weight-bold">
-            事故現場で絶対にしてはならない行動は？
-          </h3>
-        </v-flex>
-        <v-flex xs12 md8>
-          <h4 class="mb-2 subheading font-weight-bold">
+      </v-layout>
+      <v-layout justify-center>
+        <h3 class="text-center mt-3 red--text">
+          事故現場で絶対にしてはならない行動は？
+        </h3>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
+          <h4 class="mb-2">
             ①即決示談は絶対にしない
           </h4>
           <p>
             お互いの過失割合や正確な損害額が確定するまで、損害賠償額についての具体的な話は一切しない。示談は原則として『やり直し』『取り消し』はできない。
           </p>
-          <h4 class="mb-2 subheading font-weight-bold">
+          <h4 class="mb-2">
             ②必要以上に謝罪しない
           </h4>
           <p>
             明らかに自分の過失が相手の過失より大きいケースを除き、『私の責任で処理します』などと必要以上の謝罪はしない。自分に100％の過失があったと思わせる言動はしない。相手にも過失がある場合は、示談交渉でもめる原因になる。
           </p>
-          <h4 class="mb-2 subheading font-weight-bold">
+          <h4 class="mb-2">
             ③『念書』は絶対に書かない
           </h4>
           <p>
             『念書』は後日の証拠として念のために相手に渡しておく書面。後日の証拠として重要視されるので、メモ書きであっても念書は書かない。保険会社が100％の過失ではないと判断した場合、相手の過失分は、保険会社から支払われず、示談交渉でもめる原因となる。
           </p>
         </v-flex>
-        <v-flex xs12 md8>
-          <h3 class="mt-3 title red--text font-weight-bold">
-            自賠責保険での損害賠償範囲
-          </h3>
-        </v-flex>
-        <v-flex xs12 md8>
-          <h4 class="mb-2 subheading font-weight-bold">
+      </v-layout>
+      <v-layout justify-center>
+        <h3 class="text-center mt-3 red--text">
+          自賠責保険での損害賠償範囲
+        </h3>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
+          <h4 class="mb-2">
             自賠責保険とは
           </h4>
           <p>
             自動車・バイクを運行する場合に法律（自動車損害賠償保障法）によって加入が義務づけられている国が事業として行っている保険（強制保険）です。事故が起こった場合の被害者の救済が目的の保険で、被害者は一定の金額までは補償金を自賠責保険から受けることができます。
           </p>
-          <h4 class="mb-2 subheading font-weight-bold">
+          <h4 class="mb-2">
             自賠責保険から支払われる保険金額
           </h4>
           <p class="font-weight-bold">
@@ -247,96 +261,102 @@
             葬儀費+逸失利益+慰謝料
           </p>
         </v-flex>
-        <v-flex xs12 md10>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm8 md8 lg6 xl4>
           <v-img :src="require('@/assets/images/menu/jiko2.jpg')"></v-img>
         </v-flex>
-        <v-flex xs12 md8>
-          <h3 class="mt-3 title red--text font-weight-bold">
-            当院を利用することの１１のメリット
-          </h3>
-        </v-flex>
-        <v-flex xs12 md8>
-          <h4 class="mb-2 subheading font-weight-bold">
+      </v-layout>
+      <v-layout justify-center>
+        <h3 class="text-center mt-3 red--text">
+          当院を利用することの１１のメリット
+        </h3>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
+          <h4 class="my-2">
             女性の視点から親身に対応してもらえる。
           </h4>
           <p>
             細やかな対応で女性特有の悩みも考慮しながら改善をしていきます。女性は年齢や生理の周期に応じて身体が変化するため症状が変わってきます。心のこもった女性スタッフの治療で一人ひとりにあった交通事故専門治療が受けられます。
           </p>
-          <h4 class="mb-2 subheading font-weight-bold">
+          <h4 class="my-2">
             湿布や電気だけではない、専門治療を受けることができる。
           </h4>
           <p>
             交通事故では軽自動車でも約１トンあるものがぶつかってきます。想像以上の衝撃を受けた体は深部を損傷しています。身体の表層にアプローチする電気や湿布ではほとんど症状が改善しないのが現状です。当院では痛みや不快感のない女性本来の健康な体を取り戻すための治療が受けれます。
           </p>
-          <h4 class="mb-2 subheading font-weight-bold">
+          <h4 class="my-2">
             根本治療での施術を受けることができる。
           </h4>
           <p>
             事故の衝撃によって痛めた部分を中心に、バランスが崩れてしまった他の身体の部分も、同時に合わせて調整して行きます。身体全体とじっくり対話しながらの一人ひとりの症状に合わせた女性専門の交通事故治療を受けることができます。交通事故に合う前よりも健康な体を手に入れましょう。
           </p>
-          <h4 class="mb-2 subheading font-weight-bold">
+          <h4 class="my-2">
             他の院からも転院することができる。
           </h4>
           <p>
             女性専門の交通事故治療が受けたい方、お子様 (赤ちゃん)
             と一緒に通院を考えている女性の方、現在の治療に疑問がある女性の患者さま、当院では転院での治療も受けることができます。ぜひ１度ご連絡ください。
           </p>
-          <h4 class="mb-2 subheading font-weight-bold">
+          <h4 class="my-2">
             自賠責保険に適用しているので、治療費０円で治療を受けることができる。
           </h4>
           <p>
             当院の女性柔道整復氏は国家資格で、厚生労働省から自賠責保険取扱いの認定を受けています。自賠責保険適用の場合、治療費は保証範囲となり、治療費無料で治療を受けることができます。
           </p>
-          <h4 class="mb-2 subheading font-weight-bold">
+          <h4 class="my-2">
             保険や補償などに関して、豊富な知識でのサポートを受けることができる。
           </h4>
           <p>
             治療費、通院交通費、休業損害、慰謝料、など難しい補償範囲の事、金銭的な事など女性スタッフから詳しく説明、サポートが受けられます。
           </p>
-          <h4 class="mb-2 subheading font-weight-bold">
+          <h4 class="my-2">
             保険会社との交渉でサポートを受けることができる。
           </h4>
           <p>
             交通事故にあった場合、相手方の保険会社との交渉でいろいろな事が決まってきます。こんな事を言われたけど、本当に正しいのか？言いくるめられてしまう事、言いなりになってしまい取り返しのつかない事態になってしまう事、多々あります。一人で悩んだり、判断せずにまずはご相談ください。女性スタッフが全力でサポーとします。
           </p>
-          <h4 class="mb-2 subheading font-weight-bold">
+          <h4 class="my-2">
             提携の司法書士のサポートを受けることができる。
           </h4>
           <p>
             当院では常に患者さまに適切なアドバイスが出来る体制を整えているので、保険会社との対応でも最善の対応をする事が出来ます。
           </p>
-          <h4 class="mb-2 subheading font-weight-bold">
+          <h4 class="my-2">
             完全予約制で待たずに治療を受けることができる。
           </h4>
           <p>
             お仕事、家事、育児と日頃ご多忙の女性の患者様、完全予約制なのでお待ち頂く事なく治療が受けられます。リラックスできる治療院で、心身共に痛みを解消できる交通事故専門治療がうけれます。
           </p>
-          <h4 class="mb-2 subheading font-weight-bold">
+          <h4 class="my-2">
             お子様 (赤ちゃん) 連れで通院できる。
           </h4>
           <p>
             当院ではお子様が目の届く広さで安心して専門治療が受けられます。ごく少人数でのアットホームな空間で、お子様が泣いてしまっても安心です。おもちゃやDVDもを準備しております。お子様の好きなものをお持ちいただく事もできます。
           </p>
-          <h4 class="mb-2 subheading font-weight-bold">
+          <h4 class="my-2">
             交通事故の患者さまは無料体験治療を受ける事ができる。
           </h4>
           <p>
             まずはお電話か、メールでお問い合わせください。
           </p>
         </v-flex>
-        <v-flex xs12 md8>
-          <h3 class="mt-3 title red--text font-weight-bold">
-            交通事故の治療手順
-          </h3>
-        </v-flex>
-        <v-flex xs12 md8>
-          <h4 class="mb-2 subheading font-weight-bold">
+      </v-layout>
+      <v-layout justify-center>
+        <h3 class="text-center mt-3 red--text">
+          交通事故の治療手順
+        </h3>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
+          <h4 class="mb-2">
             １.お電話・メールまたはご予約後来院してご相談ください
           </h4>
           <p>
             一人で悩まずに、今すぐにご相談ください。経験豊富な女性スタッフが親切・丁寧に対応いたします。
           </p>
-          <h4 class="mb-2 subheading font-weight-bold">
+          <h4 class="mb-2">
             ２.事故の状況確認とアドバイス
           </h4>
           <p>
@@ -345,46 +365,46 @@
             2.警察への事故届・病院の診断<br />
             3.保険会社とのやりとり
           </p>
-          <h4 class="mb-2 subheading font-weight-bold">
+          <h4 class="mb-2">
             ３.カウンセリング
           </h4>
           <p>
             事故当時の状況、その後の経過、病院での診断内容、現在の状況などを詳しく確認し、全身を診て身体の本当に損傷している部分を特定します。
           </p>
-          <h4 class="mb-2 subheading font-weight-bold">
+          <h4 class="mb-2">
             ４.治療開始
           </h4>
           <p>
             強い衝撃によって全身の筋肉や間接のバランスが崩れた身体を治療します。
           </p>
-          <h4 class="mb-2 subheading font-weight-bold">
+          <h4 class="mb-2">
             ５.治療終了
           </h4>
           <p>
             痛みや症状がなくなったのを確認し、治療を終了とします。今後の生活面での注意事項や簡単にできるストレッチ法などもお伝えします
           </p>
         </v-flex>
-        <v-flex xs12 md8>
-          <h3 class="my-3 title red--text font-weight-bold">
-            患者様から喜びの声が届きました！
-          </h3>
-        </v-flex>
+      </v-layout>
+      <v-layout justify-center>
+        <h3 class="text-center my-3 red--text">
+          患者様から喜びの声が届きました！
+        </h3>
       </v-layout>
       <div v-for="(item, i) in items" :key="i">
         <v-card color="yellow lighten-4" class="pa-2">
           <v-layout row wrap justify-center>
             <v-flex xs12 md12>
-              <p class="my-3 title brown--text text-xs-center">
+              <h3 class="my-3 brown--text text-center">
                 {{ item.name }}
-              </p>
+              </h3>
             </v-flex>
-            <v-flex xs12 md6>
+            <v-flex xs12 sm10 md6 lg5 xl4>
               <v-img :src="item.sheet"></v-img>
               <div class="caption brown--text">
                 ※個人の感想であり、効果を保証するわけではありません。
               </div>
             </v-flex>
-            <v-flex xs12 md6>
+            <v-flex xs12 sm10 md6 lg5 xl4>
               <div>
                 <div class="accent--text caption">
                   ①来院時の症状はどんな症状でいらっしゃいましたか？
@@ -412,15 +432,17 @@
                 </div>
               </div>
             </v-flex>
-            <v-flex xs12 md6>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs12 sm10 md6 lg5 xl4>
               <v-img :src="item.image"></v-img>
             </v-flex>
           </v-layout>
         </v-card>
       </div>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md8>
-          <h3 class="my-3 title red--text font-weight-bold">
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
+          <h3 class="text-center my-3 red--text">
             むち打ち・交通事故治療について
           </h3>
           <p>
@@ -429,8 +451,10 @@
             事故にあった当日よりも、数日から数週間が経過して急に痛みが走しょうするケースも少なくありません。また軽い症状だからといって放置しておくと、悪化してしまう恐れがありますので注意が必要です。
           </p>
         </v-flex>
-        <v-flex xs12 md8>
-          <h4 class="mb-2 subheading font-weight-bold">
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
+          <h4 class="mb-2">
             むち打ち症の分類
           </h4>
           <p class="font-weight-bold">
@@ -457,7 +481,7 @@
           <p>
             脊髄神経が損傷されると運動機能が失われ、筋力低下、知覚異常、下肢のしびれなどが起こり、歩行障害が現れます。排尿や排便などが困難になる膀胱直腸障害を引き起こす重篤なケースもあります。
           </p>
-          <h4 class="mb-2 subheading font-weight-bold">
+          <h4 class="mb-2">
             治療について
           </h4>
           <p>

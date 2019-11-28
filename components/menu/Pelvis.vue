@@ -2,12 +2,12 @@
   <div>
     <v-container grid-list-lg>
       <v-layout row wrap justify-center>
-        <h2 class="text-xs-center brown--text mb-2">
+        <h2 class="text-center brown--text mb-2">
           当院の骨盤矯正についてご紹介です。
         </h2>
       </v-layout>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md8>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <p>
             骨盤の歪みには様々な原因があります。<br />
             足を組んで座ったり、横座り・ペタンコ座りや、同じ方に重心をかけた立ち方、いつも同じ方でカバンを持つなどでも歪んでしまいます。<br />
@@ -34,15 +34,21 @@
             骨盤が整った後は、体が偏らない生活を行い、自宅での体のケアをすることで、生き生きとした骨盤を維持することができます。
           </p>
         </v-flex>
-        <v-flex xs12 md10>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm8 md8 lg6 xl4>
           <v-img :src="require('@/assets/images/menu/kotsuban1.jpg')"></v-img>
         </v-flex>
-        <v-flex xs12 md12>
-          <h2 class="text-xs-center brown--text mt-4 mb-2">
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex>
+          <h2 class="text-center brown--text mt-4 mb-2">
             骨盤の歪みについて
           </h2>
         </v-flex>
-        <v-flex xs12 md8>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <p>
             健全な身体がそこなわれる最大の原因は、身体のゆがみです。<br />
             私たちは、骨盤の下がりが骨格のゆがみのおおもと、と考えています。<br />
@@ -59,7 +65,9 @@
             そしてその波及で肋骨（助間）が緊張・硬直し様々な病気・症状の原因になるのです。
           </p>
         </v-flex>
-        <v-flex xs12 md10>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm8 md8 lg6 xl4>
           <v-img :src="require('@/assets/images/menu/kotsuban2.jpg')"></v-img>
         </v-flex>
       </v-layout>

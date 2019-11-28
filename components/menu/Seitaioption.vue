@@ -4,12 +4,12 @@
       <v-container grid-list-lg>
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h2 class="text-xs-center brown--text">
+            <h2 class="text-center brown--text">
               {{ item.h2 }}
             </h2>
           </v-flex>
-          <v-flex xs12 md8>
-            <div class="mb-3 title red--text font-weight-bold">
+          <v-flex xs12 sm9 md9 lg7 xl5>
+            <div class="mb-3 title  red--text font-weight-bold">
               <v-icon large class="red--text">check</v-icon>
               <span>
                 受けるとどうなる！？
@@ -24,7 +24,9 @@
               <p>{{ item.after6 }}</p>
             </div>
           </v-flex>
-          <v-flex xs12 md8>
+        </v-layout>
+        <v-layout justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <div class="mb-3 title red--text font-weight-bold">
               <v-icon large class="red--text">check</v-icon>
               <span>
@@ -32,37 +34,47 @@
               </span>
             </div>
             <div>
-              <v-chip color="primary" text-color="white">{{
+              <v-chip class="mb-2 primary" text-color="white">{{
                 item.target1
               }}</v-chip>
-              <v-chip color="brown" text-color="white">{{
+              <v-chip class="mb-2 brown" text-color="white">{{
                 item.target2
               }}</v-chip>
-              <v-chip color="red" text-color="white">{{ item.target3 }}</v-chip>
-              <v-chip color="green" text-color="white">{{
+              <v-chip class="mb-2 red" text-color="white">{{
+                item.target3
+              }}</v-chip>
+              <v-chip class="mb-2 green" text-color="white">{{
                 item.target4
               }}</v-chip>
-              <v-chip color="primary" text-color="white">{{
+              <v-chip class="mb-2 primary" text-color="white">{{
                 item.target5
               }}</v-chip>
-              <v-chip color="brown" text-color="white">{{
+              <v-chip class="mb-2 brown" text-color="white">{{
                 item.target6
               }}</v-chip>
-              <v-chip color="red" text-color="white">{{ item.target7 }}</v-chip>
+              <v-chip class="mb-2 red" text-color="white">{{
+                item.target7
+              }}</v-chip>
             </div>
           </v-flex>
-          <v-flex xs12 md8>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <p>
               {{ item.note1 }}
             </p>
           </v-flex>
-          <v-flex xs12 md10>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm8 md8 lg6 xl4>
             <v-img :src="item.image"></v-img>
           </v-flex>
+        </v-layout>
+        <v-layout row wrap justify-center>
           <v-flex xs6 md6>
-            <div class="subheading text-xs-center">技術料金</div>
+            <div class="subheading text-center">技術料金</div>
           </v-flex>
-          <v-flex xs6 md6>
+          <v-flex xs6 md6 xl4>
             <span class="headline accent--text font-weight-bold">
               {{ item.price }}
             </span>
@@ -70,7 +82,7 @@
               税抜
             </span>
           </v-flex>
-          <v-flex xs12 md8>
+          <v-flex xs12 sm9 md9 lg7 xl5>
             <p>
               {{ item.note2 }}
             </p>

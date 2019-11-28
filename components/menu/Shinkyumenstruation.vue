@@ -1,13 +1,13 @@
 <template>
   <div>
     <v-container grid-list-lg>
-      <v-layout row wrap justify-center>
-        <h2 class="text-xs-center brown--text mb-2">
+      <v-layout justify-center>
+        <h2 class="text-center brown--text mb-2">
           鍼灸治療と生理について
         </h2>
       </v-layout>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md8>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <p>
             生理痛、生理不順、更年期症状、不妊症、自律神経失調症、冷え、むくみ、尿もれなど<br />
             女性は生涯を通して、女性特有の症状で色々な悩みを抱えているものです。<br />
@@ -23,12 +23,14 @@
             活動的な交感神経と、休養するための副交感神経が相互にバランス良く働くことで、動いたり休んだりをうまくコントロールしているのです。
           </p>
         </v-flex>
-        <v-flex xs12 md10>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm8 md8 lg6 xl4>
           <v-img :src="require('@/assets/images/menu/shinkyu1.jpg')"></v-img>
         </v-flex>
       </v-layout>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md8>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <div class="mb-3 title red--text font-weight-bold">
             <v-icon large class="red--text">check</v-icon>
             <span>

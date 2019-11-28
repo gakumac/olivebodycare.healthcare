@@ -2,12 +2,12 @@
   <div>
     <v-container grid-list-lg>
       <v-layout row wrap justify-center>
-        <h2 class="text-xs-center brown--text mb-2">
+        <h2 class="text-center brown--text mb-2">
           産後の骨盤矯正についてご紹介です。
         </h2>
       </v-layout>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md8>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <p>
             出産は安産だったとしても大仕事です。<br />
             お母さん、この大仕事を成し遂げ本当にお疲れさまでした。<br />
@@ -23,12 +23,16 @@
             ただでさえ産まれたばかりの赤ちゃんはリズムも無く、泣いてばかりで、寝不足のお母さんには体力的に大変な時期でもあります。<br />
           </p>
         </v-flex>
-        <v-flex xs12 md10>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm8 md8 lg6 xl4>
           <v-img
             :src="require('@/assets/images/menu/kotsubansango1.jpg')"
           ></v-img>
         </v-flex>
-        <v-flex xs12 md8>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <p>
             産後の骨盤矯正をすることで、身体の不調や、ストレスを和らげることができます。<br />
             産後、骨盤矯正をすることなく今になってしまっている、とお困りの方も沢山いらっしゃいますが、遅すぎることはありません。<br />

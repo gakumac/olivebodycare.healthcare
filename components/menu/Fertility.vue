@@ -1,23 +1,27 @@
 <template>
   <div>
     <v-container grid-list-lg>
-      <v-layout row wrap justify-center>
-        <h2 class="text-xs-center brown--text mb-2">
+      <v-layout justify-center>
+        <h2 class="text-center brown--text mb-2">
           当院の不妊治療についてご紹介です。
         </h2>
       </v-layout>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md8>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <p>
             お腹・手足を触ってみてください。<br />
             冷たく冷えきっていませんか？<br />
             妊娠しやすい身体とは、身体がポカポカで子宮もフカフカな状態です。
           </p>
         </v-flex>
-        <v-flex xs12 md10>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm8 md8 lg6 xl4>
           <v-img :src="require('@/assets/images/menu/hunin1.jpg')"></v-img>
         </v-flex>
-        <v-flex xs12 md8>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <div class="mb-3 title red--text font-weight-bold">
             <v-icon large class="red--text">check</v-icon>
             <span>
@@ -35,12 +39,16 @@
             <p>妊娠する準備が整う身体になります。</p>
           </div>
         </v-flex>
-        <v-flex xs12 md12>
-          <h3 class="text-xs-center brown--text mt-4 mb-2">
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex>
+          <h3 class="text-center brown--text mt-4 mb-2">
             患者様の喜びの声が届きました！
           </h3>
         </v-flex>
-        <v-flex xs12 md10>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <v-card color="yellow lighten-4" class="pa-2">
             <v-layout>
               <v-flex>
@@ -68,17 +76,17 @@
         <v-card color="yellow lighten-4" class="pa-2">
           <v-layout row wrap justify-center>
             <v-flex xs12 md12>
-              <p class="my-3 title brown--text text-xs-center">
+              <h3 class="my-3 brown--text text-center">
                 {{ item.name }}
-              </p>
+              </h3>
             </v-flex>
-            <v-flex xs12 md6>
+            <v-flex xs12 sm10 md6 lg5 xl4>
               <v-img :src="item.sheet"></v-img>
               <div class="caption brown--text">
                 ※個人の感想であり、効果を保証するわけではありません。
               </div>
             </v-flex>
-            <v-flex xs12 md6>
+            <v-flex xs12 sm10 md6 lg5 xl4>
               <div>
                 <div class="accent--text caption">
                   ①来院時の症状はどんな症状でいらっしゃいましたか？
@@ -106,7 +114,9 @@
                 </div>
               </div>
             </v-flex>
-            <v-flex xs12 md6>
+          </v-layout>
+          <v-layout justify-center>
+            <v-flex xs12 sm10 md6 lg5 xl4>
               <v-img :src="item.image"></v-img>
             </v-flex>
           </v-layout>

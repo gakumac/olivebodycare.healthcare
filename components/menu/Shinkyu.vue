@@ -1,13 +1,13 @@
 <template>
   <div>
     <v-container grid-list-md>
-      <v-layout row wrap justify-center>
-        <h2 class="text-xs-center brown--text mb-2">
+      <v-layout justify-center>
+        <h2 class="text-center brown--text mb-2">
           当院の鍼灸についてご紹介です。
         </h2>
       </v-layout>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md8>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <p>
             原因不明の不調は、自覚症状がありながら検査上の数値に問題はないと診断されることが多くあります。<br />
             鍼灸施術病気にはなっていないが健康ともいえない、未病という状態に悩む方が増えています。<br />
@@ -15,12 +15,14 @@
             当院の鍼灸は局所のこりや痛みを取りのぞくだけではなく、血液の流れをよくし、全身をリラックスさせます。
           </p>
         </v-flex>
-        <v-flex xs12 md10>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm8 md8 lg6 xl4>
           <v-img :src="require('@/assets/images/menu/shinkyu2.jpg')"></v-img>
         </v-flex>
       </v-layout>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md8>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <h3 class="mb-3 title red--text font-weight-bold">
             <v-icon large class="red--text">check</v-icon>
             <span>
@@ -34,8 +36,8 @@
           </div>
         </v-flex>
       </v-layout>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md8>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <p>
             東洋医学では、自覚症状を重視した上で、独自の診察法である脈診、腹診、舌診などを中心に用い、身体全体を細かく診ていきます。<br />
             それによって得られる全ての情報に基づき治療法が決まります。<br />
@@ -47,15 +49,21 @@
             また当院では、生理不順、不妊症、更年期障害などの婦人科系疾患や小児科系疾患にも力を入れており効果を上げています。<br />
           </p>
         </v-flex>
-        <v-flex xs12 md10>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm8 md8 lg6 xl4>
           <v-img :src="require('@/assets/images/menu/shinkyu3.jpg')"></v-img>
         </v-flex>
-        <v-flex xs12 md12>
-          <h3 class="text-xs-center brown--text mt-4 mb-2">
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex>
+          <h3 class="text-center brown--text mt-4 mb-2">
             当院で使用している鍼について
           </h3>
         </v-flex>
-        <v-flex xs12 md8>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <p>
             『鍼＝痛い・怖い』<br />
             こんな風に思われている方は多いのではないでしょうか？<br />
@@ -68,22 +76,26 @@
             エイズや肝炎などの感染症についての心配はいっさいありません。
           </p>
         </v-flex>
-        <v-flex xs12 md12>
-          <h3 class="text-xs-center brown--text mt-4">
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex>
+          <h3 class="text-center brown--text mt-4">
             鍼灸治療の効果
           </h3>
         </v-flex>
-        <v-flex xs12 md8>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <p>
             『東洋医学・鍼灸はいまや、世界各国へ広がっています。2006年にWHO（世界保健機関）により、経穴部位（ツボの位置）が標準化され、東洋医学は国際化へむけて第一歩をふみだしました。アジアから世界へ。新しい時代をむかえようとしています。WHO（世界保健機関）で鍼灸治療の有効性を認めた症状です！
           </p>
         </v-flex>
       </v-layout>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md9>
+      <v-layout justify-center>
+        <v-flex xs12 md9 xl6>
           <v-card v-for="(item, i) in items" :key="i" class="mt-2 info">
             <v-flex xs12 md12>
-              <h4 class="brown--text text-xs-center">
+              <h4 class="brown--text text-center">
                 {{ item.h4 }}
               </h4>
               <p>
