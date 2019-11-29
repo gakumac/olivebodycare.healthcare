@@ -2,7 +2,13 @@
   <div class="info">
     <v-layout justify-center>
       <v-flex xs12 sm11 md9 lg8 xl7>
-        <v-carousel hide-delimiters height="auto" width="auto">
+        <v-carousel
+          cycle
+          interval="3000"
+          hide-delimiters
+          height="auto"
+          width="auto"
+        >
           <v-carousel-item
             v-for="(item, i) in items"
             :key="i"

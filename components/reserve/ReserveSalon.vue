@@ -1,12 +1,12 @@
 <template>
   <div>
-    <v-container>
+    <v-container grid-list-lg>
       <v-layout justify-center>
         <v-flex xs12 sm10 md8 lg7 xl6>
-          <div class="my-2 text-xs-center">
+          <div class="my-2 text-center">
             <v-icon x-large class="brown--text">date_range</v-icon>
           </div>
-          <h2 class="my-2 text-xs-center">
+          <h2 class="my-2 text-center">
             24時間Web予約はこちらから！
           </h2>
           <p>
@@ -19,11 +19,11 @@
       <v-layout justify-center>
         <v-flex xs12 md10 xl8>
           <v-card class="my-2" color="info">
-            <h3 class="py-2 accent--text text-xs-center">
+            <h3 class="py-2 accent--text text-center">
               たまプラーザ本店ご予約は今すぐこちら！
             </h3>
             <v-layout row wrap justify-center>
-              <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
+              <v-flex xs12 sm5 md5 lg5 xl4 class="text-center">
                 <v-btn
                   large
                   a
@@ -36,7 +36,7 @@
                   >
                 </v-btn>
               </v-flex>
-              <v-flex xs12 sm5 md5 lg5 xl4 class="text-xs-center">
+              <v-flex xs12 sm5 md5 lg5 xl4 class="text-center">
                 <v-btn a href="tel:0455301688" color="primary" dark>
                   <v-icon>phone</v-icon>
                   <span class="font-weight-bold subtitle-1"
@@ -51,11 +51,11 @@
       <v-layout justify-center>
         <v-flex xs12 md10 xl8>
           <v-card class="my-2" color="info">
-            <h3 class="py-2 accent--text text-xs-center">
+            <h3 class="py-2 accent--text text-center">
               横浜青葉台店ご予約は今すぐこちら！
             </h3>
             <v-layout row wrap justify-center>
-              <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
+              <v-flex xs12 sm5 md5 lg5 xl4 class="text-center">
                 <v-btn
                   large
                   a
@@ -68,7 +68,7 @@
                   >
                 </v-btn>
               </v-flex>
-              <v-flex xs12 sm5 md5 lg5 xl4 class="text-xs-center">
+              <v-flex xs12 sm5 md5 lg5 xl4 class="text-center">
                 <v-btn a href="tel:0455303903" color="primary" dark>
                   <v-icon>phone</v-icon>
                   <span class="font-weight-bold subtitle-1"
@@ -83,11 +83,11 @@
       <v-layout justify-center>
         <v-flex xs12 md10 xl8>
           <v-card class="my-2" color="info">
-            <h3 class="py-2 accent--text text-xs-center">
+            <h3 class="py-2 accent--text text-center">
               札幌円山店ご予約は今すぐこちら！
             </h3>
             <v-layout row wrap justify-center>
-              <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-xs-center">
+              <v-flex xs12 sm5 md5 lg5 xl4 class="text-center">
                 <v-btn
                   large
                   a
@@ -100,7 +100,7 @@
                   >
                 </v-btn>
               </v-flex>
-              <v-flex xs12 sm5 md5 lg5 xl4 class="text-xs-center">
+              <v-flex xs12 sm5 md5 lg5 xl4 class="text-center">
                 <v-btn a href="tel:0116768970" color="primary" dark>
                   <v-icon>phone</v-icon>
                   <span class="font-weight-bold subtitle-1"
@@ -116,10 +116,10 @@
     <v-container>
       <v-layout justify-center>
         <v-flex xs12 sm10 md8 lg7 xl6>
-          <div class="my-2 text-xs-center">
+          <div class="my-2 text-center">
             <v-icon x-large class="brown--text">mail_outline</v-icon>
           </div>
-          <h2 class="my-2 text-xs-center">
+          <h2 class="my-2 text-center">
             メールでのご予約・お問合せはこちらから！
           </h2>
           <p>
@@ -129,12 +129,12 @@
       </v-layout>
       <v-layout justify-center>
         <v-flex xs12 md10 xl8>
-          <v-card class="my-2" color="info">
-            <h3 class="py-2 accent--text text-xs-center">
+          <v-card color="info">
+            <h3 class="my-2 accent--text text-center">
               メールフォーム
             </h3>
-            <v-layout row wrap justify-center>
-              <v-flex xs12 md6 class="mb-2 text-xs-center">
+            <v-layout justify-center>
+              <v-flex xs12 md6 class="mb-2 text-center">
                 <v-btn
                   large
                   a
