@@ -12,12 +12,11 @@
     </v-layout>
     <v-container>
       <div v-for="(item, i) in items" :key="i">
-        <v-layout row wrap justify-center>
-          <v-flex xs12 md10>
-            <v-card flat color="yellow lighten-5" class="brown--text ma-2">
+        <v-layout justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5>
+            <v-card flat color="yellow lighten-5" class="brown--text my-2">
               <v-card-title>
-                <span class="title accent--text">Q&nbsp;</span>
-                <h3 class="subheading font-weight-bold">{{ item.q }}</h3>
+                <h3><span class="accent--text">Q&nbsp;</span>{{ item.q }}</h3>
               </v-card-title>
               <v-card-text>
                 <span class="title accent--text">A&nbsp;</span>

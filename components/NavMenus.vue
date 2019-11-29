@@ -13,7 +13,7 @@
         color="green darken-3"
         class="font-weight-bold mr-2 body-2"
         a
-        href="https://reserve.olivebodycare.healthcare/mypage/"
+        href="https://reserve.olivebodycare.healthcare/mypage"
       >
         マイページ
       </v-btn>
@@ -23,7 +23,7 @@
         color="green darken-3"
         class="body-2"
         a
-        href="https://olivebodycare.healthcare/reserve/"
+        href="https://olivebodycare.healthcare/reserve"
       >
         24時間Web予約
       </v-btn>

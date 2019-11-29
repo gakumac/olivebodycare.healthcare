@@ -2,22 +2,21 @@
   <div class="grey lighten-5">
     <v-layout>
       <v-flex>
-        <div class="mt-4 text-xs-center">
+        <div class="mt-4 text-center">
           <v-icon x-large class="brown--text">chat</v-icon>
         </div>
-        <h2 class="mt-2 brown--text text-xs-center">
+        <h2 class="mt-2 brown--text text-center">
           {{ title }}
         </h2>
       </v-flex>
     </v-layout>
     <v-container>
       <div v-for="(item, i) in items" :key="i">
-        <v-layout row wrap justify-center>
-          <v-flex xs12 md10>
-            <v-card flat color="yellow lighten-5" class="brown--text ma-2">
+        <v-layout justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5>
+            <v-card flat color="yellow lighten-5" class="brown--text my-2">
               <v-card-title>
-                <span class="title accent--text">Q&nbsp;</span>
-                <h3 class="subheading font-weight-bold">{{ item.q }}</h3>
+                <h3><span class="accent--text">Q&nbsp;</span>{{ item.q }}</h3>
               </v-card-title>
               <v-card-text>
                 <span class="title accent--text">A&nbsp;</span>

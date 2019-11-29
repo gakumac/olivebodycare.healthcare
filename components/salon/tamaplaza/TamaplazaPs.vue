@@ -1,14 +1,14 @@
 <template>
   <div class="info">
-    <v-container>
+    <v-container grid-list-md>
       <v-layout>
         <v-flex>
-          <h2 class="my-2 accent--text text-xs-center">
+          <h2 class="my-2 accent--text text-center">
             追伸
           </h2>
         </v-flex>
       </v-layout>
-      <v-layout row wrap justify-center class="text-xs-center">
+      <v-layout row wrap justify-center class="text-center">
         <v-flex xs12 md8>
           <p class="mt-2">
             当治療院は女性専門、女性スタッフによる女性のための整体院です。
@@ -41,11 +41,11 @@
       <v-layout justify-center>
         <v-flex xs12 md10>
           <v-card flat class="my-2" color="info">
-            <h3 class="py-2 accent--text text-xs-center">
+            <h3 class="py-2 accent--text text-center">
               たまプラーザ本店ご予約は今すぐこちら！
             </h3>
             <v-layout row wrap justify-center>
-              <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
+              <v-flex xs12 sm6 md5 lg5 xl4 class="text-center">
                 <v-btn
                   large
                   a
@@ -58,7 +58,7 @@
                   >
                 </v-btn>
               </v-flex>
-              <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
+              <v-flex xs12 sm6 md5 lg5 xl4 class="text-center">
                 <v-btn large a href="tel:0455301688" color="primary" dark>
                   <v-icon>phone</v-icon>
                   <span class="font-weight-bold subtitle-1"

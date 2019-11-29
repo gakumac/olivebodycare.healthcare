@@ -4,7 +4,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h3 class="my-2 accent--text text-xs-center">
+            <h3 class="my-2 accent--text text-center">
               オートロックについて
             </h3>
           </v-flex>
@@ -81,7 +81,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h3 class="my-2 accent--text text-xs-center">
+            <h3 class="my-2 accent--text text-center">
               待合所について
             </h3>
           </v-flex>
@@ -108,7 +108,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h3 class="my-2 accent--text text-xs-center">
+            <h3 class="my-2 accent--text text-center">
               駐車場（院併設）のご利用方法
             </h3>
           </v-flex>
@@ -135,7 +135,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h3 class="my-2 accent--text text-xs-center">
+            <h3 class="my-2 accent--text text-center">
               駐輪場（院併設）のご案内
             </h3>
           </v-flex>
@@ -159,11 +159,11 @@
         <v-layout justify-center>
           <v-flex xs12 md10>
             <v-card flat class="my-2" color="yellow lighten-5">
-              <h3 class="py-2 accent--text text-xs-center">
+              <h3 class="py-2 accent--text text-center">
                 たまプラーザ本店ご予約は今すぐこちら！
               </h3>
               <v-layout row wrap justify-center>
-                <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
+                <v-flex xs12 sm6 md5 lg5 xl4 class="text-center">
                   <v-btn
                     large
                     a
@@ -176,7 +176,7 @@
                     >
                   </v-btn>
                 </v-flex>
-                <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
+                <v-flex xs12 sm6 md5 lg5 xl4 class="text-center">
                   <v-btn large a href="tel:0455301688" color="primary" dark>
                     <v-icon>phone</v-icon>
                     <span class="font-weight-bold subtitle-1"

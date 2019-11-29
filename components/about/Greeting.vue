@@ -2,23 +2,23 @@
   <div class="info">
     <v-layout>
       <v-flex>
-        <h2 class="mt-4 accent--text text-xs-center">
+        <h2 class="mt-4 accent--text text-center">
           総院長からの挨拶
         </h2>
       </v-flex>
     </v-layout>
-    <v-container>
+    <v-container grid-list-md>
       <v-layout justify-center>
-        <v-flex xs6 md3>
+        <v-flex xs6 sm4 md4 lg3 xl2>
           <img src="@/assets/images/about/greeting1.jpg" width="100%" />
         </v-flex>
-        <v-flex xs6 md3>
+        <v-flex xs6 sm4 md4 lg3 xl2>
           <img src="@/assets/images/about/greeting2.jpg" width="100%" />
         </v-flex>
       </v-layout>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md7>
-          <div class="mt-2 subheading">
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
+          <div class="mt-2">
             <p>
               みなさまこんにちは。<br />
               『女性専門の治療院オリーヴボディケア』<br />

@@ -4,7 +4,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h3 class="my-2 accent--text text-xs-center">
+            <h3 class="my-2 accent--text text-center">
               ご来院について
             </h3>
           </v-flex>
@@ -106,12 +106,12 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h3 class="my-2 accent--text text-xs-center">
+            <h3 class="my-2 accent--text text-center">
               近隣の駐車場について
             </h3>
           </v-flex>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <h4 class="title mt-2 text-xs-center">
+            <h4 class="title mt-2 text-center">
               目の前のジョナサンの駐車場
             </h4>
           </v-flex>
@@ -139,7 +139,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
-            <h3 class="my-2 accent--text text-xs-center">
+            <h3 class="my-2 accent--text text-center">
               近隣の駐車場について２
             </h3>
           </v-flex>
@@ -172,7 +172,7 @@
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <h3 class="my-2 accent--text text-xs-center">
+            <h3 class="my-2 accent--text text-center">
               近隣の駐車場について３
             </h3>
           </v-flex>
@@ -202,11 +202,11 @@
         <v-layout justify-center>
           <v-flex xs12 md10>
             <v-card flat class="my-2" color="yellow lighten-5">
-              <h3 class="py-2 accent--text text-xs-center">
+              <h3 class="py-2 accent--text text-center">
                 横浜青葉台店ご予約は今すぐこちら！
               </h3>
               <v-layout row wrap justify-center>
-                <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
+                <v-flex xs12 sm6 md5 lg5 xl4 class="text-center">
                   <v-btn
                     large
                     a
@@ -219,7 +219,7 @@
                     >
                   </v-btn>
                 </v-flex>
-                <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
+                <v-flex xs12 sm6 md5 lg5 xl4 class="text-center">
                   <v-btn large a href="tel:0455303903" color="primary" dark>
                     <v-icon>phone</v-icon>
                     <span class="font-weight-bold subtitle-1"

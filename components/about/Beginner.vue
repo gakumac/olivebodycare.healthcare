@@ -1,16 +1,16 @@
 <template>
   <div>
-    <v-container>
+    <v-container grid-list-sm>
       <v-layout row wrap justify-center>
         <v-flex xs12 md12>
-          <div class="my-2  text-xs-center">
+          <div class="my-2 text-center">
             <v-icon x-large class="brown--text">business</v-icon>
           </div>
-          <h2 class="my-2 brown--text text-xs-center">
+          <h2 class="my-2 brown--text text-center">
             来院から治療までの流れをご紹介します。
           </h2>
         </v-flex>
-        <v-flex xs12 md8>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <h3 class="my-2 brown--text">
             初めての方へ
           </h3>
@@ -21,35 +21,35 @@
           </div>
         </v-flex>
       </v-layout>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md10>
+      <v-layout justify-center>
+        <v-flex xs12 sm10 md9 lg8 xl6>
           <v-card
             v-for="(item, i) in items"
             :key="i"
             color="info"
-            class="my-4"
+            class="my-8"
             flat
           >
             <v-layout row wrap justify-center>
-              <v-flex xs12 md4>
+              <v-flex xs12 sm4 md4>
                 <v-img :src="item.image"></v-img>
               </v-flex>
-              <v-flex xs12 md8>
+              <v-flex xs12 sm8 md8>
                 <v-card-title>
                   <h3 class="brown--text">
                     {{ item.title }}
                   </h3>
                 </v-card-title>
-                <p class="px-2">
+                <v-card-text>
                   {{ item.message1 }}
-                </p>
+                </v-card-text>
               </v-flex>
             </v-layout>
           </v-card>
         </v-flex>
       </v-layout>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md8>
+      <v-layout justify-center>
+        <v-flex xs12 sm8 md8 lg6 xl4>
           <p class="title font-weight-bold brown--text">
             以上が初回の流れです。<br />
             お越し頂いてからご帰宅まで６０分前後となります。<br />
