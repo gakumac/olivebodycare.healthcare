@@ -1,13 +1,13 @@
 <template>
   <div>
     <v-container grid-list-md>
-      <v-layout row wrap justify-center>
-        <h2 class="text-xs-center brown--text mb-2">
+      <v-layout justify-center>
+        <h2 class="text-center brown--text mb-2">
           当院のマッサージについてご紹介です。
         </h2>
       </v-layout>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md8>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <p>
             人間の骨格は筋肉で支えられています。<br />
             日常生活での悪い姿勢や偏った身体の使い方によって<br />
@@ -29,18 +29,24 @@
             さらに整体、鍼と合わせて治療するので相乗効果により、マッサージのみを受けるより早く効果を得る事ができます。
           </p>
         </v-flex>
-        <v-flex xs12 md6>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs6 sm4 md4 lg3 xl2>
           <v-img :src="require('@/assets/images/menu/massage1.jpg')"></v-img>
         </v-flex>
-        <v-flex xs12 md6>
+        <v-flex xs6 sm4 md4 lg3 xl2>
           <v-img :src="require('@/assets/images/menu/massage2.jpg')"></v-img>
         </v-flex>
-        <v-flex xs12 md12>
-          <h3 class="text-xs-center brown--text mt-4 mb-2">
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex>
+          <h3 class="text-center brown--text mt-4 mb-2">
             リンパの役割
           </h3>
         </v-flex>
-        <v-flex xs12 md8>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <p>
             リンパには老廃物を回収する働きがあります。<br />
             またリンパは、脂肪の運搬にもかかわってきます。リンパ管は組織液に混ざっている傷ついた細胞、がん細胞、細菌やウイルスなどの異物も集めて運搬します。<br />
@@ -52,7 +58,9 @@
             運動、ストレッチ、マッサージなどを行いリンパの流れを良くする事は、健康で美しい身体に導くカギとなります。
           </p>
         </v-flex>
-        <v-flex xs12 md10>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm8 md8 lg6 xl4>
           <v-img :src="require('@/assets/images/menu/kotsuban1.jpg')"></v-img>
         </v-flex>
       </v-layout>

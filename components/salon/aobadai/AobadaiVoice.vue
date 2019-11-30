@@ -2,10 +2,10 @@
   <div class="yellow lighten-5">
     <v-layout>
       <v-flex>
-        <div class="mt-4 text-xs-center">
+        <div class="mt-4 text-center">
           <v-icon x-large class="accent--text">face</v-icon>
         </div>
-        <h2 class="mt-2 accent--text text-xs-center">
+        <h2 class="mt-2 accent--text text-center">
           患者様から喜びの声が届きました！
         </h2>
       </v-flex>
@@ -15,7 +15,7 @@
         <v-card color="yellow lighten-5" class="pa-2 my-2">
           <v-layout row wrap justify-center>
             <v-flex xs12 md12>
-              <h3 class="my-3 brown--text text-xs-center">
+              <h3 class="my-3 brown--text text-center">
                 {{ item.name }}
               </h3>
             </v-flex>
@@ -79,11 +79,11 @@
       <v-layout justify-center>
         <v-flex xs12 md10>
           <v-card flat class="my-2" color="yellow lighten-5">
-            <h3 class="py-2 accent--text text-xs-center">
+            <h3 class="py-2 accent--text text-center">
               横浜青葉台店ご予約は今すぐこちら！
             </h3>
             <v-layout row wrap justify-center>
-              <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
+              <v-flex xs12 sm6 md5 lg5 xl4 class="text-center">
                 <v-btn
                   large
                   a
@@ -96,7 +96,7 @@
                   >
                 </v-btn>
               </v-flex>
-              <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
+              <v-flex xs12 sm6 md5 lg5 xl4 class="text-center">
                 <v-btn large a href="tel:0455303903" color="primary" dark>
                   <v-icon>phone</v-icon>
                   <span class="font-weight-bold subtitle-1"

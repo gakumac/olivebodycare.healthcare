@@ -2,42 +2,43 @@
   <v-navigation-drawer
     v-model="drawer"
     class="yellow lighten-5"
+    width="280"
     temporary
     fixed
-    app
   >
-    <div class="mt-2 ml-2">
+    <div class="mt-3 ml-3">
       <v-btn
         dark
+        small
         color="green darken-3"
-        class="font-weight-bold"
+        class="font-weight-bold mr-2 body-2"
         a
-        href="https://reserve.olivebodycare.healthcare/mypage/"
+        href="https://reserve.olivebodycare.healthcare/mypage"
       >
         マイページ
       </v-btn>
       <v-btn
         dark
+        small
         color="green darken-3"
+        class="body-2"
         a
-        href="https://olivebodycare.healthcare/reserve/"
+        href="https://olivebodycare.healthcare/reserve"
       >
         24時間Web予約
       </v-btn>
     </div>
-    <v-list class="brown--text">
-      <v-list-tile
+    <v-list class="primary--text">
+      <v-list-item
         v-for="(item, homeIndex) in itemsHome"
         :key="`home-item-${homeIndex}`"
         :to="item.to"
       >
-        <v-list-tile-action>
+        <v-list-item-icon>
           <v-icon>{{ item.action }}</v-icon>
-        </v-list-tile-action>
-        <v-list-tile-content>
-          <v-list-tile-title class="font-weight-bold" v-text="item.title" />
-        </v-list-tile-content>
-      </v-list-tile>
+        </v-list-item-icon>
+        <v-list-item-title class="body-2" v-text="item.title" />
+      </v-list-item>
       <v-list-group
         v-for="(item, index) in items"
         :key="`item-${index}`"
@@ -46,51 +47,24 @@
         no-action
       >
         <template slot="activator">
-          <v-list-tile>
-            <v-list-tile-content>
-              <v-list-tile-title>{{ item.title }}</v-list-tile-title>
-            </v-list-tile-content>
-          </v-list-tile>
+          <v-list-item-content>
+            <v-list-item-title class="body-2">{{
+              item.title
+            }}</v-list-item-title>
+          </v-list-item-content>
         </template>
-        <v-list-tile
+        <v-list-item
           v-for="(subItem, subIndex) in item.items"
           :key="`sub-item-${subIndex}`"
           :to="subItem.to"
         >
-          <v-list-tile-content>
-            <v-list-tile-title class="font-weight-bold">
+          <v-list-item-content>
+            <v-list-item-title class="body-2">
               {{ subItem.title }}
-            </v-list-tile-title>
-          </v-list-tile-content>
-          <v-list-tile-action>
-            <v-icon>{{ subItem.action }}</v-icon>
-          </v-list-tile-action>
-        </v-list-tile>
+            </v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
       </v-list-group>
-      <v-list-tile
-        v-for="(item, voiceIndex) in itemsVoice"
-        :key="`voice-item-${voiceIndex}`"
-        :to="item.to"
-      >
-        <v-list-tile-action>
-          <v-icon>{{ item.action }}</v-icon>
-        </v-list-tile-action>
-        <v-list-tile-content>
-          <v-list-tile-title class="font-weight-bold" v-text="item.title" />
-        </v-list-tile-content>
-      </v-list-tile>
-      <v-list-tile
-        v-for="(item, salonIndex) in itemsSalon"
-        :key="`salon-item-${salonIndex}`"
-        :to="item.to"
-      >
-        <v-list-tile-action>
-          <v-icon>{{ item.action }}</v-icon>
-        </v-list-tile-action>
-        <v-list-tile-content>
-          <v-list-tile-title class="font-weight-bold" v-text="item.title" />
-        </v-list-tile-content>
-      </v-list-tile>
     </v-list>
   </v-navigation-drawer>
 </template>

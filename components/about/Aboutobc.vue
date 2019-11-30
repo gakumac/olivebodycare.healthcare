@@ -2,64 +2,52 @@
   <div class="yellow lighten-5">
     <v-layout>
       <v-flex>
-        <div class="mt-4 text-xs-center">
+        <div class="mt-4 text-center">
           <v-icon x-large class="brown--text">business</v-icon>
         </div>
-        <h2 class="mt-2 brown--text text-xs-center">
+        <h2 class="mt-2 brown--text text-center">
           初めての方へ。当院についてご紹介します。
         </h2>
       </v-flex>
     </v-layout>
     <v-container>
       <v-layout row wrap justify-center>
-        <v-flex xs12 md5>
+        <v-flex xs12 sm6 md6 lg5 xl4>
           <v-card
             v-for="(item, i) in items"
             :key="i"
             color="info"
-            class="ma-2"
+            class="ma-4"
             :to="item.to"
           >
-            <v-layout row wrap justify-center>
-              <v-flex xs12 md12>
-                <v-img :src="item.image"></v-img>
-              </v-flex>
-              <v-flex xs12 md12>
-                <v-card-title>
-                  <h3 class="brown--text">
-                    {{ item.title }}
-                  </h3>
-                </v-card-title>
-                <p class="pl-2">
-                  {{ item.message1 }}
-                </p>
-              </v-flex>
-            </v-layout>
+            <v-img :src="item.image"></v-img>
+            <v-card-title>
+              <h3 class="brown--text">
+                {{ item.title }}
+              </h3>
+            </v-card-title>
+            <v-card-text>
+              {{ item.message1 }}
+            </v-card-text>
           </v-card>
         </v-flex>
-        <v-flex xs12 md5>
+        <v-flex xs12 sm6 md6 lg5 xl4>
           <v-card
             v-for="(item, i) in items2"
             :key="i"
             color="info"
-            class="ma-2"
+            class="ma-4"
             :to="item.to"
           >
-            <v-layout row wrap justify-center>
-              <v-flex xs12 md12>
-                <v-img :src="item.image2"></v-img>
-              </v-flex>
-              <v-flex xs12 md12>
-                <v-card-title>
-                  <h3 class="brown--text">
-                    {{ item.title2 }}
-                  </h3>
-                </v-card-title>
-                <p class="pl-2">
-                  {{ item.message2 }}
-                </p>
-              </v-flex>
-            </v-layout>
+            <v-img :src="item.image2"></v-img>
+            <v-card-title>
+              <h3 class="brown--text">
+                {{ item.title2 }}
+              </h3>
+            </v-card-title>
+            <v-card-text>
+              {{ item.message2 }}
+            </v-card-text>
           </v-card>
         </v-flex>
       </v-layout>

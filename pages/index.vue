@@ -1,9 +1,6 @@
 <template>
   <div>
     <header1 />
-    <mission />
-    <!-- <noticeslide /> -->
-    <hometitle />
     <reason />
     <media />
     <target />
@@ -20,9 +17,6 @@
 
 <script>
 import Header1 from '~/components/index/Header1.vue'
-import Mission from '~/components/index/Mission.vue'
-// import Noticeslide from '~/components/Noticeslide.vue'
-import Hometitle from '~/components/index/Hometitle.vue'
 import Reason from '~/components/index/Reason.vue'
 import Media from '~/components/index/Media.vue'
 import Target from '~/components/index/Target.vue'
@@ -44,9 +38,6 @@ export default {
   layout: 'toppage',
   components: {
     Header1,
-    Mission,
-    // Noticeslide,
-    Hometitle,
     Reason,
     Media,
     Target,

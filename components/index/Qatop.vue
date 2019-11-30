@@ -2,17 +2,17 @@
   <div>
     <v-layout>
       <v-flex>
-        <div class="mt-4 text-xs-center">
+        <div class="mt-4 text-center">
           <v-icon x-large class="brown--text">chat</v-icon>
         </div>
-        <h2 class="mt-2 text-xs-center">
+        <h2 class="mt-2 text-center">
           Q&A-よくある質問-
         </h2>
       </v-flex>
     </v-layout>
     <v-container grid-list-lg>
       <div v-for="(item, i) in items" :key="i">
-        <v-layout row wrap justify-center>
+        <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <v-card color="yellow lighten-5" class="pa-2">
               <h3>
@@ -28,11 +28,9 @@
           </v-flex>
         </v-layout>
       </div>
-      <div class="mb-3 py-3">
+      <div class="mb-3 py-3 text-right">
         <nuxt-link to="/about/qa">
-          <v-btn class="right" small color="primary" dark
-            >よくある質問詳しくはこちら</v-btn
-          >
+          <v-btn small color="primary" dark>よくある質問詳しくはこちら</v-btn>
         </nuxt-link>
       </div>
     </v-container>

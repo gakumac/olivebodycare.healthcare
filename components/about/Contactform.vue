@@ -3,21 +3,19 @@
     <v-container>
       <v-layout justify-center>
         <v-flex xs12 sm9 md9 lg7 xl5>
-          <div class="mt-4 text-xs-center">
+          <div class="mt-4 text-center">
             <v-icon x-large class="brown--text">mail_outline</v-icon>
           </div>
-          <h2 class="my-2 brown--text text-xs-center">
+          <h2 class="my-2 brown--text text-center">
             メール予約・お問合せはこちらからお願い致します。
           </h2>
-          <div class="mt-2 accent--text font-weight-bold">
+          <div class="mt-2 mb-10 accent--text font-weight-bold">
             ・折り返しの確認メールまたは電話を入れさせて頂きます。ご予約はその時点で確定とさせて頂きます。<br />
             ・２営業日以内の返信・ご連絡を心掛けております。それ以上経過しても返答のない場合は、迷惑メールとして振り分けられていないかご確認頂いた上で再度お問い合わせください。<br />
             ・ご予約確定後の前日・当日キャンセル、無断キャンセルについては、キャンセル料金を頂戴いたします。予めご了承ください。ご予約のご変更、キャンセルをご希望の際はご予約日前々日までに当院にご連絡ください
           </div>
         </v-flex>
       </v-layout>
-    </v-container>
-    <v-container>
       <v-layout justify-center>
         <v-flex>
           <iframe

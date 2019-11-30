@@ -1,7 +1,7 @@
 <template>
   <v-footer fixed height="auto" color="yellow lighten-5">
     <v-layout justify-center>
-      <v-flex xs11 sm8 md6 lg5 xl4>
+      <v-flex xs12 sm8 md6 lg5 xl4>
         <v-btn
           block
           large
@@ -11,7 +11,7 @@
         >
           <v-icon>date_range</v-icon>
           <span class="font-weight-bold"
-            >たまプラーザ本店WEB予約は今すぐこちら！</span
+            >たまプラーザ店WEB予約は今すぐこちら！</span
           >
         </v-btn>
       </v-flex>

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <v-toolbar fixed color="yellow lighten-5">
-      <v-btn flat color="green darken-3" @click.stop="drawNavMenus">
+    <v-app-bar fixed color="yellow lighten-5">
+      <v-btn text color="green darken-3" @click.stop="drawNavMenus">
         <v-icon>menu</v-icon>
         <span class="text-capitalize">Menu</span>
       </v-btn>
@@ -11,7 +11,7 @@
         </nuxt-link>
       </v-toolbar-title>
       <v-spacer />
-    </v-toolbar>
+    </v-app-bar>
     <nav-menus v-if="drawed" :drawed="drawed" @input="updateNavMenu" />
   </div>
 </template>

@@ -3,20 +3,20 @@
     <v-container grid-list-md>
       <v-layout>
         <v-flex>
-          <div class="my-2 text-xs-center">
+          <div class="my-2 text-center">
             <v-icon x-large class="brown--text">face</v-icon>
           </div>
-          <h2 class="my-2 brown--text text-xs-center">
+          <h2 class="my-2 brown--text text-center">
             店舗・スタッフより
           </h2>
         </v-flex>
       </v-layout>
       <v-layout row wrap justify-center>
         <v-flex xs12 md10>
-          <h3 class="my-3 accent--text text-xs-center">
+          <h3 class="my-3 accent--text text-center">
             {{ name }}
           </h3>
-          <p class="title brown--text text-xs-center">
+          <p class="title brown--text text-center">
             所有国家資格&nbsp;{{ qualification }}
           </p>
         </v-flex>
@@ -63,26 +63,22 @@
       </v-layout>
       <v-layout row wrap justify-center>
         <v-flex xs12 sm9 md9 lg7 xl5>
-          <v-card class="mt-2" color="yellow lighten-5">
-            <v-card-title primary-title>
-              <div>
-                <h3 class="accent--text ">{{ title }}</h3>
-                <p>{{ message1 }}</p>
-                <p>{{ message2 }}</p>
-                <p>{{ message3 }}</p>
-              </div>
-            </v-card-title>
+          <v-card class="mt-2 pa-4" color="yellow lighten-5">
+            <h3 class="mb-2 accent--text">{{ title }}</h3>
+            <p>{{ message1 }}</p>
+            <p>{{ message2 }}</p>
+            <p>{{ message3 }}</p>
           </v-card>
         </v-flex>
       </v-layout>
       <v-layout justify-center>
         <v-flex xs12 md10>
           <v-card flat class="my-2" color="info">
-            <h3 class="py-2 accent--text text-xs-center">
+            <h3 class="py-2 accent--text text-center">
               横浜青葉台店ご予約は今すぐこちら！
             </h3>
             <v-layout row wrap justify-center>
-              <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
+              <v-flex xs12 sm6 md5 lg5 xl4 class="text-center">
                 <v-btn
                   large
                   a
@@ -95,7 +91,7 @@
                   >
                 </v-btn>
               </v-flex>
-              <v-flex xs12 sm6 md5 lg5 xl4 class="text-xs-center">
+              <v-flex xs12 sm6 md5 lg5 xl4 class="text-center">
                 <v-btn large a href="tel:0455303903" color="primary" dark>
                   <v-icon>phone</v-icon>
                   <span class="font-weight-bold subtitle-1"

@@ -2,10 +2,10 @@
   <div class="grey lighten-5 mb-4">
     <v-layout>
       <v-flex>
-        <div class="mt-4 text-xs-center">
+        <div class="mt-4 text-center">
           <v-icon x-large class="primary--text">import_contacts</v-icon>
         </div>
-        <h2 class="mt-2 primary--text text-xs-center">
+        <h2 class="mt-2 primary--text text-center">
           施術メニュー・料金
         </h2>
       </v-flex>
@@ -13,26 +13,26 @@
     <v-container grid-list-lg>
       <v-layout justify-center>
         <v-flex xl8>
-          <v-layout row wrap>
+          <v-layout>
             <v-flex xs6 md6>
-              <div class="subheading font-weight-bold text-xs-center">
+              <div class="subheading font-weight-bold text-center">
                 施術内容
               </div>
             </v-flex>
             <v-flex xs6 md6>
-              <div class="subheading font-weight-bold text-xs-center">
+              <div class="subheading font-weight-bold text-center">
                 料金(税抜)
               </div>
             </v-flex>
           </v-layout>
           <hr />
           <div v-for="(item, i) in items" :key="i" class="mt-2">
-            <v-layout row wrap>
+            <v-layout>
               <v-flex xs6 md6>
-                <div class="subheading text-xs-center">{{ item.menu }}</div>
+                <div class="subheading text-center">{{ item.menu }}</div>
               </v-flex>
               <v-flex xs6 md6>
-                <div class="text-xs-center">
+                <div class="text-center">
                   <span class="headline accent--text font-weight-bold">{{
                     item.price
                   }}</span>
@@ -44,11 +44,9 @@
           </div>
         </v-flex>
       </v-layout>
-      <div class="py-3">
+      <div class="py-3 text-right">
         <nuxt-link to="/menu">
-          <v-btn class="right" small color="primary" dark
-            >メニュー・料金詳しくはこちら</v-btn
-          >
+          <v-btn small color="primary" dark>メニュー・料金詳しくはこちら</v-btn>
         </nuxt-link>
       </div>
     </v-container>

@@ -2,16 +2,16 @@
   <div class="yellow lighten-5">
     <v-layout>
       <v-flex>
-        <div class="mt-4 text-xs-center">
+        <div class="mt-4 text-center">
           <v-icon x-large class="brown--text">healing</v-icon>
         </div>
-        <h2 class="mt-2 text-xs-center">
+        <h2 class="mt-2 text-center">
           当院を利用する事で、期待できる効果的症状
         </h2>
       </v-flex>
     </v-layout>
     <v-container>
-      <v-layout row wrap justify-center class="text-xs-center">
+      <v-layout justify-center class="text-center">
         <v-flex xs12 md8>
           <p class="mt-4">
             骨盤のゆがみ、骨盤矯正、肩こり、腰痛

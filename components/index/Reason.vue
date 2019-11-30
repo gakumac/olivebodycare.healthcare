@@ -2,14 +2,14 @@
   <div>
     <div>
       <v-container>
-        <v-layout row wrap justify-center>
+        <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <v-card class="pa-2">
-              <h2 class="text-xs-center accent--text">
+              <h2 class="text-center accent--text">
                 当院が整体・骨盤矯正で選ばれる理由
               </h2>
             </v-card>
-            <h3 class="mt-3 text-xs-center">
+            <h3 class="mt-3 text-center">
               <span class="accent--text display-1 font-weight-bold">1</span>
               国家資格取得の女性スタッフによる女性専門の整体・骨盤矯正を受ける事ができます。
             </h3>
@@ -28,7 +28,7 @@
             </p>
           </v-flex>
         </v-layout>
-        <v-layout row wrap justify-center>
+        <v-layout justify-center>
           <v-flex xs12 sm8 md8 lg6 xl4>
             <v-img :src="require('@/assets/images/home/reason1.jpg')"></v-img>
           </v-flex>
@@ -37,9 +37,9 @@
     </div>
     <div class="yellow lighten-5">
       <v-container grid-list-md>
-        <v-layout row wrap justify-center>
+        <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <h3 class="mt-3 text-xs-center">
+            <h3 class="mt-3 text-center">
               <span class="accent--text display-1 font-weight-bold">2</span>
               痛みの原因を知り、解消する根本治療を行います。
             </h3>
@@ -55,7 +55,7 @@
             </p>
           </v-flex>
         </v-layout>
-        <v-layout row wrap justify-center>
+        <v-layout justify-center>
           <v-flex xs6 sm4 md4 lg3 xl2>
             <v-img :src="require('@/assets/images/home/home2.jpg')"></v-img>
           </v-flex>
@@ -67,9 +67,9 @@
     </div>
     <div>
       <v-container>
-        <v-layout row wrap justify-center>
+        <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <h3 class="mt-3 text-xs-center">
+            <h3 class="mt-3 text-center">
               <span class="accent--text display-1 font-weight-bold">3</span>
               痩せやすい身体を作る施術を取り入れています。
             </h3>
@@ -92,9 +92,9 @@
     </div>
     <div class="yellow lighten-5">
       <v-container grid-list-md>
-        <v-layout row wrap justify-center>
+        <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <h3 class="mt-3 text-xs-center">
+            <h3 class="mt-3 text-center">
               <span class="accent--text display-1 font-weight-bold">4</span>
               初回リピート率85％以上の高い満足度の整体治療を受ける事が出来ます。
             </h3>
@@ -107,7 +107,7 @@
             </p>
           </v-flex>
         </v-layout>
-        <v-layout row wrap justify-center>
+        <v-layout justify-center>
           <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img :src="require('@/assets/images/home/home4.jpg')"></v-img>
           </v-flex>
@@ -119,9 +119,9 @@
     </div>
     <div class="grey lighten-5">
       <v-container grid-list-md>
-        <v-layout row wrap justify-center>
+        <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <h3 class="mt-3 text-xs-center">
+            <h3 class="mt-3 text-center">
               <span class="accent--text display-1 font-weight-bold">5</span>
               お子様（赤ちゃん）と一緒に整体を受ける事ができます。
             </h3>
@@ -137,7 +137,7 @@
             </p>
           </v-flex>
         </v-layout>
-        <v-layout row wrap justify-center>
+        <v-layout justify-center>
           <v-flex xs8 sm6 md6 lg6 xl4 mt-3>
             <v-img :src="require('@/assets/images/home/home6.jpg')"></v-img>
           </v-flex>
@@ -149,9 +149,9 @@
     </div>
     <div class="yellow lighten-5">
       <v-container grid-list-md>
-        <v-layout row wrap justify-center>
+        <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <h3 class="mt-3 text-xs-center">
+            <h3 class="mt-3 text-center">
               <span class="accent--text display-1 font-weight-bold">6</span>
               待ち時間なしで整体を受ける事ができます。
             </h3>
@@ -167,7 +167,7 @@
             </p>
           </v-flex>
         </v-layout>
-        <v-layout row wrap justify-center>
+        <v-layout justify-center>
           <v-flex xs6 sm5 md5 lg4 xl3>
             <v-img :src="require('@/assets/images/home/home8.jpg')"></v-img>
           </v-flex>
@@ -179,9 +179,9 @@
     </div>
     <div class="grey lighten-5">
       <v-container grid-list-md>
-        <v-layout row wrap justify-center>
+        <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <h3 class="mt-3 text-xs-center">
+            <h3 class="mt-3 text-center">
               <span class="accent--text display-1 font-weight-bold">7</span>
               駅から近く、徒歩圏内で通うのに便利。
             </h3>
@@ -200,7 +200,7 @@
             </p>
           </v-flex>
         </v-layout>
-        <v-layout row wrap justify-center>
+        <v-layout justify-center>
           <v-flex xs7 sm5 md5 lg4 xl3>
             <v-img :src="require('@/assets/images/home/home11.jpg')"></v-img>
           </v-flex>
@@ -208,12 +208,10 @@
             <v-img :src="require('@/assets/images/home/home10.jpg')"></v-img>
           </v-flex>
         </v-layout>
-        <v-layout row wrap justify-center>
-          <v-flex xs12 sm9 md9 lg7 xl5>
+        <v-layout justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5 class="text-right">
             <nuxt-link to="/salon">
-              <v-btn class="right" small color="primary" dark
-                >店舗一覧はこちら</v-btn
-              >
+              <v-btn small color="primary" dark>店舗一覧はこちら</v-btn>
             </nuxt-link>
           </v-flex>
         </v-layout>
@@ -221,9 +219,9 @@
     </div>
     <div class="yellow lighten-5">
       <v-container>
-        <v-layout row wrap justify-center>
+        <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <h3 class="mt-3 text-xs-center">
+            <h3 class="mt-3 text-center">
               <span class="accent--text display-1 font-weight-bold">8</span>
               24時間WEB上で施術可能な日時を確認しそのまま予約をお取りする事が出来ます。
             </h3>

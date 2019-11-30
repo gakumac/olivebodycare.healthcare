@@ -1,27 +1,29 @@
 <template>
   <div>
-    <v-container>
+    <v-container grid-list-sm>
       <v-layout row wrap justify-center>
         <v-flex xs12 md12>
-          <div class="my-2  text-xs-center">
+          <div class="my-2  text-center">
             <v-icon x-large class="brown--text">business</v-icon>
           </div>
-          <h2 class="my-2 brown--text text-xs-center">
+          <h2 class="my-2 brown--text text-center">
             当院の施術スタッフについて
           </h2>
         </v-flex>
-        <v-flex xs12 md8>
+        <v-flex xs12 sm8 md8 lg6 xl4>
           <v-img :src="image1"></v-img>
         </v-flex>
-        <v-flex xs12 md8>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <div class="title mt-2 brown--text">
             当院の女性スタッフは安心・安全な治療を提供する為、全員国家資格を保有しています。<br />
             他院との豊富なネットワークを駆使して定期的な交流勉強会を行い、技術・食育・美容など健康全般に渡り力を入れております。
           </div>
         </v-flex>
       </v-layout>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md10>
+      <v-layout justify-center>
+        <v-flex xs12 sm10 md9 lg8 xl7>
           <v-card color="info" class="my-4" flat>
             <v-layout row wrap justify-center>
               <v-flex xs6 md3>
@@ -59,8 +61,8 @@
           </v-card>
         </v-flex>
       </v-layout>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md10>
+      <v-layout justify-center>
+        <v-flex xs12 sm10 md9 lg8 xl7>
           <v-card
             v-for="(item, i) in items"
             :key="i"

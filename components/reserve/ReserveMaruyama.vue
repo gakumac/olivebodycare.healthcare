@@ -1,9 +1,9 @@
 <template>
   <div>
-    <v-container>
+    <v-container grid-list-lg>
       <v-layout justify-center>
         <v-flex xs12 sm10 md8 lg7 xl6>
-          <h2 class="mt-4 text-xs-center">
+          <h2 class="mt-4 text-center">
             <v-icon large>date_range</v-icon>
             札幌円山店24時間Web予約
           </h2>
@@ -16,11 +16,11 @@
       <v-layout justify-center>
         <v-flex xs12 sm11 md10 xl8>
           <v-card color="info">
-            <h3 class="accent--text text-xs-center">
+            <h3 class="accent--text text-center">
               Web予約は今すぐこちらから！！
             </h3>
-            <v-layout row wrap justify-center>
-              <v-flex class="text-xs-center">
+            <v-layout justify-center>
+              <v-flex class="text-center">
                 <v-btn
                   large
                   a
@@ -39,7 +39,7 @@
       </v-layout>
       <v-layout justify-center>
         <v-flex xs12 sm10 md8 lg7 xl6>
-          <h2 class="mt-4 text-xs-center">
+          <h2 class="mt-4 text-center">
             <v-icon large>mail_outline</v-icon>
             メールでのご予約・お問合せはこちらから！
           </h2>
@@ -51,11 +51,11 @@
       <v-layout justify-center>
         <v-flex xs12 sm11 md10 xl8>
           <v-card color="info">
-            <h3 class="accent--text text-xs-center">
+            <h3 class="accent--text text-center">
               メール予約・問合せはこちら！
             </h3>
             <v-layout row wrap justify-center>
-              <v-flex class="text-xs-center">
+              <v-flex class="text-center">
                 <v-btn
                   large
                   a
@@ -74,7 +74,7 @@
       </v-layout>
       <v-layout justify-center>
         <v-flex xs12 sm10 md8 lg7 xl6>
-          <h2 class="mt-4 text-xs-center">
+          <h2 class="mt-4 text-center">
             <v-icon large>phone</v-icon>
             お電話でのご予約・お問合せはこちらから！
           </h2>
@@ -86,11 +86,11 @@
       <v-layout justify-center>
         <v-flex xs12 sm11 md10 xl8>
           <v-card color="info">
-            <h3 class="accent--text text-xs-center">
+            <h3 class="accent--text text-center">
               電話での予約・問合せはこちら！
             </h3>
             <v-layout row wrap justify-center>
-              <v-flex class="text-xs-center">
+              <v-flex class="text-center">
                 <v-btn large a href="tel:0116768970" color="primary" dark>
                   <v-icon>phone</v-icon>
                   <span class="font-weight-bold subtitle-1"

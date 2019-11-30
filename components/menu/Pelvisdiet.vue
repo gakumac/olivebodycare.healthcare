@@ -1,13 +1,13 @@
 <template>
   <div>
     <v-container grid-list-md>
-      <v-layout row wrap justify-center>
-        <h2 class="text-xs-center brown--text mb-2">
+      <v-layout justify-center>
+        <h2 class="text-center brown--text mb-2">
           骨盤矯正ダイエットについてご紹介です。
         </h2>
       </v-layout>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md8>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <p>
             骨盤矯正で、身体に付いた脂肪が取れるかというと、それはなかなか難しいです。<br />
             しかし、骨盤矯正をすることで痩せやすい身体にしていくことは可能です。<br />
@@ -15,12 +15,16 @@
             運動をすることで老廃物も流れてくれますが、そのまま放っておくと身体中に溜まりむくみが常習化していってしまいます。
           </p>
         </v-flex>
-        <v-flex xs12 md12>
-          <h2 class="text-xs-center brown--text mt-4">
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex>
+          <h3 class="text-center brown--text mt-4">
             当院の骨盤矯正ダイエット施術
-          </h2>
+          </h3>
         </v-flex>
-        <v-flex xs12 md8>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <p>
             リンパの流れをよくするリンパマッサージを行います。<br />
             老廃物が溜って固くなっているところを入念にほぐしていきます。<br />
@@ -30,22 +34,28 @@
             オイルを使ったり、ボキボキならすようなことはございませんのでご安心下さい。
           </p>
         </v-flex>
-        <v-flex xs12 md6>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs6 sm4 md4 lg3 xl2>
           <v-img
             :src="require('@/assets/images/menu/kotsubandiet1.jpg')"
           ></v-img>
         </v-flex>
-        <v-flex xs12 md6>
+        <v-flex xs6 sm4 md4 lg3 xl2>
           <v-img
             :src="require('@/assets/images/menu/kotsubandiet2.jpg')"
           ></v-img>
         </v-flex>
-        <v-flex xs12 md12>
-          <h2 class="text-xs-center brown--text mt-4">
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex>
+          <h3 class="text-center brown--text mt-4">
             身体からのSOSサイン
-          </h2>
+          </h3>
         </v-flex>
-        <v-flex xs12 md8>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm9 md9 lg7 xl5>
           <p>
             痩せたいけど運動するのが億劫<br />
             ついつい甘いもの、食べ物を食べ過ぎてしまう<br />
@@ -68,7 +78,9 @@
             辛いダイエットではなく楽しみながら出来るようお手伝いさせていただきます！！
           </p>
         </v-flex>
-        <v-flex xs12 md10>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm8 md8 lg6 xl4>
           <v-img :src="require('@/assets/images/menu/seitai2.jpg')"></v-img>
         </v-flex>
       </v-layout>

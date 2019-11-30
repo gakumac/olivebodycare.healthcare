@@ -2,10 +2,10 @@
   <div class="yellow lighten-5">
     <v-layout>
       <v-flex>
-        <div class="mt-4 text-xs-center">
+        <div class="mt-4 text-center">
           <v-icon x-large class="accent--text">face</v-icon>
         </div>
-        <h2 class="mt-2 accent--text text-xs-center">
+        <h2 class="mt-2 accent--text text-center">
           患者様から喜びの声が届きました！
         </h2>
       </v-flex>
@@ -15,7 +15,7 @@
         <v-card color="yellow lighten-5" class="pa-2 my-2">
           <v-layout row wrap justify-center>
             <v-flex xs12 md12>
-              <h3 class="my-3 text-xs-center brown--text">
+              <h3 class="my-3 text-center brown--text">
                 {{ item.name }}
               </h3>
             </v-flex>
@@ -63,18 +63,16 @@
               </div>
             </v-flex>
           </v-layout>
-          <v-layout row wrap justify-center>
+          <v-layout justify-center>
             <v-flex xs12 sm10 md6 lg5 xl4>
               <v-img :src="item.image"></v-img>
             </v-flex>
           </v-layout>
         </v-card>
       </div>
-      <div class="py-3">
+      <div class="py-3 text-right">
         <nuxt-link to="/voice">
-          <v-btn class="right" small color="primary" dark
-            >患者様の声詳しくはこちら</v-btn
-          >
+          <v-btn small color="primary" dark>患者様の声詳しくはこちら</v-btn>
         </nuxt-link>
       </div>
     </v-container>
