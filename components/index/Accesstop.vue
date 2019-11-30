@@ -105,38 +105,40 @@
               </v-flex>
             </v-layout>
           </v-container>
-          <v-flex md10>
-            <iframe
-              title="Aobadai Store map information"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2105.1154045213502!2d139.51484803214495!3d35.54057200726833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x548a6d2a4178fc56!2z5aWz5oCn5bCC6ZaA44Gu5rK755mC6Zmi44Kq44Oq44O844O044Oc44OH44Kj44Kx44Ki6Z2S6JGJ5Y-w5bqX!5e0!3m2!1sja!2sjp!4v1566443617945!5m2!1sja!2sjp"
-              width="100%"
-              height="300px"
-              frameborder="0"
-              style="border:0"
-              allowfullscreen
-            ></iframe>
-          </v-flex>
-          <v-layout row wrap justify-center>
-            <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-center">
-              <nuxt-link to="/salon/aobadai">
-                <v-btn color="primary" dark small>
-                  横浜青葉台店詳しくはこちら
-                </v-btn>
-              </nuxt-link>
-            </v-flex>
-            <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-center">
-              <v-btn
-                a
-                href="https://olivebodycare.healthcare/reserve/aobadai"
-                dark
-                color="green darken-3"
-              >
-                <span class="font-weight-bold body-2"
-                  >横浜青葉台店予約は今すぐこちら！</span
-                >
-              </v-btn>
+          <v-layout justify-center>
+            <v-flex md10>
+              <iframe
+                title="Aobadai Store map information"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2105.1154045213502!2d139.51484803214495!3d35.54057200726833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x548a6d2a4178fc56!2z5aWz5oCn5bCC6ZaA44Gu5rK755mC6Zmi44Kq44Oq44O844O044Oc44OH44Kj44Kx44Ki6Z2S6JGJ5Y-w5bqX!5e0!3m2!1sja!2sjp!4v1566443617945!5m2!1sja!2sjp"
+                width="100%"
+                height="300px"
+                frameborder="0"
+                style="border:0"
+                allowfullscreen
+              ></iframe>
             </v-flex>
           </v-layout>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-center">
+            <nuxt-link to="/salon/aobadai">
+              <v-btn color="primary" dark small>
+                横浜青葉台店詳しくはこちら
+              </v-btn>
+            </nuxt-link>
+          </v-flex>
+          <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-center">
+            <v-btn
+              a
+              href="https://olivebodycare.healthcare/reserve/aobadai"
+              dark
+              color="green darken-3"
+            >
+              <span class="font-weight-bold body-2"
+                >横浜青葉台店予約は今すぐこちら！</span
+              >
+            </v-btn>
+          </v-flex>
         </v-layout>
       </v-card>
     </v-container>
@@ -178,38 +180,40 @@
               </v-flex>
             </v-layout>
           </v-container>
-          <v-flex md10>
-            <iframe
-              title="Maruyama Store map information"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4282.647724735018!2d141.32217169199225!3d43.057155598500536!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa9b3fd242a4c92d1!2z5aWz5oCn5bCC6ZaA44Gu5rK755mC6Zmi44Kq44Oq44O844O044Oc44OH44Kj44Kx44Ki5pyt5bmM5YaG5bGx5bqX!5e0!3m2!1sja!2sjp!4v1571796215054!5m2!1sja!2sjp"
-              width="100%"
-              height="300px"
-              frameborder="0"
-              style="border:0"
-              allowfullscreen
-            ></iframe>
-          </v-flex>
-          <v-layout row wrap justify-center>
-            <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-center">
-              <nuxt-link to="/salon/maruyama">
-                <v-btn color="primary" dark small>
-                  札幌円山店詳しくはこちら
-                </v-btn>
-              </nuxt-link>
-            </v-flex>
-            <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-center">
-              <v-btn
-                a
-                href="https://olivebodycare.healthcare/reserve/maruyama"
-                dark
-                color="green darken-3"
-              >
-                <span class="font-weight-bold body-2"
-                  >札幌円山店予約は今すぐこちら！</span
-                >
-              </v-btn>
+          <v-layout justify-center>
+            <v-flex md10>
+              <iframe
+                title="Maruyama Store map information"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4282.647724735018!2d141.32217169199225!3d43.057155598500536!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa9b3fd242a4c92d1!2z5aWz5oCn5bCC6ZaA44Gu5rK755mC6Zmi44Kq44Oq44O844O044Oc44OH44Kj44Kx44Ki5pyt5bmM5YaG5bGx5bqX!5e0!3m2!1sja!2sjp!4v1571796215054!5m2!1sja!2sjp"
+                width="100%"
+                height="300px"
+                frameborder="0"
+                style="border:0"
+                allowfullscreen
+              ></iframe>
             </v-flex>
           </v-layout>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-center">
+            <nuxt-link to="/salon/maruyama">
+              <v-btn color="primary" dark small>
+                札幌円山店詳しくはこちら
+              </v-btn>
+            </nuxt-link>
+          </v-flex>
+          <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-center">
+            <v-btn
+              a
+              href="https://olivebodycare.healthcare/reserve/maruyama"
+              dark
+              color="green darken-3"
+            >
+              <span class="font-weight-bold body-2"
+                >札幌円山店予約は今すぐこちら！</span
+              >
+            </v-btn>
+          </v-flex>
         </v-layout>
       </v-card>
     </v-container>
