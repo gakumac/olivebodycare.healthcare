@@ -4,6 +4,7 @@
       <v-flex xs12 sm11 md9 lg8 xl7>
         <v-carousel
           cycle
+          :show-arrows="false"
           interval="3000"
           hide-delimiters
           height="auto"
@@ -25,12 +26,6 @@ export default {
   data() {
     return {
       items: [
-        {
-          src: require('@/assets/images/campaign/maruyama-cp1.jpg')
-        },
-        {
-          src: require('@/assets/images/campaign/maruyama-cp2.jpg')
-        },
         {
           src: require('@/assets/images/campaign/maruyama-cp3.jpg')
         }
