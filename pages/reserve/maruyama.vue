@@ -4,18 +4,21 @@
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>
+    <MaruyamaCp />
     <ReserveMaruyama />
   </div>
 </template>
 
 <script>
 import Pagetitle from '~/components/Pagetitle.vue'
+import MaruyamaCp from '~/components/campaign/MaruyamaCp.vue'
 import ReserveMaruyama from '~/components/reserve/ReserveMaruyama.vue'
 import Meta from '~/assets/mixins/meta'
 export default {
   layout: 'reserve',
   components: {
     Pagetitle,
+    MaruyamaCp,
     ReserveMaruyama
   },
   mixins: [Meta],
