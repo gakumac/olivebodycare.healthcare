@@ -29,9 +29,6 @@ export default {
           src: require('@/assets/images/campaign/maruyama-cp3.jpg')
         },
         {
-          src: require('@/assets/images/campaign/maruyama-cp4.jpg')
-        },
-        {
           src: require('@/assets/images/campaign/maruyama-cp5.jpg')
         }
       ]
