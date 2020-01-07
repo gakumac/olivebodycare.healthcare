@@ -75,6 +75,41 @@
       <v-layout justify-center>
         <v-flex xs12 sm10 md8 lg7 xl6>
           <h2 class="mt-4 text-center">
+            <v-icon large>chat</v-icon>
+            LINEでの予約・問合せはこちら！
+          </h2>
+          <p>
+            折り返しの確認メールまたは電話を入れさせて頂きます。ご予約はその時点で確定とさせて頂きます。
+          </p>
+        </v-flex>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm11 md10 xl8>
+          <v-card color="info">
+            <h3 class="accent--text text-center">
+              LINEでの予約・問合せはこちら！
+            </h3>
+            <v-layout row wrap justify-center>
+              <v-flex class="text-center">
+                <v-btn
+                  large
+                  a
+                  href="https://olivebodycare.healthcare/reserve/maruyama/line"
+                  dark
+                  color="green darken-3"
+                >
+                  <span class="font-weight-bold body-2"
+                    >LINEでの予約・問合せは今すぐこちら！</span
+                  >
+                </v-btn>
+              </v-flex>
+            </v-layout>
+          </v-card>
+        </v-flex>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm10 md8 lg7 xl6>
+          <h2 class="mt-4 text-center">
             <v-icon large>phone</v-icon>
             お電話でのご予約・お問合せはこちらから！
           </h2>
