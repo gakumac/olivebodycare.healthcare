@@ -36,7 +36,7 @@
       <v-layout justify-center>
         <v-flex xs8 sm6 md5 lg4 xl3>
           <v-img
-            :src="require('@/assets/images/salon/salonmaruyama_kokubun.jpg')"
+            :src="require('@/assets/images/salon/salonmaruyama_kokubun3.jpg')"
           ></v-img>
         </v-flex>
       </v-layout>

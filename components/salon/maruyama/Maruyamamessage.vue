@@ -145,7 +145,7 @@ export default {
       message4:
         '「女性を元気に！家庭を元気に！日本そして世界を元気に！！」をモットーに、みなさまからのありがとうを糧に治療に専念させていただきます。当院では小さなお子様もご一緒に来院できる空間づくりをしております。ぜひ、オリーヴボディケア札幌円山店にお任せください。',
       img1: require('@/assets/images/salon/salonmaruyama21.jpg'),
-      img2: require('@/assets/images/salon/salonmaruyama22.jpg'),
+      img2: require('@/assets/images/salon/salonmaruyama_kokubun2.jpg'),
       img3: require('@/assets/images/salon/salon10.jpg')
     }
   }
