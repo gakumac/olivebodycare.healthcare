@@ -9,26 +9,26 @@
           <h2 class="my-2 brown--text text-center">
             メール予約・お問合せはこちらからお願い致します。
           </h2>
-          <div class="mt-2 mb-10 accent--text font-weight-bold">
+          <div class="mt-2 mb-10 accent--text">
             ・折り返しの確認メールまたは電話を入れさせて頂きます。ご予約はその時点で確定とさせて頂きます。<br />
             ・２営業日以内の返信・ご連絡を心掛けております。それ以上経過しても返答のない場合は、迷惑メールとして振り分けられていないかご確認頂いた上で再度お問い合わせください。<br />
             ・ご予約確定後の前日・当日キャンセル、無断キャンセルについては、キャンセル料金を頂戴いたします。予めご了承ください。ご予約のご変更、キャンセルをご希望の際はご予約日前々日までに当院にご連絡ください
           </div>
         </v-flex>
       </v-layout>
-      <v-layout justify-center>
-        <v-flex>
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSdCUL_V4qImzKlGuaYBppgZnfDslthx-0LrceCssvReBKOetg/viewform?embedded=true"
-            width="100%"
-            height="3053"
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0"
-            >読み込んでいます...</iframe
-          >
-        </v-flex>
-      </v-layout>
+    </v-container>
+    <v-layout justify-center>
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSdCUL_V4qImzKlGuaYBppgZnfDslthx-0LrceCssvReBKOetg/viewform?embedded=true"
+        width="100%"
+        height="3500"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        >読み込んでいます...</iframe
+      >
+    </v-layout>
+    <v-container>
       <v-layout justify-center>
         <v-flex xs12 sm9 md9 lg7 xl5>
           <p class="font-weight-bold">
