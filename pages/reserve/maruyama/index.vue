@@ -12,7 +12,7 @@
 <script>
 import Pagetitle from '~/components/Pagetitle.vue'
 import MaruyamaCp from '~/components/campaign/MaruyamaCp.vue'
-import ReserveMaruyama from '~/components/reserve/ReserveMaruyama.vue'
+import ReserveMaruyama from '~/components/reserve/maruyama/ReserveMaruyama.vue'
 import Meta from '~/assets/mixins/meta'
 export default {
   layout: 'reserve',

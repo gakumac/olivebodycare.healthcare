@@ -1,32 +1,32 @@
 <template>
   <div>
-    <pagetitle h1="横浜青葉台店24時間Web予約" />
+    <pagetitle h1="たまプラーザ本店24時間Web予約" />
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>
-    <ReserveAobadai />
+    <ReserveTamaplaza />
   </div>
 </template>
 
 <script>
 import Pagetitle from '~/components/Pagetitle.vue'
-import ReserveAobadai from '~/components/reserve/ReserveAobadai.vue'
+import ReserveTamaplaza from '~/components/reserve/tamaplaza/ReserveTamaplaza.vue'
 import Meta from '~/assets/mixins/meta'
 export default {
   layout: 'reserve',
   components: {
     Pagetitle,
-    ReserveAobadai
+    ReserveTamaplaza
   },
   mixins: [Meta],
   data() {
     return {
       meta: {
-        title: '横浜青葉台店24時間Web予約',
+        title: 'たまプラーザ本店24時間Web予約',
         description:
-          '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。横浜青葉台店24時間Web予約はこちらから。カレンダーからお日にち・時間を選択してその場でご予約できます。',
+          '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。たまプラーザ本店24時間Web予約はこちらから。カレンダーからお日にち・時間を選択してその場で予約できます。',
         type: 'website',
-        url: 'https://olivebodycare.healthcare/reserve/aobadai',
+        url: 'https://olivebodycare.healthcare/reserve/tamaplaza',
         image: 'https://olivebodycare.healthcare/assets/images/hed_1.jpg'
       },
       itemsB: [
@@ -41,9 +41,9 @@ export default {
           href: '/reserve'
         },
         {
-          text: '横浜青葉台店24時間Web予約',
+          text: 'たまプラーザ本店24時間Web予約',
           disabled: true,
-          href: '/reserve/aobadai'
+          href: '/reserve/tamaplaza'
         }
       ]
     }
