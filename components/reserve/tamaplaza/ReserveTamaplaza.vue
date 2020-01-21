@@ -102,6 +102,41 @@
           </v-card>
         </v-flex>
       </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm10 md8 lg7 xl6>
+          <h2 class="mt-4 text-center">
+            <v-icon large>chat</v-icon>
+            当院LINE公式アカウントの登録はこちら！
+          </h2>
+          <p>
+            キャンセルなどで出た最新のご予約の空き情報や、お得なキャンペーン情報を配信しています！今すぐご登録を！
+          </p>
+        </v-flex>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 sm11 md10 xl8>
+          <v-card color="info">
+            <h3 class="accent--text text-center">
+              当院LINE公式アカウントの登録はこちら！
+            </h3>
+            <v-layout row wrap justify-center>
+              <v-flex class="text-center">
+                <v-btn
+                  large
+                  a
+                  href="https://olivebodycare.healthcare/reserve/tamaplaza/line"
+                  dark
+                  color="green darken-3"
+                >
+                  <span class="font-weight-bold body-2"
+                    >LINE公式アカウントの登録はこちら！</span
+                  >
+                </v-btn>
+              </v-flex>
+            </v-layout>
+          </v-card>
+        </v-flex>
+      </v-layout>
     </v-container>
   </div>
 </template>
