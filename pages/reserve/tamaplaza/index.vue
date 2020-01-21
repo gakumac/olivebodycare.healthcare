@@ -10,7 +10,7 @@
 
 <script>
 import Pagetitle from '~/components/Pagetitle.vue'
-import ReserveTamaplaza from '~/components/reserve/ReserveTamaplaza.vue'
+import ReserveTamaplaza from '~/components/reserve/tamaplaza/ReserveTamaplaza.vue'
 import Meta from '~/assets/mixins/meta'
 export default {
   layout: 'reserve',
