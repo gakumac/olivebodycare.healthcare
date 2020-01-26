@@ -75,6 +75,10 @@ export default {
         {
           title: 'お問合せ・メール予約',
           to: '/about/contact'
+        },
+        {
+          title: '問診票のご記入',
+          to: '/about/medical-questionnaire'
         }
       ]
     },
