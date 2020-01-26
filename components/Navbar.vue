@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-app-bar fixed color="yellow lighten-5">
-      <v-btn text color="green darken-3" @click.stop="drawNavMenus">
+      <v-btn @click.stop="drawNavMenus" text color="green darken-3">
         <v-icon>menu</v-icon>
         <span class="text-capitalize">Menu</span>
       </v-btn>

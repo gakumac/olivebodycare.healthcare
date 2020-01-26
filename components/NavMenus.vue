@@ -37,7 +37,7 @@
         <v-list-item-icon>
           <v-icon>{{ item.action }}</v-icon>
         </v-list-item-icon>
-        <v-list-item-title class="body-2" v-text="item.title" />
+        <v-list-item-title v-text="item.title" class="body-2" />
       </v-list-item>
       <v-list-group
         v-for="(item, index) in items"

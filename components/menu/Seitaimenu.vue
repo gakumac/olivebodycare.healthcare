@@ -2,11 +2,11 @@
   <v-app-bar color="info">
     <template>
       <v-tabs background-color="transparent">
-        <v-tab class="caption font-weight-bold" :to="seitai"
+        <v-tab :to="seitai" class="caption font-weight-bold"
           >整体について</v-tab
         >
-        <v-tab class="caption font-weight-bold" :to="sango">産後の整体</v-tab>
-        <v-tab class="caption font-weight-bold" :to="option"
+        <v-tab :to="sango" class="caption font-weight-bold">産後の整体</v-tab>
+        <v-tab :to="option" class="caption font-weight-bold"
           >整体オプション</v-tab
         >
       </v-tabs>

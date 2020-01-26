@@ -16,9 +16,9 @@
           <v-card
             v-for="(item, i) in items"
             :key="i"
+            :to="item.to"
             color="info"
             class="ma-4"
-            :to="item.to"
           >
             <v-img :src="item.image"></v-img>
             <v-card-title>
@@ -35,9 +35,9 @@
           <v-card
             v-for="(item, i) in items2"
             :key="i"
+            :to="item.to"
             color="info"
             class="ma-4"
-            :to="item.to"
           >
             <v-img :src="item.image2"></v-img>
             <v-card-title>
