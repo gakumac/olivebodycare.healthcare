@@ -4,6 +4,7 @@
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>
+    <AobadaiCp />
     <AobadaiInfo />
     <AobadaiMessage />
     <Target />
@@ -16,6 +17,7 @@
 
 <script>
 import Pagetitle from '~/components/Pagetitle.vue'
+import AobadaiCp from '~/components/campaign/AobadaiCp.vue'
 import AobadaiInfo from '~/components/salon/aobadai/AobadaiInfo.vue'
 import AobadaiMessage from '~/components/salon/aobadai/AobadaiMessage.vue'
 import AobadaiVoice from '~/components/salon/aobadai/AobadaiVoice.vue'
@@ -28,6 +30,7 @@ export default {
   layout: 'aobadai',
   components: {
     Pagetitle,
+    AobadaiCp,
     AobadaiInfo,
     AobadaiMessage,
     AobadaiVoice,

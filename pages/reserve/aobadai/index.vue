@@ -4,18 +4,21 @@
     <div class="ml-2">
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>
+    <AobadaiCp />
     <ReserveAobadai />
   </div>
 </template>
 
 <script>
 import Pagetitle from '~/components/Pagetitle.vue'
+import AobadaiCp from '~/components/campaign/AobadaiCp.vue'
 import ReserveAobadai from '~/components/reserve/aobadai/ReserveAobadai.vue'
 import Meta from '~/assets/mixins/meta'
 export default {
   layout: 'reserve',
   components: {
     Pagetitle,
+    AobadaiCp,
     ReserveAobadai
   },
   mixins: [Meta],
