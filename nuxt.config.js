@@ -47,14 +47,7 @@ export default {
         content: 'https://olivebodycare.healthcare/images/hed_1.jpg'
       }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
-        rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
-      }
-    ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
 
   /*
@@ -68,6 +61,7 @@ export default {
   plugins: [],
 
   vuetify: {
+    defaultAssets: { icons: 'md' },
     // vuetify-loaderやstylus-loaderを使用するための設定
     treeShake: true,
     theme: {
