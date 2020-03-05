@@ -17,6 +17,19 @@
         </v-flex>
       </v-layout>
     </div>
+    <div>
+      <v-layout>
+        <v-flex>
+          <v-card
+            class="text-center py-3 yellow lighten-5 font-weight-bold"
+            a
+            href="https://olivebodycare.healthcare/news/info200305"
+          >
+            新型コロナウイルス感染症への対策について>>
+          </v-card>
+        </v-flex>
+      </v-layout>
+    </div>
     <div class="info">
       <v-layout>
         <v-flex>
