@@ -48,7 +48,7 @@ export default {
           '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。円山公園駅６番出口から徒歩5分。南1条西22丁目デザイナーズマンション内の女性だけのプライベート空間です。',
         type: 'website',
         url: 'https://olivebodycare.healthcare/salon/maruyama',
-        image: 'https://olivebodycare.healthcare/assets/images/hed_1.jpg'
+        image: 'https://olivebodycare.healthcare/images/head_1.jpg'
       },
       itemsB: [
         {

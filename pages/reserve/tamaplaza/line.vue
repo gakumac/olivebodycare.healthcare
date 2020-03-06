@@ -27,7 +27,7 @@ export default {
           '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。たまプラーザ本店のLINE登録はこちらから。各店の予約の空き情報やお得なキャンペーン情報を配信しています！',
         type: 'website',
         url: 'https://olivebodycare.healthcare/reserve/tamaplaza/line',
-        image: 'https://olivebodycare.healthcare/assets/images/hed_1.jpg'
+        image: 'https://olivebodycare.healthcare/images/head_1.jpg'
       },
       itemsB: [
         {

@@ -44,7 +44,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://olivebodycare.healthcare/images/hed_1.jpg'
+        content: 'https://olivebodycare.healthcare/images/head_1.jpg'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]

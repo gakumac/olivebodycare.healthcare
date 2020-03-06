@@ -30,7 +30,7 @@ export default {
           '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。24時間Web予約はこちらからお進みください。カレンダーからお日にち・時間を選択してその場でご予約できます。',
         type: 'website',
         url: 'https://olivebodycare.healthcare/reserve',
-        image: 'https://olivebodycare.healthcare/assets/images/hed_1.jpg'
+        image: 'https://olivebodycare.healthcare/images/head_1.jpg'
       },
       itemsB: [
         {

@@ -26,7 +26,7 @@ export default {
           '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。スタッフについてのご紹介です。国家資格取得の女性スタッフが全力で、女性特有の様々なお悩みを解決致します！',
         type: 'website',
         url: 'https://olivebodycare.healthcare/about/staff',
-        image: 'https://olivebodycare.healthcare/assets/images/hed_1.jpg'
+        image: 'https://olivebodycare.healthcare/images/head_1.jpg'
       },
       itemsB: [
         {

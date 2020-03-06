@@ -26,7 +26,7 @@ export default {
           '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。国家資格取得の女性スタッフによる本格施術が受けれます。お子様連れ歓迎。マッサージ、不妊、鍼もお任せ下さい！',
         type: 'website',
         url: 'https://olivebodycare.healthcare/about',
-        image: 'https://olivebodycare.healthcare/assets/images/hed_1.jpg'
+        image: 'https://olivebodycare.healthcare/images/head_1.jpg'
       },
       itemsB: [
         {

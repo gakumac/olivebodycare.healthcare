@@ -30,7 +30,7 @@ export default {
           '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。札幌円山店LINE問合せ・予約はこちらから。LINEのチャットを利用して問い合せ・ご予約等ご利用できます。',
         type: 'website',
         url: 'https://olivebodycare.healthcare/reserve/maruyama/line',
-        image: 'https://olivebodycare.healthcare/assets/images/hed_1.jpg'
+        image: 'https://olivebodycare.healthcare/images/head_1.jpg'
       },
       itemsB: [
         {
