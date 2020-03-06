@@ -48,7 +48,7 @@ export default {
           '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。田園都市線青葉台駅を降り、左手に進みジョナサンを過ぎた最初のT字路を渡ったすぐの建物に当院がございます。',
         type: 'website',
         url: 'https://olivebodycare.healthcare/salon/aobadai',
-        image: 'https://olivebodycare.healthcare/assets/images/hed_1.jpg'
+        image: 'https://olivebodycare.healthcare/images/head_1.jpg'
       },
       itemsB: [
         {

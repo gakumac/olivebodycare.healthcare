@@ -26,7 +26,7 @@ export default {
           '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。当院では患者様にご来院して頂いた際、施術のお時間をなるべく多くおとりする為に事前の記入をお願いしております。',
         type: 'website',
         url: 'https://olivebodycare.healthcare/about/medical-questionnaire',
-        image: 'https://olivebodycare.healthcare/assets/images/hed_1.jpg'
+        image: 'https://olivebodycare.healthcare/images/head_1.jpg'
       },
       itemsB: [
         {
