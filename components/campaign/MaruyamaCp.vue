@@ -4,10 +4,10 @@
       <v-layout justify-center>
         <v-flex xs12 sm11 md9 lg8 xl7>
           <v-img
-            :src="require('@/assets/images/campaign/maruyama/maruyama-cp6.jpg')"
+            :src="require('@/assets/images/campaign/maruyama/maruyama-cp7.jpg')"
           ></v-img>
           <p class="caption">
-            ※ご新規さま限定で通常施術の1時間分が無料になります。通常通りご予約お願いします。定員が過ぎてしまった場合は別途店舗より日時ご相談のご連絡を差し上げます。
+            ※ご新規さま限定で通常施術の1時間分が半額になります。通常通りご予約お願いします。予約時に『特典希望』とコメント記載またはお伝えください。
           </p>
         </v-flex>
       </v-layout>
