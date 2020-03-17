@@ -26,20 +26,14 @@
             <h3 class="text-center mt-8 mb-2">
               <v-icon large class="accent--text">check</v-icon>
               <span>
-                こまめな手洗い・うがい
+                こまめな換気・空気入れ替え
               </span>
             </h3>
             <p>
-              出勤時、外出後は都度丁寧に手洗い・うがいの実施。
+              施術前後にこまめな換気・空気入れ替えを実施しております。
             </p>
-            <h3 class="text-center mt-8 mb-2">
-              <v-icon large class="accent--text">check</v-icon>
-              <span>
-                施術者のマスクの着用
-              </span>
-            </h3>
             <p>
-              体調不良でない場合も、勤務時にはマスクを着用させていただきます。
+              当院は１つの部屋にベットは1~2台と、小規模な女性だけのプライベート空間となっております。多数の方が集まる事はありません。
             </p>
             <h3 class="text-center mt-8 mb-2">
               <v-icon large class="accent--text">check</v-icon>
@@ -55,6 +49,24 @@
             </p>
             <p>
               ※次亜塩素酸水は水と塩（食塩水）を電気分解した、安心安全なものでインフルエンザやノロウイルス等の対策に使われています。
+            </p>
+            <h3 class="text-center mt-8 mb-2">
+              <v-icon large class="accent--text">check</v-icon>
+              <span>
+                施術者のマスクの着用
+              </span>
+            </h3>
+            <p>
+              体調不良でない場合も、勤務時にはマスクを着用させていただきます。
+            </p>
+            <h3 class="text-center mt-8 mb-2">
+              <v-icon large class="accent--text">check</v-icon>
+              <span>
+                こまめな手洗い・うがい
+              </span>
+            </h3>
+            <p>
+              出勤時、外出後は都度丁寧に手洗い・うがいの実施。
             </p>
             <h3 class="text-center mt-8 mb-2">
               <v-icon large class="accent--text">check</v-icon>
