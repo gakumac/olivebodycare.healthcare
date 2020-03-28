@@ -25,7 +25,7 @@
             a
             href="https://olivebodycare.healthcare/news/info200305"
           >
-            新型コロナウイルス感染症への対策について>>
+            新型コロナウイルス予防対策、及び関連するお知らせについて&nbsp;>>
           </v-card>
         </v-flex>
       </v-layout>
