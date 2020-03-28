@@ -1,13 +1,16 @@
 <template>
   <div class="yellow lighten-5">
     <v-layout>
-      <v-flex>
-        <div class="mt-4 text-center">
+      <v-flex class="text-center">
+        <div class="mt-4">
           <v-icon x-large class="brown--text">business</v-icon>
         </div>
-        <h2 class="mt-2 brown--text text-center">
+        <h2 class="mt-2 brown--text">
           初めての方へ。当院についてご紹介します。
         </h2>
+        <p class="mt-2 font-weight-bold">
+          『女性を元気に！家庭を元気に！日本そして世界を元気に！！』
+        </p>
       </v-flex>
     </v-layout>
     <v-container>
@@ -60,6 +63,13 @@ export default {
   data: function() {
     return {
       items: [
+        {
+          title: '私達の理念-ミッション-',
+          image: require('@/assets/images/home/reason1.jpg'),
+          message1:
+            '私等はこの理念のもと、どうしたら来て頂いた時より元気になって帰って頂けるか、そして患者様一人一人に寄りそい、健やかな生活を送れるように関わっていけるか、日々力を尽くし営業に取り組んでいます。',
+          to: '/about/mission'
+        },
         {
           title: '総院長からの挨拶',
           image: require('@/assets/images/about/about1.jpg'),

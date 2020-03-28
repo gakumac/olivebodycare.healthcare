@@ -1,31 +1,31 @@
 <template>
   <div>
-    <pagetitle h1="総院長からの挨拶" />
-    <div class="info">
+    <pagetitle h1="私達の理念-ミッション-" />
+    <div>
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>
-    <Greeting />
+    <MissionPage />
   </div>
 </template>
 
 <script>
 import Pagetitle from '~/components/Pagetitle.vue'
-import Greeting from '~/components/about/Greeting.vue'
+import MissionPage from '~/components/about/MissionPage.vue'
 import Meta from '~/assets/mixins/meta'
 export default {
   components: {
     Pagetitle,
-    Greeting
+    MissionPage
   },
   mixins: [Meta],
   data() {
     return {
       meta: {
-        title: '総院長からの挨拶',
+        title: '私達の理念-ミッション-',
         description:
-          '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。総院長からの挨拶。たくさん頑張ってこられた女性の皆様に心も身体も元気になってもらいたい！全力を尽くします。',
+          '整体・骨盤矯正の女性専門の治療院オリーヴボディケア。私等はこの理念のもと患者様に寄りそい心身共に健やかな生活を送れるよう日々力を尽くし営業に取り組んでいます。',
         type: 'website',
-        url: 'https://olivebodycare.healthcare/about/greeting',
+        url: 'https://olivebodycare.healthcare/about/mission',
         image: 'https://olivebodycare.healthcare/images/head_1.jpg'
       },
       itemsB: [
@@ -40,9 +40,9 @@ export default {
           href: '/about'
         },
         {
-          text: '総院長からの挨拶',
+          text: '私達の理念-ミッション-',
           disabled: true,
-          href: '/about/greeting'
+          href: '/about/mission'
         }
       ]
     }
