@@ -5,25 +5,35 @@
       <v-breadcrumbs :items="itemsB" divider=">"></v-breadcrumbs>
     </div>
     <div>
-      <v-layout>
-        <v-flex>
-          <h2 class="mt-4 indigo--text text-center">
-            新型コロナウイルスに関する対応について
-          </h2>
-        </v-flex>
-      </v-layout>
       <v-container grid-list-md>
         <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
-            <div class="mt-2">
-              <p>
-                日頃より女性専門の治療院オリーヴボディケアをご利用いただきまして、誠にありがとうございます。
-              </p>
-              <p>
-                当院では、新型コロナウイルス・インフルエンザをはじめとする感染予防および拡散防止のため、当院スタッフ及び施設に、以下内容を実施しております。
-              </p>
-            </div>
-            <h3 class="text-center mt-8 mb-2">
+            <h2 class="mt-4 indigo--text text-center">
+              新型コロナウイルスに関する対応について
+            </h2>
+            <p>
+              日頃より女性専門の治療院オリーヴボディケアをご利用いただきまして、誠にありがとうございます。
+            </p>
+            <p>
+              当院では、新型コロナウイルス・インフルエンザをはじめとする感染予防および拡散防止のため、当院スタッフ及び施設に、以下内容を実施しております。
+            </p>
+            <h3 class="mt-8 mb-2 text-center">
+              営業時間短縮・変更のお知らせ
+            </h3>
+            <p>
+              厚生労働省から発表された【新型コロナウイルス感染症対策の基本方針】を踏まえ、患者さま及び従業員の健康と安全確保のため下記のように営業時間を短縮いたします。<br />
+              患者さまにはご不便をお掛けいたしますが、何卒ご理解賜りますようお願い申し上げます。
+            </p>
+            <v-alert border="bottom" colored-border color="amber" elevation="2">
+              <div class="text-center">たまプラーザ店・横浜青葉台店</div>
+              営業時間&nbsp;9:00〜18:00（臨時休業等はございません、開院しております。）<br />
+              2019年5月1日（金）より実施&nbsp;※4月以降順次営業時間が短縮・変更になる場合がございますので、ご了承ください。
+            </v-alert>
+          </v-flex>
+        </v-layout>
+        <v-layout justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5>
+            <h3 class="text-center mt-4 mb-2">
               <v-icon large class="accent--text">check</v-icon>
               <span>
                 こまめな換気・空気入れ替え
