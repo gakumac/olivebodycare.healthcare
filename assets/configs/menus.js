@@ -57,6 +57,10 @@ export default {
           to: '/about'
         },
         {
+          title: '私達の理念',
+          to: '/about/mission'
+        },
+        {
           title: '総院長からの挨拶',
           to: '/about/greeting'
         },
