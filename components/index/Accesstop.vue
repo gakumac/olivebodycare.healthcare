@@ -246,7 +246,7 @@ export default {
       itemsYA: [
         {
           title: '住所',
-          contents: '〒227-0063　横浜市青葉区榎が丘2-1ビンセプト502'
+          contents: '〒227-0063　横浜市青葉区榎が丘2-1ビンセプト603'
         },
         {
           title: 'アクセス',
