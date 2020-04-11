@@ -21,7 +21,7 @@
               営業時間短縮・変更のお知らせ
             </h3>
             <p>
-              厚生労働省から発表された【新型コロナウイルス感染症対策の基本方針】を踏まえ、患者さま及び従業員の健康と安全確保のため下記のように営業時間を短縮いたします。<br />
+              国から発表された【緊急事態宣言】を踏まえ、患者さま及び従業員の健康と安全確保のため下記のように営業時間を短縮いたします。<br />
               患者さまにはご不便をお掛けいたしますが、何卒ご理解賜りますようお願い申し上げます。
             </p>
             <v-alert border="bottom" colored-border color="amber" elevation="2">
@@ -33,6 +33,18 @@
         </v-layout>
         <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
+            <h3 class="text-center mt-4 mb-2">
+              <v-icon large class="accent--text">check</v-icon>
+              <span>
+                患者様は１治療院にお１人様だけでの施術を実施
+              </span>
+            </h3>
+            <p>
+              只今の期間、患者様の治療中院内には他の患者様がいないよう予約数の縮小・調整をして営業致しております。
+            </p>
+            <p>
+              当院では完全予約制での営業となっており待合等、混雑する時間帯が発生する事はございません。
+            </p>
             <h3 class="text-center mt-4 mb-2">
               <v-icon large class="accent--text">check</v-icon>
               <span>
@@ -86,6 +98,15 @@
             </h3>
             <p>
               発熱などの症状がある場合はスタッフの出勤は禁止しております。
+            </p>
+            <h3 class="text-center mt-8 mb-2">
+              <v-icon large class="accent--text">check</v-icon>
+              <span>
+                お顔に触れる部分はディスポ（使い捨て）のフェイスペーパーを使用しています。
+              </span>
+            </h3>
+            <p>
+              また治療中お顔まわりに使用するフェイスタオルは毎回洗濯しております。
             </p>
             <h4 class="text-center mt-10 mb-2">
               患者様へのお願い
