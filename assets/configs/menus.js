@@ -38,6 +38,10 @@ export default {
           to: '/menu/shinkyu'
         },
         {
+          title: 'パーソナルトレーニング',
+          to: '/menu/personal-training'
+        },
+        {
           title: '不妊治療',
           to: '/menu/fertility-treatment'
         },
