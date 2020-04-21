@@ -278,6 +278,38 @@
               <v-card flat color="info">
                 <v-card-title>
                   <h2 class="brown--text">
+                    パーソナルトレーニング（リモート）
+                  </h2>
+                  <v-spacer></v-spacer>
+                  <nuxt-link to="/menu/personal-training">
+                    <v-btn small color="primary" dark>詳しくはこちら</v-btn>
+                  </nuxt-link>
+                </v-card-title>
+              </v-card>
+            </v-flex>
+          </v-layout>
+          <hr />
+          <div v-for="(item, i) in itemsPt" :key="i" class="mt-2">
+            <v-layout class="brown--text">
+              <v-flex xs6 md6>
+                <div class="text-center">{{ item.menu }}</div>
+              </v-flex>
+              <v-flex xs6 md6>
+                <div class="text-center">
+                  <span class="headline accent--text font-weight-bold">{{
+                    item.price
+                  }}</span>
+                  <span>/{{ item.time }}</span>
+                </div>
+              </v-flex>
+            </v-layout>
+            <hr />
+          </div>
+          <v-layout>
+            <v-flex>
+              <v-card flat color="info">
+                <v-card-title>
+                  <h2 class="brown--text">
                     不妊治療
                   </h2>
                   <v-spacer></v-spacer>
@@ -402,6 +434,13 @@ export default {
         },
         {
           menu: '特別鍼灸',
+          price: '６０００円',
+          time: '60分'
+        }
+      ],
+      itemsPt: [
+        {
+          menu: 'パーソナルトレーニング',
           price: '６０００円',
           time: '60分'
         }
