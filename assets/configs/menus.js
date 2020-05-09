@@ -38,7 +38,7 @@ export default {
           to: '/menu/shinkyu'
         },
         {
-          title: 'パーソナルトレーニング',
+          title: 'オンラインパーソナルトレーニング',
           to: '/menu/personal-training'
         },
         {

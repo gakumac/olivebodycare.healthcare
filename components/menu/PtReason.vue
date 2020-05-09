@@ -1,17 +1,17 @@
 <template>
   <div>
-    <div>
+    <div class="yellow lighten-5">
       <v-container>
         <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <v-card class="pa-2">
               <h2 class="text-center accent--text">
-                当院がパーソナルトレーニングで選ばれる理由
+                オンラインパーソナルトレーニングで選ばれる理由
               </h2>
             </v-card>
             <h3 class="mt-3 text-center">
               <span class="accent--text display-1 font-weight-bold">1</span>
-              国家資格取得の女性スタッフによる女性専門のパーソナルトレーニングを受ける事ができます。
+              国家資格取得の女性治療家による女性専門のパーソナルトレーニングを受ける事ができます。
             </h3>
             <hr color="#ffcccc" />
             <p class="mt-4">
@@ -32,17 +32,17 @@
         </v-layout>
       </v-container>
     </div>
-    <div class="yellow lighten-5">
+    <div>
       <v-container grid-list-md>
         <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <h3 class="mt-3 text-center">
               <span class="accent--text display-1 font-weight-bold">2</span>
-              ご自宅で非接触での安全安心な運動・トレーニングを行う事ができます。
+              オンラインなので外出せずご自宅で運動・トレーニングを行う事ができます。
             </h3>
             <hr color="#ffcccc" />
             <p class="mt-4">
-              当院ではリモート（オンライン）でのパーソナルトレーニングを行います。
+              当院ではオンラインでのパーソナルトレーニングを行います。
             </p>
             <p>
               トレーニング・運動で外出する必要はありません。
@@ -50,6 +50,13 @@
             <p>
               細かな対応で<strong>女性特有の悩み</strong>も考慮しながらトレーニングを行っていきます。
             </p>
+          </v-flex>
+        </v-layout>
+        <v-layout justify-center>
+          <v-flex xs12 sm8 md8 lg6 xl4>
+            <v-img
+              :src="require('@/assets/images/menu/p-training/pt_mizutasa.jpg')"
+            ></v-img>
           </v-flex>
         </v-layout>
         <v-layout justify-center>
@@ -61,7 +68,7 @@
         </v-layout>
       </v-container>
     </div>
-    <div>
+    <div class="yellow lighten-5">
       <v-container>
         <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
@@ -83,34 +90,38 @@
         </v-layout>
       </v-container>
     </div>
-    <div class="yellow lighten-5">
+    <div>
       <v-container grid-list-md>
         <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <h3 class="mt-3 text-center">
               <span class="accent--text display-1 font-weight-bold">4</span>
-              お身体の相談を交えながら、無理のないトレーニングを行う事ができます。
+              お身体の相談を交えながら、無理のない正しいフォームでトレーニングを行う事ができます。
             </h3>
             <hr color="#ffcccc" />
             <p class="mt-4">
               お身体の不調を感じても、外出してじっくりと診てもらう事が難しいのが今の社会の現状です。
             </p>
             <p>
-              リモートトレーニングを通してじっくりと相談して頂き、無理のない体調管理・トレーニングを行って行きます。
+              オンラインパーソナルトレーニングを通してじっくりと相談して頂き、無理のない体調管理・トレーニングを行って行きます。
             </p>
           </v-flex>
         </v-layout>
         <v-layout justify-center>
           <v-flex xs6 sm5 md5 lg4 xl3>
-            <v-img :src="require('@/assets/images/home/home4.jpg')"></v-img>
+            <v-img
+              :src="require('@/assets/images/menu/p-training/pt_akagawa.jpg')"
+            ></v-img>
           </v-flex>
           <v-flex xs6 sm5 md5 lg4 xl3>
-            <v-img :src="require('@/assets/images/home/home5.jpg')"></v-img>
+            <v-img
+              :src="require('@/assets/images/menu/p-training/pt_akagawa2.jpg')"
+            ></v-img>
           </v-flex>
         </v-layout>
       </v-container>
     </div>
-    <div class="grey lighten-5">
+    <div class="yellow lighten-5">
       <v-container grid-list-md>
         <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
@@ -120,7 +131,7 @@
             </h3>
             <hr color="#ffcccc" />
             <p class="mt-4">
-              女性専門の治療院が行うパーソナルトレーニングです。
+              女性専門の治療院が行うオンラインパーソナルトレーニングです。
             </p>
             <p>
               多くの女性が抱える悩みや相談を治療家として経験してきたスタッフが、１時間の間お客様の為だけに寄り添いトレーニングを行います。
@@ -137,7 +148,7 @@
         </v-layout>
       </v-container>
     </div>
-    <div class="yellow lighten-5">
+    <div>
       <v-container grid-list-md>
         <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
@@ -157,9 +168,21 @@
             </p>
           </v-flex>
         </v-layout>
+        <v-layout justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
+            <v-img
+              :src="require('@/assets/images/menu/p-training/pt_tasaka.jpg')"
+            ></v-img>
+          </v-flex>
+          <v-flex xs6 sm5 md5 lg4 xl3>
+            <v-img
+              :src="require('@/assets/images/menu/p-training/pt_mizutani.jpg')"
+            ></v-img>
+          </v-flex>
+        </v-layout>
       </v-container>
     </div>
-    <div class="grey lighten-5">
+    <div class="yellow lighten-5">
       <v-container grid-list-md>
         <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
@@ -179,9 +202,21 @@
             </p>
           </v-flex>
         </v-layout>
+        <v-layout justify-center>
+          <v-flex xs6 sm4 md4 lg3 xl2>
+            <v-img
+              :src="require('@/assets/images/menu/p-training/pt_akagawa3.jpg')"
+            ></v-img>
+          </v-flex>
+          <v-flex xs6 sm4 md4 lg3 xl2>
+            <v-img
+              :src="require('@/assets/images/menu/p-training/pt_akamaki.jpg')"
+            ></v-img>
+          </v-flex>
+        </v-layout>
       </v-container>
     </div>
-    <div class="yellow lighten-5">
+    <div>
       <v-container>
         <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
