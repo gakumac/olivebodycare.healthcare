@@ -74,6 +74,18 @@
           </div>
         </v-flex>
       </v-layout>
+      <v-layout justify-center>
+        <v-flex xs6 sm5 md5 lg4 xl3>
+          <v-img
+            :src="require('@/assets/images/menu/p-training/pt_makino2.jpg')"
+          ></v-img>
+        </v-flex>
+        <v-flex xs6 sm5 md5 lg4 xl3>
+          <v-img
+            :src="require('@/assets/images/menu/p-training/pt_makino.jpg')"
+          ></v-img>
+        </v-flex>
+      </v-layout>
     </v-container>
   </div>
 </template>
@@ -93,6 +105,17 @@ export default {
             '運動不足なのもあり、久しぶりのトレーニングはその日ぐっすり眠ってしまうほど疲れました笑、筋トレはキツかったものもありましたが、やりきれない程ではなく、がんばれー！と声かけをしてくれたのもあり、最後までやりきることが出来ました。また、音楽をかけてやるトレーニングもあり、楽しんでやる事が出来たので、自宅で自分ひとりでやるよりも楽しくトレーニング出来ました！丁寧な説明と一緒にデモ付きで同時にやってくれるので、自己流にならずに正しくトレーニングでき、パーソナルなので自分に必要なトレーニングも分かり、受けて良かったと思います。',
           message4a:
             '『ひとりでやるよりも先生と一緒にやることで最後まで頑張れますし、正しいやり方でトレーニング出来るのでおすすめです！』'
+        },
+        {
+          name: '川崎市高津区在住 y.y 様',
+          // sheet: require('@/assets/images/voice/q_e.y.jpg'),
+          // image: require('@/assets/images/voice/p_e.y.jpg'),
+          message1: '15年間ソフトボール経験有り',
+          message2: '運動不足解消のため',
+          message3:
+            '１人で動画を見ながら運動するよりも、資格のある方にアドバイスをいただきながら楽しくトレーニングが出来るので、受けて良かったです！',
+          message4a:
+            '『外出自粛で運動不足な方、健康の為にオンラインパーソナルトレーニングおすすめです！』'
         }
       ]
     }
