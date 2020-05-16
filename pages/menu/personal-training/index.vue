@@ -8,6 +8,7 @@
     <PtReason />
     <PtTarget />
     <PtVoice />
+    <PtMenufee />
     <PtQa />
     <postscript />
   </div>
@@ -19,6 +20,7 @@ import PtMenu from '~/components/menu/PtMenu.vue'
 import PtReason from '~/components/menu/PtReason.vue'
 import PtTarget from '~/components/menu/PtTarget.vue'
 import PtVoice from '~/components/menu/PtVoice.vue'
+import PtMenufee from '~/components/menu/PtMenufee.vue'
 import PtQa from '~/components/menu/PtQa.vue'
 import Postscript from '~/components/index/Postscript.vue'
 import Meta from '~/assets/mixins/meta'
@@ -29,6 +31,7 @@ export default {
     PtReason,
     PtTarget,
     PtVoice,
+    PtMenufee,
     PtQa,
     Postscript
   },

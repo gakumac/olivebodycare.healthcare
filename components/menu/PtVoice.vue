@@ -22,12 +22,9 @@
                   </h3>
                 </v-flex>
                 <v-flex xs12 sm10 md10 lg9>
-                  <v-img :src="item.sheet"></v-img>
                   <div class="caption brown--text">
                     ※個人の感想であり、効果を保証するわけではありません。
                   </div>
-                </v-flex>
-                <v-flex xs12 sm10 md10 lg9>
                   <div>
                     <p class="accent--text">
                       ①今までに運動経験はありましたか？
@@ -66,24 +63,12 @@
                 </v-flex>
               </v-layout>
               <v-layout justify-center>
-                <v-flex xs12 sm10 md6 lg5 xl4>
+                <v-flex xs12 sm10 md10 lg9>
                   <v-img :src="item.image"></v-img>
                 </v-flex>
               </v-layout>
             </v-card>
           </div>
-        </v-flex>
-      </v-layout>
-      <v-layout justify-center>
-        <v-flex xs6 sm5 md5 lg4 xl3>
-          <v-img
-            :src="require('@/assets/images/menu/p-training/pt_makino2.jpg')"
-          ></v-img>
-        </v-flex>
-        <v-flex xs6 sm5 md5 lg4 xl3>
-          <v-img
-            :src="require('@/assets/images/menu/p-training/pt_makino.jpg')"
-          ></v-img>
         </v-flex>
       </v-layout>
     </v-container>
@@ -96,6 +81,17 @@ export default {
     return {
       items: [
         {
+          name: '八王子市在住 A.N 様',
+          // sheet: require('@/assets/images/voice/q_e.y.jpg'),
+          image: require('@/assets/images/menu/p-training/pt_tasatomo.jpg'),
+          message1: '現在継続してやっている運動はありませんでした。',
+          message2:
+            '最近本当に太っていて気にしといるけど何やっても続かないため',
+          message3:
+            '先生が優しいながらもスパルタでした、、でも自分がここが弱いんだな、とかがよくわかったし、わたしが飽きっぽいことも悟ってくれて楽しい続けられるようなトレーニングを教えてくれました！',
+          message4a: '『コロナ太りをコロナ痩せに変えて頑張りましょう！』'
+        },
+        {
           name: '千葉県在住 M.A 様',
           // sheet: require('@/assets/images/voice/q_e.y.jpg'),
           // image: require('@/assets/images/voice/p_e.y.jpg'),
@@ -107,15 +103,40 @@ export default {
             '『ひとりでやるよりも先生と一緒にやることで最後まで頑張れますし、正しいやり方でトレーニング出来るのでおすすめです！』'
         },
         {
-          name: '川崎市高津区在住 y.y 様',
+          name: '川崎市高津区在住 Y.Y 様',
           // sheet: require('@/assets/images/voice/q_e.y.jpg'),
-          // image: require('@/assets/images/voice/p_e.y.jpg'),
+          image: require('@/assets/images/menu/p-training/pt_makino2.jpg'),
           message1: '15年間ソフトボール経験有り',
           message2: '運動不足解消のため',
           message3:
             '１人で動画を見ながら運動するよりも、資格のある方にアドバイスをいただきながら楽しくトレーニングが出来るので、受けて良かったです！',
           message4a:
             '『外出自粛で運動不足な方、健康の為にオンラインパーソナルトレーニングおすすめです！』'
+        },
+        {
+          name: '立川市在住 A.T 様',
+          // sheet: require('@/assets/images/voice/q_e.y.jpg'),
+          image: require('@/assets/images/menu/p-training/pt_tasaane3.jpg'),
+          message1: 'あります。　バスケットボールをしていました。',
+          message2:
+            '知人の紹介で興味を持ちました。効果的なセルフケアを教わりたびたび起こしてしまう首寝違えををどうにかできるようになれないだろうか と相談しました。',
+          message3:
+            '施術を、受ける前とおなじく　しっかりと事前確認をしてくださるので安心しました。自分に合ったトレーニングを提案提供してくださり　説明もわかりやすく　楽しかったです。',
+          message4a:
+            '『セルフケアでも正しい動作で行えば　こんなに違うのか！　と実感できました。覚えると　一生使えるので興味がある方は是非一度、トライしてみてください。』'
+        },
+        {
+          name: '東大和市高木在住 Y.O 様',
+          // sheet: require('@/assets/images/voice/q_e.y.jpg'),
+          image: require('@/assets/images/menu/p-training/pt_tasaane.jpg'),
+          message1:
+            '小中高バレーボールふとたまにする筋トレくらいで最近は自転車に乗るくらいしかしていません。',
+          message2:
+            '健康的な生活ライフにプラスなることがあればとおもったのと、勧められたので。',
+          message3:
+            '今私に足りていない筋肉の箇所が知れて良かった。また、その筋トレ方法も短い時間で明確にいくつか知れてとても役に立った。モノを使わずに身体一つで行うことができるので魅力的で、エコ的でよかった。',
+          message4a:
+            '『息子（6歳）と暮らしているので、なかなか自分の速度で外ランニング等できないが、お子様がいても割とインナーマッスルが鍛えられ、また一段と健康を知ったのでとても良かった。仕事をしているような感覚だったから、お邪魔してこなかったのかな息子。是非自分に足りない、弱い部位を知って鍛えて貰いたい！！』'
         }
       ]
     }

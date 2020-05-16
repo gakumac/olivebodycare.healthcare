@@ -69,7 +69,7 @@
       </v-container>
     </div>
     <div class="yellow lighten-5">
-      <v-container>
+      <v-container grid-list-md>
         <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <h3 class="mt-3 text-center">
@@ -78,7 +78,7 @@
             </h3>
             <hr color="#ffcccc" />
             <p class="mt-4">
-              お子様や旦那様もご一緒にトレーニングを受ける事ができます。
+              お子様や旦那様もお一人様分の料金で一緒にトレーニングを受ける事ができます。
             </p>
             <p>
               ご家族みんなでお身体の相談やトレーニングを行ってみんなで一緒に元気になれます！
@@ -86,6 +86,18 @@
             <p>
               ※ご一緒に受ける事が出来るのはご家族の方限定とさせて頂きます。お二人以上だとトレーナーの目が行き届かない為、上限お二人様が理想です。
             </p>
+          </v-flex>
+        </v-layout>
+        <v-layout justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
+            <v-img
+              :src="require('@/assets/images/menu/p-training/pt_tasaane.jpg')"
+            ></v-img>
+          </v-flex>
+          <v-flex xs6 sm5 md5 lg4 xl3>
+            <v-img
+              :src="require('@/assets/images/menu/p-training/pt_tasaane2.jpg')"
+            ></v-img>
           </v-flex>
         </v-layout>
       </v-container>
@@ -100,7 +112,7 @@
             </h3>
             <hr color="#ffcccc" />
             <p class="mt-4">
-              お身体の不調を感じても、外出してじっくりと診てもらう事が難しいのが今の社会の現状です。
+              女性専門の女性治療家にオンラインでお身体のお悩みの相談ができます。
             </p>
             <p>
               オンラインパーソナルトレーニングを通してじっくりと相談して頂き、無理のない体調管理・トレーニングを行って行きます。
