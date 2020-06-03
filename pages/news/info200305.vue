@@ -18,21 +18,37 @@
               当院では、新型コロナウイルス・インフルエンザをはじめとする感染予防および拡散防止のため、当院スタッフ及び施設に、以下内容を実施しております。
             </p>
             <h3 class="mt-8 mb-2 text-center">
-              営業時間短縮・変更のお知らせ
+              営業時間のご案内
             </h3>
             <p>
-              国から発表された【緊急事態宣言】を踏まえ、患者さま及び従業員の健康と安全確保のため下記のように営業時間を短縮いたします。<br />
+              只今の期間営業時間を短縮して営業いたしております。<br />
               患者さまにはご不便をお掛けいたしますが、何卒ご理解賜りますようお願い申し上げます。
             </p>
-            <v-alert border="bottom" colored-border color="amber" elevation="2">
-              <div class="text-center">たまプラーザ店・横浜青葉台店</div>
-              営業時間&nbsp;9:00〜18:00（臨時休業等はございません、開院しております。）<br />
-              2019年5月1日（金）より実施&nbsp;※4月以降順次営業時間が短縮・変更になる場合がございますので、ご了承ください。
+            <p>
+              営業時間&nbsp;9:00〜18:00（臨時休業等はございません、開院しております。）
+            </p>
+            <h3 class="mt-8 mb-2 text-center">
+              施術回数券有効期限の緩和について
+            </h3>
+            <v-alert
+              border="bottom"
+              colored-border
+              color="amber"
+              elevation="2"
+              class="text-center"
+            >
+              <div>【対象】</div>
+              <P>2020年5月31日までに施術、オプション回数券を購入した患者様</P>
+              <div>【対応】</div>
+              <P>有効期限より2ヶ月延長</P>
             </v-alert>
           </v-flex>
         </v-layout>
         <v-layout justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
+            <p class="mt-4 indigo--text text-center display-1 font-weight-bold">
+              安心・安全への取組
+            </p>
             <h3 class="text-center mt-4 mb-2">
               <v-icon large class="accent--text">check</v-icon>
               <span>
@@ -60,17 +76,14 @@
             <h3 class="text-center mt-8 mb-2">
               <v-icon large class="accent--text">check</v-icon>
               <span>
-                次亜塩素酸水による空間除菌・院内除菌
+                院内除菌の実施
               </span>
             </h3>
             <p>
-              赤ちゃん・お子様にも安心な次亜塩素酸水にて院内・空間除菌を実施しております。
+              院内各所のこまめな除菌清掃を実施しております。
             </p>
             <p>
-              サロンスタッフは当然のこと、患者様にも手洗い・消毒にご協力いただき、感染防止に努めております。
-            </p>
-            <p>
-              ※次亜塩素酸水は水と塩（食塩水）を電気分解した、安心安全なものでインフルエンザやノロウイルス等の対策に使われています。
+              当院スタッフは当然のこと、患者様にも手洗い・除菌にご協力いただき、感染防止に努めております。
             </p>
             <h3 class="text-center mt-8 mb-2">
               <v-icon large class="accent--text">check</v-icon>
@@ -88,7 +101,7 @@
               </span>
             </h3>
             <p>
-              出勤時、外出後は都度丁寧に手洗い・うがいの実施。
+              スタッフは出勤時、外出後は都度丁寧に手洗い、うがい、手指の除菌の徹底。
             </p>
             <h3 class="text-center mt-8 mb-2">
               <v-icon large class="accent--text">check</v-icon>
@@ -102,22 +115,34 @@
             <h3 class="text-center mt-8 mb-2">
               <v-icon large class="accent--text">check</v-icon>
               <span>
-                お顔に触れる部分はディスポ（使い捨て）のフェイスペーパーを使用しています。
+                お顔に触れる部分はディスポ（使い捨て）のフェイスペーパーを使用
               </span>
             </h3>
             <p>
               また治療中お顔まわりに使用するフェイスタオルは毎回洗濯しております。
             </p>
-            <h4 class="text-center mt-10 mb-2">
+            <h3 class="text-center mt-8 mb-2">
+              <v-icon large class="accent--text">check</v-icon>
+              <span>
+                全ての患者様にお着替えをしていただき施術を実施
+              </span>
+            </h3>
+            <p>
+              当院では施術の前に全ての患者様にお着替えをして頂いた後ベットでの施術を実施しております。
+            </p>
+            <h3 class="text-center mt-10 mb-2">
               患者様へのお願い
-            </h4>
-            <v-alert
-              border="bottom"
-              colored-border
-              type="warning"
-              elevation="2"
-            >
-              発熱等の症状がある場合は、施術をお控えいただけますようお願い申し上げます。
+            </h3>
+            <v-alert border="bottom" colored-border color="amber" elevation="2">
+              <p>
+                ・発熱（37.5度以上）や咳や痰、息苦しさ（呼吸困難）など胸部に不快感の症状がある場合は、施術をお控えいただけますようお願い申し上げます。
+              </p>
+              <p>
+                ・ご来院時に手指の除菌を実施しております。ご協力をお願い致します。
+              </p>
+              <p>
+                ・新型コロナウイルス感染症の感染者または感染の疑いのある方と接触機会があった（過去14日以内）施術をお控えいただけますようお願い申し上げます。
+              </p>
             </v-alert>
             <p class="mt-8">
               今後も患者様に安心してお通いいただけますよう、感染症予防対策や衛生管理、スタッフの健康管理に十分留意してまいりますので引き続き、女性専門の治療院オリーヴボディケアをご愛顧いただきますようお願い申し上げます。
