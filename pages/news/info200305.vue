@@ -52,7 +52,7 @@
             <h3 class="text-center mt-4 mb-2">
               <v-icon large class="accent--text">check</v-icon>
               <span>
-                患者様は１治療院にお１人様だけでの施術を実施
+                患者様は１治療院にお１人様、または完全個室での施術を実施
               </span>
             </h3>
             <p>

@@ -69,7 +69,7 @@
         <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-4">
-              ４.建物中央付近にエレベーターがございます。中に入り５階のボタンを押してください。
+              ４.建物中央付近にエレベーターがございます。中に入り6階のボタンを押してください。
             </h4>
             <p>1階美容室の隣にエレベーターがございます。</p>
           </v-flex>
@@ -89,7 +89,7 @@
         <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-2">
-              ５.５階で降りて左側が５０２（当院）となります。
+              ５.6階で降りて左奥が603（当院）となります。
             </h4>
           </v-flex>
         </v-layout>
@@ -108,6 +108,36 @@
           <v-flex xs12 md12>
             <h3 class="my-2 accent--text text-center">
               近隣の駐車場について
+            </h3>
+          </v-flex>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5>
+            <h4 class="title mt-2 text-center">
+              当院建物の目の前にD-Parkingがございます。
+            </h4>
+          </v-flex>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs6 sm5 md5 lg4 xl3>
+            <v-img
+              :src="require('@/assets/images/salon/salonaoba22.jpg')"
+            ></v-img>
+          </v-flex>
+          <v-flex xs6 sm5 md5 lg4 xl3>
+            <v-img
+              :src="require('@/assets/images/salon/salonaoba21.jpg')"
+            ></v-img>
+          </v-flex>
+        </v-layout>
+      </v-container>
+    </div>
+    <div class="grey lighten-4">
+      <v-container grid-list-md>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 md12>
+            <h3 class="my-2 accent--text text-center">
+              近隣の駐車場について２
             </h3>
           </v-flex>
           <v-flex xs12 sm9 md9 lg7 xl5>
@@ -135,12 +165,12 @@
         </v-layout>
       </v-container>
     </div>
-    <div class="grey lighten-4">
+    <div>
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 md12>
             <h3 class="my-2 accent--text text-center">
-              近隣の駐車場について２
+              近隣の駐車場について３
             </h3>
           </v-flex>
         </v-layout>
@@ -168,12 +198,12 @@
         </v-layout>
       </v-container>
     </div>
-    <div>
+    <div class="grey lighten-4">
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <h3 class="my-2 accent--text text-center">
-              近隣の駐車場について３
+              近隣の駐車場について４
             </h3>
           </v-flex>
         </v-layout>
