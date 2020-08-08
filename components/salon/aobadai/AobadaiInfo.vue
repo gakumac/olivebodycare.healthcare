@@ -76,7 +76,7 @@
                 <v-btn
                   large
                   a
-                  to="https://olivebodycare.healthcare/reserve/aobadai"
+                  href="https://olivebodycare.healthcare/reserve/aobadai"
                   dark
                   color="green darken-3"
                 >
@@ -116,7 +116,7 @@ export default {
         },
         {
           title: '営業時間',
-          contents: '10 : 00〜20 : 00、休診：不定休'
+          contents: '9 : 00〜19 : 00、休診：不定休'
         },
         {
           title: '電話',

@@ -110,6 +110,10 @@ export default {
         {
           title: '札幌円山店',
           to: '/salon/maruyama'
+        },
+        {
+          title: '川崎宮崎台店',
+          to: '/salon/miyazakidai'
         }
       ]
     }

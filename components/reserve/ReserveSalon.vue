@@ -112,6 +112,38 @@
           </v-card>
         </v-flex>
       </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 md10 xl8>
+          <v-card class="my-2" color="info">
+            <h3 class="py-2 accent--text text-center">
+              川崎宮崎台店ご予約は今すぐこちら！
+            </h3>
+            <v-layout row wrap justify-center>
+              <v-flex xs12 sm5 md5 lg5 xl4 class="text-center">
+                <v-btn
+                  large
+                  a
+                  href="https://olivebodycare.healthcare/reserve/miyazakidai"
+                  dark
+                  color="green darken-3"
+                >
+                  <span class="font-weight-bold body-2"
+                    >24時間Web予約は今すぐこちら！</span
+                  >
+                </v-btn>
+              </v-flex>
+              <v-flex xs12 sm5 md5 lg5 xl4 class="text-center">
+                <v-btn a href="tel:0447409988" color="primary" dark>
+                  <v-icon>phone</v-icon>
+                  <span class="font-weight-bold subtitle-1"
+                    >：044-740-9988</span
+                  >
+                </v-btn>
+              </v-flex>
+            </v-layout>
+          </v-card>
+        </v-flex>
+      </v-layout>
     </v-container>
     <v-container>
       <v-layout justify-center>
