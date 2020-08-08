@@ -23,7 +23,7 @@ import AobadaiMessage from '~/components/salon/aobadai/AobadaiMessage.vue'
 import AobadaiVoice from '~/components/salon/aobadai/AobadaiVoice.vue'
 import AobadaiAfter from '~/components/salon/aobadai/AobadaiAfter.vue'
 import AobadaiPs from '~/components/salon/aobadai/AobadaiPs.vue'
-import Target from '~/components/index//Target.vue'
+import Target from '~/components/index/Target.vue'
 import AobadaiVisit from '~/components/salon/aobadai/AobadaiVisit.vue'
 import Meta from '~/assets/mixins/meta'
 export default {
