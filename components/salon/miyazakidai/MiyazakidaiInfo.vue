@@ -28,12 +28,12 @@
       <v-layout row wrap justify-center>
         <v-flex xs6 sm5 md5 lg4 xl3>
           <v-img
-            :src="require('@/assets/images/salon/salonaoba19.jpg')"
+            :src="require('@/assets/images/salon/salonmiyazakidai2.jpg')"
           ></v-img>
         </v-flex>
         <v-flex xs6 sm5 md5 lg4 xl3>
           <v-img
-            :src="require('@/assets/images/salon/salonaoba20.jpg')"
+            :src="require('@/assets/images/salon/salonmiyazakidai1.jpg')"
           ></v-img>
         </v-flex>
         <v-container>
