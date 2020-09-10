@@ -6,7 +6,7 @@
     </div>
     <!-- <MiyazakidaiCp /> -->
     <MiyazakidaiInfo />
-    <!-- <MiyazakidaiMessage /> -->
+    <MiyazakidaiMessage />
     <Target />
     <Voicetop />
     <!-- <MiyazakidaiVoice /> -->
@@ -14,7 +14,7 @@
     <!-- <MiyazakidaiAfter /> -->
     <postscript />
     <!-- <MiyazakidaiPs /> -->
-    <!-- <MiyazakidaiVisit /> -->
+    <MiyazakidaiVisit />
   </div>
 </template>
 
@@ -22,7 +22,7 @@
 import Pagetitle from '~/components/Pagetitle.vue'
 // import MiyazakidaiCp from '~/components/campaign/MiyazakidaiCp.vue'
 import MiyazakidaiInfo from '~/components/salon/miyazakidai/MiyazakidaiInfo.vue'
-// import MiyazakidaiMessage from '~/components/salon/miyazakidai/MiyazakidaiMessage.vue'
+import MiyazakidaiMessage from '~/components/salon/miyazakidai/MiyazakidaiMessage.vue'
 import Voicetop from '~/components/index/Voicetop.vue'
 // import MiyazakidaiVoice from '~/components/salon/miyazakidai/MiyazakidaiVoice.vue'
 import After from '~/components/index/After.vue'
@@ -30,7 +30,7 @@ import After from '~/components/index/After.vue'
 import Postscript from '~/components/index/Postscript.vue'
 // import MiyazakidaiPs from '~/components/salon/miyazakidai/MiyazakidaiPs.vue'
 import Target from '~/components/index/Target.vue'
-// import MiyazakidaiVisit from '~/components/salon/miyazakidai/MiyazakidaiVisit.vue'
+import MiyazakidaiVisit from '~/components/salon/miyazakidai/MiyazakidaiVisit.vue'
 import Meta from '~/assets/mixins/meta'
 export default {
   layout: 'miyazakidai',
@@ -38,15 +38,15 @@ export default {
     Pagetitle,
     // MiyazakidaiCp,
     MiyazakidaiInfo,
-    // MiyazakidaiMessage,
+    MiyazakidaiMessage,
     Voicetop,
     // MiyazakidaiVoice,
     After,
     // MiyazakidaiAfter,
     Postscript,
     // MiyazakidaiPs,
-    Target
-    // MiyazakidaiVisit
+    Target,
+    MiyazakidaiVisit
   },
   mixins: [Meta],
   data() {
