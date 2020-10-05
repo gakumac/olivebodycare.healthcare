@@ -70,6 +70,19 @@
             allowfullscreen
           ></iframe>
         </v-flex>
+        <v-layout justify-center>
+          <v-flex xs12 md6 xl5>
+            <iframe
+              width="100%"
+              height="330"
+              src="https://www.youtube.com/embed/9JgLkCeGZXE"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            >
+            </iframe>
+          </v-flex>
+        </v-layout>
       </v-layout>
       <v-layout justify-center>
         <v-flex xs12 md10>

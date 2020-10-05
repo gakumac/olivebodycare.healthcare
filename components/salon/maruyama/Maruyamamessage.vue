@@ -74,12 +74,17 @@
           </v-card>
         </v-flex>
       </v-layout>
-      <v-layout row wrap justify-center>
-        <v-flex xs6 sm4 md4 lg3 xl2>
-          <v-img :src="img2"></v-img>
-        </v-flex>
-        <v-flex xs6 sm4 md4 lg3 xl2>
-          <v-img :src="img3"></v-img>
+      <v-layout justify-center>
+        <v-flex xs12 md6 xl5>
+          <iframe
+            width="100%"
+            height="330"
+            src="https://www.youtube.com/embed/pLORfQap_Nc"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
         </v-flex>
       </v-layout>
       <v-layout row wrap justify-center>
