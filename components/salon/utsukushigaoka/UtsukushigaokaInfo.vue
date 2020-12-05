@@ -6,18 +6,21 @@
           <div class="my-2 text-center">
             <v-icon x-large class="brown--text">place</v-icon>
           </div>
+          <p class="display-1 text-center red--text">
+            2021年1月4日オープン！
+          </p>
           <h2 class="my-2 brown--text text-center">
-            川崎宮崎台店ご来院にあたって
+            横浜美しが丘店ご来院にあたって
           </h2>
         </v-flex>
       </v-layout>
       <v-layout row wrap justify-center>
         <v-flex xs12 sm9 md9 lg7 xl5>
           <h3 class="my-3 accent--text text-center">
-            東急田園都市線宮崎台駅北口より徒歩3分
+            東急田園都市線たまプラーザ駅北口より徒歩3分
           </h3>
           <p>
-            東急田園都市線宮崎台駅北口より徒歩3分、完全個室の女性だけのプライベート空間です。
+            東急田園都市線たまプラーザ駅駅北口より徒歩3分、完全個室の女性だけのプライベート空間です。
           </p>
         </v-flex>
       </v-layout>
@@ -55,8 +58,8 @@
         </v-container>
         <v-flex xs12 md10>
           <iframe
-            title="Miyazakidai Store map information"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1467.1897229765223!2d139.58844658745357!3d35.58743948130846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab2bf75065352a1!2z5aWz5oCn5bCC6ZaA44Gu5rK755mC6Zmi44Kq44Oq44O844O044Oc44OH44Kj44Kx44KiIOWuruW0juWPsOW6lw!5e0!3m2!1sja!2sjp!4v1599714150239!5m2!1sja!2sjp"
+            title="Utsukushigaoka Store map information"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d811.2389232175526!2d139.5578535!3d35.5794854!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdc7e9aa54a79b898!2z44OV44Kp44O844Os44K544OI!5e0!3m2!1sja!2sjp!4v1606874948149!5m2!1sja!2sjp"
             width="100%"
             height="300px"
             frameborder="0"
@@ -66,32 +69,32 @@
             tabindex="0"
           ></iframe>
         </v-flex>
-        <v-layout justify-center>
+        <!-- <v-layout justify-center>
           <v-flex xs12 md6 xl5>
             <iframe
               width="100%"
               height="330"
-              src="https://www.youtube.com/embed/j63DruH4Fws"
+              src="https://www.youtube.com/embed/EraVsCCA1GY"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             >
             </iframe>
           </v-flex>
-        </v-layout>
+        </v-layout> -->
       </v-layout>
       <v-layout justify-center>
         <v-flex xs12 md10>
           <v-card flat class="my-2" color="info">
             <h3 class="py-2 accent--text text-center">
-              川崎宮崎台店ご予約は今すぐこちら！
+              横浜美しが丘店ご予約は今すぐこちら！
             </h3>
             <v-layout row wrap justify-center>
               <v-flex xs12 sm6 md5 lg5 xl4 class="text-center">
                 <v-btn
                   large
                   a
-                  href="https://olivebodycare.healthcare/reserve/miyazakidai"
+                  href="https://olivebodycare.healthcare/reserve/utsukushigaoka"
                   dark
                   color="green darken-3"
                 >
@@ -101,10 +104,10 @@
                 </v-btn>
               </v-flex>
               <v-flex xs12 sm6 md5 lg5 xl4 class="text-center">
-                <v-btn large a href="tel:0447409988" color="primary" dark>
+                <v-btn large a href="tel:0455300265" color="primary" dark>
                   <v-icon>phone</v-icon>
                   <span class="font-weight-bold subtitle-1"
-                    >：044-740-9988</span
+                    >：045-530-0265</span
                   >
                 </v-btn>
               </v-flex>
@@ -123,11 +126,12 @@ export default {
       items: [
         {
           title: '住所',
-          contents: '〒216-0033　川崎市宮前区宮崎2-9-14プロミネンス宮崎台202'
+          contents:
+            '〒225-0002　神奈川県横浜市青葉区美しが丘2-20-6フォーレスト503'
         },
         {
           title: 'アクセス',
-          contents: '東急田園都市線宮崎台駅北口より徒歩3分'
+          contents: '東急田園都市線たまプラーザ駅北口より徒歩3分'
         },
         {
           title: '営業時間',
@@ -135,7 +139,7 @@ export default {
         },
         {
           title: '電話',
-          contents: '044-740-9988　完全予約制'
+          contents: '045-530-0265　完全予約制'
         }
       ]
     }

@@ -57,7 +57,7 @@
           <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-center">
             <nuxt-link to="/salon/tamaplaza">
               <v-btn color="primary" dark small>
-                たまプラーザ店詳しくはこちら
+                たまプラーザ本店詳しくはこちら
               </v-btn>
             </nuxt-link>
           </v-flex>
@@ -69,7 +69,73 @@
               color="green darken-3"
             >
               <span class="font-weight-bold body-2"
-                >たまプラーザ店予約は今すぐこちら！</span
+                >たまプラーザ本店予約は今すぐこちら！</span
+              >
+            </v-btn>
+          </v-flex>
+        </v-layout>
+      </v-card>
+    </v-container>
+    <v-container>
+      <v-card flat color="info" class="px-4">
+        <v-layout row wrap justify-center>
+          <v-flex xs12 md12>
+            <h3 class="my-3 accent--text text-center">
+              横浜美しが丘店
+            </h3>
+          </v-flex>
+          <v-container grid-list-lg>
+            <v-layout justify-center>
+              <v-flex lg9 xl8>
+                <div v-for="(item, i) in itemsYU" :key="i" class="mt-2">
+                  <v-layout>
+                    <v-flex xs3 md3>
+                      <div class="brown--text font-weight-bold">
+                        {{ item.title }}
+                      </div>
+                    </v-flex>
+                    <v-flex xs9 md9>
+                      <div>
+                        <span>{{ item.contents }}</span>
+                      </div>
+                    </v-flex>
+                  </v-layout>
+                  <hr />
+                </div>
+              </v-flex>
+            </v-layout>
+          </v-container>
+          <v-layout justify-center>
+            <v-flex md10>
+              <iframe
+                title="Utsukushigaoka Store map information"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d811.2389232175526!2d139.5578535!3d35.5794854!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdc7e9aa54a79b898!2z44OV44Kp44O844Os44K544OI!5e0!3m2!1sja!2sjp!4v1606874948149!5m2!1sja!2sjp"
+                width="100%"
+                height="300px"
+                frameborder="0"
+                style="border:0"
+                allowfullscreen
+              ></iframe>
+            </v-flex>
+          </v-layout>
+        </v-layout>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-center">
+            <nuxt-link to="/salon/utsukushigaoka">
+              <v-btn color="primary" dark small>
+                横浜美しが丘店詳しくはこちら
+              </v-btn>
+            </nuxt-link>
+          </v-flex>
+          <v-flex xs12 sm5 md5 lg5 xl4 class="mb-2 text-center">
+            <v-btn
+              a
+              href="https://olivebodycare.healthcare/reserve/utsukushigaoka"
+              dark
+              color="green darken-3"
+            >
+              <span class="font-weight-bold body-2"
+                >横浜美しが丘店予約は今すぐこちら！</span
               >
             </v-btn>
           </v-flex>
@@ -223,7 +289,7 @@
               川崎宮崎台店
             </h3>
           </v-flex>
-          <v-btn
+          <!-- <v-btn
             color="accent"
             a
             href="https://olivebodycare.healthcare/salon/miyazakidai"
@@ -231,7 +297,7 @@
             <span class="font-weight-bold">
               2020年9月3日オープン！
             </span>
-          </v-btn>
+          </v-btn> -->
           <v-container grid-list-lg>
             <v-layout justify-center>
               <v-flex lg9 xl8>
@@ -307,7 +373,7 @@ export default {
         },
         {
           title: 'アクセス',
-          contents: '東急田園都市線たまプラーザ駅より徒歩2分'
+          contents: '東急田園都市線たまプラーザ駅南口より徒歩2分'
         },
         {
           title: '営業時間',
@@ -316,6 +382,25 @@ export default {
         {
           title: '電話',
           contents: '045-530-1688　完全予約制'
+        }
+      ],
+      itemsYU: [
+        {
+          title: '住所',
+          contents:
+            '〒225-0002　神奈川県横浜市青葉区美しが丘2-20-6フォーレスト503'
+        },
+        {
+          title: 'アクセス',
+          contents: '東急田園都市線たまプラーザ駅北口より徒歩3分'
+        },
+        {
+          title: '営業時間',
+          contents: '9 : 00〜19 : 00、休診：不定休'
+        },
+        {
+          title: '電話',
+          contents: '045-530-0265　完全予約制'
         }
       ],
       itemsYA: [

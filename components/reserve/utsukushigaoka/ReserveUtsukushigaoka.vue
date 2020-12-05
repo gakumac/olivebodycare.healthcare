@@ -3,9 +3,13 @@
     <v-container grid-list-lg>
       <v-layout justify-center>
         <v-flex xs12 sm10 md8 lg7 xl6>
+          <p class="display-1 text-center red--text">
+            2021年1月4日オープン！
+            <br />ご予約受付中！
+          </p>
           <h2 class="mt-4 text-center">
             <v-icon large>date_range</v-icon>
-            川崎宮崎台店24時間Web予約
+            横浜美しが丘店24時間Web予約
           </h2>
           <p>
             簡単な操作でカレンダーからご都合の良いお日にち・お時間を確認でき、お好みの施術予約をその場でお取りする事が出来ます。<br />
@@ -24,7 +28,7 @@
                 <v-btn
                   large
                   a
-                  href="https://reserve.olivebodycare.healthcare/menus/?shopId=5&menuIndex=1"
+                  href="https://reserve.olivebodycare.healthcare/menus/?shopId=6&menuIndex=1"
                   dark
                   color="green darken-3"
                 >
@@ -91,10 +95,10 @@
             </h3>
             <v-layout justify-center>
               <v-flex class="text-center">
-                <v-btn large a href="tel:0447409988" color="primary" dark>
+                <v-btn large a href="tel:0455300265" color="primary" dark>
                   <v-icon>phone</v-icon>
                   <span class="font-weight-bold subtitle-1"
-                    >：044-740-9988</span
+                    >：045-530-0265</span
                   >
                 </v-btn>
               </v-flex>
@@ -124,7 +128,7 @@
                 <v-btn
                   large
                   a
-                  href="https://olivebodycare.healthcare/reserve/miyazakidai/line"
+                  href="https://olivebodycare.healthcare/reserve/utsukushigaoka/line"
                   dark
                   color="green darken-3"
                 >

@@ -28,6 +28,19 @@
         </v-flex>
       </v-layout>
       <v-layout justify-center>
+        <v-flex xs12 md6 xl5>
+          <iframe
+            width="100%"
+            height="330"
+            src="https://www.youtube.com/embed/ELMAcPq2MJ4"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
+        </v-flex>
+      </v-layout>
+      <v-layout justify-center>
         <v-flex xs12 sm9 md9 lg7 xl5>
           <v-card class="mt-2 pa-4" color="yellow lighten-5">
             <h3 class="mb-2 accent--text">{{ title }}</h3>
