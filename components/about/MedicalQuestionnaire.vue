@@ -43,6 +43,31 @@
         <v-flex xs12 md10 xl8>
           <v-card class="my-2" color="info">
             <h3 class="py-2 accent--text text-center">
+              横浜美しが丘店の問診票記入はこちら！
+            </h3>
+            <v-layout row wrap justify-center>
+              <v-flex xs12 sm5 md5 lg5 xl4 class="text-center">
+                <v-btn
+                  large
+                  a
+                  href="https://forms.gle/CSg4HpVQqQfgEXon9"
+                  target="_blank"
+                  dark
+                  color="green darken-3"
+                >
+                  <span class="font-weight-bold body-2"
+                    >横浜美しが丘店の問診票記入はこちら！</span
+                  >
+                </v-btn>
+              </v-flex>
+            </v-layout>
+          </v-card>
+        </v-flex>
+      </v-layout>
+      <v-layout justify-center>
+        <v-flex xs12 md10 xl8>
+          <v-card class="my-2" color="info">
+            <h3 class="py-2 accent--text text-center">
               横浜青葉台店の問診票記入はこちら！
             </h3>
             <v-layout row wrap justify-center>

@@ -104,6 +104,10 @@ export default {
           to: '/salon/tamaplaza'
         },
         {
+          title: '横浜美しが丘店',
+          to: '/salon/Utsukushigaoka'
+        },
+        {
           title: '横浜青葉台店',
           to: '/salon/aobadai'
         },

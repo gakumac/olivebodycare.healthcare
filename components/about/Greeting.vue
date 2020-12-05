@@ -17,6 +17,40 @@
         </v-flex>
       </v-layout>
       <v-layout justify-center>
+        <v-flex xs12 sm10 md9 lg8 xl7>
+          <v-card color="info" class="my-4" flat>
+            <v-layout row wrap justify-center>
+              <v-flex xs12 md6>
+                <v-card-title>
+                  <h3 class="brown--text">
+                    町田 恵（まちだ めぐみ）
+                  </h3>
+                </v-card-title>
+                <div class="mx-2">
+                  <p>＜国家資格＞&nbsp;柔道整復師</p>
+                  <p>
+                    ＜趣味・特技＞&nbsp;3児の母、柔道二段、全国ベスト16、カラオケ
+                  </p>
+                </div>
+              </v-flex>
+            </v-layout>
+            <v-layout justify-center>
+              <v-flex xs12 md8 xl7>
+                <iframe
+                  width="100%"
+                  height="330"
+                  src="https://www.youtube.com/embed/kcNWZIq0dos"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                >
+                </iframe>
+              </v-flex>
+            </v-layout>
+          </v-card>
+        </v-flex>
+      </v-layout>
+      <v-layout justify-center>
         <v-flex xs12 sm9 md9 lg7 xl5>
           <div class="mt-2">
             <p>
