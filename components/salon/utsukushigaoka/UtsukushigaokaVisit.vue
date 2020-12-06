@@ -12,7 +12,7 @@
             <h4 class="title mt-2">
               １.東急田園都市線たまプラーザ駅の中央改札を出たら右手にある北口にお進みください。
             </h4>
-            <p>東急デパートの方面にお進みください。</p>
+            <p>東急百貨店の方面にお進みください。</p>
           </v-flex>
         </v-layout>
         <v-layout row wrap justify-center>
@@ -34,7 +34,7 @@
         <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-4">
-              ２.信号を渡り東急デパートの前を右に進みます。
+              ２.信号を渡り東急百貨店の前を右に進みます。
             </h4>
           </v-flex>
         </v-layout>
@@ -107,7 +107,9 @@
             <h4 class="title mt-4">
               5.まっすぐ進み右手の一階がインターナショナル保育園のある建物5階に当院がございます。
             </h4>
-            <p>焼肉屋さんの目の前、フォーレストという名前の建物です。</p>
+            <p>
+              焼肉屋（雷音さん）の目の前、フォーレストという名前の建物です。
+            </p>
           </v-flex>
         </v-layout>
         <v-layout row wrap justify-center>

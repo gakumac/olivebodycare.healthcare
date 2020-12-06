@@ -59,7 +59,7 @@
         <v-flex xs12 md10>
           <iframe
             title="Utsukushigaoka Store map information"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d811.2389232175526!2d139.5578535!3d35.5794854!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdc7e9aa54a79b898!2z44OV44Kp44O844Os44K544OI!5e0!3m2!1sja!2sjp!4v1606874948149!5m2!1sja!2sjp"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3244.9326471361514!2d139.557973!3d35.5800542!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd35b0b431001db18!2z5aWz5oCn5bCC6ZaA44Gu5rK755mC6Zmi44Kq44Oq44O844O044Oc44OH44Kj44Kx44Ki5qiq5rWc576O44GX44GM5LiY5bqX!5e0!3m2!1sja!2sjp!4v1607211692868!5m2!1sja!2sjp"
             width="100%"
             height="300px"
             frameborder="0"
