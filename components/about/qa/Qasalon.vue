@@ -51,6 +51,11 @@ export default {
             'はい。全てのお会計でクレジットカードをご利用いただけます。VIZA・MASTER・AMERICANEXPRESS・JCB・DISCOVER・DinersClubに対応しております。'
         },
         {
+          q: '電子マネーは使えますか？',
+          answer:
+            'はい。全てのお会計で使えます。Suica、PASMOなど交通系電子マネーの他、iD、QUICPay、Apple Payに対応しております。'
+        },
+        {
           q: '赤ちゃん用のバウンサーはありますか？',
           answer: 'はい。各部屋にバウンサーをご用意しております。'
         },
