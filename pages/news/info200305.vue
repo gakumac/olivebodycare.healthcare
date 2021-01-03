@@ -20,14 +20,14 @@
             <h3 class="mt-8 mb-2 text-center">
               営業時間のご案内
             </h3>
-            <p>
+            <!-- <p>
               只今の期間営業時間を短縮して営業いたしております。<br />
               患者さまにはご不便をお掛けいたしますが、何卒ご理解賜りますようお願い申し上げます。
-            </p>
+            </p> -->
             <p>
               営業時間&nbsp;9:00〜19:00（臨時休業等はございません、開院しております。）
             </p>
-            <h3 class="mt-8 mb-2 text-center">
+            <!-- <h3 class="mt-8 mb-2 text-center">
               施術回数券有効期限の緩和について
             </h3>
             <v-alert
@@ -41,7 +41,7 @@
               <P>2020年5月31日までに施術、オプション回数券を購入した患者様</P>
               <div>【対応】</div>
               <P>有効期限より2ヶ月延長</P>
-            </v-alert>
+            </v-alert> -->
           </v-flex>
         </v-layout>
         <v-layout justify-center>
@@ -129,6 +129,15 @@
             </h3>
             <p>
               当院では施術の前に全ての患者様にお着替えをして頂いた後ベットでの施術を実施しております。
+            </p>
+            <h3 class="text-center mt-8 mb-2">
+              <v-icon large class="accent--text">check</v-icon>
+              <span>
+                非接触での各種お会計（クレジットカード・電子マネー）に対応
+              </span>
+            </h3>
+            <p>
+              全てのお会計でクレジットカード・電子マネーをご利用いただけます。VIZA、MASTER、AMERICANEXPRESS、JCB、DISCOVER、DinersClub。Suica、PASMOなど交通系電子マネーの他、iD、QUICPay、ApplePayに対応しております。
             </p>
             <h3 class="text-center mt-10 mb-2">
               患者様へのお願い

@@ -96,7 +96,7 @@
           <v-flex xs12 sm9 md9 lg7 xl5>
             <h3 class="mt-3 text-center">
               <span class="accent--text display-1 font-weight-bold">4</span>
-              患者様は１治療院にお１人様、または完全個室での施術、感染症対策を実施した安心の空間で施術を受ける事ができます。
+              患者様は１治療院にお１人様、または完全個室での施術。感染症対策を実施した安心の空間で施術を受ける事ができます。
             </h3>
             <hr color="#ffcccc" />
             <p class="mt-4">
@@ -105,6 +105,13 @@
             <p>
               完全個室のアットホームな空間で心身共に痛みやお悩みを相談し、心からの施術をお受け頂けます。
             </p>
+          </v-flex>
+        </v-layout>
+        <v-layout justify-center>
+          <v-flex xs12 sm9 md9 lg7 xl5 class="text-right">
+            <nuxt-link to="/news/info200305">
+              <v-btn small color="primary" dark>感染症対策の詳細はこちら</v-btn>
+            </nuxt-link>
           </v-flex>
         </v-layout>
         <v-layout justify-center>
