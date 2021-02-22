@@ -66,6 +66,18 @@
         </v-list-item>
       </v-list-group>
     </v-list>
+    <div class="mb-3 text-center">
+      <v-btn
+        dark
+        target="_blank"
+        color="green darken-3"
+        class="font-weight-bold mr-2 body-2"
+        a
+        href="https://olivebodycare.jp/recruit/"
+      >
+        採用・求人ページ
+      </v-btn>
+    </div>
   </v-navigation-drawer>
 </template>
 
