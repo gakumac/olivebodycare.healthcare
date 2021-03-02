@@ -3,10 +3,10 @@
     <v-layout justify-center>
       <v-flex xs12 sm11 md9 lg8 xl7>
         <v-img
-          :src="require('@/assets/images/campaign/maruyama/maruyama-cp13.png')"
+          :src="require('@/assets/images/campaign/maruyama/maruyama-cp14.png')"
         ></v-img>
         <p class="caption">
-          ※ご予約時ご要望・ご相談欄に『特典希望』とご記入頂くか、スタッフに直接お伝えください。
+          ※万が一施術に満足頂けたなった場合は、施術後３日以内に当院HPの問合せフォームまたはLINE@よりお申し付けください。
         </p>
       </v-flex>
     </v-layout>

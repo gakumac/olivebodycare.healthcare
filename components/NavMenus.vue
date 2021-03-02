@@ -42,10 +42,16 @@
       <v-list-group
         v-for="(item, index) in items"
         :key="`item-${index}`"
-        v-model="item.active"
         :prepend-icon="item.action"
         no-action
       >
+        <!-- <v-list-group
+          v-for="(item, index) in items"
+          :key="`item-${index}`"
+          v-model="item.active"→メニューを開けておきたい場合はこの行を足す。
+          :prepend-icon="item.action"
+          no-action
+        > -->
         <template slot="activator">
           <v-list-item-content>
             <v-list-item-title class="body-2">{{
