@@ -50,8 +50,11 @@
         <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <h4 class="title mt-4">
-              ３.青葉台の信号を越え見えてくるジョナサンの裏の黄色いビルに当院があります。
+              ３.青葉台の信号を越え見えてくる246号線高架下の手前の黄色いビルの中に当院があります。
             </h4>
+            <p>
+              中華料理屋さんを過ぎた最初のビルです。写真にあるジョナサンは現在ございません。
+            </p>
           </v-flex>
         </v-layout>
         <v-layout row wrap justify-center>
@@ -140,39 +143,6 @@
               近隣の駐車場について２
             </h3>
           </v-flex>
-          <v-flex xs12 sm9 md9 lg7 xl5>
-            <h4 class="title mt-2 text-center">
-              目の前のジョナサンの駐車場
-            </h4>
-          </v-flex>
-        </v-layout>
-        <v-layout row wrap justify-center>
-          <v-flex xs6 sm5 md5 lg4 xl3>
-            <v-img
-              :src="require('@/assets/images/salon/salonaoba10.jpg')"
-            ></v-img>
-          </v-flex>
-          <v-flex xs6 sm5 md5 lg4 xl3>
-            <v-img
-              :src="require('@/assets/images/salon/salonaoba11.jpg')"
-            ></v-img>
-          </v-flex>
-          <v-flex xs6 sm5 md5 lg4 xl3>
-            <v-img
-              :src="require('@/assets/images/salon/salonaoba12.jpg')"
-            ></v-img>
-          </v-flex>
-        </v-layout>
-      </v-container>
-    </div>
-    <div>
-      <v-container grid-list-md>
-        <v-layout row wrap justify-center>
-          <v-flex xs12 md12>
-            <h3 class="my-2 accent--text text-center">
-              近隣の駐車場について３
-            </h3>
-          </v-flex>
         </v-layout>
         <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
@@ -198,12 +168,12 @@
         </v-layout>
       </v-container>
     </div>
-    <div class="grey lighten-4">
+    <div>
       <v-container grid-list-md>
         <v-layout row wrap justify-center>
           <v-flex xs12 sm9 md9 lg7 xl5>
             <h3 class="my-2 accent--text text-center">
-              近隣の駐車場について４
+              近隣の駐車場について３
             </h3>
           </v-flex>
         </v-layout>

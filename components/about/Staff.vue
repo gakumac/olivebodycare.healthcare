@@ -331,36 +331,29 @@ export default {
         },
         {
           name: '上村 花菜',
-          image: '',
-          image2: '',
+          image: require('@/assets/images/about/k.k_1.jpg'),
+          image2: require('@/assets/images/about/k.k_2.jpg'),
           qualification: '柔道整復師',
           hobby: '旅行、バレーボール、食べ歩き'
         },
         {
           name: '中村 彩子',
-          image: '',
-          image2: '',
+          image: require('@/assets/images/about/a.n_2.jpg'),
+          image2: require('@/assets/images/about/a.n_3.jpg'),
           qualification: '鍼灸師',
           hobby: 'チアリーディング、映画・音楽鑑賞、ディズニー'
         },
         {
           name: '佐藤 陽代',
-          image: '',
-          image2: '',
+          image: require('@/assets/images/about/h.s_2.jpg'),
+          image2: require('@/assets/images/about/h.s_3.jpg'),
           qualification: '鍼灸師',
           hobby: '吹奏楽、パーカッション、テニス、読書'
         },
         {
-          name: '鈴木 千晴',
-          image: '',
-          image2: '',
-          qualification: '柔道整復師',
-          hobby: '映画鑑賞、テニス、スポーツ'
-        },
-        {
           name: '磯部 友香',
-          image: '',
-          image2: '',
+          image: require('@/assets/images/about/y.i_1.jpg'),
+          image2: require('@/assets/images/about/y.i_3.jpg'),
           qualification: '国家資格取得中',
           hobby: ''
         },
@@ -370,6 +363,20 @@ export default {
           image2: require('@/assets/images/about/kamata2.jpg'),
           qualification: '柔道整復師',
           hobby: 'バスケットボール'
+        },
+        {
+          name: '鈴木希巳佳',
+          image: '',
+          image2: '',
+          qualification: '柔道整復師',
+          hobby: '映画鑑賞、バスケットボール'
+        },
+        {
+          name: '鈴木 千晴',
+          image: '',
+          image2: '',
+          qualification: '柔道整復師',
+          hobby: '映画鑑賞、テニス、スポーツ'
         }
       ]
     }
