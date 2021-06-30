@@ -3,7 +3,7 @@
     <v-layout justify-center>
       <v-flex xs12 sm11 md9 lg8 xl7>
         <v-img
-          :src="require('@/assets/images/campaign/maruyama/maruyama-cp15.png')"
+          :src="require('@/assets/images/campaign/maruyama/maruyama-cp16.png')"
         ></v-img>
         <p class="caption">
           ※ご予約の際に【特典希望】とコメント記載、またはスタッフにお伝えください。
